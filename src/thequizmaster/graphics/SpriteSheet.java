@@ -6,9 +6,9 @@ import java.io.IOException;
 
 public class SpriteSheet {
 
-	private String path;
-	private final int SIZE;
-	private int[] pixels;
+	public String path;
+	public final int SIZE;
+	public int[] pixels;
 
 	// SpriteSheet
 	public static SpriteSheet tileSheet = new SpriteSheet("/textures/tiles.png", 512);
@@ -29,18 +29,6 @@ public class SpriteSheet {
 		} catch (IOException e) {
 			System.out.println("Could not find Spritesheet at " + path);
 		}
-	}
-
-	public String getPath() {
-		return this.path;
-	}
-
-	public int getSIZE() {
-		return this.SIZE;
-	}
-
-	public int[] getPixels() {
-		return this.pixels;
 	}
 
 }

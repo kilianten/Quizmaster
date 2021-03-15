@@ -6,7 +6,8 @@ import thequizmaster.level.tile.Tile;
 
 public class Screen {
 
-    private int width, height;
+    public int width;
+	public int height;
     private int[] pixels;
     private int[] tiles = new int[64 * 64];
     private Random random = new Random();
@@ -38,13 +39,13 @@ public class Screen {
     public void renderTile(int xp, int yp, Tile tile) {
     	xp -= xOffset;
     	yp -= yOffset;
-    	for(int y = 0; y < tile.getSprite().getSIZE(); y++) {
+    	for(int y = 0; y < tile.sprite.SIZE; y++) {
     		int ya = yp + y;
-        	for(int x = 0; x < tile.getSprite().getSIZE(); x++) {
+        	for(int x = 0; x < tile.sprite.SIZE; x++) {
         		int xa = xp + x;
-        		if(xa < -tile.getSprite().getSIZE() || xa >= width || ya < 0 || ya >= height) break;
+        		if(xa < -tile.sprite.SIZE || xa >= width || ya < 0 || ya >= height) break;
         		if(xa < 0) xa = 0;
-        		pixels[xa + ya * width] = tile.getSprite().getPixels()[x + y * tile.getSprite().getSIZE()];
+        		pixels[xa + ya * width] = tile.sprite.pixels[x + y * tile.sprite.SIZE];
         	}
     	}
     }
@@ -53,14 +54,6 @@ public class Screen {
     	this.xOffset = xOffset;
     	this.yOffset = yOffset;
     }
-
-	public int getWidth() {
-		return width;
-	}
-
-	public int getHeight() {
-		return height;
-	}
 
     
 }

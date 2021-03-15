@@ -8,7 +8,7 @@ import thequizmaster.graphics.SpriteSheet;
 public class Tile {
 
 	private int x, y;
-	private Sprite sprite;
+	public Sprite sprite;
 	
 	public static Tile floorTile = new FloorTile(Sprite.floorTile);
 	public static Tile floorTileStained01 = new FloorTile(Sprite.floorTileStained01);
@@ -31,18 +31,6 @@ public class Tile {
 	
 	public void render(int x, int y, Screen screen) {
 		
-	}
-	
-	public int getX() {
-		return x;
-	}
-
-	public int getY() {
-		return y;
-	}
-
-	public Sprite getSprite() {
-		return sprite;
 	}
 	
 	public boolean isSolid() {
