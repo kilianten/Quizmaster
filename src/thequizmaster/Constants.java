@@ -9,7 +9,6 @@ public class Constants {
     public final static String GAME_TITLE =  "The Quizmaster";
     
     public final static int DEFAULT_SPRITE_SIZE = 32;
-
     
     //Sprite
 

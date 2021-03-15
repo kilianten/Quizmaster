@@ -1,7 +1,9 @@
 package thequizmaster;
 
 import java.awt.Canvas;
+import java.awt.Color;
 import java.awt.Dimension;
+import java.awt.Font;
 import java.awt.Graphics;
 import java.awt.image.BufferStrategy;
 import java.awt.image.BufferedImage;
@@ -9,6 +11,7 @@ import java.awt.image.DataBufferInt;
 
 import javax.swing.JFrame;
 
+import thequizmaster.entity.mob.Player;
 import thequizmaster.graphics.Screen;
 import thequizmaster.input.Keyboard;
 import thequizmaster.level.Level;
@@ -28,7 +31,10 @@ public class Game extends Canvas implements Runnable{
 	private Screen screen;
 	private Keyboard key;
 	private Level level;
+	private Player player;
 	private int x, y;
+	
+	public boolean printStats = false;
 
 	
 	private BufferedImage image = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
@@ -42,10 +48,9 @@ public class Game extends Canvas implements Runnable{
 		frame = new JFrame();
 		key = new Keyboard();
 		level = new RandomLevel(64, 64);
+		player = new Player(key);
 		
 		addKeyListener(key);
-		x = 0;
-		y = 0;
 	}
 	
 	public synchronized void start() {
@@ -95,10 +100,11 @@ public class Game extends Canvas implements Runnable{
 	
 	public void update() {
 		key.update();
-		if(key.up) y--;
-		if(key.down) y++;
-		if(key.left) x--;
-		if(key.right) x++;
+		player.update();
+		if(key.slashPressed) {
+			printStats = !printStats;
+			key.slashPressed = false;
+		}
 	}
 	
 	public void render() {
@@ -109,7 +115,7 @@ public class Game extends Canvas implements Runnable{
 		}
 		
 		screen.clear();
-		level.render(x, y, screen);
+		level.render(player.x, player.y, screen);
 
 		for(int i = 0; i < pixels.length; i++){
 			pixels[i] = screen.getPixels()[i];
@@ -117,10 +123,18 @@ public class Game extends Canvas implements Runnable{
 
 		Graphics g = bs.getDrawGraphics();
 		g.drawImage(image, 0, 0, getWidth(), getHeight(), null);
-		
+		if(printStats) {
+			printStats(g);
+		}
 		//graphics end
 		g.dispose();
 		bs.show();
+	}
+	
+	public void printStats(Graphics g) {
+		g.setColor(Color.WHITE);
+		g.setFont(new Font("Verdana", 0, 20));
+		g.drawString("X: " + player.x + ", Y: " + player.y, 0, 20);
 	}
 
 	public static void main(String[] args) {
