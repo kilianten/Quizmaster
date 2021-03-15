@@ -1,13 +1,11 @@
 package thequizmaster.level.tile;
 
-import java.util.Random;
-
 import thequizmaster.graphics.Screen;
 import thequizmaster.graphics.Sprite;
 
-public class FloorTile extends Tile {
+public class VoidTile extends Tile {
 	
-	public FloorTile(Sprite sprite) {
+	public VoidTile(Sprite sprite) {
 		super(sprite);
 	}
 	

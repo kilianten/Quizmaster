@@ -8,9 +8,20 @@ public class Sprite {
     private int x, y;
     private int[] pixels;
     private SpriteSheet sheet;
+	public int getPixels;
 
     public static Sprite floorTile = new Sprite(Constants.DEFAULT_SPRITE_SIZE, 0, 0, SpriteSheet.tileSheet);
-
+    public static Sprite floorTileStained01 = new Sprite(Constants.DEFAULT_SPRITE_SIZE, 1, 0, SpriteSheet.tileSheet);
+    public static Sprite floorTileStained02 = new Sprite(Constants.DEFAULT_SPRITE_SIZE, 2, 0, SpriteSheet.tileSheet);
+    public static Sprite floorTileStained03 = new Sprite(Constants.DEFAULT_SPRITE_SIZE, 3, 0, SpriteSheet.tileSheet);
+    public static Sprite floorTileBlood = new Sprite(Constants.DEFAULT_SPRITE_SIZE, 4, 0, SpriteSheet.tileSheet);
+    public static Sprite floorTileCracked01 = new Sprite(Constants.DEFAULT_SPRITE_SIZE, 5, 0, SpriteSheet.tileSheet);
+    public static Sprite floorTileCracked02 = new Sprite(Constants.DEFAULT_SPRITE_SIZE, 6, 0, SpriteSheet.tileSheet);
+    public static Sprite floorTileCracked03 = new Sprite(Constants.DEFAULT_SPRITE_SIZE, 7, 0, SpriteSheet.tileSheet);
+    public static Sprite floorTileCracked04 = new Sprite(Constants.DEFAULT_SPRITE_SIZE, 8, 0, SpriteSheet.tileSheet);
+    public static Sprite floorTileCracked05 = new Sprite(Constants.DEFAULT_SPRITE_SIZE, 9, 0, SpriteSheet.tileSheet);
+    public static Sprite voidTile = new Sprite(Constants.DEFAULT_SPRITE_SIZE, 10, 0, SpriteSheet.tileSheet);
+    
     public Sprite(int size, int x, int y, SpriteSheet sheet) {
         SIZE = size;
         pixels = new int[SIZE * SIZE];
