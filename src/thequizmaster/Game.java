@@ -25,7 +25,6 @@ public class Game extends Canvas implements Runnable{
 
 	private Screen screen;
 	private Keyboard key;
-	
 	private int x, y;
 
 	
@@ -106,6 +105,7 @@ public class Game extends Canvas implements Runnable{
 		
 		screen.clear();
 		screen.render(x, y);
+
 
 		for(int i = 0; i < pixels.length; i++){
 			pixels[i] = screen.getPixels()[i];

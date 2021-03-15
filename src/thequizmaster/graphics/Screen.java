@@ -2,8 +2,6 @@ package thequizmaster.graphics;
 
 import java.util.Random;
 
-import thequizmaster.Constants;
-
 public class Screen {
 
     private int width, height;
