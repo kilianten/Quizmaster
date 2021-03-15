@@ -10,6 +10,10 @@ public class Sprite {
     public SpriteSheet sheet;
 	public int getPixels;
 
+	//PLAYERS
+    public static Sprite douglasStanding = new Sprite(Constants.DEFAULT_ENTITY_SIZE, 0, 0, SpriteSheet.douglasSheet);
+	
+	//TILES
     public static Sprite floorTile = new Sprite(Constants.DEFAULT_SPRITE_SIZE, 0, 0, SpriteSheet.tileSheet);
     public static Sprite floorTileStained01 = new Sprite(Constants.DEFAULT_SPRITE_SIZE, 1, 0, SpriteSheet.tileSheet);
     public static Sprite floorTileStained02 = new Sprite(Constants.DEFAULT_SPRITE_SIZE, 2, 0, SpriteSheet.tileSheet);

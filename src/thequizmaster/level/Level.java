@@ -52,7 +52,6 @@ public class Level {
 	}
 	
 	public Tile getTile(int x, int y) {
-		int randomInt = random.nextInt(100);
 		if(x < 0 || y < 0 || y >= height || x >= width) return Tile.voidTile;
 		if(tiles[x + y * width] == 0) return Tile.floorTile;
 		return Tile.voidTile;

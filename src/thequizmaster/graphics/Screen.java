@@ -24,8 +24,6 @@ public class Screen {
         }
     }
 
-
-
     public void clear(){
         for(int i = 0; i < pixels.length; i++){
             pixels[i] = 0x000000;
@@ -34,6 +32,22 @@ public class Screen {
 
     public int[] getPixels(){
         return pixels;
+    }
+    
+    public void renderPlayer(int xp, int yp, Sprite sprite) {
+    	xp -= xOffset;
+    	yp -= yOffset;
+    	
+    	for(int y = 0; y < 64; y++) {
+    		int ya = y + yp;
+    		for(int x = 0; x < 64; x++) {
+    			int xa = x + xp;
+    			if(xa < -64 || xa >= width || ya < 0 || ya >= height) break;
+    			if (xa < 0) xa = 0;
+    			int col = sprite.pixels[x + y * 64];
+    			if(col != 0xf000ca) pixels[xa + ya * width] = col;
+    		}
+    	}
     }
     
     public void renderTile(int xp, int yp, Tile tile) {

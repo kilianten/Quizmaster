@@ -21,8 +21,6 @@ public class Tile {
 	public static Tile floorCracked04 = new FloorTile(Sprite.floorTileCracked04);
 	public static Tile floorCracked05 = new FloorTile(Sprite.floorTileCracked05);
 
-
-
 	public static Tile voidTile = new VoidTile(Sprite.voidTile);
 	
 	public Tile(Sprite sprite) {

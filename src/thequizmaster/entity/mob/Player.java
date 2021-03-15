@@ -1,5 +1,7 @@
 package thequizmaster.entity.mob;
 
+import thequizmaster.graphics.Screen;
+import thequizmaster.graphics.Sprite;
 import thequizmaster.input.Keyboard;
 
 public class Player extends Mob {
@@ -26,8 +28,10 @@ public class Player extends Mob {
 		if(xa != 0 || ya != 0) move(xa, ya);
 	}
 	
-	public void render() {
-		
+	public void render(Screen screen) {
+		int xx = x - 32;
+		int yy = y - 32;
+		screen.renderPlayer(xx, yy, Sprite.douglasStanding);
 	}
 	
 }
