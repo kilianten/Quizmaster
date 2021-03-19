@@ -31,7 +31,8 @@ public class Player extends Mob {
 	public void render(Screen screen) {
 		int xx = x - 32;
 		int yy = y - 32;
-		screen.renderPlayer(xx, yy, Sprite.douglasStanding);
+		sprite = Sprite.douglasStandingSprites[dir];
+		screen.renderPlayer(xx, yy, sprite);
 	}
 	
 }
