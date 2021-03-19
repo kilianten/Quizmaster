@@ -20,9 +20,9 @@ import thequizmaster.level.RandomLevel;
 public class Game extends Canvas implements Runnable{
 	private static final long serialVersionUID = 1L;
 	
-	public static int width = 450;
+	public static int width = 350;
 	public static int height = width / 16 * 9;
-	public static int scale = 3;
+	public static int scale = 4;
 	
 	private Thread thread;
 	private JFrame frame;
@@ -32,10 +32,8 @@ public class Game extends Canvas implements Runnable{
 	private Keyboard key;
 	private Level level;
 	private Player player;
-	private int x, y;
 	
 	public boolean printStats = false;
-
 	
 	private BufferedImage image = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
 	private int[] pixels = ((DataBufferInt) image.getRaster().getDataBuffer()).getData();
