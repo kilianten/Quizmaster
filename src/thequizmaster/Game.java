@@ -165,6 +165,7 @@ public class Game extends Canvas implements Runnable{
 	
 	public void swapPlayer() {
 		people.add(player);
+		player.resetSprite();
 		player = people.get(0);
 		people.remove(player);
 	}

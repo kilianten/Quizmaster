@@ -18,6 +18,7 @@ public class Player extends Mob {
 	private Sprite[] currentAnim;
 	protected Sprite[] standingSprites;
 	protected Sprite[] walkingFowardAnim;
+	protected Sprite[] walkingBackAnim;
 
 	public Player(Keyboard input) {
 		this.input = input;
@@ -64,7 +65,11 @@ public class Player extends Mob {
 	}
 
 	private void setWalkingAnim() {
-		currentAnim = walkingFowardAnim;
+		if(dir == 0) {
+			currentAnim = walkingBackAnim;
+		} else {
+			currentAnim = walkingFowardAnim;
+		}
 	}
 
 	private void startAnim() {
@@ -79,8 +84,11 @@ public class Player extends Mob {
 		if (!walking) {
 			sprite = standingSprites[dir];
 		}
-		System.out.println(fname);
 		screen.renderPlayer(xx, yy, sprite);
+	}
+
+	public void resetSprite() {
+		sprite = standingSprites[2];
 	}
 
 }

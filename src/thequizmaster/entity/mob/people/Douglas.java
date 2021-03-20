@@ -10,6 +10,7 @@ public class Douglas extends Player {
 		super(input);
 		standingSprites = DouglasSprites.douglasStandingSprites;
 		walkingFowardAnim = DouglasSprites.douglasWalkingFrontSprites;
+		walkingBackAnim = DouglasSprites.douglasWalkingBackSprites;
 		sprite = standingSprites[0];
 		fname = "Douglas";
 	}
@@ -18,6 +19,7 @@ public class Douglas extends Player {
 		super(x, y, input);
 		standingSprites = DouglasSprites.douglasStandingSprites;
 		walkingFowardAnim = DouglasSprites.douglasWalkingFrontSprites;
+		walkingBackAnim = DouglasSprites.douglasWalkingBackSprites;
 		sprite = standingSprites[0];
 		fname = "Douglas";
 	}
