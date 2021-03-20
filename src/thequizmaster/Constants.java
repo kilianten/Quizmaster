@@ -11,6 +11,8 @@ public class Constants {
     public final static int DEFAULT_SPRITE_SIZE = 32;
     public final static int DEFAULT_ENTITY_SIZE = 64;
     
-    //Sprite
+    //keys
+    public final static int KEY_SLASH = 47;
+    public final static int KEY_E = 69;
 
 }

@@ -1,6 +1,5 @@
 package thequizmaster.entity.mob;
 
-import thequizmaster.entity.mob.people.Douglas;
 import thequizmaster.graphics.Screen;
 import thequizmaster.graphics.Sprite;
 import thequizmaster.input.Keyboard;
@@ -10,18 +9,18 @@ public class Player extends Mob {
 	private Keyboard input;
 	private boolean walking = false;
 	private boolean animating = false;
+	public String fname;
 
 	private int currentAnimIndex = 0;
 	private long lastUpdate = 0;
 	private long currentAnimUpdateTime = 100;
 
 	private Sprite[] currentAnim;
-	private Sprite[] standingSprites;
-	private Sprite[] walkingFowardAnim;
+	protected Sprite[] standingSprites;
+	protected Sprite[] walkingFowardAnim;
 
 	public Player(Keyboard input) {
 		this.input = input;
-		setPlayer(new Douglas());
 	}
 
 	public Player(int x, int y, Keyboard input) {
@@ -80,12 +79,8 @@ public class Player extends Mob {
 		if (!walking) {
 			sprite = standingSprites[dir];
 		}
+		System.out.println(fname);
 		screen.renderPlayer(xx, yy, sprite);
-	}
-
-	public void setPlayer(Mob person) {
-		standingSprites = person.getStandingSpriteAnimation();
-		walkingFowardAnim = person.getWalkingFowardAnimation();
 	}
 
 }

@@ -8,10 +8,13 @@ import java.awt.Graphics;
 import java.awt.image.BufferStrategy;
 import java.awt.image.BufferedImage;
 import java.awt.image.DataBufferInt;
+import java.util.ArrayList;
 
 import javax.swing.JFrame;
 
 import thequizmaster.entity.mob.Player;
+import thequizmaster.entity.mob.people.Douglas;
+import thequizmaster.entity.mob.people.Nolan;
 import thequizmaster.graphics.Screen;
 import thequizmaster.input.Keyboard;
 import thequizmaster.level.Level;
@@ -32,6 +35,7 @@ public class Game extends Canvas implements Runnable{
 	private Keyboard key;
 	private Level level;
 	private Player player;
+	private ArrayList<Player> people;
 	
 	public boolean printStats = false;
 	
@@ -46,11 +50,16 @@ public class Game extends Canvas implements Runnable{
 		frame = new JFrame();
 		key = new Keyboard();
 		level = new RandomLevel(64, 64);
-		player = new Player(key);
-		
+		people = new ArrayList<Player>();
+		addPeople();
+		player = new Douglas(key);
 		addKeyListener(key);
 	}
 	
+	private void addPeople() {
+		people.add(new Nolan(key));
+	}
+
 	public synchronized void start() {
 		running = true;
 		thread = new Thread(this, "Display");
@@ -103,6 +112,10 @@ public class Game extends Canvas implements Runnable{
 			printStats = !printStats;
 			key.slashPressed = false;
 		}
+		if(key.changePlayer) {
+			swapPlayer();
+			key.changePlayer = false;
+		}
 	}
 	
 	public void render() {
@@ -119,6 +132,11 @@ public class Game extends Canvas implements Runnable{
 		
 		level.render(xScroll, yScroll, screen);
 		player.render(screen);
+		for(Player person: people) {
+			System.out.println(person.sprite + "TEST " +  person.y);
+			System.out.println(person.fname + "TEST " +  person.y);
+			person.render(screen);
+		}
 
 		for(int i = 0; i < pixels.length; i++){
 			pixels[i] = screen.getPixels()[i];
@@ -138,6 +156,12 @@ public class Game extends Canvas implements Runnable{
 		g.setColor(Color.WHITE);
 		g.setFont(new Font("Verdana", 0, 20));
 		g.drawString("X: " + player.x + ", Y: " + player.y, 0, 20);
+	}
+	
+	public void swapPlayer() {
+		people.add(player);
+		player = people.get(0);
+		people.remove(player);
 	}
 
 	public static void main(String[] args) {

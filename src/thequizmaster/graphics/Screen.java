@@ -34,6 +34,7 @@ public class Screen {
         return pixels;
     }
     
+
     public void renderPlayer(int xp, int yp, Sprite sprite) {
     	xp -= xOffset;
     	yp -= yOffset;
