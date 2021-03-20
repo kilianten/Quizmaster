@@ -8,6 +8,7 @@ public class Mob extends Entity {
 	protected Sprite sprite;
 	protected int dir = 0;
 	protected boolean moving = false;
+	protected Sprite[] currentAnimation;
 	
 	public void move(int xa, int ya) {
 		if(xa > 0) dir = 1;
@@ -19,8 +20,13 @@ public class Mob extends Entity {
 			x += xa;
 			y += ya;
 		}
+		
 	}
 	
+	private void setAnimation() {
+
+	}
+
 	public void update() {
 		
 	}
@@ -32,5 +38,12 @@ public class Mob extends Entity {
 	public boolean isColliding() {
 		return false;
 	}
+
+	public Sprite[] getStandingSpriteAnimation() {
+		return null;
+	}
 	
+	public Sprite[] getWalkingFowardAnimation() {
+		return null;
+	}
 }

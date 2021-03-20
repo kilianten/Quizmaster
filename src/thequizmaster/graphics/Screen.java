@@ -45,7 +45,7 @@ public class Screen {
     			if(xa < -64 || xa >= width || ya < 0 || ya >= height) break;
     			if (xa < 0) xa = 0;
     			int col = sprite.pixels[x + y * 64];
-    			if(col != 0xf000ca) pixels[xa + ya * width] = col;
+    			if(col != 0xfff000ca) pixels[xa + ya * width] = col;
     		}
     	}
     }
