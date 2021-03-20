@@ -131,11 +131,16 @@ public class Game extends Canvas implements Runnable{
 		int yScroll = player.y - screen.height / 2;
 		
 		level.render(xScroll, yScroll, screen);
+		for(Player person: people) {
+			if(person.y < player.y) {
+				person.render(screen);
+			}
+		}
 		player.render(screen);
 		for(Player person: people) {
-			System.out.println(person.sprite + "TEST " +  person.y);
-			System.out.println(person.fname + "TEST " +  person.y);
-			person.render(screen);
+			if(person.y >= player.y) {
+				person.render(screen);
+			}
 		}
 
 		for(int i = 0; i < pixels.length; i++){
