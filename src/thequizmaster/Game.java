@@ -156,7 +156,7 @@ public class Game extends Canvas implements Runnable{
 
 		Graphics g = bs.getDrawGraphics();
 		g.drawImage(image, 0, 0, getWidth(), getHeight(), null);	
-		light.render((Graphics2D) g, player.x, player.y);
+		screen.renderLight((Graphics2D) g, player.x, player.y);
 		if(printStats) {
 			printStats(g);
 		}

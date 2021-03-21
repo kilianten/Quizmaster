@@ -19,13 +19,4 @@ public class LightSource {
 		this.radius = radius;
 	}
 	
-	public void render(Graphics2D g, int x, int y) {
-		Point2D center = new Point2D.Float(x * 1, y);
-		float[] distance = {0.0f, 1.0f};
-		Color[] colors = {new Color(0.0f, 0.0f, 0.0f, 0.0f), Color.BLACK};
-		RadialGradientPaint p = new RadialGradientPaint(center, radius, distance, colors);
-		g.setPaint(p);
-		g.setComposite(AlphaComposite.getInstance(AlphaComposite.SRC_OVER, .95f));
-		g.fillRect(0, 0, Constants.screenWidth, Constants.screenWidth);
-	}
 }
