@@ -1,7 +1,13 @@
 package thequizmaster.graphics;
 
+import java.awt.AlphaComposite;
+import java.awt.Color;
+import java.awt.Graphics2D;
+import java.awt.RadialGradientPaint;
+import java.awt.geom.Point2D;
 import java.util.Random;
 
+import thequizmaster.Constants;
 import thequizmaster.level.tile.Tile;
 
 public class Screen {
@@ -51,6 +57,13 @@ public class Screen {
     	}
     }
     
+    public void renderLight(int xp, int yp) {
+    	xp -= xOffset;
+    	yp -= yOffset;
+    	
+    	
+    }
+    
     public void renderTile(int xp, int yp, Tile tile) {
     	xp -= xOffset;
     	yp -= yOffset;
@@ -64,6 +77,22 @@ public class Screen {
         	}
     	}
     }
+    
+	public void renderLight(Graphics2D g, int xp, int yp) {
+		xp -= xOffset;
+    	yp -= yOffset;
+    	
+    	xp *= 4;
+    	yp *= 4;
+    	
+		Point2D center = new Point2D.Float(xp, yp);
+		float[] distance = {0.0f, 0.8f};
+		Color[] colors = {new Color(0.0f, 0.0f, 0.0f, 0.0f), Color.BLACK};
+		RadialGradientPaint p = new RadialGradientPaint(center, Constants.LIGHT_RADIUS, distance, colors);
+		g.setPaint(p);
+		g.setComposite(AlphaComposite.getInstance(AlphaComposite.SRC_OVER, .95f));
+		g.fillRect(0, 0, Constants.screenWidth * 4, Constants.screenHeight * 4);
+	}
    
     public void setOffset(int xOffset, int yOffset) {
     	this.xOffset = xOffset;

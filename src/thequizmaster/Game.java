@@ -5,6 +5,9 @@ import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.Graphics;
+import java.awt.Graphics2D;
+import java.awt.RadialGradientPaint;
+import java.awt.geom.Point2D;
 import java.awt.image.BufferStrategy;
 import java.awt.image.BufferedImage;
 import java.awt.image.DataBufferInt;
@@ -16,6 +19,7 @@ import thequizmaster.entity.mob.Player;
 import thequizmaster.entity.mob.people.Douglas;
 import thequizmaster.entity.mob.people.Nolan;
 import thequizmaster.graphics.Screen;
+import thequizmaster.graphics.LightSource;
 import thequizmaster.input.Keyboard;
 import thequizmaster.level.Level;
 import thequizmaster.level.RandomLevel;
@@ -36,6 +40,7 @@ public class Game extends Canvas implements Runnable{
 	private Keyboard key;
 	private Level level;
 	private Player player;
+	private LightSource light;
 	private ArrayList<Player> people;
 	
 	public boolean printStats = false;
@@ -55,6 +60,7 @@ public class Game extends Canvas implements Runnable{
 		addPeople();
 		player = new Douglas(key);
 		addKeyListener(key);
+		light = new LightSource(500, player.x, player.y);
 	}
 	
 	private void addPeople() {
@@ -149,8 +155,8 @@ public class Game extends Canvas implements Runnable{
 		}
 
 		Graphics g = bs.getDrawGraphics();
-		g.drawImage(image, 0, 0, getWidth(), getHeight(), null);
-		drawShadow(g);
+		g.drawImage(image, 0, 0, getWidth(), getHeight(), null);	
+		screen.renderLight((Graphics2D) g, player.x, player.y);
 		if(printStats) {
 			printStats(g);
 		}
