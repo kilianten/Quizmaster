@@ -21,4 +21,11 @@ public abstract class DouglasSprites {
 			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 2, 0, SpriteSheet.douglasSheet),
 			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 3, 0, SpriteSheet.douglasSheet),
 			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 4, 0, SpriteSheet.douglasSheet)};
+	
+	public static Sprite[] douglasWalkingLeftSprites = new Sprite [] {new Sprite(Constants.DEFAULT_ENTITY_SIZE, 1, 3, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 2, 3, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 3, 3, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 4, 3, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 5, 3, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 6, 3, SpriteSheet.douglasSheet)};
 }

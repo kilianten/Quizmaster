@@ -177,11 +177,6 @@ public class Game extends Canvas implements Runnable{
 		player = people.get(0);
 		people.remove(player);
 	}
-	
-	private void drawShadow(Graphics g) {
-		g.setColor(new Color(2, 2, 20, Constants.AMMOUNT_OF_DARKNESS));
-		g.fillRect(0, 0, getWidth(), getHeight());
-	}
 
 	public static void main(String[] args) {
 		Game game = new Game();

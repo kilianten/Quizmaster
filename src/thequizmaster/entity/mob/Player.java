@@ -19,6 +19,7 @@ public class Player extends Mob {
 	protected Sprite[] standingSprites;
 	protected Sprite[] walkingFowardAnim;
 	protected Sprite[] walkingBackAnim;
+	protected Sprite[] walkingLeftAnim;
 
 	public Player(Keyboard input) {
 		this.input = input;
@@ -67,7 +68,11 @@ public class Player extends Mob {
 	private void setWalkingAnim() {
 		if(dir == 0) {
 			currentAnim = walkingBackAnim;
-		} else {
+		}
+		else if(dir == 3) {
+			currentAnim = walkingLeftAnim;
+		}
+		else {
 			currentAnim = walkingFowardAnim;
 		}
 	}
