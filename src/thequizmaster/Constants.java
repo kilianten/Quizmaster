@@ -15,5 +15,8 @@ public class Constants {
     public final static int KEY_SLASH = 47;
     public final static int KEY_E = 69;
 	public static final int AMMOUNT_OF_DARKNESS = 106;
+	
+	public static int screenWidth = 350;
+	public static int screenHeight = screenWidth / 16 * 9;
 
 }

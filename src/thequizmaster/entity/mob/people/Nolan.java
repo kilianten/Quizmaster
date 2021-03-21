@@ -8,10 +8,7 @@ public class Nolan extends Player {
 	
 	public Nolan(Keyboard input) {
 		super(input);
-		standingSprites = NolanSprites.nolanStandingSprites;
-		walkingFowardAnim = NolanSprites.nolanWalkingFrontSprites;
-		walkingBackAnim = NolanSprites.nolanWalkingFrontSprites;
-		sprite = standingSprites[0];
+		setAnims();
 		fname = "Fr.";
 		x = 74 * 32;
 		y = 74 * 32;
@@ -19,12 +16,18 @@ public class Nolan extends Player {
 	
 	public Nolan(int x, int y, Keyboard input) {
 		super(x, y, input);
+		setAnims();
+		fname = "Fr.";
+	}
+	
+	public void setAnims() {
 		standingSprites = NolanSprites.nolanStandingSprites;
 		walkingFowardAnim = NolanSprites.nolanWalkingFrontSprites;
 		walkingBackAnim = NolanSprites.nolanWalkingFrontSprites;
 		sprite = standingSprites[0];
-		fname = "Fr.";
 	}
+	
+	
 
 
 }

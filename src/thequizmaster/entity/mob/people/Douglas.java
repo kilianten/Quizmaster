@@ -8,20 +8,21 @@ public class Douglas extends Player {
 	
 	public Douglas(Keyboard input) {
 		super(input);
-		standingSprites = DouglasSprites.douglasStandingSprites;
-		walkingFowardAnim = DouglasSprites.douglasWalkingFrontSprites;
-		walkingBackAnim = DouglasSprites.douglasWalkingBackSprites;
-		sprite = standingSprites[0];
+		setAnims();
 		fname = "Douglas";
 	}
 	
 	public Douglas(int x, int y, Keyboard input) {
 		super(x, y, input);
+		setAnims();
+		fname = "Douglas";
+	}
+	
+	public void setAnims() {
 		standingSprites = DouglasSprites.douglasStandingSprites;
 		walkingFowardAnim = DouglasSprites.douglasWalkingFrontSprites;
 		walkingBackAnim = DouglasSprites.douglasWalkingBackSprites;
 		sprite = standingSprites[0];
-		fname = "Douglas";
 	}
 	
 
