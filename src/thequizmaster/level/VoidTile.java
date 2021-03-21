@@ -2,6 +2,7 @@ package thequizmaster.level.tile;
 
 import thequizmaster.graphics.Screen;
 import thequizmaster.graphics.Sprite;
+import thequizmaster.level.tile.Tile;
 
 public class VoidTile extends Tile {
 	

@@ -57,6 +57,16 @@ public class Level {
 		if(x < 0 || y < 0 || y >= height || x >= width) return Tile.voidTile;
 		if(tiles[x + y * width] == 0XFFA4A4A7) return Tile.floorTile;
 		if(tiles[x + y * width] == 0XFFb34949) return Tile.brickTile;
+		if(tiles[x + y * width] == 2) return Tile.floorTileStained01;
+		if(tiles[x + y * width] == 3) return Tile.floorTileStained02;
+		if(tiles[x + y * width] == 4) return Tile.floorTileStained03;
+		if(tiles[x + y * width] == 5) return Tile.floorCracked01;
+		if(tiles[x + y * width] == 6) return Tile.floorCracked02;
+		if(tiles[x + y * width] == 7) return Tile.floorCracked03;
+		if(tiles[x + y * width] == 8) return Tile.floorCracked04;
+		if(tiles[x + y * width] == 9) return Tile.floorCracked05;
+		if(tiles[x + y * width] == 1) return Tile.floorTileBlood;
+		
 		return Tile.voidTile;
 	}
 }
