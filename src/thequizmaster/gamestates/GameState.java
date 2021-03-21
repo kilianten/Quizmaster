@@ -1,0 +1,20 @@
+package thequizmaster.gamestates;
+
+import thequizmaster.entity.mob.Player;
+import thequizmaster.graphics.Screen;
+
+public class GameState {
+	
+	
+
+	public void update() {
+		
+	}
+	
+	public void render(Screen screen) {
+	}
+	
+	public Player getPlayer() {
+		return null;
+	}
+}

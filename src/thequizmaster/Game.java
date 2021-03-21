@@ -18,6 +18,8 @@ import javax.swing.JFrame;
 import thequizmaster.entity.mob.Player;
 import thequizmaster.entity.mob.people.Douglas;
 import thequizmaster.entity.mob.people.Nolan;
+import thequizmaster.gamestates.GameState;
+import thequizmaster.gamestates.MainGame;
 import thequizmaster.graphics.Screen;
 import thequizmaster.graphics.LightSource;
 import thequizmaster.input.Keyboard;
@@ -38,10 +40,7 @@ public class Game extends Canvas implements Runnable{
 
 	private Screen screen;
 	private Keyboard key;
-	private Level level;
-	private Player player;
-	private LightSource light;
-	private ArrayList<Player> people;
+	private GameState gameState;
 	
 	public boolean printStats = false;
 	
@@ -51,20 +50,11 @@ public class Game extends Canvas implements Runnable{
 	public Game() {
 		Dimension size = new Dimension(width * scale, height * scale);
 		setPreferredSize(size);
-		
 		screen = new Screen(width, height);
 		frame = new JFrame();
 		key = new Keyboard();
-		level = new SpawnLevel("/levels/level01.png");
-		people = new ArrayList<Player>();
-		addPeople();
-		player = new Douglas(key);
 		addKeyListener(key);
-		light = new LightSource(500, player.x, player.y);
-	}
-	
-	private void addPeople() {
-		people.add(new Nolan(key));
+		gameState = new MainGame(key);
 	}
 
 	public synchronized void start() {
@@ -114,15 +104,12 @@ public class Game extends Canvas implements Runnable{
 	
 	public void update() {
 		key.update();
-		player.update();
+		gameState.update();
 		if(key.slashPressed) {
 			printStats = !printStats;
 			key.slashPressed = false;
 		}
-		if(key.changePlayer) {
-			swapPlayer();
-			key.changePlayer = false;
-		}
+
 	}
 	
 	public void render() {
@@ -133,30 +120,19 @@ public class Game extends Canvas implements Runnable{
 		}
 		
 		screen.clear();
+		gameState.render(screen);
 		
-		int xScroll = player.x - screen.width / 2;
-		int yScroll = player.y - screen.height / 2;
-		
-		level.render(xScroll, yScroll, screen);
-		for(Player person: people) {
-			if(person.y < player.y) {
-				person.render(screen);
-			}
-		}
-		player.render(screen);
-		for(Player person: people) {
-			if(person.y >= player.y) {
-				person.render(screen);
-			}
-		}
-
 		for(int i = 0; i < pixels.length; i++){
 			pixels[i] = screen.getPixels()[i];
 		}
 
 		Graphics g = bs.getDrawGraphics();
 		g.drawImage(image, 0, 0, getWidth(), getHeight(), null);	
-		screen.renderLight((Graphics2D) g, player.x, player.y);
+		
+		if(gameState instanceof MainGame) {
+			screen.renderLight((Graphics2D) g, gameState.getPlayer().x, gameState.getPlayer().y);
+		}
+		
 		if(printStats) {
 			printStats(g);
 		}
@@ -168,14 +144,7 @@ public class Game extends Canvas implements Runnable{
 	public void printStats(Graphics g) {
 		g.setColor(Color.WHITE);
 		g.setFont(new Font("Verdana", 0, 20));
-		g.drawString("X: " + player.x + ", Y: " + player.y, 0, 20);
-	}
-	
-	public void swapPlayer() {
-		people.add(player);
-		player.resetSprite();
-		player = people.get(0);
-		people.remove(player);
+		g.drawString("X: " + gameState.getPlayer().x + ", Y: " + gameState.getPlayer().y, 0, 20);
 	}
 
 	public static void main(String[] args) {

@@ -1,6 +1,7 @@
 package thequizmaster.entity.mob.people;
 
 import thequizmaster.entity.mob.Player;
+import thequizmaster.graphics.people.DouglasSprites;
 import thequizmaster.graphics.people.NolanSprites;
 import thequizmaster.input.Keyboard;
 
@@ -24,6 +25,8 @@ public class Nolan extends Player {
 		standingSprites = NolanSprites.nolanStandingSprites;
 		walkingFowardAnim = NolanSprites.nolanWalkingFrontSprites;
 		walkingBackAnim = NolanSprites.nolanWalkingFrontSprites;
+		walkingLeftAnim = NolanSprites.nolanWalkingFrontSprites;
+
 		sprite = standingSprites[0];
 	}
 	
