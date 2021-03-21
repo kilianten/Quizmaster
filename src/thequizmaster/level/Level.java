@@ -10,7 +10,7 @@ public class Level {
 	
 	protected int width, height;
 	protected int[] tiles;
-	private Random random;
+	protected Random random;
 	
 	public Level(int width, int height) {
 		this.width = width;
@@ -21,10 +21,12 @@ public class Level {
 	}
 	
 	public Level(String path) {
+		random = new Random();
 		loadLevel(path);
+		
 	}
 	
-	private void loadLevel(String path) {
+	protected void loadLevel(String path) {
 		
 	}
 
@@ -53,7 +55,8 @@ public class Level {
 	
 	public Tile getTile(int x, int y) {
 		if(x < 0 || y < 0 || y >= height || x >= width) return Tile.voidTile;
-		if(tiles[x + y * width] == 0) return Tile.floorTile;
+		if(tiles[x + y * width] == 0XFFA4A4A7) return Tile.floorTile;
+		if(tiles[x + y * width] == 0XFFb34949) return Tile.brickTile;
 		return Tile.voidTile;
 	}
 }

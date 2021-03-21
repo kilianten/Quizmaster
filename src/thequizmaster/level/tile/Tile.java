@@ -22,6 +22,7 @@ public class Tile {
 	public static Tile floorCracked05 = new FloorTile(Sprite.floorTileCracked05);
 
 	public static Tile voidTile = new VoidTile(Sprite.voidTile);
+	public static Tile brickTile = new BrickTile(Sprite.brickTile);
 	
 	public Tile(Sprite sprite) {
 		this.sprite = sprite;

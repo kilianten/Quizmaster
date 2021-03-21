@@ -14,5 +14,6 @@ public class Constants {
     //keys
     public final static int KEY_SLASH = 47;
     public final static int KEY_E = 69;
+	public static final int AMMOUNT_OF_DARKNESS = 166;
 
 }

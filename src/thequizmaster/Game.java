@@ -19,6 +19,7 @@ import thequizmaster.graphics.Screen;
 import thequizmaster.input.Keyboard;
 import thequizmaster.level.Level;
 import thequizmaster.level.RandomLevel;
+import thequizmaster.level.SpawnLevel;
 
 public class Game extends Canvas implements Runnable{
 	private static final long serialVersionUID = 1L;
@@ -49,7 +50,7 @@ public class Game extends Canvas implements Runnable{
 		screen = new Screen(width, height);
 		frame = new JFrame();
 		key = new Keyboard();
-		level = new RandomLevel(64, 64);
+		level = new SpawnLevel("/levels/level01.png");
 		people = new ArrayList<Player>();
 		addPeople();
 		player = new Douglas(key);
@@ -149,6 +150,7 @@ public class Game extends Canvas implements Runnable{
 
 		Graphics g = bs.getDrawGraphics();
 		g.drawImage(image, 0, 0, getWidth(), getHeight(), null);
+		drawShadow(g);
 		if(printStats) {
 			printStats(g);
 		}
@@ -168,6 +170,11 @@ public class Game extends Canvas implements Runnable{
 		player.resetSprite();
 		player = people.get(0);
 		people.remove(player);
+	}
+	
+	private void drawShadow(Graphics g) {
+		g.setColor(new Color(2, 2, 20, Constants.AMMOUNT_OF_DARKNESS));
+		g.fillRect(0, 0, getWidth(), getHeight());
 	}
 
 	public static void main(String[] args) {
