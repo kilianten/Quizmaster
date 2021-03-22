@@ -27,6 +27,10 @@ public class Sprite {
     public static Sprite brickTileCorner = new Sprite(Constants.DEFAULT_SPRITE_SIZE, 1, 3, SpriteSheet.tileSheet);
 
     
+    //OBJECTS
+    public static Sprite tripWire = new Sprite(Constants.DEFAULT_ENTITY_SIZE, 1, 0, SpriteSheet.trapsSheet);
+
+    
     public Sprite(int size, int x, int y, SpriteSheet sheet) {
         SIZE = size;
         pixels = new int[SIZE * SIZE];

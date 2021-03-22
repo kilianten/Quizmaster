@@ -35,6 +35,7 @@ public class MainGame extends GameState {
 	public void update() {
 		key.update();
 		player.update();
+		level.update();
 		
 		if(key.changePlayer) {
 			swapPlayer();
