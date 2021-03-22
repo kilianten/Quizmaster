@@ -13,4 +13,8 @@ public class BrickTile extends Tile {
 		screen.renderTile(x << 5, y << 5, this);
 	}
 	
+	public boolean isSolid() {
+		return true;
+	}
+	
 }

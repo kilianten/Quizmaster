@@ -21,10 +21,6 @@ public class Level {
 	public Level(String path) {
 		random = new Random();
 		loadLevel(path);
-		
-		TripWire trip = new TripWire(0, 0);
-		addGameObject(trip);
-		
 	}
 	
 	public Level(int width, int height) {

@@ -24,12 +24,12 @@ public class MainGame extends GameState {
 		level = new SpawnLevel("/levels/level01.png");
 		people = new ArrayList<Player>();
 		addPeople();
-		player = new Douglas(key);
+		player = new Douglas(key, level);
 		light = new LightSource(500, player.x, player.y);
 	}
 	
 	private void addPeople() {
-		people.add(new Nolan(key));
+		people.add(new Nolan(key, level));
 	}
 	
 	public void update() {
