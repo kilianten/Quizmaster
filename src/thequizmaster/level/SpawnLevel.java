@@ -7,6 +7,7 @@ import java.util.Random;
 import javax.imageio.ImageIO;
 
 import thequizmaster.level.tile.Tile;
+import thequizmaster.objects.TripWire;
 
 public class SpawnLevel extends Level {
 	
@@ -21,7 +22,7 @@ public class SpawnLevel extends Level {
 			int h = height = image.getHeight();
 			tiles = new int[w * h];
 			image.getRGB(0,0, w, h, tiles, 0, w);
-			alterMap(w);
+			alterMap(w, h);
 			findRooms(w);
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -41,7 +42,7 @@ public class SpawnLevel extends Level {
 
 	}
 
-	private void alterMap(int width) {
+	private void alterMap(int width, int h) {
 		for(int i = 0; i < tiles.length; i++) {
 			if(tiles[i] == 0XFFA4A4A7) {
 				int randomTile = random.nextInt(400);
@@ -59,6 +60,10 @@ public class SpawnLevel extends Level {
 			if(tiles[i] == 0XFFb34949 || tiles[i] == 0XFF7b3a3a) {
 				if(tiles[i - width] == 0Xff000000) {
 					tiles[i - width] = 0XFFb34949;
+				}
+				if(tiles[i + width] == 0XFFA4A4A7 && tiles[i + width * 2] == 0XFFA4A4A7 && tiles[i + width * 3] == 0XFFb34949) {
+					TripWire trip = new TripWire(i % width * 32, i / width * 32 + 30);
+					addGameObject(trip);
 				}
 			}
 		}

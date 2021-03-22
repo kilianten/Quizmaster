@@ -5,6 +5,7 @@ import thequizmaster.Constants;
 public class Sprite {
 
     public final int SIZE;
+    public final int YSIZE;
     public int x, y;
     public int[] pixels;
     public SpriteSheet sheet;
@@ -28,7 +29,7 @@ public class Sprite {
 
     
     //OBJECTS
-    public static Sprite tripWire = new Sprite(Constants.DEFAULT_ENTITY_SIZE, 1, 0, SpriteSheet.trapsSheet);
+    public static Sprite tripWire = new Sprite(32, 0, 0, SpriteSheet.trapsSheet, 66);
 
     
     public Sprite(int size, int x, int y, SpriteSheet sheet) {
@@ -37,13 +38,33 @@ public class Sprite {
         this.x = x * size;
         this. y = y * size;
         this.sheet = sheet;
+		this.YSIZE = size;
         load();
     }
 
+    public Sprite(int size, int x, int y, SpriteSheet sheet, int ysize) {
+        SIZE = size;
+        YSIZE = ysize;
+        pixels = new int[SIZE * YSIZE];
+        this.x = x * size;
+        this.y = y * ysize;
+        this.sheet = sheet;
+        loadIrregularSprite();
+    }
+
+    
     public void load(){
         for (int y = 0; y < SIZE; y++){
             for (int x = 0; x < SIZE; x++){
                 pixels[x + y * SIZE] = sheet.pixels[(x + this.x) + (y + this.y) * sheet.SIZE];
+            }
+        }
+    }
+    
+    public void loadIrregularSprite(){
+        for (int y = 0; y < YSIZE; y++){
+            for (int x = 0; x < SIZE; x++){
+            	pixels[x  + y * SIZE] = sheet.pixels[(x + this.x) + (y + this.y) * sheet.SIZE];
             }
         }
     }

@@ -37,7 +37,6 @@ public class Level {
 	
 	public void addGameObject(GameObject gameObject) {
 		gameObjects.add(gameObject);
-		System.out.println(gameObjects.get(0));
 	}
 	
 	protected void loadLevel(String path) {
@@ -70,7 +69,6 @@ public class Level {
 		
 		
 		for(int i = 0; i < gameObjects.size(); i++) {
-			System.out.println(gameObjects.get(i));
 			gameObjects.get(i).render(screen);
 		}
 	}

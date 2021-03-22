@@ -1,4 +1,4 @@
-package thequizmaster.level.tile;
+package thequizmaster.level;
 
 import thequizmaster.graphics.Screen;
 import thequizmaster.graphics.Sprite;
