@@ -37,8 +37,9 @@ public class MainGame extends GameState {
 		for(int i = 0; i < level.gameObjects.size(); i++) {
 			if(level.gameObjects.get(i).checkCollision(player.x, player.y, player.dir)) {
 				isQuizActive = true;
-				player.canMove = false;
+				//player.canMove = false;
 				level.gameObjects.remove(i);
+				level.collidableObjects.remove(i);
 			}
 		}
 	}
@@ -62,6 +63,13 @@ public class MainGame extends GameState {
 		int yScroll = player.y - screen.height / 2;
 		
 		level.render(xScroll, yScroll, screen);
+		
+		if(devMode) {
+			for (int i = 0; i < level.collidableObjects.size(); i++) {
+				screen.renderHitbox(level.collidableObjects.get(i), xScroll, yScroll);
+			}	
+		}
+		
 		for(Player person: people) {
 			if(person.y < player.y) {
 				person.render(screen);
@@ -73,6 +81,7 @@ public class MainGame extends GameState {
 				person.render(screen);
 			}
 		}
+	
 	}
 	
 	public Player getPlayer() {

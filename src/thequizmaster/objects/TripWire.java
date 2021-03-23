@@ -3,7 +3,7 @@ package thequizmaster.objects;
 import thequizmaster.graphics.Screen;
 import thequizmaster.graphics.Sprite;
 
-public class TripWire extends GameObject {
+public class TripWire extends CollidableObject {
 	
 	private int x;
 	private int y;
@@ -13,7 +13,7 @@ public class TripWire extends GameObject {
 	public TripWire(int x, int y) {
 		this.y = y;
 		this.x = x;
-		
+		hitbox = new Hitbox(x + 15, y + 2, 2, 64);
 	}
 	
 	public void render(Screen screen) {

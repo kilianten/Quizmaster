@@ -9,6 +9,7 @@ import java.util.Random;
 
 import thequizmaster.Constants;
 import thequizmaster.level.tile.Tile;
+import thequizmaster.objects.CollidableObject;
 
 public class Screen {
 
@@ -93,6 +94,20 @@ public class Screen {
     	}
     }
 
+    public void renderHitbox(CollidableObject collidable, int xScroll, int yScroll) {
+    	int xp = collidable.hitbox.x - xOffset;
+    	int yp = collidable.hitbox.y - yOffset;
+
+    	for(int i = 0; i < collidable.hitbox.width; i++) {
+    		int ya = yp + i;
+        	for(int j = 0; j < collidable.hitbox.height; j++) {
+        		int xa = xp + j;
+        		if(xa < -collidable.hitbox.width || xa >= width || ya < 0 || ya >= height) break;
+        		//if(xa < 0) xa = 0;
+        		pixels[xa + ya * width] = 0xff00b300;
+        	}
+    	}
+    }
     
 	public void renderLight(Graphics2D g, int xp, int yp) {
 		xp -= xOffset;

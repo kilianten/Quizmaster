@@ -107,6 +107,7 @@ public class Game extends Canvas implements Runnable{
 		gameState.update();
 		if(key.slashPressed) {
 			printStats = !printStats;
+			gameState.devMode = !gameState.devMode;
 			key.slashPressed = false;
 		}
 

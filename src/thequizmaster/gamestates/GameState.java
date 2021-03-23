@@ -5,7 +5,7 @@ import thequizmaster.graphics.Screen;
 
 public class GameState {
 	
-	
+	public boolean devMode = false;
 
 	public void update() {
 		

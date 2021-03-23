@@ -67,6 +67,7 @@ public class SpawnLevel extends Level {
 					if(chanceOfSpawingWire == 1) {
 						TripWire trip = new TripWire(i % width * 32, i / width * 32 + 30);
 						addGameObject(trip);
+						addCollidableObject(trip);
 					}
 				}
 			}
