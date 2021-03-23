@@ -10,6 +10,7 @@ import thequizmaster.graphics.Screen;
 import thequizmaster.input.Keyboard;
 import thequizmaster.level.Level;
 import thequizmaster.level.SpawnLevel;
+import thequizmaster.objects.Hitbox;
 
 public class MainGame extends GameState {
 
@@ -34,10 +35,10 @@ public class MainGame extends GameState {
 	}
 	
 	public void checkCollidables() {
-		for(int i = 0; i < level.gameObjects.size(); i++) {
-			if(level.gameObjects.get(i).checkCollision(player.x, player.y, player.dir)) {
+		for(int i = 0; i < level.collidableObjects.size(); i++) {
+			if(Hitbox.isColliding(level.collidableObjects.get(i).hitbox, player.hitbox)) {
 				isQuizActive = true;
-				//player.canMove = false;
+				player.canMove = false;
 				level.gameObjects.remove(i);
 				level.collidableObjects.remove(i);
 			}
@@ -66,8 +67,8 @@ public class MainGame extends GameState {
 		
 		if(devMode) {
 			for (int i = 0; i < level.collidableObjects.size(); i++) {
-				screen.renderHitbox(level.collidableObjects.get(i), xScroll, yScroll);
-			}	
+				screen.renderHitbox(level.collidableObjects.get(i).hitbox);
+			}
 		}
 		
 		for(Player person: people) {
@@ -80,6 +81,10 @@ public class MainGame extends GameState {
 			if(person.y >= player.y) {
 				person.render(screen);
 			}
+		}
+		
+		if(devMode) {
+			screen.renderHitbox(player.hitbox);
 		}
 	
 	}

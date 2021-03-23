@@ -13,7 +13,7 @@ public class TripWire extends CollidableObject {
 	public TripWire(int x, int y) {
 		this.y = y;
 		this.x = x;
-		hitbox = new Hitbox(x + 15, y + 2, 2, 64);
+		hitbox = new Hitbox(x, y, 2, 64, 15, 2);
 	}
 	
 	public void render(Screen screen) {

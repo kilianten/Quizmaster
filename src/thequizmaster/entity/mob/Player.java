@@ -3,6 +3,7 @@ package thequizmaster.entity.mob;
 import thequizmaster.graphics.Screen;
 import thequizmaster.graphics.Sprite;
 import thequizmaster.input.Keyboard;
+import thequizmaster.objects.Hitbox;
 
 public class Player extends Mob {
 
@@ -24,16 +25,20 @@ public class Player extends Mob {
 
 	public Player(Keyboard input) {
 		this.input = input;
+		hitbox = new Hitbox(16, 12, -4, 10);
 	}
 
 	public Player(int x, int y, Keyboard input) {
 		this.x = x;
 		this.y = y;
+		hitbox = new Hitbox(x, y, 20, 12);
 		this.input = input;
 	}
 
 	public void update() {
 		int xa = 0, ya = 0;
+		
+		hitbox.updateHitbox(x, y);
 
 		if (input.up)
 			ya-= speed;
@@ -53,7 +58,6 @@ public class Player extends Mob {
 			}
 		}
 
-		System.out.println(canMove);
 		if (xa != 0 && canMove || ya != 0 && canMove) {
 			move(xa, ya);
 			walking = true;

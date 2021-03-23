@@ -64,7 +64,7 @@ public class SpawnLevel extends Level {
 				}
 				if(tiles[i + width] == 0XFFA4A4A7 && tiles[i + width * 2] == 0XFFA4A4A7 && tiles[i + width * 3] == 0XFFb34949) {
 					int chanceOfSpawingWire = random.nextInt(Constants.CHANCE_OF_SPAWNING_TRIPWIRE);
-					if(chanceOfSpawingWire == 1) {
+					if(chanceOfSpawingWire == 0) {
 						TripWire trip = new TripWire(i % width * 32, i / width * 32 + 30);
 						addGameObject(trip);
 						addCollidableObject(trip);

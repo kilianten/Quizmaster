@@ -1,5 +1,6 @@
 package thequizmaster.objects;
 
+import thequizmaster.Constants;
 import thequizmaster.graphics.Screen;
 import thequizmaster.graphics.Sprite;
 

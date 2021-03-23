@@ -3,6 +3,7 @@ package thequizmaster.entity.mob;
 import thequizmaster.Constants;
 import thequizmaster.entity.Entity;
 import thequizmaster.graphics.Sprite;
+import thequizmaster.objects.Hitbox;
 
 public class Mob extends Entity {
 
@@ -11,6 +12,7 @@ public class Mob extends Entity {
 	protected boolean moving = false;
 	protected Sprite[] currentAnimation;
 	public boolean canMove = true;	
+	public Hitbox hitbox;
 	
 	public void move(int xa, int ya) {
 		
