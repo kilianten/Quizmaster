@@ -145,7 +145,7 @@ public class Game extends Canvas implements Runnable{
 		g.setColor(Color.WHITE);
 		g.setFont(new Font("Verdana", 0, 20));
 		g.drawString("X: " + gameState.getPlayer().x + ", Y: " + gameState.getPlayer().y, 0, 20);
-		g.drawString("X TILE: " + gameState.getPlayer().x / Constants.DEFAULT_SPRITE_SIZE + ", YTILE: " + gameState.getPlayer().y / Constants.DEFAULT_SPRITE_SIZE, 200, 20);
+		g.drawString("XTILE: " + gameState.getPlayer().x / Constants.DEFAULT_SPRITE_SIZE + ", YTILE: " + gameState.getPlayer().y / Constants.DEFAULT_SPRITE_SIZE, 200, 20);
 	}
 
 	public static void main(String[] args) {

@@ -16,4 +16,8 @@ public class GameObject {
 		
 	}
 	
+	public boolean checkCollision(int x, int y, int dir) {
+		return false;
+	}
+	
 }

@@ -16,7 +16,7 @@ public class Level {
 	protected int[] tiles;
 	protected Random random;
 	
-	private List<GameObject> gameObjects = new ArrayList<GameObject>();
+	public List<GameObject> gameObjects = new ArrayList<GameObject>();
 	
 	public Level(String path) {
 		random = new Random();

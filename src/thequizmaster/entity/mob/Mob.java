@@ -7,11 +7,13 @@ import thequizmaster.graphics.Sprite;
 public class Mob extends Entity {
 
 	public Sprite sprite;
-	protected int dir = 2;
+	public int dir = 2;
 	protected boolean moving = false;
 	protected Sprite[] currentAnimation;
+	public boolean canMove = true;	
 	
 	public void move(int xa, int ya) {
+		
 		if(xa != 0 && ya != 0) { //separate if moving on both axis
 			move(xa, 0);
 			move(0, ya);

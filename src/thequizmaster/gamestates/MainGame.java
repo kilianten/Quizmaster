@@ -18,6 +18,7 @@ public class MainGame extends GameState {
 	private ArrayList<Player> people;
 	private Level level;
 	private Keyboard key;
+	private boolean isQuizActive = false;
 	
 	public MainGame(Keyboard key) {
 		this.key = key;
@@ -32,13 +33,26 @@ public class MainGame extends GameState {
 		people.add(new Nolan(key, level));
 	}
 	
+	public void checkCollidables() {
+		for(int i = 0; i < level.gameObjects.size(); i++) {
+			if(level.gameObjects.get(i).checkCollision(player.x, player.y, player.dir)) {
+				isQuizActive = true;
+				player.canMove = false;
+				level.gameObjects.remove(i);
+			}
+		}
+	}
+	
 	public void update() {
 		key.update();
 		player.update();
 		level.update();
+		checkCollidables();
 		
 		if(key.changePlayer) {
-			swapPlayer();
+			if(!isQuizActive){
+				swapPlayer();
+			}
 			key.changePlayer = false;
 		}
 	}

@@ -53,7 +53,8 @@ public class Player extends Mob {
 			}
 		}
 
-		if (xa != 0 || ya != 0) {
+		System.out.println(canMove);
+		if (xa != 0 && canMove || ya != 0 && canMove) {
 			move(xa, ya);
 			walking = true;
 			setWalkingAnim();
