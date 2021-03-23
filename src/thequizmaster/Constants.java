@@ -17,6 +17,9 @@ public class Constants {
 	public static final int AMMOUNT_OF_DARKNESS = 106;
 	public static final float LIGHT_RADIUS = 850;
 	
+	//Probabilities
+	public static final int CHANCE_OF_SPAWNING_TRIPWIRE = 10;
+	
 	public static int screenWidth = 350;
 	public static int screenHeight = screenWidth / 16 * 9;
 

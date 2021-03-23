@@ -6,6 +6,7 @@ import java.util.Random;
 
 import javax.imageio.ImageIO;
 
+import thequizmaster.Constants;
 import thequizmaster.level.tile.Tile;
 import thequizmaster.objects.TripWire;
 
@@ -62,8 +63,11 @@ public class SpawnLevel extends Level {
 					tiles[i - width] = 0XFFb34949;
 				}
 				if(tiles[i + width] == 0XFFA4A4A7 && tiles[i + width * 2] == 0XFFA4A4A7 && tiles[i + width * 3] == 0XFFb34949) {
-					TripWire trip = new TripWire(i % width * 32, i / width * 32 + 30);
-					addGameObject(trip);
+					int chanceOfSpawingWire = random.nextInt(Constants.CHANCE_OF_SPAWNING_TRIPWIRE);
+					if(chanceOfSpawingWire == 1) {
+						TripWire trip = new TripWire(i % width * 32, i / width * 32 + 30);
+						addGameObject(trip);
+					}
 				}
 			}
 		}

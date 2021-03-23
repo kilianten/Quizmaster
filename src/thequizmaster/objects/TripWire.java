@@ -13,6 +13,7 @@ public class TripWire extends GameObject {
 	public TripWire(int x, int y) {
 		this.y = y;
 		this.x = x;
+		System.out.println("TRIPWIRE X: " +  x + " Y: " + y);
 	}
 	
 	public void render(Screen screen) {

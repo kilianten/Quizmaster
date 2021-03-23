@@ -11,6 +11,8 @@ public class Douglas extends Player {
 		super(input);
 		setAnims();
 		fname = "Douglas";
+		x = 74 * 34;
+		y = 74 * 32;
 		this.level = level;
 	}
 	

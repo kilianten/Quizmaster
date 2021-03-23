@@ -10,6 +10,7 @@ public class Player extends Mob {
 	private boolean walking = false;
 	private boolean animating = false;
 	public String fname;
+	protected double speed = 2; 
 
 	private int currentAnimIndex = 0;
 	private long lastUpdate = 0;
@@ -35,13 +36,13 @@ public class Player extends Mob {
 		int xa = 0, ya = 0;
 
 		if (input.up)
-			ya--;
+			ya-= speed;
 		if (input.down)
-			ya++;
+			ya+= speed;
 		if (input.left)
-			xa--;
+			xa-= speed;
 		if (input.right)
-			xa++;
+			xa+= speed;
 		
 		if(animating) {
 			if(System.currentTimeMillis() - lastUpdate > currentAnimUpdateTime) {
