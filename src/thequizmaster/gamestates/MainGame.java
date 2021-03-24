@@ -11,6 +11,9 @@ import thequizmaster.input.Keyboard;
 import thequizmaster.level.Level;
 import thequizmaster.level.SpawnLevel;
 import thequizmaster.objects.Hitbox;
+import thequizmaster.questions.QuestionHandler;
+import thequizmaster.quizmode.QuizMode;
+import thequizmaster.quizmode.WireTrap;
 
 public class MainGame extends GameState {
 
@@ -20,14 +23,18 @@ public class MainGame extends GameState {
 	private Level level;
 	private Keyboard key;
 	private boolean isQuizActive = false;
+	private QuestionHandler questionHandler;
+	private QuizMode quiz;
 	
 	public MainGame(Keyboard key) {
+		questionHandler = new QuestionHandler();
 		this.key = key;
 		level = new SpawnLevel("/levels/level01.png");
 		people = new ArrayList<Player>();
 		addPeople();
 		player = new Douglas(key, level);
 		light = new LightSource(500, player.x, player.y);
+		quiz = null;
 	}
 	
 	private void addPeople() {
@@ -41,6 +48,7 @@ public class MainGame extends GameState {
 				player.canMove = false;
 				level.gameObjects.remove(i);
 				level.collidableObjects.remove(i);
+				quiz = new WireTrap(questionHandler.getQuestion(1));
 			}
 		}
 	}
@@ -50,12 +58,21 @@ public class MainGame extends GameState {
 		player.update();
 		level.update();
 		checkCollidables();
+		if(!(quiz == null)) {
+			quiz.update();
+		}
 		
 		if(key.changePlayer) {
 			if(!isQuizActive){
 				swapPlayer();
 			}
 			key.changePlayer = false;
+		}
+	}
+	
+	public void renderHUD(Screen screen) {
+		if(!(quiz == null)) {
+			quiz.renderHUD(screen);
 		}
 	}
 	
@@ -82,7 +99,7 @@ public class MainGame extends GameState {
 				person.render(screen);
 			}
 		}
-		
+	
 		if(devMode) {
 			screen.renderHitbox(player.hitbox);
 		}

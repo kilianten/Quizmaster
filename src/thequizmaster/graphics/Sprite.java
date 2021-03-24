@@ -28,7 +28,7 @@ public class Sprite {
     public static Sprite brickTileCorner = new Sprite(Constants.DEFAULT_SPRITE_SIZE, 1, 3, SpriteSheet.tileSheet);
 
     //HUD
-    public static Sprite countdownDisplay = new Sprite(32, 0, 0, SpriteSheet.hudSheet);
+    public static Sprite countdownDisplay = new Sprite(16, 0, 0, SpriteSheet.hudSheet);
     
     //OBJECTS
     public static Sprite tripWire = new Sprite(32, 0, 0, SpriteSheet.trapsSheet, 66);

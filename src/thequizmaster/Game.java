@@ -45,7 +45,9 @@ public class Game extends Canvas implements Runnable{
 	public boolean printStats = false;
 	
 	private BufferedImage image = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
+	private BufferedImage HUDimage = new BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB);
 	private int[] pixels = ((DataBufferInt) image.getRaster().getDataBuffer()).getData();
+	private int[] HUDpixels = ((DataBufferInt) HUDimage.getRaster().getDataBuffer()).getData();
 	
 	public Game() {
 		Dimension size = new Dimension(width * scale, height * scale);
@@ -132,7 +134,16 @@ public class Game extends Canvas implements Runnable{
 		
 		if(gameState instanceof MainGame) {
 			screen.renderLight((Graphics2D) g, gameState.getPlayer().x, gameState.getPlayer().y);
+			
 		}
+
+		gameState.renderHUD(screen);
+		
+		for(int i = 0; i < pixels.length; i++){
+			HUDpixels[i] = screen.getHUDPixels()[i];
+		}
+		
+		g.drawImage(HUDimage, 0, 0, getWidth(), getHeight(), null);	
 		
 		if(printStats) {
 			printStats(g);

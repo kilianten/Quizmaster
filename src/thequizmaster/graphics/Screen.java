@@ -16,6 +16,7 @@ public class Screen {
     public int width;
 	public int height;
     private int[] pixels;
+    private int[] HUDpixels;
     private int[] tiles = new int[64 * 64];
     private Random random = new Random();
     
@@ -25,6 +26,7 @@ public class Screen {
         this.width = width;
         this.height = height;
         pixels = new int[width * height];
+        HUDpixels = new int[width * height];
 
         for (int i = 0; i < 64*64; i++){
             tiles[i] = random.nextInt(0xffffff);
@@ -94,6 +96,20 @@ public class Screen {
     	}
     }
 
+    public void renderFixedObject(int xp, int yp, Sprite sprite) {
+    	for(int y = 0; y < sprite.YSIZE; y++) {
+    		int ya = yp + y;
+        	for(int x = 0; x < sprite.SIZE; x++) {
+        		int xa = xp + x;
+        		if(xa < -sprite.SIZE || xa >= width || ya < 0 || ya >= height) break;
+        		if(xa < 0) xa = 0;
+        		int col = sprite.pixels[x + y * sprite.SIZE];
+    			if(col != 0xfff000ca) HUDpixels[xa + ya * width] = col;
+        	}
+    	}
+    }
+    
+    
     public void renderHitbox(Hitbox hitbox) {
     	int xp = hitbox.getX() - xOffset;
     	int yp = hitbox.getY() - yOffset;
@@ -129,6 +145,10 @@ public class Screen {
     	this.xOffset = xOffset;
     	this.yOffset = yOffset;
     }
+
+	public int[] getHUDPixels() {
+		return HUDpixels;
+	}
 
     
 }

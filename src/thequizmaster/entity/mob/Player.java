@@ -16,6 +16,9 @@ public class Player extends Mob {
 	private int currentAnimIndex = 0;
 	private long lastUpdate = 0;
 	private long currentAnimUpdateTime = 100;
+	
+	private String bio;
+	private String bestCategory;
 
 	private Sprite[] currentAnim;
 	protected Sprite[] standingSprites;
