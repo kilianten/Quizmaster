@@ -15,6 +15,7 @@ public class SpriteSheet {
 	public static SpriteSheet douglasSheet = new SpriteSheet("/entities/douglas/douglas.png", 1280);
 	public static SpriteSheet nolanSheet = new SpriteSheet("/entities/nolan/nolan.png", 1280);
 	public static SpriteSheet trapsSheet = new SpriteSheet("/objects/traps.png", 1280);
+	public static SpriteSheet hudSheet = new SpriteSheet("/hud/hud.png", 640);
 
 	
 	public SpriteSheet(String path, int size) {
