@@ -1,6 +1,8 @@
 package thequizmaster.questions;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Random;
 
 import org.json.simple.JSONObject;
 
@@ -11,6 +13,8 @@ public class Question {
 	private ArrayList<String> options;
 	private ArrayList<String> answers;
 	private ArrayList<String> categories;
+	
+	private static Random random = new Random();
 	
 	public Question(JSONObject question) {
 		this.question = (String) question.get("question");
@@ -29,6 +33,7 @@ public class Question {
 	}
 
 	public ArrayList<String> getOptions() {
+		
 		return options;
 	}
 
@@ -38,6 +43,22 @@ public class Question {
 
 	public ArrayList<String> getCategories() {
 		return categories;
+	}
+	
+	public ArrayList<String> getOptionsAnswer(){
+		ArrayList<String> finalOptions = new ArrayList<>();
+		int randomSelection = random.nextInt(answers.size());
+		finalOptions.add(answers.get(randomSelection));
+		Collections.shuffle(options);
+		if(options.size() == 1) {
+			finalOptions.add(options.get(0));
+		} else {
+			for(int i = 0; i < 3; i++) {
+				finalOptions.add(options.get(i));
+			}
+		}
+		Collections.shuffle(finalOptions);
+		return finalOptions;	
 	}
 	
 }

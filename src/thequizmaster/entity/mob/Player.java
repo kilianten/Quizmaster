@@ -1,5 +1,7 @@
 package thequizmaster.entity.mob;
 
+
+import thequizmaster.Game;
 import thequizmaster.graphics.Screen;
 import thequizmaster.graphics.Sprite;
 import thequizmaster.input.Keyboard;
@@ -11,7 +13,7 @@ public class Player extends Mob {
 	private boolean walking = false;
 	private boolean animating = false;
 	public String fname;
-	protected double speed = 2; 
+	protected double speed = 2;
 
 	private int currentAnimIndex = 0;
 	private long lastUpdate = 0;

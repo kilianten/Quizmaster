@@ -28,7 +28,19 @@ public class Sprite {
     public static Sprite brickTileCorner = new Sprite(Constants.DEFAULT_SPRITE_SIZE, 1, 3, SpriteSheet.tileSheet);
 
     //HUD
-    public static Sprite countdownDisplay = new Sprite(16, 0, 0, SpriteSheet.hudSheet);
+    public static Sprite[] countdownDisplay = new Sprite[] {
+    		new Sprite(16, 0, 0, SpriteSheet.hudSheet),
+    		new Sprite(16, 1, 0, SpriteSheet.hudSheet),
+    		new Sprite(16, 2, 0, SpriteSheet.hudSheet),
+			new Sprite(16, 3, 0, SpriteSheet.hudSheet),
+			new Sprite(16, 4, 0, SpriteSheet.hudSheet),
+			new Sprite(16, 5, 0, SpriteSheet.hudSheet),
+			new Sprite(16, 6, 0, SpriteSheet.hudSheet),
+			new Sprite(16, 7, 0, SpriteSheet.hudSheet),
+			new Sprite(16, 8, 0, SpriteSheet.hudSheet),
+			new Sprite(16, 9, 0, SpriteSheet.hudSheet),
+			new Sprite(16, 10, 0, SpriteSheet.hudSheet),
+			new Sprite(16, 11, 0, SpriteSheet.hudSheet)};
     
     //OBJECTS
     public static Sprite tripWire = new Sprite(32, 0, 0, SpriteSheet.trapsSheet, 66);

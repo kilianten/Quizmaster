@@ -4,6 +4,7 @@ import java.awt.Canvas;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Font;
+import java.awt.FontFormatException;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.RadialGradientPaint;
@@ -11,6 +12,8 @@ import java.awt.geom.Point2D;
 import java.awt.image.BufferStrategy;
 import java.awt.image.BufferedImage;
 import java.awt.image.DataBufferInt;
+import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 
 import javax.swing.JFrame;
@@ -42,6 +45,8 @@ public class Game extends Canvas implements Runnable{
 	private Keyboard key;
 	private GameState gameState;
 	
+	public static Font digestFont;
+	
 	public boolean printStats = false;
 	
 	private BufferedImage image = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
@@ -57,6 +62,17 @@ public class Game extends Canvas implements Runnable{
 		key = new Keyboard();
 		addKeyListener(key);
 		gameState = new MainGame(key);
+		createFont();
+		
+	}
+
+	private void createFont() {
+		
+        try {
+        	digestFont = Font.createFont(Font.TRUETYPE_FONT, new File("course.otf")).deriveFont(20f);
+        } catch(IOException | FontFormatException e) {
+        	System.out.println("Could not load custom font");
+        }
 	}
 
 	public synchronized void start() {
@@ -136,8 +152,15 @@ public class Game extends Canvas implements Runnable{
 			screen.renderLight((Graphics2D) g, gameState.getPlayer().x, gameState.getPlayer().y);
 			
 		}
-
-		gameState.renderHUD(screen);
+		
+		g.setColor(Color.WHITE);
+		g.setFont(digestFont);
+		
+		if(printStats) {
+			printStats(g);
+		}
+		
+		gameState.renderHUD(screen, g);
 		
 		for(int i = 0; i < pixels.length; i++){
 			HUDpixels[i] = screen.getHUDPixels()[i];
@@ -145,17 +168,12 @@ public class Game extends Canvas implements Runnable{
 		
 		g.drawImage(HUDimage, 0, 0, getWidth(), getHeight(), null);	
 		
-		if(printStats) {
-			printStats(g);
-		}
 		//graphics end
 		g.dispose();
 		bs.show();
 	}
 	
 	public void printStats(Graphics g) {
-		g.setColor(Color.WHITE);
-		g.setFont(new Font("Verdana", 0, 20));
 		g.drawString("X: " + gameState.getPlayer().x + ", Y: " + gameState.getPlayer().y, 0, 20);
 		g.drawString("XTILE: " + gameState.getPlayer().x / Constants.DEFAULT_SPRITE_SIZE + ", YTILE: " + gameState.getPlayer().y / Constants.DEFAULT_SPRITE_SIZE, 200, 20);
 	}

@@ -2,9 +2,13 @@ package thequizmaster.graphics;
 
 import java.awt.AlphaComposite;
 import java.awt.Color;
+import java.awt.Font;
+import java.awt.FontFormatException;
 import java.awt.Graphics2D;
 import java.awt.RadialGradientPaint;
 import java.awt.geom.Point2D;
+import java.io.File;
+import java.io.IOException;
 import java.util.Random;
 
 import thequizmaster.Constants;
@@ -36,6 +40,9 @@ public class Screen {
     public void clear(){
         for(int i = 0; i < pixels.length; i++){
             pixels[i] = 0x000000;
+        }
+        for(int i = 0; i < pixels.length; i++){
+            HUDpixels[i] = 0x000000;
         }
     }
 

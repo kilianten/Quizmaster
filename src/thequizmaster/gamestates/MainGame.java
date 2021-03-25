@@ -1,5 +1,6 @@
 package thequizmaster.gamestates;
 
+import java.awt.Graphics;
 import java.util.ArrayList;
 
 import thequizmaster.entity.mob.Player;
@@ -44,8 +45,7 @@ public class MainGame extends GameState {
 	public void checkCollidables() {
 		for(int i = 0; i < level.collidableObjects.size(); i++) {
 			if(Hitbox.isColliding(level.collidableObjects.get(i).hitbox, player.hitbox)) {
-				isQuizActive = true;
-				player.canMove = false;
+				removePlayerControl();
 				level.gameObjects.remove(i);
 				level.collidableObjects.remove(i);
 				quiz = new WireTrap(questionHandler.getQuestion(1));
@@ -53,13 +53,29 @@ public class MainGame extends GameState {
 		}
 	}
 	
+	private void removePlayerControl() {
+		isQuizActive = true;
+		player.canMove = false;
+	}
+	
+	private void givePlayerControl() {
+		isQuizActive = false;
+		player.canMove = true;
+	}
+
 	public void update() {
 		key.update();
 		player.update();
 		level.update();
 		checkCollidables();
 		if(!(quiz == null)) {
-			quiz.update();
+			if(quiz.isFinished) {
+				quiz = null;
+				givePlayerControl();
+			}
+			else {
+				quiz.update();
+			}
 		}
 		
 		if(key.changePlayer) {
@@ -70,9 +86,9 @@ public class MainGame extends GameState {
 		}
 	}
 	
-	public void renderHUD(Screen screen) {
+	public void renderHUD(Screen screen, Graphics g) {
 		if(!(quiz == null)) {
-			quiz.renderHUD(screen);
+			quiz.renderHUD(screen, g);
 		}
 	}
 	

@@ -8,6 +8,7 @@ thequizmaster\objects\CollidableObject.class
 thequizmaster\quizmode\ChainGame.class
 thequizmaster\questions\QuestionHandler.class
 thequizmaster\graphics\Sprite.class
+thequizmaster\objects\CountdownTimer.class
 thequizmaster\level\SpawnRoom.class
 thequizmaster\entity\mob\Mob.class
 thequizmaster\quizmode\WireTrap.class
@@ -18,6 +19,7 @@ thequizmaster\input\Keyboard.class
 thequizmaster\objects\TripWire.class
 thequizmaster\level\RandomLevel.class
 thequizmaster\graphics\Light.class
+thequizmaster\questions\Question.class
 thequizmaster\graphics\LightSource.class
 thequizmaster\quizmode\QuizMode.class
 thequizmaster\entity\mob\Player.class

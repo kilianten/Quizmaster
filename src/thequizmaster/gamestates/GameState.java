@@ -1,5 +1,7 @@
 package thequizmaster.gamestates;
 
+import java.awt.Graphics;
+
 import thequizmaster.entity.mob.Player;
 import thequizmaster.graphics.Screen;
 
@@ -18,7 +20,7 @@ public class GameState {
 		return null;
 	}
 
-	public void renderHUD(Screen screen) {
+	public void renderHUD(Screen screen, Graphics g) {
 	
 	}
 }
