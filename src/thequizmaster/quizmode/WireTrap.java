@@ -6,55 +6,67 @@ import java.awt.Graphics;
 import java.util.ArrayList;
 
 import thequizmaster.Game;
+import thequizmaster.entity.mob.Player;
+import thequizmaster.gamestates.MainGame;
+import thequizmaster.graphics.Animation;
 import thequizmaster.graphics.Screen;
+import thequizmaster.input.Keyboard;
 import thequizmaster.objects.CountdownTimer;
 import thequizmaster.questions.Question;
 
 public class WireTrap extends QuizMode{
 	
-	private Question question;
 	private CountdownTimer timer;
-	private ArrayList<String> questionOptions;
+	private Player player;
+	private Animation deathAnimation;
 
-	public WireTrap(Question question) {
-		this.question = question;
-		questionOptions = question.getOptionsAnswer();
-		timer = new CountdownTimer(13);
+	public WireTrap(Question question, Keyboard input, Player player) {
+		super(question, input);
+		timer = new CountdownTimer(20000);
+		this.player = player;
 	}
 	
 	public void renderHUD(Screen screen, Graphics g) {
-		//#BDCACD
-		FontMetrics metrics = g.getFontMetrics(Game.digestFont);
-		int yOffset = 0;
-		for(int i = 0; i < questionOptions.size(); i++) {
-			g.setColor(new Color(0xff523C52));
-			g.fillRect(150, 250 + yOffset, 1000, 100);
-			yOffset += 120;
-		}
-		yOffset = 0;
-		for(int i = 0; i < questionOptions.size(); i++) {
-			g.setColor(Color.WHITE);
-			g.drawString(questionOptions.get(i), 190, 300 + yOffset);
-			yOffset += 120;
-		}
-		
-		g.setColor(Color.WHITE);
-		g.fillRect(150, 100, 1000, 100);
-		
-		g.setColor(new Color(0xff523C52));
-		g.fillRect(150, 100, 1000, 100);
-		g.setColor(Color.WHITE);
-		int x = 100 + (1000 - metrics.stringWidth(question.getQuestion())) / 2;
-		g.drawString(question.getQuestion(), x, 150);
+		drawQuestion(g);
 		screen.renderFixedObject(5, 5, timer.sprite);
 	}
 	
 	public void update() {
+		super.update();
+		if(isGameEnding) {
+			endGame();
+		}
+		if (input.enterReleased) {
+			input.enterReleased = false;
+			if(!answeredCorrectly) {
+				isGameEnding = true;
+				deathAnimation = new Animation(.5, player.wireTrapDeathAnim, player, 10);
+				player.dying = true;
+				endGame();
+			}
+		}	
 		if(timer.isFinished) {
 			isFinished = true;
 		}
 		timer.update();
 	}
+	
+	public void endGame() {
+		System.out.println("ENDGAME METHOD");
+		if(deathAnimation.isFinished) {
+			isGameEnded = true;
+		} else {
+			deathAnimation.update();
+
+		}
+	}
+	
+	public void tidyUp(MainGame game) {
+		game.quiz = null;
+		game.replaceCurrentPlayer();
+	}
+	
+	
 
 	
 }

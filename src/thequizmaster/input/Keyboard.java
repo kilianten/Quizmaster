@@ -7,13 +7,16 @@ import thequizmaster.Constants;
 
 public class Keyboard implements KeyListener {
 
-    private boolean[] keys = new boolean[200];
+    private boolean[] keys = new boolean[524];
     public boolean up;
     public boolean down;
     public boolean left;
     public boolean right;
     public boolean slashPressed = false;
     public boolean changePlayer = false;
+    public boolean upReleased = false;
+    public boolean downReleased = false;
+    public boolean enterReleased = false;
 
     public void update(){
         up = keys[KeyEvent.VK_UP] || keys[KeyEvent.VK_W];
@@ -36,6 +39,15 @@ public class Keyboard implements KeyListener {
         }
         if(e.getKeyCode() == Constants.KEY_E) {
         	changePlayer = true;
+        }
+        if(e.getKeyCode() == KeyEvent.VK_UP || e.getKeyCode() == KeyEvent.VK_W) {
+        	upReleased = true;
+        }
+        if(e.getKeyCode() == KeyEvent.VK_DOWN || e.getKeyCode() == KeyEvent.VK_S) {
+        	downReleased = true;
+        }
+        if(e.getKeyCode() == KeyEvent.VK_ENTER || e.getKeyCode() == KeyEvent.VK_SPACE) {
+        	enterReleased = true;
         }
     }
 

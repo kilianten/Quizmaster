@@ -19,8 +19,12 @@ public class Constants {
 	
 	//Probabilities
 	public static final int CHANCE_OF_SPAWNING_TRIPWIRE = 3;
+	public static final int SELECTED_RECT_COLOR = 0xffB47139;
 	
 	public static int screenWidth = 350;
 	public static int screenHeight = screenWidth / 16 * 9;
+	
+	//questions
+	public static int questionSelectedPadding = 5;
 
 }

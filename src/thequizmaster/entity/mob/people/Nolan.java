@@ -28,6 +28,7 @@ public class Nolan extends Player {
 		walkingFowardAnim = NolanSprites.nolanWalkingFrontSprites;
 		walkingBackAnim = NolanSprites.nolanWalkingFrontSprites;
 		walkingLeftAnim = NolanSprites.nolanWalkingFrontSprites;
+		wireTrapDeathAnim = DouglasSprites.douglasWireTrapDeathSprites;
 
 		sprite = standingSprites[0];
 	}

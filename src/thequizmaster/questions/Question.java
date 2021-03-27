@@ -13,6 +13,7 @@ public class Question {
 	private ArrayList<String> options;
 	private ArrayList<String> answers;
 	private ArrayList<String> categories;
+	private String answer;
 	
 	private static Random random = new Random();
 	
@@ -40,6 +41,10 @@ public class Question {
 	public ArrayList<String> getAnswers() {
 		return answers;
 	}
+	
+	public String getAnswer() {
+		return answer;
+	}
 
 	public ArrayList<String> getCategories() {
 		return categories;
@@ -48,6 +53,7 @@ public class Question {
 	public ArrayList<String> getOptionsAnswer(){
 		ArrayList<String> finalOptions = new ArrayList<>();
 		int randomSelection = random.nextInt(answers.size());
+		answer = answers.get(randomSelection);
 		finalOptions.add(answers.get(randomSelection));
 		Collections.shuffle(options);
 		if(options.size() == 1) {

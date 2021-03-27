@@ -25,7 +25,7 @@ public class MainGame extends GameState {
 	private Keyboard key;
 	private boolean isQuizActive = false;
 	private QuestionHandler questionHandler;
-	private QuizMode quiz;
+	public QuizMode quiz;
 	
 	public MainGame(Keyboard key) {
 		questionHandler = new QuestionHandler();
@@ -48,7 +48,7 @@ public class MainGame extends GameState {
 				removePlayerControl();
 				level.gameObjects.remove(i);
 				level.collidableObjects.remove(i);
-				quiz = new WireTrap(questionHandler.getQuestion(1));
+				quiz = new WireTrap(questionHandler.getQuestion(3), key, player);
 			}
 		}
 	}
@@ -69,12 +69,16 @@ public class MainGame extends GameState {
 		level.update();
 		checkCollidables();
 		if(!(quiz == null)) {
-			if(quiz.isFinished) {
+			if(quiz.isFinished || quiz.answeredCorrectly) {
 				quiz = null;
 				givePlayerControl();
 			}
 			else {
-				quiz.update();
+				if(quiz.isGameEnded) {
+					quiz.tidyUp(this);
+				} else {
+					quiz.update();
+				}
 			}
 		}
 		
@@ -127,8 +131,17 @@ public class MainGame extends GameState {
 	}
 	
 	public void swapPlayer() {
-		people.add(player);
-		player.resetSprite();
+		if(people.size() > 0) {
+			people.add(player);
+			player.resetSprite();
+			player = people.get(0);
+			people.remove(player);
+		}
+	}
+	
+	public void replaceCurrentPlayer() {
+		
+		
 		player = people.get(0);
 		people.remove(player);
 	}

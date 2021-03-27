@@ -18,6 +18,7 @@ public class Player extends Mob {
 	private int currentAnimIndex = 0;
 	private long lastUpdate = 0;
 	private long currentAnimUpdateTime = 100;
+	public boolean dying = false;
 	
 	private String bio;
 	private String bestCategory;
@@ -27,6 +28,7 @@ public class Player extends Mob {
 	protected Sprite[] walkingFowardAnim;
 	protected Sprite[] walkingBackAnim;
 	protected Sprite[] walkingLeftAnim;
+	public Sprite[] wireTrapDeathAnim;
 
 	public Player(Keyboard input) {
 		this.input = input;
@@ -97,7 +99,7 @@ public class Player extends Mob {
 	public void render(Screen screen) {
 		int xx = x - 32;
 		int yy = y - 32;
-		if (!walking) {
+		if (!walking && !dying) {
 			sprite = standingSprites[dir];
 		}
 		screen.renderPlayer(xx, yy, sprite);
