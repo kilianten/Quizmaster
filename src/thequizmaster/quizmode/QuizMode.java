@@ -89,9 +89,28 @@ public class QuizMode {
 			yOffset += 120;
 		}
 		
+		String[] currentQuestion = question.getQuestion();
+		for(int i = 0; i < currentQuestion.length; i++) {
+
+			int x = 100 + (1000 - metrics.stringWidth(currentQuestion[i])) / 2;
+			g.drawString(currentQuestion[i], x, 150 + (i * 20));
 		
-		int x = 100 + (1000 - metrics.stringWidth(question.getQuestion())) / 2;
-		g.drawString(question.getQuestion(), x, 150);
+		}
+
+		
+	}
+	
+	public String[] SplitString(String text, FontMetrics metrics) {
+		while(metrics.stringWidth(text) > 1000) {
+			String temporary = " ";
+			String nextString = " ";
+			if(metrics.stringWidth(temporary + nextString) > 1000) {
+				
+			} else {
+				
+			}
+		}
+		return null;
 	}
 
 	private void drawQuestionRects(Graphics g) {

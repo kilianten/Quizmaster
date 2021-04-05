@@ -1,10 +1,15 @@
 package thequizmaster.questions;
 
+import java.awt.FontMetrics;
+import java.awt.image.BufferStrategy;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Random;
 
 import org.json.simple.JSONObject;
+
+import thequizmaster.Constants;
+import thequizmaster.Game;
 
 public class Question {
 	
@@ -20,13 +25,27 @@ public class Question {
 	public Question(JSONObject question) {
 		this.question = (String) question.get("question");
 		this.difficulty = (Long) question.get("difficulty");
-		this.answers = (ArrayList) question.get("answers");
-		this.options = (ArrayList) question.get("options");
-		this.categories = (ArrayList) question.get("categories");
+		answers = (ArrayList) question.get("answers");
+		options = (ArrayList) question.get("options");
+		categories = (ArrayList) question.get("categories");
 	}
 
-	public String getQuestion() {
-		return question;
+	public String[] getQuestion() {
+		String[] splitQuestion = question.split(" ");
+		int numberOfStrings = question.length() / Constants.splitQuestionRows + 1;
+		int index = 0;
+		String[] finalString = new String[numberOfStrings];
+		for(int i = 0; i < numberOfStrings; i++)
+		{
+			String newString = "";
+			while(newString.length() <= Constants.splitQuestionRows && index < splitQuestion.length) {
+				newString += splitQuestion[index] + " ";
+				index++;
+			}
+			finalString[i] = newString;
+			System.out.println(newString);
+		}
+		return finalString;
 	}
 
 	public Long getDifficulty() {

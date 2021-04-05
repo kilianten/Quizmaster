@@ -22,7 +22,7 @@ public class WireTrap extends QuizMode{
 
 	public WireTrap(Question question, Keyboard input, Player player) {
 		super(question, input);
-		timer = new CountdownTimer(20000);
+		timer = new CountdownTimer(200000);
 		this.player = player;
 	}
 	

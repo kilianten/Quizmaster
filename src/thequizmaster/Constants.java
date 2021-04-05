@@ -26,5 +26,6 @@ public class Constants {
 	
 	//questions
 	public static int questionSelectedPadding = 5;
+	public static int splitQuestionRows = 45;
 
 }
