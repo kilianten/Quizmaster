@@ -5,8 +5,6 @@ import thequizmaster.graphics.Sprite;
 
 public class TripWire extends CollidableObject {
 	
-	private int x;
-	private int y;
 	private boolean tripped = false;
 	private Sprite sprite = Sprite.tripWire;
 	
@@ -15,11 +13,11 @@ public class TripWire extends CollidableObject {
 		this.x = x;
 		hitbox = new Hitbox(x, y, 2, 64, 15, 2);
 	}
-	
+
 	public void render(Screen screen) {
 		screen.renderObject(x, y, sprite);
 	}
-
+	
 	public void update() {
 		
 	}

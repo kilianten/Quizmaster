@@ -44,7 +44,6 @@ public class Sprite {
     
     //OBJECTS
     public static Sprite tripWire = new Sprite(32, 0, 0, SpriteSheet.trapsSheet, 66);
-
     
     public Sprite(int size, int x, int y, SpriteSheet sheet) {
         SIZE = size;

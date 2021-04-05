@@ -1,16 +1,12 @@
 package thequizmaster.quizmode;
 
-import java.awt.Color;
-import java.awt.FontMetrics;
 import java.awt.Graphics;
-import java.util.ArrayList;
-
-import thequizmaster.Game;
 import thequizmaster.entity.mob.Player;
 import thequizmaster.gamestates.MainGame;
 import thequizmaster.graphics.Animation;
 import thequizmaster.graphics.Screen;
 import thequizmaster.input.Keyboard;
+import thequizmaster.objects.Corpse;
 import thequizmaster.objects.CountdownTimer;
 import thequizmaster.questions.Question;
 
@@ -22,7 +18,7 @@ public class WireTrap extends QuizMode{
 
 	public WireTrap(Question question, Keyboard input, Player player) {
 		super(question, input);
-		timer = new CountdownTimer(200000);
+		timer = new CountdownTimer(30);
 		this.player = player;
 	}
 	
@@ -40,7 +36,7 @@ public class WireTrap extends QuizMode{
 			input.enterReleased = false;
 			if(!answeredCorrectly) {
 				isGameEnding = true;
-				deathAnimation = new Animation(.5, player.wireTrapDeathAnim, player, 10);
+				deathAnimation = new Animation(.7, player.wireTrapDeathAnim, player, 10);
 				player.dying = true;
 				endGame();
 			}
@@ -52,7 +48,6 @@ public class WireTrap extends QuizMode{
 	}
 	
 	public void endGame() {
-		System.out.println("ENDGAME METHOD");
 		if(deathAnimation.isFinished) {
 			isGameEnded = true;
 		} else {
@@ -62,6 +57,7 @@ public class WireTrap extends QuizMode{
 	}
 	
 	public void tidyUp(MainGame game) {
+		game.addDrawObject(new Corpse(player.x, player.y, player.wireTrapCorpse));
 		game.quiz = null;
 		game.replaceCurrentPlayer();
 	}

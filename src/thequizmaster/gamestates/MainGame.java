@@ -11,6 +11,8 @@ import thequizmaster.graphics.Screen;
 import thequizmaster.input.Keyboard;
 import thequizmaster.level.Level;
 import thequizmaster.level.SpawnLevel;
+import thequizmaster.objects.Corpse;
+import thequizmaster.objects.GameObject;
 import thequizmaster.objects.Hitbox;
 import thequizmaster.questions.QuestionHandler;
 import thequizmaster.quizmode.QuizMode;
@@ -21,6 +23,7 @@ public class MainGame extends GameState {
 	private Player player;
 	private LightSource light;
 	private ArrayList<Player> people;
+	private ArrayList<GameObject> drawObjects;
 	private Level level;
 	private Keyboard key;
 	private boolean isQuizActive = false;
@@ -32,6 +35,7 @@ public class MainGame extends GameState {
 		this.key = key;
 		level = new SpawnLevel("/levels/level01.png");
 		people = new ArrayList<Player>();
+		drawObjects = new ArrayList<GameObject>();
 		addPeople();
 		player = new Douglas(key, level);
 		light = new LightSource(500, player.x, player.y);
@@ -113,10 +117,21 @@ public class MainGame extends GameState {
 				person.render(screen);
 			}
 		}
+		for(GameObject object: drawObjects) {
+			if(object.y < player.y) {
+				object.render(screen);
+			}
+		}
+		
 		player.render(screen);
 		for(Player person: people) {
 			if(person.y >= player.y) {
 				person.render(screen);
+			}
+		}
+		for(GameObject object: drawObjects) {
+			if(object.y >= player.y) {
+				object.render(screen);
 			}
 		}
 	
@@ -140,10 +155,12 @@ public class MainGame extends GameState {
 	}
 	
 	public void replaceCurrentPlayer() {
-		
-		
 		player = people.get(0);
 		people.remove(player);
+	}
+
+	public void addDrawObject(GameObject object) {
+		drawObjects.add(object);
 	}
 	
 }

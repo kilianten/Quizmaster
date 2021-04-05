@@ -1,5 +1,6 @@
 package thequizmaster.objects;
 
+import thequizmaster.graphics.Screen;
 import thequizmaster.graphics.Sprite;
 
 public class CountdownTimer {
@@ -15,10 +16,6 @@ public class CountdownTimer {
 		this.sprite = Sprite.countdownDisplay[0];
 		this.duration = duration;
 		updateRate = duration / Sprite.countdownDisplay.length;
-	}
-
-	public void render() {
-		// TODO Auto-generated method stub
 	}
 	
 	public void update() {

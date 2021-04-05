@@ -93,7 +93,7 @@ public class QuizMode {
 		for(int i = 0; i < currentQuestion.length; i++) {
 
 			int x = 100 + (1000 - metrics.stringWidth(currentQuestion[i])) / 2;
-			g.drawString(currentQuestion[i], x, 150 + (i * 20));
+			g.drawString(currentQuestion[i], x, 130 + (i * 20));
 		
 		}
 

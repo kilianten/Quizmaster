@@ -43,7 +43,6 @@ public class Question {
 				index++;
 			}
 			finalString[i] = newString;
-			System.out.println(newString);
 		}
 		return finalString;
 	}

@@ -28,8 +28,10 @@ public class Player extends Mob {
 	protected Sprite[] walkingFowardAnim;
 	protected Sprite[] walkingBackAnim;
 	protected Sprite[] walkingLeftAnim;
+	protected Sprite[] walkingRightAnim;
 	public Sprite[] wireTrapDeathAnim;
-
+	public Sprite wireTrapCorpse;
+	
 	public Player(Keyboard input) {
 		this.input = input;
 		hitbox = new Hitbox(16, 12, -4, 10);
@@ -81,6 +83,9 @@ public class Player extends Mob {
 	private void setWalkingAnim() {
 		if(dir == 0) {
 			currentAnim = walkingBackAnim;
+		}
+		else if(dir == 1) {
+			currentAnim = walkingRightAnim;
 		}
 		else if(dir == 3) {
 			currentAnim = walkingLeftAnim;

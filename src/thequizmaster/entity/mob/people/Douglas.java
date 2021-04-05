@@ -27,7 +27,9 @@ public class Douglas extends Player {
 		walkingFowardAnim = DouglasSprites.douglasWalkingFrontSprites;
 		walkingBackAnim = DouglasSprites.douglasWalkingBackSprites;
 		walkingLeftAnim = DouglasSprites.douglasWalkingLeftSprites;
+		walkingRightAnim = DouglasSprites.douglasWalkingRightSprites;
 		wireTrapDeathAnim = DouglasSprites.douglasWireTrapDeathSprites;
+		wireTrapCorpse = DouglasSprites.douglasWireTrapCorpse;
 		sprite = standingSprites[0];
 	}
 	

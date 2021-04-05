@@ -1,25 +1,22 @@
 package thequizmaster.objects;
 
-import thequizmaster.Constants;
 import thequizmaster.graphics.Screen;
 import thequizmaster.graphics.Sprite;
 
 public class GameObject {
 	
-	private int x;
-	private int y;
+	protected int x;
+	public int y;
 	protected Sprite sprite;
 	
-	
 	public void render(Screen screen) {
+		screen.renderObject(x, y, sprite);
 	}
 
 	public void update() {
 		
 	}
 	
-	public boolean checkCollision(int x, int y, int dir) {
-		return false;
-	}
+
 	
 }
