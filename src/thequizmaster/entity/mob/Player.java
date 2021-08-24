@@ -14,6 +14,10 @@ public class Player extends Mob {
 	private boolean animating = false;
 	public String fname;
 	protected double speed = 2;
+	public int poisonLevel = 100;
+
+	public int poisonRate = 120;
+	public int poisonCounter = 0;
 
 	private int currentAnimIndex = 0;
 	private long lastUpdate = 0;
@@ -77,6 +81,17 @@ public class Player extends Mob {
 		} else {
 			walking = false;
 			animating = false;
+		}
+
+		poisonPlayer();
+	}
+
+	private void poisonPlayer(){
+		if(poisonCounter >= poisonRate){
+			poisonLevel--;
+			poisonCounter = 0;
+		} else{
+			poisonCounter++;
 		}
 	}
 

@@ -9,7 +9,7 @@ import thequizmaster.graphics.Screen;
 import thequizmaster.level.tile.Tile;
 import thequizmaster.objects.CollidableObject;
 import thequizmaster.objects.GameObject;
-import thequizmaster.objects.TripWire;
+import thequizmaster.objects.traps.TripWire;
 
 public class Level {
 

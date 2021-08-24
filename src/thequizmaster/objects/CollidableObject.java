@@ -8,4 +8,8 @@ public class CollidableObject extends GameObject {
 		return false;
 	}
 	
+	public void hasCollided() {
+		
+	}
+	
 }

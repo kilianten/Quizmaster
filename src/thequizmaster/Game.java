@@ -63,7 +63,6 @@ public class Game extends Canvas implements Runnable{
 		addKeyListener(key);
 		gameState = new MainGame(key);
 		createFont();
-		
 	}
 
 	private void createFont() {

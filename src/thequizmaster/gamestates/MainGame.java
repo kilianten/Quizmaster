@@ -14,6 +14,7 @@ import thequizmaster.level.SpawnLevel;
 import thequizmaster.objects.Corpse;
 import thequizmaster.objects.GameObject;
 import thequizmaster.objects.Hitbox;
+import thequizmaster.objects.hud.PoisonBar;
 import thequizmaster.questions.QuestionHandler;
 import thequizmaster.quizmode.QuizMode;
 import thequizmaster.quizmode.WireTrap;
@@ -29,6 +30,7 @@ public class MainGame extends GameState {
 	private boolean isQuizActive = false;
 	private QuestionHandler questionHandler;
 	public QuizMode quiz;
+	private PoisonBar poisonBar;
 	
 	public MainGame(Keyboard key) {
 		questionHandler = new QuestionHandler();
@@ -40,6 +42,11 @@ public class MainGame extends GameState {
 		player = new Douglas(key, level);
 		light = new LightSource(500, player.x, player.y);
 		quiz = null;
+		createHUD();
+	}
+
+	private void createHUD() {
+		poisonBar = new PoisonBar();
 	}
 	
 	private void addPeople() {
@@ -49,6 +56,7 @@ public class MainGame extends GameState {
 	public void checkCollidables() {
 		for(int i = 0; i < level.collidableObjects.size(); i++) {
 			if(Hitbox.isColliding(level.collidableObjects.get(i).hitbox, player.hitbox)) {
+				level.collidableObjects.get(i).hasCollided();
 				removePlayerControl();
 				level.gameObjects.remove(i);
 				level.collidableObjects.remove(i);
@@ -69,8 +77,6 @@ public class MainGame extends GameState {
 
 	public void update() {
 		key.update();
-		player.update();
-		level.update();
 		checkCollidables();
 		if(!(quiz == null)) {
 			if(quiz.isFinished || quiz.answeredCorrectly) {
@@ -84,6 +90,9 @@ public class MainGame extends GameState {
 					quiz.update();
 				}
 			}
+		} else {
+			player.update();
+			level.update();
 		}
 		
 		if(key.changePlayer) {
@@ -97,6 +106,8 @@ public class MainGame extends GameState {
 	public void renderHUD(Screen screen, Graphics g) {
 		if(!(quiz == null)) {
 			quiz.renderHUD(screen, g);
+		} else {
+			poisonBar.render(screen, player.poisonLevel);
 		}
 	}
 	

@@ -26,6 +26,7 @@ public class Sprite {
 
     public static Sprite brickTile = new Sprite(Constants.DEFAULT_SPRITE_SIZE, 1, 1, SpriteSheet.tileSheet);
     public static Sprite brickTileCorner = new Sprite(Constants.DEFAULT_SPRITE_SIZE, 1, 3, SpriteSheet.tileSheet);
+    public static Sprite poisonBar = new Sprite(128, 7, 0, SpriteSheet.hudSheet, 32);
 
     //HUD
     public static Sprite[] countdownDisplay = new Sprite[] {
@@ -43,7 +44,13 @@ public class Sprite {
 			new Sprite(16, 11, 0, SpriteSheet.hudSheet)};
     
     //OBJECTS
+    //OBJECTS-TRAPS
     public static Sprite tripWire = new Sprite(32, 0, 0, SpriteSheet.trapsSheet, 66);
+    public static Sprite[] chainGameSaw = new Sprite[] {
+    		new Sprite(16, 0, 0, SpriteSheet.trapsSheet),
+    		new Sprite(16, 1, 0, SpriteSheet.trapsSheet),
+    		new Sprite(16, 2, 0, SpriteSheet.trapsSheet),
+			new Sprite(16, 3, 0, SpriteSheet.trapsSheet)};
     
     public Sprite(int size, int x, int y, SpriteSheet sheet) {
         SIZE = size;

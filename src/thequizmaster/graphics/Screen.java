@@ -115,7 +115,16 @@ public class Screen {
         	}
     	}
     }
-    
+
+	public void drawHUDRect(int xp, int yp, int rectWidth, int rectHeight, int colour) {
+		for(int y = 0; y < rectHeight; y++) {
+			int ya = yp + y;
+			for(int x = 0; x < rectWidth; x++) {
+				int xa = xp + x;
+				HUDpixels[xa + ya * width] = colour;
+			}
+		}
+	}
     
     public void renderHitbox(Hitbox hitbox) {
     	int xp = hitbox.getX() - xOffset;
@@ -147,7 +156,7 @@ public class Screen {
 		g.setComposite(AlphaComposite.getInstance(AlphaComposite.SRC_OVER, .95f));
 		g.fillRect(0, 0, Constants.screenWidth * 4, Constants.screenHeight * 4);
 	}
-   
+
     public void setOffset(int xOffset, int yOffset) {
     	this.xOffset = xOffset;
     	this.yOffset = yOffset;

@@ -18,6 +18,7 @@ thequizmaster\Game.class
 thequizmaster\input\Keyboard.class
 thequizmaster\objects\TripWire.class
 thequizmaster\level\RandomLevel.class
+thequizmaster\objects\Corpse.class
 thequizmaster\graphics\Light.class
 thequizmaster\questions\Question.class
 thequizmaster\graphics\LightSource.class
@@ -32,6 +33,7 @@ thequizmaster\gamestates\MainGame.class
 thequizmaster\gamestates\MainMenu.class
 thequizmaster\graphics\people\DouglasSprites.class
 thequizmaster\objects\Hitbox.class
+thequizmaster\graphics\Animation.class
 thequizmaster\level\Level.class
 thequizmaster\gamestates\GameState.class
 thequizmaster\objects\GameObject.class

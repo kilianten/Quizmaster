@@ -8,7 +8,7 @@ import javax.imageio.ImageIO;
 
 import thequizmaster.Constants;
 import thequizmaster.level.tile.Tile;
-import thequizmaster.objects.TripWire;
+import thequizmaster.objects.traps.TripWire;
 
 public class SpawnLevel extends Level {
 	

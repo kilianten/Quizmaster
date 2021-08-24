@@ -23,6 +23,7 @@ C:\Users\Kilian\workspace\TheQuizmaster\src\thequizmaster\gamestates\MainMenu.ja
 C:\Users\Kilian\workspace\TheQuizmaster\src\thequizmaster\objects\TripWire.java
 C:\Users\Kilian\workspace\TheQuizmaster\src\thequizmaster\quizmode\WireTrap.java
 C:\Users\Kilian\workspace\TheQuizmaster\src\thequizmaster\quizmode\ChainGame.java
+C:\Users\Kilian\workspace\TheQuizmaster\src\thequizmaster\graphics\Animation.java
 C:\Users\Kilian\workspace\TheQuizmaster\src\thequizmaster\level\tile\FloorTile.java
 C:\Users\Kilian\workspace\TheQuizmaster\src\thequizmaster\level\tile\VoidTile.java
 C:\Users\Kilian\workspace\TheQuizmaster\src\thequizmaster\objects\GameObject.java
@@ -30,6 +31,7 @@ C:\Users\Kilian\workspace\TheQuizmaster\src\thequizmaster\objects\Hitbox.java
 C:\Users\Kilian\workspace\TheQuizmaster\src\thequizmaster\level\tile\BrickTile.java
 C:\Users\Kilian\workspace\TheQuizmaster\src\thequizmaster\level\SpawnLevel.java
 C:\Users\Kilian\workspace\TheQuizmaster\src\thequizmaster\graphics\Light.java
+C:\Users\Kilian\workspace\TheQuizmaster\src\thequizmaster\objects\Corpse.java
 C:\Users\Kilian\workspace\TheQuizmaster\src\thequizmaster\objects\CollidableObject.java
 C:\Users\Kilian\workspace\TheQuizmaster\src\thequizmaster\graphics\Screen.java
 C:\Users\Kilian\workspace\TheQuizmaster\src\thequizmaster\level\Level.java

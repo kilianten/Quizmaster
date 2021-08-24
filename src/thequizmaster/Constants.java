@@ -28,4 +28,6 @@ public class Constants {
 	public static int questionSelectedPadding = 5;
 	public static int splitQuestionRows = 50;
 
+	public static int[] poisonGradient = new int[] {0xffa92562,0xffc03358,0xffd2484c,0xffdd5f3f,0xffe27932,0xffe29426,0xffdbae23,0xffcec82f,0xffbbe24a, 0xffa0fa6e};
+
 }
