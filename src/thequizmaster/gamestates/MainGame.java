@@ -16,6 +16,8 @@ import thequizmaster.objects.GameObject;
 import thequizmaster.objects.Hitbox;
 import thequizmaster.objects.hud.InventoryBar;
 import thequizmaster.objects.hud.PoisonBar;
+import thequizmaster.objects.items.CureSyringeSmall;
+import thequizmaster.objects.items.Item;
 import thequizmaster.questions.QuestionHandler;
 import thequizmaster.quizmode.QuizMode;
 import thequizmaster.quizmode.WireTrap;
@@ -33,6 +35,7 @@ public class MainGame extends GameState {
 	public QuizMode quiz;
 	private PoisonBar poisonBar;
 	private InventoryBar inventoryBar;
+	public String interactingMessage = "";
 
 	public MainGame(Keyboard key) {
 		questionHandler = new QuestionHandler();
@@ -46,6 +49,7 @@ public class MainGame extends GameState {
 		light = new LightSource(500, player.x, player.y);
 		quiz = null;
 		createHUD();
+		createItem(player.x, player.y, "smallSyringe");
 	}
 
 	private void createHUD() {
@@ -63,6 +67,22 @@ public class MainGame extends GameState {
 				level.collidableObjects.get(i).hasCollided(this);
 			}
 		}
+		boolean foundInteractiveObject = false;
+		for(int i = 0; i < level.interactablebjects.size(); i++) {
+			if(Hitbox.isColliding(level.interactablebjects.get(i).hitbox, player.interactionBox)) {
+				level.interactablebjects.get(i).hasCollided(this);
+				foundInteractiveObject = true;
+
+				if(player.isInteracting){
+					level.interactablebjects.get(i).isInteractedWith(this);
+				}
+				break;
+			}
+		}
+		if(!foundInteractiveObject){
+			interactingMessage = "";
+		}
+
 	}
 
 	public void removeGameObject(GameObject object){
@@ -72,7 +92,12 @@ public class MainGame extends GameState {
 	public void removeCollidableObject(GameObject object){
 		level.collidableObjects.remove(object);
 	}
-	
+
+	public void removeInteractableObject(GameObject object){
+		level.interactablebjects.remove(object);
+	}
+
+
 	public void removePlayerControl() {
 		isQuizActive = true;
 		player.canMove = false;
@@ -132,7 +157,10 @@ public class MainGame extends GameState {
 		
 		if(devMode) {
 			for (int i = 0; i < level.collidableObjects.size(); i++) {
-				screen.renderHitbox(level.collidableObjects.get(i).hitbox);
+				screen.renderHitbox(level.collidableObjects.get(i).hitbox, 0xff00b300);
+			}
+			for (int i = 0; i < level.interactablebjects.size(); i++) {
+				screen.renderHitbox(level.interactablebjects.get(i).hitbox, 0xffB200B2);
 			}
 		}
 		
@@ -160,7 +188,8 @@ public class MainGame extends GameState {
 		}
 	
 		if(devMode) {
-			screen.renderHitbox(player.hitbox);
+			screen.renderHitbox(player.hitbox, 0xff00b300);
+			screen.renderHitbox(player.interactionBox, 0xffB200B2);
 		}
 	
 	}
@@ -189,5 +218,23 @@ public class MainGame extends GameState {
 	public void addDrawObject(GameObject object) {
 		drawObjects.add(object);
 	}
-	
+
+	public void createItem (int x, int y, String type){
+		Item item;
+		switch(type) {
+			case "smallSyringe":
+				item = new CureSyringeSmall(x, y);
+				break;
+			default:
+				item = new CureSyringeSmall(x, y);
+				System.out.println("Item Type Not Recognised");
+		}
+		level.addGameObject(item);
+		level.addInteractableObject(item);
+	}
+
+	public void setInteractingMessage(String message){
+		interactingMessage = message;
+	}
+
 }

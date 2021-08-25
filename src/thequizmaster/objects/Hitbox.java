@@ -33,6 +33,27 @@ public class Hitbox {
 		x = newX + xOffset;
 		y = newY + yOffset;
 	}
+
+	public void updateHitbox(int newX, int newY, int dir) {
+		x = newX;
+		y = newY;
+		if(dir == 0){
+			y -= 5;
+			x -= 5;
+		}
+		else if(dir == 1){
+			x += 10;
+			y += 10;
+		}
+		else if(dir == 2){
+			y += 20;
+			x -= 5;
+		}
+		else {
+			x -= 19;
+			y += 10;
+		}
+	}
 	
 	public static boolean isWithinHitbox(Hitbox hitbox, int othery, int otherx) {
 		if (otherx >= hitbox.getX() && otherx <= hitbox.getX() + hitbox.width && 

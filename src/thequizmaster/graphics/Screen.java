@@ -126,7 +126,7 @@ public class Screen {
 		}
 	}
     
-    public void renderHitbox(Hitbox hitbox) {
+    public void renderHitbox(Hitbox hitbox, int color) {
     	int xp = hitbox.getX() - xOffset;
     	int yp = hitbox.getY() - yOffset;
 
@@ -136,7 +136,7 @@ public class Screen {
         		int xa = xp + j;
         		if(xa < -hitbox.height || xa >= width || ya < 0 || ya >= height) break;
         		if(xa < 0) xa = 0;
-    			pixels[xa + ya * width] = 0xff00b300;
+    			pixels[xa + ya * width] = color;
         	}
     	}
     }

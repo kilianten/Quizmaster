@@ -27,11 +27,14 @@ public class Player extends Mob {
 	private long lastUpdate = 0;
 	private long currentAnimUpdateTime = 100;
 	public boolean dying = false;
+
+	public Hitbox interactionBox;
 	
 	private String bio;
 	private String bestCategory;
 	public int playerSelection = 0;
 
+	public boolean isInteracting = false;
 	public boolean currentPlayer = false;
 
 	private Sprite[] currentAnim;
@@ -47,19 +50,24 @@ public class Player extends Mob {
 	public Player(Keyboard input) {
 		this.input = input;
 		hitbox = new Hitbox(16, 12, -4, 10);
+		interactionBox = new Hitbox(20, 20, 0, 11);
 	}
 
 	public Player(int x, int y, Keyboard input) {
 		this.x = x;
 		this.y = y;
 		hitbox = new Hitbox(x, y, 20, 12);
+		interactionBox = new Hitbox(2, 2, -2, 10);
 		this.input = input;
 	}
 
 	public void update() {
 		int xa = 0, ya = 0;
-		
+
+		isInteracting = input.interacting;
+
 		hitbox.updateHitbox(x, y);
+		interactionBox.updateHitbox(x, y, dir);
 
 		if(currentPlayer){
 			if(input.selectionChanged){

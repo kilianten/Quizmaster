@@ -13,5 +13,9 @@ public class CollidableObject extends GameObject {
 	public void hasCollided(MainGame game) {
 		
 	}
+
+	public void isInteractedWith(MainGame mainGame) {
+
+	}
 	
 }

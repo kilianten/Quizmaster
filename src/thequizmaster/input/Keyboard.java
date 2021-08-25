@@ -19,12 +19,14 @@ public class Keyboard implements KeyListener {
     public boolean enterReleased = false;
     public int playerSelection = 0;
     public boolean selectionChanged = false;
+    public boolean interacting = false;
 
     public void update(){
         up = keys[KeyEvent.VK_UP] || keys[KeyEvent.VK_W];
         down = keys[KeyEvent.VK_DOWN] || keys[KeyEvent.VK_S];
         left = keys[KeyEvent.VK_LEFT] || keys[KeyEvent.VK_A];
         right = keys[KeyEvent.VK_RIGHT] || keys[KeyEvent.VK_D];
+        interacting = keys[KeyEvent.VK_E];
     }
 
     public void keyTyped(KeyEvent e) {
@@ -39,7 +41,7 @@ public class Keyboard implements KeyListener {
         if(e.getKeyCode() == Constants.KEY_SLASH) {
         	slashPressed = true;
         }
-        if(e.getKeyCode() == Constants.KEY_E) {
+        if(e.getKeyCode() == KeyEvent.VK_R) {
         	changePlayer = true;
         }
         if(e.getKeyCode() == KeyEvent.VK_UP || e.getKeyCode() == KeyEvent.VK_W) {
@@ -78,6 +80,7 @@ public class Keyboard implements KeyListener {
         if(e.getKeyCode() == KeyEvent.VK_9) {
             setPlayerSelection(8);
         }
+
     }
 
     public void setPlayerSelection(int selection){

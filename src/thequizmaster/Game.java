@@ -149,7 +149,6 @@ public class Game extends Canvas implements Runnable{
 		
 		if(gameState instanceof MainGame) {
 			screen.renderLight((Graphics2D) g, gameState.getPlayer().x, gameState.getPlayer().y);
-			
 		}
 		
 		g.setColor(Color.WHITE);
@@ -158,7 +157,10 @@ public class Game extends Canvas implements Runnable{
 		if(printStats) {
 			printStats(g);
 		}
-		
+
+		if(gameState instanceof MainGame) {
+			g.drawString(((MainGame) gameState).interactingMessage, 540, 520);
+		}
 		gameState.renderHUD(screen, g);
 		
 		for(int i = 0; i < pixels.length; i++){

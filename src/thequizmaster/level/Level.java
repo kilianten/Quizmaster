@@ -19,6 +19,8 @@ public class Level {
 
 	public List<CollidableObject> collidableObjects = new ArrayList<CollidableObject>();
 	public List<GameObject> gameObjects = new ArrayList<GameObject>();
+	public List<CollidableObject> interactablebjects = new ArrayList<CollidableObject>();
+
 
 	public Level(String path) {
 		random = new Random();
@@ -37,8 +39,12 @@ public class Level {
 		gameObjects.add(gameObject);
 	}
 
-	protected void addCollidableObject(CollidableObject collObject) {
+	public void addCollidableObject(CollidableObject collObject) {
 		collidableObjects.add(collObject);
+	}
+
+	public void addInteractableObject(CollidableObject collObject) {
+		interactablebjects.add(collObject);
 	}
 
 	protected void loadLevel(String path) {
