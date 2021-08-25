@@ -31,6 +31,7 @@ public class Nolan extends Player {
 		wireTrapDeathAnim = DouglasSprites.douglasWireTrapDeathSprites;
 
 		sprite = standingSprites[0];
+		HUDImage = NolanSprites.nolanHUDFaceImage;
 	}
 	
 	

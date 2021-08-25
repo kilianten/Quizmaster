@@ -107,7 +107,7 @@ public class MainGame extends GameState {
 		if(!(quiz == null)) {
 			quiz.renderHUD(screen, g);
 		} else {
-			poisonBar.render(screen, player.poisonLevel);
+			poisonBar.render(screen, player.poisonLevel, player.HUDImage);
 		}
 	}
 	

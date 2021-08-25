@@ -16,6 +16,7 @@ public class Player extends Mob {
 	protected double speed = 2;
 	public int poisonLevel = 100;
 
+
 	public int poisonRate = 120;
 	public int poisonCounter = 0;
 
@@ -35,6 +36,7 @@ public class Player extends Mob {
 	protected Sprite[] walkingRightAnim;
 	public Sprite[] wireTrapDeathAnim;
 	public Sprite wireTrapCorpse;
+	public Sprite HUDImage;
 	
 	public Player(Keyboard input) {
 		this.input = input;

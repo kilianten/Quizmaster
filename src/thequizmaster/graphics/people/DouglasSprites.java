@@ -45,5 +45,6 @@ public abstract class DouglasSprites {
 			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 5, 4, SpriteSheet.douglasSheet)};
 	
 	public static Sprite douglasWireTrapCorpse = new Sprite(Constants.DEFAULT_ENTITY_SIZE, 6, 4, SpriteSheet.douglasSheet);
-	
+	public static Sprite douglasHUDFaceImage = new Sprite(Constants.DEFAULT_ENTITY_SIZE, 5, 0, SpriteSheet.douglasSheet);
+
 }

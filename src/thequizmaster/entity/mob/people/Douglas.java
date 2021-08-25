@@ -31,6 +31,7 @@ public class Douglas extends Player {
 		wireTrapDeathAnim = DouglasSprites.douglasWireTrapDeathSprites;
 		wireTrapCorpse = DouglasSprites.douglasWireTrapCorpse;
 		sprite = standingSprites[0];
+		HUDImage = DouglasSprites.douglasHUDFaceImage;
 	}
 	
 

@@ -17,4 +17,7 @@ public abstract class NolanSprites {
 			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 0, 2, SpriteSheet.nolanSheet),
 			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 0, 2, SpriteSheet.nolanSheet),
 			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 0, 2, SpriteSheet.nolanSheet)};
+
+	public static Sprite nolanHUDFaceImage = new Sprite(Constants.DEFAULT_ENTITY_SIZE, 5, 0, SpriteSheet.nolanSheet);
+
 }

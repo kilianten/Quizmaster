@@ -15,11 +15,10 @@ public class PoisonBar {
 		this.sprite = Sprite.poisonBar;
 	}
 
-	public void render(Screen screen, int poisonLevel) {
+	public void render(Screen screen, int poisonLevel, Sprite HUDPlayerImage) {
 		int colourIndex = (int) Math.floor(poisonLevel/10) - 1;
-		System.out.println(Constants.poisonGradient[colourIndex]);
-		System.out.println(poisonLevel);
 		screen.drawHUDRect(x + 9, y + 13, poisonLevel, 4, Constants.poisonGradient[colourIndex]);
 		screen.renderFixedObject(x, y, sprite);
+		screen.renderFixedObject(x, y, HUDPlayerImage);
 	}
 }

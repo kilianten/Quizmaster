@@ -40,7 +40,6 @@ public class TripWire extends CollidableObject {
 		for(int i = 0; i < 2; i++) {
 			for(int j = 0; j < sprite.YSIZE; j++) {
 				if(playerX == i + x + xOffset && playerY == j + y) {
-					System.out.println("TRIPPED TRIPWIRE");
 					tripwireSound.play();
 					tripped = true;
 					return true;
@@ -51,7 +50,6 @@ public class TripWire extends CollidableObject {
 	}
 	
 	public void hasCollided() {
-		System.out.println("TRIPPED TRIPWIRE");
 		tripwireSound.play();
 	}
 	
