@@ -1,5 +1,7 @@
 package thequizmaster.objects;
 
+import thequizmaster.gamestates.MainGame;
+
 public class CollidableObject extends GameObject {
 
 	public Hitbox hitbox;
@@ -8,7 +10,7 @@ public class CollidableObject extends GameObject {
 		return false;
 	}
 	
-	public void hasCollided() {
+	public void hasCollided(MainGame game) {
 		
 	}
 	

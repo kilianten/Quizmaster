@@ -53,7 +53,6 @@ public class QuizMode {
 				answeredCorrectly = isCorrectAnswer();
 			}	
 		}
-
 	}
 	
 	public void endGame() {

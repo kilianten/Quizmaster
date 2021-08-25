@@ -2,11 +2,13 @@ package thequizmaster.objects.traps;
 
 import javax.sound.sampled.FloatControl;
 
+import thequizmaster.gamestates.MainGame;
 import thequizmaster.graphics.Screen;
 import thequizmaster.graphics.Sprite;
 import thequizmaster.objects.Audio;
 import thequizmaster.objects.CollidableObject;
 import thequizmaster.objects.Hitbox;
+import thequizmaster.quizmode.WireTrap;
 
 public class TripWire extends CollidableObject {
 	
@@ -49,8 +51,12 @@ public class TripWire extends CollidableObject {
 		return false;
 	}
 	
-	public void hasCollided() {
+	public void hasCollided(MainGame mainGame) {
 		tripwireSound.play();
+		mainGame.removePlayerControl();
+		mainGame.removeGameObject(this);
+		mainGame.removeCollidableObject(this);
+		mainGame.createWireTrapQuiz();
 	}
 	
 	

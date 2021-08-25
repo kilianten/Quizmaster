@@ -60,20 +60,28 @@ public class MainGame extends GameState {
 	public void checkCollidables() {
 		for(int i = 0; i < level.collidableObjects.size(); i++) {
 			if(Hitbox.isColliding(level.collidableObjects.get(i).hitbox, player.hitbox)) {
-				level.collidableObjects.get(i).hasCollided();
-				removePlayerControl();
-				level.gameObjects.remove(i);
-				level.collidableObjects.remove(i);
-				quiz = new WireTrap(questionHandler.getQuestion(3), key, player);
+				level.collidableObjects.get(i).hasCollided(this);
 			}
 		}
 	}
+
+	public void removeGameObject(GameObject object){
+		level.gameObjects.remove(object);
+	}
+
+	public void removeCollidableObject(GameObject object){
+		level.collidableObjects.remove(object);
+	}
 	
-	private void removePlayerControl() {
+	public void removePlayerControl() {
 		isQuizActive = true;
 		player.canMove = false;
 	}
-	
+
+	public void createWireTrapQuiz(){
+		quiz = new WireTrap(questionHandler.getQuestion(3), key, player);
+	}
+
 	private void givePlayerControl() {
 		isQuizActive = false;
 		player.canMove = true;
@@ -174,6 +182,7 @@ public class MainGame extends GameState {
 	
 	public void replaceCurrentPlayer() {
 		player = people.get(0);
+		player.currentPlayer = true;
 		people.remove(player);
 	}
 
