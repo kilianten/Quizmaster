@@ -7,18 +7,21 @@ import thequizmaster.graphics.Sprite;
 import thequizmaster.input.Keyboard;
 import thequizmaster.objects.Hitbox;
 
+import java.util.Random;
+
 public class Player extends Mob {
+
+	Random random = new Random();
 
 	private Keyboard input;
 	private boolean walking = false;
 	private boolean animating = false;
 	public String fname;
 	protected double speed = 2;
-	public int poisonLevel = 100;
 
-
-	public int poisonRate = 120;
+	public int poisonLevel = 99;
 	public int poisonCounter = 0;
+	public int poisonRate = 180 + random.nextInt(50);
 
 	private int currentAnimIndex = 0;
 	private long lastUpdate = 0;
@@ -27,6 +30,9 @@ public class Player extends Mob {
 	
 	private String bio;
 	private String bestCategory;
+	public int playerSelection = 0;
+
+	public boolean currentPlayer = false;
 
 	private Sprite[] currentAnim;
 	protected Sprite[] standingSprites;
@@ -54,6 +60,13 @@ public class Player extends Mob {
 		int xa = 0, ya = 0;
 		
 		hitbox.updateHitbox(x, y);
+
+		if(currentPlayer){
+			if(input.selectionChanged){
+				playerSelection = input.playerSelection;
+				input.selectionChanged = false;
+			}
+		}
 
 		if (input.up)
 			ya-= speed;
@@ -90,7 +103,9 @@ public class Player extends Mob {
 
 	private void poisonPlayer(){
 		if(poisonCounter >= poisonRate){
-			poisonLevel--;
+			if(poisonLevel >= 1){
+				poisonLevel--;
+			}
 			poisonCounter = 0;
 		} else{
 			poisonCounter++;

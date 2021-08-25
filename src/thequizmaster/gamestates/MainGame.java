@@ -14,6 +14,7 @@ import thequizmaster.level.SpawnLevel;
 import thequizmaster.objects.Corpse;
 import thequizmaster.objects.GameObject;
 import thequizmaster.objects.Hitbox;
+import thequizmaster.objects.hud.InventoryBar;
 import thequizmaster.objects.hud.PoisonBar;
 import thequizmaster.questions.QuestionHandler;
 import thequizmaster.quizmode.QuizMode;
@@ -31,7 +32,8 @@ public class MainGame extends GameState {
 	private QuestionHandler questionHandler;
 	public QuizMode quiz;
 	private PoisonBar poisonBar;
-	
+	private InventoryBar inventoryBar;
+
 	public MainGame(Keyboard key) {
 		questionHandler = new QuestionHandler();
 		this.key = key;
@@ -40,6 +42,7 @@ public class MainGame extends GameState {
 		drawObjects = new ArrayList<GameObject>();
 		addPeople();
 		player = new Douglas(key, level);
+		player.currentPlayer = true;
 		light = new LightSource(500, player.x, player.y);
 		quiz = null;
 		createHUD();
@@ -47,6 +50,7 @@ public class MainGame extends GameState {
 
 	private void createHUD() {
 		poisonBar = new PoisonBar();
+		inventoryBar = new InventoryBar();
 	}
 	
 	private void addPeople() {
@@ -108,6 +112,7 @@ public class MainGame extends GameState {
 			quiz.renderHUD(screen, g);
 		} else {
 			poisonBar.render(screen, player.poisonLevel, player.HUDImage);
+			inventoryBar.render(screen, player.playerSelection);
 		}
 	}
 	
@@ -160,7 +165,9 @@ public class MainGame extends GameState {
 		if(people.size() > 0) {
 			people.add(player);
 			player.resetSprite();
+			player.currentPlayer = false;
 			player = people.get(0);
+			player.currentPlayer = true;
 			people.remove(player);
 		}
 	}

@@ -17,6 +17,8 @@ public class Keyboard implements KeyListener {
     public boolean upReleased = false;
     public boolean downReleased = false;
     public boolean enterReleased = false;
+    public int playerSelection = 0;
+    public boolean selectionChanged = false;
 
     public void update(){
         up = keys[KeyEvent.VK_UP] || keys[KeyEvent.VK_W];
@@ -49,7 +51,37 @@ public class Keyboard implements KeyListener {
         if(e.getKeyCode() == KeyEvent.VK_ENTER || e.getKeyCode() == KeyEvent.VK_SPACE) {
         	enterReleased = true;
         }
+        if(e.getKeyCode() == KeyEvent.VK_1) {
+            setPlayerSelection(0);
+        }
+        if(e.getKeyCode() == KeyEvent.VK_2) {
+            setPlayerSelection(1);
+        }
+        if(e.getKeyCode() == KeyEvent.VK_3) {
+            setPlayerSelection(2);
+        }
+        if(e.getKeyCode() == KeyEvent.VK_4) {
+            setPlayerSelection(3);
+        }
+        if(e.getKeyCode() == KeyEvent.VK_5) {
+            setPlayerSelection(4);
+        }
+        if(e.getKeyCode() == KeyEvent.VK_6) {
+            setPlayerSelection(5);
+        }
+        if(e.getKeyCode() == KeyEvent.VK_7) {
+            setPlayerSelection(6);
+        }
+        if(e.getKeyCode() == KeyEvent.VK_8) {
+            setPlayerSelection(7);
+        }
+        if(e.getKeyCode() == KeyEvent.VK_9) {
+            setPlayerSelection(8);
+        }
     }
 
-    
+    public void setPlayerSelection(int selection){
+        playerSelection = selection;
+        selectionChanged = true;
+    }
 }

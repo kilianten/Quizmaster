@@ -27,6 +27,9 @@ public class Sprite {
     public static Sprite brickTile = new Sprite(Constants.DEFAULT_SPRITE_SIZE, 1, 1, SpriteSheet.tileSheet);
     public static Sprite brickTileCorner = new Sprite(Constants.DEFAULT_SPRITE_SIZE, 1, 3, SpriteSheet.tileSheet);
     public static Sprite poisonBar = new Sprite(128, 7, 0, SpriteSheet.hudSheet, 32);
+    public static Sprite inventoryBar = new Sprite(144, 0, 2, SpriteSheet.hudSheet, 16);
+    public static Sprite currentSelectedSprite = new Sprite(16, 9, 2, SpriteSheet.hudSheet);
+
 
     //HUD
     public static Sprite[] countdownDisplay = new Sprite[] {
