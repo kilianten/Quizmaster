@@ -1,6 +1,7 @@
 package thequizmaster.objects.items;
 
 import thequizmaster.Constants;
+import thequizmaster.entity.mob.Player;
 import thequizmaster.graphics.Screen;
 import thequizmaster.graphics.Sprite;
 import thequizmaster.objects.CollidableObject;
@@ -17,8 +18,8 @@ public class Item extends CollidableObject {
         this.y = y;
     }
 
-    public void use(){
-
+    public void use(Player player){
+        player.increasePoisonLevel(20);
     }
 
     public void renderHUDIcon(Screen screen, int itemIndex) {

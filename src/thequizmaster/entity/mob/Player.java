@@ -88,6 +88,13 @@ public class Player extends Mob {
 			xa-= speed;
 		if (input.right)
 			xa+= speed;
+		if (input.useItem){
+			if(inventory[playerSelection] != null){
+				inventory[playerSelection].use(this);
+				inventory[playerSelection] = null;
+			}
+			input.useItem = false;
+		}
 		
 		if(animating) {
 			if(System.currentTimeMillis() - lastUpdate > currentAnimUpdateTime) {
@@ -159,16 +166,21 @@ public class Player extends Mob {
 	}
 
 	public void giveItem(Item item){
-		System.out.println(playerSelection);
 		inventory[playerSelection] = item;
 	}
 
 	public void renderItems(Screen screen) {
 		for(int i = 0; i < inventory.length; i++){
 			if(inventory[i] != null){
-				System.out.println(i);
 				inventory[i].renderHUDIcon(screen, i);
 			}
+		}
+	}
+
+	public void increasePoisonLevel(int increase) {
+		poisonLevel += increase;
+		if(poisonLevel > 99){
+			poisonLevel = 99;
 		}
 	}
 }

@@ -20,6 +20,7 @@ public class Keyboard implements KeyListener {
     public int playerSelection = 0;
     public boolean selectionChanged = false;
     public boolean interacting = false;
+    public boolean useItem = true;
 
     public void update(){
         up = keys[KeyEvent.VK_UP] || keys[KeyEvent.VK_W];
@@ -79,6 +80,9 @@ public class Keyboard implements KeyListener {
         }
         if(e.getKeyCode() == KeyEvent.VK_9) {
             setPlayerSelection(8);
+        }
+        if(e.getKeyCode() == KeyEvent.VK_SPACE) {
+            useItem = true;
         }
 
     }
