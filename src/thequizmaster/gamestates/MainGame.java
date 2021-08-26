@@ -18,6 +18,7 @@ import thequizmaster.objects.GameObject;
 import thequizmaster.objects.Hitbox;
 import thequizmaster.objects.hud.InventoryBar;
 import thequizmaster.objects.hud.PoisonBar;
+import thequizmaster.objects.items.CureSyringeLarge;
 import thequizmaster.objects.items.CureSyringeSmall;
 import thequizmaster.objects.items.Item;
 import thequizmaster.objects.traps.SearchBox;
@@ -53,7 +54,8 @@ public class MainGame extends GameState {
 		light = new LightSource(500, player.x, player.y);
 		quiz = null;
 		createHUD();
-		createItem(player.x, player.y, "Small Syringe");
+		createRandomItem(player.x, player.y);
+		createRandomItem(player.x + 20, player.y + 20);
 		createSearchBox(player.x - 100, player.y - 100);
 	}
 
@@ -86,6 +88,7 @@ public class MainGame extends GameState {
 
 				if(player.isInteracting){
 					level.interactablebjects.get(i).isInteractedWith(this);
+					player.input.interacting = false;
 					player.isInteracting = false;
 				}
 				break;
@@ -238,16 +241,33 @@ public class MainGame extends GameState {
 		drawObjects.add(object);
 	}
 
-	public void createItem (int x, int y, String type){
+	public Item getItem(String type, int x, int y){
 		Item item;
 		switch(type) {
 			case "Small Syringe":
 				item = new CureSyringeSmall(x, y);
 				break;
+			case "Large Syringe":
+				item = new CureSyringeLarge(x, y);
+				break;
 			default:
 				item = new CureSyringeSmall(x, y);
 				System.out.println("Item Type Not Recognised");
 		}
+
+		return item;
+	}
+
+	public void createItem (int x, int y, String type){
+		Item item = getItem(type, x, y);
+
+		level.addGameObject(item);
+		level.addInteractableObject(item);
+	}
+
+	public void createRandomItem(int x, int y){
+		String stringItem = Item.getRandomItem();
+		Item item = getItem(stringItem, x, y);
 		level.addGameObject(item);
 		level.addInteractableObject(item);
 	}

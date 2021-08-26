@@ -43,7 +43,8 @@ public class SearchBoxTrap extends QuizMode{
                 player.dying = true;
                 endGame();
             } else {
-                game.createItem(player.x, player.y + 20, "Small Syringe");
+                game.createRandomItem(player.x, player.y + 20);
+                //game.createItem(player.x, player.y + 20, "Small Syringe");
             }
         }
         if(timer.isFinished) {

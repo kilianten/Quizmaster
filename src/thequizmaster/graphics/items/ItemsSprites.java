@@ -1,11 +1,12 @@
 package thequizmaster.graphics.items;
 
-import thequizmaster.Constants;
 import thequizmaster.graphics.Sprite;
 import thequizmaster.graphics.SpriteSheet;
 
 public abstract class ItemsSprites {
 
-    public static Sprite smallSyringe = new Sprite(Constants.DEFAULT_ENTITY_SIZE, 0, 0, SpriteSheet.itemsSheet);
+    public static Sprite smallSyringe = new Sprite(16, 0, 0, SpriteSheet.itemsSheet);
+    public static Sprite largeSyringe = new Sprite(16, 1, 0, SpriteSheet.itemsSheet);
+
 
 }

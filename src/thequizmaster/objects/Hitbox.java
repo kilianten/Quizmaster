@@ -1,5 +1,7 @@
 package thequizmaster.objects;
 
+import thequizmaster.graphics.Sprite;
+
 public class Hitbox {
 
 	public int x;
@@ -8,7 +10,6 @@ public class Hitbox {
 	public int width;
 	private int xOffset;
 	private int yOffset;
-	private Object gameObject;
 	
 	public Hitbox(int x, int y, int width, int height, int xOffset, int yOffset) {
 		this.x = x;
@@ -17,7 +18,6 @@ public class Hitbox {
 		this.yOffset = yOffset;
 		this.width = width;
 		this.height = height;
-		this.gameObject = gameObject;
 	}
 
 	public Hitbox(int width, int height, int xOffset, int yOffset) {
@@ -29,7 +29,16 @@ public class Hitbox {
 		this.height = height;
 	}
 
-	public void updateHitbox(int newX, int newY) {
+    public Hitbox(int x, int y, Sprite sprite) {
+		this.x = x;
+		this.y = y;
+		this.xOffset = 0;
+		this.yOffset = 0;
+		this.width = sprite.SIZE;
+		this.height = sprite.SIZE;
+    }
+
+    public void updateHitbox(int newX, int newY) {
 		x = newX + xOffset;
 		y = newY + yOffset;
 	}

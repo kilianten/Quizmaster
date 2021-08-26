@@ -2,6 +2,8 @@ package thequizmaster;
 
 import thequizmaster.graphics.Sprite;
 import thequizmaster.graphics.SpriteSheet;
+import thequizmaster.objects.items.CureSyringeLarge;
+import thequizmaster.objects.items.Item;
 
 public class Constants {
     public final static double FPS = 60.0;

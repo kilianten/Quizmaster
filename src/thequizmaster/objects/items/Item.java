@@ -2,24 +2,36 @@ package thequizmaster.objects.items;
 
 import thequizmaster.Constants;
 import thequizmaster.entity.mob.Player;
+import thequizmaster.gamestates.MainGame;
 import thequizmaster.graphics.Screen;
 import thequizmaster.graphics.Sprite;
 import thequizmaster.objects.CollidableObject;
 import thequizmaster.objects.Hitbox;
 
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Random;
+
 public class Item extends CollidableObject {
 
     public String name;
+
+    public static Map<String, Integer> spawnChances = new HashMap<>() {{
+        put("Large Syringe", 1);
+        put("Small Syringe", 2);
+    }};
+
+    public static Random random = new Random();
 
     public Item(String name, Sprite sprite, int x, int y){
         this.name = name;
         this.sprite = sprite;
         this.x = x;
         this.y = y;
+        hitbox = new Hitbox(x, y, sprite);
     }
 
     public void use(Player player){
-        player.increasePoisonLevel(20);
     }
 
     public void renderHUDIcon(Screen screen, int itemIndex) {
@@ -33,4 +45,32 @@ public class Item extends CollidableObject {
         this.hitbox.x = x;
         this.hitbox.y = y;
     }
+
+    public void hasCollided(MainGame mainGame) {
+        mainGame.setInteractingMessage("Pick Up " + name + "?");
+    }
+
+    public void isInteractedWith(MainGame mainGame) {
+        mainGame.removeGameObject(this);
+        mainGame.removeInteractableObject(this);
+        mainGame.givePlayerItem(this);
+    }
+
+    public static String getRandomItem(){
+        int total = 0;
+        for (Map.Entry<String, Integer> entry : spawnChances.entrySet()) {
+            total += entry.getValue();
+        }
+        int randomInt = random.nextInt(total);
+        int counter = 0;
+        for (Map.Entry<String, Integer> entry : spawnChances.entrySet()) {
+            if(randomInt >= counter && randomInt < (entry.getValue() + counter)){
+                return entry.getKey();
+            } else {
+                counter += entry.getValue();
+            }
+        }
+        return null;
+    }
+
 }

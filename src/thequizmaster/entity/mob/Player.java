@@ -16,7 +16,7 @@ public class Player extends Mob {
 
 	Random random = new Random();
 
-	private Keyboard input;
+	public Keyboard input;
 	private boolean walking = false;
 	private boolean animating = false;
 	public String fname;

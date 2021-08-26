@@ -30,6 +30,7 @@ public class QuizMode {
 	}
 	
 	public QuizMode(Question question, Keyboard input) {
+		input.enterReleased = false;
 		this.question = question;
 		questionOptions = question.getOptionsAnswer();
 		this.input = input;
