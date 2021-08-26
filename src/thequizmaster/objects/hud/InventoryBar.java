@@ -2,6 +2,7 @@ package thequizmaster.objects.hud;
 
 
 import thequizmaster.Constants;
+import thequizmaster.entity.mob.Player;
 import thequizmaster.graphics.Screen;
 import thequizmaster.graphics.Sprite;
 
@@ -17,8 +18,11 @@ public class InventoryBar {
         currentSelectedSprite = Sprite.currentSelectedSprite;
     }
 
-    public void render(Screen screen, int playerSelected) {
+    public void render(Screen screen) {
         screen.renderFixedObject(x, y, sprite);
-        screen.renderFixedObject(x + playerSelected * 16, y, currentSelectedSprite);
+    }
+
+    public void renderSelected(Screen screen, int playerSelection) {
+        screen.renderFixedObject(x + playerSelection * 16, y, currentSelectedSprite);
     }
 }

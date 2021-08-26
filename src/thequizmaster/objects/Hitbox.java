@@ -39,7 +39,7 @@ public class Hitbox {
 		y = newY;
 		if(dir == 0){
 			y -= 5;
-			x -= 5;
+			x -= 10;
 		}
 		else if(dir == 1){
 			x += 10;
@@ -47,10 +47,10 @@ public class Hitbox {
 		}
 		else if(dir == 2){
 			y += 20;
-			x -= 5;
+			x -= 10;
 		}
 		else {
-			x -= 19;
+			x -= 28;
 			y += 10;
 		}
 	}

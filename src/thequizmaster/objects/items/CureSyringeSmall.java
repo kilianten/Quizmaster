@@ -18,6 +18,7 @@ public class CureSyringeSmall extends Item {
     public void isInteractedWith(MainGame mainGame) {
         mainGame.removeGameObject(this);
         mainGame.removeInteractableObject(this);
+        mainGame.givePlayerItem(this);
     }
 
 }

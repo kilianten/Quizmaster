@@ -1,11 +1,13 @@
 package thequizmaster.entity.mob;
 
 
+import thequizmaster.Constants;
 import thequizmaster.Game;
 import thequizmaster.graphics.Screen;
 import thequizmaster.graphics.Sprite;
 import thequizmaster.input.Keyboard;
 import thequizmaster.objects.Hitbox;
+import thequizmaster.objects.items.Item;
 
 import java.util.Random;
 
@@ -46,11 +48,13 @@ public class Player extends Mob {
 	public Sprite[] wireTrapDeathAnim;
 	public Sprite wireTrapCorpse;
 	public Sprite HUDImage;
+	public Item[] inventory;
 	
 	public Player(Keyboard input) {
 		this.input = input;
 		hitbox = new Hitbox(16, 12, -4, 10);
 		interactionBox = new Hitbox(20, 20, 0, 11);
+		inventory = new Item[9];
 	}
 
 	public Player(int x, int y, Keyboard input) {
@@ -154,4 +158,17 @@ public class Player extends Mob {
 		sprite = standingSprites[2];
 	}
 
+	public void giveItem(Item item){
+		System.out.println(playerSelection);
+		inventory[playerSelection] = item;
+	}
+
+	public void renderItems(Screen screen) {
+		for(int i = 0; i < inventory.length; i++){
+			if(inventory[i] != null){
+				System.out.println(i);
+				inventory[i].renderHUDIcon(screen, i);
+			}
+		}
+	}
 }

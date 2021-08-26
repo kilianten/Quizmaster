@@ -3,6 +3,7 @@ package thequizmaster.gamestates;
 import java.awt.Graphics;
 import java.util.ArrayList;
 
+import thequizmaster.Constants;
 import thequizmaster.entity.mob.Player;
 import thequizmaster.entity.mob.people.Douglas;
 import thequizmaster.entity.mob.people.Nolan;
@@ -145,7 +146,9 @@ public class MainGame extends GameState {
 			quiz.renderHUD(screen, g);
 		} else {
 			poisonBar.render(screen, player.poisonLevel, player.HUDImage);
-			inventoryBar.render(screen, player.playerSelection);
+			inventoryBar.render(screen);
+			player.renderItems(screen);
+			inventoryBar.renderSelected(screen, player.playerSelection);
 		}
 	}
 	
@@ -235,6 +238,10 @@ public class MainGame extends GameState {
 
 	public void setInteractingMessage(String message){
 		interactingMessage = message;
+	}
+
+	public void givePlayerItem(Item item){
+		player.giveItem(item);
 	}
 
 }
