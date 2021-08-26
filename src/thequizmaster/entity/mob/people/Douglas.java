@@ -1,14 +1,15 @@
 package thequizmaster.entity.mob.people;
 
 import thequizmaster.entity.mob.Player;
+import thequizmaster.gamestates.MainGame;
 import thequizmaster.graphics.people.DouglasSprites;
 import thequizmaster.input.Keyboard;
 import thequizmaster.level.Level;
 
 public class Douglas extends Player {
 	
-	public Douglas(Keyboard input, Level level) {
-		super(input);
+	public Douglas(Keyboard input, Level level, MainGame game) {
+		super(input, game);
 		setAnims();
 		fname = "Douglas";
 		x = 74 * 34;

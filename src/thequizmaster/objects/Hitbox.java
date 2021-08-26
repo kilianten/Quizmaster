@@ -2,8 +2,8 @@ package thequizmaster.objects;
 
 public class Hitbox {
 
-	private int x;
-	private int y;
+	public int x;
+	public int y;
 	public int height;
 	public int width;
 	private int xOffset;

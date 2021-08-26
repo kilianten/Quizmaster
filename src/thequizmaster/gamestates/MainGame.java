@@ -12,6 +12,7 @@ import thequizmaster.graphics.Screen;
 import thequizmaster.input.Keyboard;
 import thequizmaster.level.Level;
 import thequizmaster.level.SpawnLevel;
+import thequizmaster.objects.CollidableObject;
 import thequizmaster.objects.Corpse;
 import thequizmaster.objects.GameObject;
 import thequizmaster.objects.Hitbox;
@@ -19,13 +20,15 @@ import thequizmaster.objects.hud.InventoryBar;
 import thequizmaster.objects.hud.PoisonBar;
 import thequizmaster.objects.items.CureSyringeSmall;
 import thequizmaster.objects.items.Item;
+import thequizmaster.objects.traps.SearchBox;
 import thequizmaster.questions.QuestionHandler;
 import thequizmaster.quizmode.QuizMode;
+import thequizmaster.quizmode.SearchBoxTrap;
 import thequizmaster.quizmode.WireTrap;
 
 public class MainGame extends GameState {
 
-	private Player player;
+	public Player player;
 	private LightSource light;
 	private ArrayList<Player> people;
 	private ArrayList<GameObject> drawObjects;
@@ -45,12 +48,19 @@ public class MainGame extends GameState {
 		people = new ArrayList<Player>();
 		drawObjects = new ArrayList<GameObject>();
 		addPeople();
-		player = new Douglas(key, level);
+		player = new Douglas(key, level, this);
 		player.currentPlayer = true;
 		light = new LightSource(500, player.x, player.y);
 		quiz = null;
 		createHUD();
-		createItem(player.x, player.y, "smallSyringe");
+		createItem(player.x, player.y, "Small Syringe");
+		createSearchBox(player.x - 100, player.y - 100);
+	}
+
+	private void createSearchBox(int x, int y) {
+		CollidableObject object = new SearchBox(x, y);
+		level.addGameObject(object);
+		level.addInteractableObject(object);
 	}
 
 	private void createHUD() {
@@ -59,7 +69,7 @@ public class MainGame extends GameState {
 	}
 	
 	private void addPeople() {
-		people.add(new Nolan(key, level));
+		people.add(new Nolan(key, level, this));
 	}
 	
 	public void checkCollidables() {
@@ -76,10 +86,12 @@ public class MainGame extends GameState {
 
 				if(player.isInteracting){
 					level.interactablebjects.get(i).isInteractedWith(this);
+					player.isInteracting = false;
 				}
 				break;
 			}
 		}
+		player.isInteracting = false;
 		if(!foundInteractiveObject){
 			interactingMessage = "";
 		}
@@ -106,6 +118,10 @@ public class MainGame extends GameState {
 
 	public void createWireTrapQuiz(){
 		quiz = new WireTrap(questionHandler.getQuestion(3), key, player);
+	}
+
+	public void createSearchBoxTrapQuiz(){
+		quiz = new SearchBoxTrap(questionHandler.getQuestion(4), key, player, this);
 	}
 
 	private void givePlayerControl() {
@@ -225,7 +241,7 @@ public class MainGame extends GameState {
 	public void createItem (int x, int y, String type){
 		Item item;
 		switch(type) {
-			case "smallSyringe":
+			case "Small Syringe":
 				item = new CureSyringeSmall(x, y);
 				break;
 			default:
@@ -241,7 +257,11 @@ public class MainGame extends GameState {
 	}
 
 	public void givePlayerItem(Item item){
-		player.giveItem(item);
+		Item previousItem = player.giveItem(item);
+		if(previousItem != null){
+			level.addGameObject(previousItem);
+			level.addInteractableObject(previousItem);
+		}
 	}
 
 }

@@ -3,6 +3,7 @@ package thequizmaster.entity.mob;
 
 import thequizmaster.Constants;
 import thequizmaster.Game;
+import thequizmaster.gamestates.MainGame;
 import thequizmaster.graphics.Screen;
 import thequizmaster.graphics.Sprite;
 import thequizmaster.input.Keyboard;
@@ -49,12 +50,14 @@ public class Player extends Mob {
 	public Sprite wireTrapCorpse;
 	public Sprite HUDImage;
 	public Item[] inventory;
+	public MainGame game;
 	
-	public Player(Keyboard input) {
+	public Player(Keyboard input, MainGame game) {
 		this.input = input;
 		hitbox = new Hitbox(16, 12, -4, 10);
 		interactionBox = new Hitbox(20, 20, 0, 11);
 		inventory = new Item[9];
+		this.game = game;
 	}
 
 	public Player(int x, int y, Keyboard input) {
@@ -94,6 +97,14 @@ public class Player extends Mob {
 				inventory[playerSelection] = null;
 			}
 			input.useItem = false;
+		}
+
+		if(input.droppingItem){
+			if(inventory[playerSelection] != null){
+				game.createItem(x, y, inventory[playerSelection].name);
+				inventory[playerSelection] = null;
+			}
+			input.droppingItem = false;
 		}
 		
 		if(animating) {
@@ -165,8 +176,15 @@ public class Player extends Mob {
 		sprite = standingSprites[2];
 	}
 
-	public void giveItem(Item item){
+	public Item giveItem(Item item){
+		Item previousItem = inventory[playerSelection];
+
 		inventory[playerSelection] = item;
+		if (previousItem != null){
+			previousItem.updatePosition(x - 5, y + 30);
+		}
+
+		return previousItem;
 	}
 
 	public void renderItems(Screen screen) {
@@ -178,7 +196,7 @@ public class Player extends Mob {
 	}
 
 	public void increasePoisonLevel(int increase) {
-		poisonLevel += increase;
+		poisonLevel +=  increase;
 		if(poisonLevel > 99){
 			poisonLevel = 99;
 		}

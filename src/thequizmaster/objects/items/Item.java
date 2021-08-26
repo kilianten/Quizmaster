@@ -26,4 +26,11 @@ public class Item extends CollidableObject {
         this.x = 5;
         screen.renderFixedObject(5 + itemIndex * 16,Constants.DEFAULT_SPRITE_SIZE * 5 + 5, sprite);
     }
+
+    public void updatePosition(int x, int y){
+        this.x = x;
+        this.y = y;
+        this.hitbox.x = x;
+        this.hitbox.y = y;
+    }
 }

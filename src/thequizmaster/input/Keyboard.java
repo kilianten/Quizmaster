@@ -21,6 +21,7 @@ public class Keyboard implements KeyListener {
     public boolean selectionChanged = false;
     public boolean interacting = false;
     public boolean useItem = true;
+    public boolean droppingItem = true;
 
     public void update(){
         up = keys[KeyEvent.VK_UP] || keys[KeyEvent.VK_W];
@@ -28,6 +29,7 @@ public class Keyboard implements KeyListener {
         left = keys[KeyEvent.VK_LEFT] || keys[KeyEvent.VK_A];
         right = keys[KeyEvent.VK_RIGHT] || keys[KeyEvent.VK_D];
         interacting = keys[KeyEvent.VK_E];
+        droppingItem = keys[KeyEvent.VK_Q];
     }
 
     public void keyTyped(KeyEvent e) {

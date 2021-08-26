@@ -1,6 +1,7 @@
 package thequizmaster.entity.mob.people;
 
 import thequizmaster.entity.mob.Player;
+import thequizmaster.gamestates.MainGame;
 import thequizmaster.graphics.people.DouglasSprites;
 import thequizmaster.graphics.people.NolanSprites;
 import thequizmaster.input.Keyboard;
@@ -8,8 +9,8 @@ import thequizmaster.level.Level;
 
 public class Nolan extends Player {
 	
-	public Nolan(Keyboard input, Level level) {
-		super(input);
+	public Nolan(Keyboard input, Level level, MainGame game) {
+		super(input, game);
 		setAnims();
 		fname = "Fr.";
 		x = 74 * 32;

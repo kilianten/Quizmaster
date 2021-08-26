@@ -5,7 +5,7 @@ import thequizmaster.graphics.Sprite;
 
 public class GameObject {
 	
-	protected int x;
+	public int x;
 	public int y;
 	protected Sprite sprite;
 	
