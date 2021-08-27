@@ -8,6 +8,7 @@ import thequizmaster.graphics.Screen;
 import thequizmaster.graphics.Sprite;
 import thequizmaster.input.Keyboard;
 import thequizmaster.objects.Hitbox;
+import thequizmaster.objects.items.ChargesItem;
 import thequizmaster.objects.items.Item;
 
 import java.util.Random;
@@ -125,8 +126,17 @@ public class Player extends Mob {
 	private void checkUsingItemInput(){
 		if (input.useItem){
 			if(inventory[playerSelection] != null){
-				inventory[playerSelection].use(this);
-				inventory[playerSelection] = null;
+				boolean itemUsed = inventory[playerSelection].use(this, game);
+				if(inventory[playerSelection] instanceof ChargesItem && itemUsed){
+					((ChargesItem) inventory[playerSelection]).numberOfChargesRemaining--;
+					if(((ChargesItem) inventory[playerSelection]).numberOfChargesRemaining == 0){
+						inventory[playerSelection] = null;
+					}
+				} else {
+					if(itemUsed){
+						inventory[playerSelection] = null;
+					}
+				}
 			}
 			input.useItem = false;
 		}
@@ -216,6 +226,9 @@ public class Player extends Mob {
 		for(int i = 0; i < inventory.length; i++){
 			if(inventory[i] != null){
 				inventory[i].renderHUDIcon(screen, i);
+				if(inventory[i] instanceof ChargesItem){
+					((ChargesItem) inventory[i]).renderCharges(screen, i);
+				}
 			}
 		}
 	}

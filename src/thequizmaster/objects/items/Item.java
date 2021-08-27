@@ -12,14 +12,16 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
 
-public class Item extends CollidableObject {
+public abstract class Item extends CollidableObject {
 
     public String name;
 
     public static Map<String, Integer> spawnChances = new HashMap<>() {{
-        put("Large Syringe", 2);
-        put("Small Syringe", 5);
-        put("Mystery Syringe", 2);
+        put("Large Syringe", 3);
+        put("Small Syringe", 6);
+        put("Mystery Syringe", 3);
+        put("Poison Syringe", 3);
+        put("Wirecutters", 20);
     }};
 
     public static Random random = new Random();
@@ -32,7 +34,8 @@ public class Item extends CollidableObject {
         hitbox = new Hitbox(x, y, sprite);
     }
 
-    public void use(Player player){
+    public boolean use(Player player, MainGame game){
+        return true;
     }
 
     public void renderHUDIcon(Screen screen, int itemIndex) {
@@ -73,5 +76,6 @@ public class Item extends CollidableObject {
         }
         return null;
     }
+
 
 }

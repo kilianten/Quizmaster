@@ -20,6 +20,7 @@ public class TripWire extends CollidableObject {
 	public TripWire(int x, int y) {
 		this.y = y;
 		this.x = x;
+		objectType = "TripWire";
 		hitbox = new Hitbox(x, y, 2, 64, 15, 2);
 	}
 

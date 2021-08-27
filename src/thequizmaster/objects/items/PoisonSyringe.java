@@ -4,14 +4,14 @@ import thequizmaster.entity.mob.Player;
 import thequizmaster.gamestates.MainGame;
 import thequizmaster.graphics.items.ItemsSprites;
 
-public class CureSyringeSmall extends Item {
+public class PoisonSyringe extends Item {
 
-    public CureSyringeSmall(int x, int y){
-        super("Small Syringe", ItemsSprites.smallSyringe, x, y);
+    public PoisonSyringe(int x, int y){
+        super("Poison Syringe", ItemsSprites.poisonSyringe, x, y);
     }
 
     public boolean use(Player player, MainGame game){
-        player.increasePoisonLevel(30);
+        player.decreasePoisonLevel(40);
         return true;
     }
 

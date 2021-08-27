@@ -18,10 +18,7 @@ import thequizmaster.objects.GameObject;
 import thequizmaster.objects.Hitbox;
 import thequizmaster.objects.hud.InventoryBar;
 import thequizmaster.objects.hud.PoisonBar;
-import thequizmaster.objects.items.CureSyringeLarge;
-import thequizmaster.objects.items.CureSyringeSmall;
-import thequizmaster.objects.items.Item;
-import thequizmaster.objects.items.MysterySyringe;
+import thequizmaster.objects.items.*;
 import thequizmaster.objects.traps.SearchBox;
 import thequizmaster.questions.QuestionHandler;
 import thequizmaster.quizmode.QuizMode;
@@ -99,6 +96,15 @@ public class MainGame extends GameState {
 			interactingMessage = "";
 		}
 
+	}
+
+	public GameObject isSpecficObjectColliding(Hitbox hitbox, String objectType) {
+		for(int i = 0; i < level.collidableObjects.size(); i++) {
+			if(Hitbox.isColliding(level.collidableObjects.get(i).hitbox, hitbox) && level.collidableObjects.get(i).objectType == objectType) {
+				return level.collidableObjects.get(i);
+			}
+		}
+		return null;
 	}
 
 	public void removeGameObject(GameObject object){
@@ -252,6 +258,12 @@ public class MainGame extends GameState {
 				break;
 			case "Mystery Syringe":
 				item = new MysterySyringe(x, y);
+				break;
+			case "Poison Syringe":
+				item = new PoisonSyringe(x, y);
+				break;
+			case "Wirecutters":
+				item = new Wirecutters(x, y);
 				break;
 			default:
 				item = new CureSyringeSmall(x, y);
