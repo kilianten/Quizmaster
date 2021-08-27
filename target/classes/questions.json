@@ -10868,13 +10868,6 @@
     "categories":["geography"]
 },
 {
-    "question":"Of the top 10 countries in the world, how many are African countries?",
-    "answers":["1"],
-    "options":["2", "0", "3", "4"],
-    "difficulty": 4,
-    "categories":["geography"]
-},
-{
     "question":"What is the largest country in Africa?",
     "answers":["Algeria"],
     "options":["Sudan", "Libya", "Chad", "Niger", "Angola"],
@@ -11290,7 +11283,7 @@
 {
     "question":"A. A. Milne is famous for creating which characters?",
     "answers":["Winnie-the-Pooh"],
-    "options":["James Bond", "Pinocchio", "Tin Tin", "The Jungle Book", "Winnie-the-Pooh", "Peter Pan", "WALL·E", "Babe"],
+    "options":["James Bond", "Pinocchio", "Tin Tin", "The Jungle Book", "Peter Pan", "WALL·E", "Babe"],
     "difficulty": 4,
     "categories":["books"]
 },
@@ -11566,8 +11559,21 @@
     "options":["Ernest Hemingway", "Charles Dickens", "Virginia Woolf", "Mark Twain", "William Shakespeare", "Roald Dahl"],
     "difficulty": 4,
     "categories":["books"]
+},
+{
+    "question":"Which U.S president served the longest?",
+    "answers":["Franklin D. Roosevelt"],
+    "options":["George Washington", "Abraham Lincoln", "James Madison", "Theodore Roosevelt", "Thomas Jefferson", "Harry S. Truman"],
+    "difficulty": 3,
+    "categories":["politics", "history"]
+},
+{
+    "question":"Which of these U.S presidents was diagnosed with polio?",
+    "answers":["Franklin D. Roosevelt"],
+    "options":["George Washington", "Abraham Lincoln", "James Madison", "Theodore Roosevelt", "Thomas Jefferson", "Harry S. Truman"],
+    "difficulty": 3,
+    "categories":["politics", "history", "medicine"]
 }
-
 
 
 ]

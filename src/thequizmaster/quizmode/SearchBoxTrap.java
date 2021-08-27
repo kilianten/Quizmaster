@@ -64,6 +64,7 @@ public class SearchBoxTrap extends QuizMode{
     public void tidyUp(MainGame game) {
         game.addDrawObject(new Corpse(player.x, player.y, player.wireTrapCorpse));
         game.quiz = null;
+        player.killPlayer();
         game.replaceCurrentPlayer();
     }
 

@@ -21,6 +21,7 @@ import thequizmaster.objects.hud.PoisonBar;
 import thequizmaster.objects.items.CureSyringeLarge;
 import thequizmaster.objects.items.CureSyringeSmall;
 import thequizmaster.objects.items.Item;
+import thequizmaster.objects.items.MysterySyringe;
 import thequizmaster.objects.traps.SearchBox;
 import thequizmaster.questions.QuestionHandler;
 import thequizmaster.quizmode.QuizMode;
@@ -86,15 +87,14 @@ public class MainGame extends GameState {
 				level.interactablebjects.get(i).hasCollided(this);
 				foundInteractiveObject = true;
 
-				if(player.isInteracting){
+				if(player.input.interacting){
 					level.interactablebjects.get(i).isInteractedWith(this);
 					player.input.interacting = false;
-					player.isInteracting = false;
 				}
 				break;
 			}
 		}
-		player.isInteracting = false;
+		player.input.interacting = false;
 		if(!foundInteractiveObject){
 			interactingMessage = "";
 		}
@@ -249,6 +249,9 @@ public class MainGame extends GameState {
 				break;
 			case "Large Syringe":
 				item = new CureSyringeLarge(x, y);
+				break;
+			case "Mystery Syringe":
+				item = new MysterySyringe(x, y);
 				break;
 			default:
 				item = new CureSyringeSmall(x, y);

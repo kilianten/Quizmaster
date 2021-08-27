@@ -37,7 +37,6 @@ public class Player extends Mob {
 	private String bestCategory;
 	public int playerSelection = 0;
 
-	public boolean isInteracting = false;
 	public boolean currentPlayer = false;
 
 	private Sprite[] currentAnim;
@@ -69,44 +68,40 @@ public class Player extends Mob {
 	}
 
 	public void update() {
-		int xa = 0, ya = 0;
+		updateHitboxes();
+		checkIfSelectingItem();
+		checkWalkingInput();
+		checkUsingItemInput();
+		checkDroppingItemInput();
+		updateAnimation();
+		poisonPlayer();
+	}
 
-		isInteracting = input.interacting;
+	public void killPlayer(){
+		for(int i = 0; i < inventory.length; i++){
+			if(inventory[i] != null){
+				int xOffset = random.nextInt(32);
+				int yOffset = random.nextInt(4);
+				game.createItem(x - 32 + xOffset, y + 26 + yOffset, inventory[i].name);
+			}
+		}
+	}
 
+	private void updateHitboxes(){
 		hitbox.updateHitbox(x, y);
 		interactionBox.updateHitbox(x, y, dir);
+	}
 
+	private void checkIfSelectingItem(){
 		if(currentPlayer){
 			if(input.selectionChanged){
 				playerSelection = input.playerSelection;
 				input.selectionChanged = false;
 			}
 		}
+	}
 
-		if (input.up)
-			ya-= speed;
-		if (input.down)
-			ya+= speed;
-		if (input.left)
-			xa-= speed;
-		if (input.right)
-			xa+= speed;
-		if (input.useItem){
-			if(inventory[playerSelection] != null){
-				inventory[playerSelection].use(this);
-				inventory[playerSelection] = null;
-			}
-			input.useItem = false;
-		}
-
-		if(input.droppingItem){
-			if(inventory[playerSelection] != null){
-				game.createItem(x, y, inventory[playerSelection].name);
-				inventory[playerSelection] = null;
-			}
-			input.droppingItem = false;
-		}
-		
+	private void updateAnimation(){
 		if(animating) {
 			if(System.currentTimeMillis() - lastUpdate > currentAnimUpdateTime) {
 				currentAnimIndex++;
@@ -115,6 +110,38 @@ public class Player extends Mob {
 				lastUpdate = System.currentTimeMillis();
 			}
 		}
+	}
+
+	private void checkDroppingItemInput(){
+		if(input.droppingItem){
+			if(inventory[playerSelection] != null){
+				game.createItem(x, y, inventory[playerSelection].name);
+				inventory[playerSelection] = null;
+			}
+			input.droppingItem = false;
+		}
+	}
+
+	private void checkUsingItemInput(){
+		if (input.useItem){
+			if(inventory[playerSelection] != null){
+				inventory[playerSelection].use(this);
+				inventory[playerSelection] = null;
+			}
+			input.useItem = false;
+		}
+	}
+
+	private void checkWalkingInput(){
+		int xa = 0, ya = 0;
+		if (input.up)
+			ya-= speed;
+		if (input.down)
+			ya+= speed;
+		if (input.left)
+			xa-= speed;
+		if (input.right)
+			xa+= speed;
 
 		if (xa != 0 && canMove || ya != 0 && canMove) {
 			move(xa, ya);
@@ -127,8 +154,6 @@ public class Player extends Mob {
 			walking = false;
 			animating = false;
 		}
-
-		poisonPlayer();
 	}
 
 	private void poisonPlayer(){
@@ -199,6 +224,13 @@ public class Player extends Mob {
 		poisonLevel +=  increase;
 		if(poisonLevel > 99){
 			poisonLevel = 99;
+		}
+	}
+
+	public void decreasePoisonLevel(int decrease) {
+		poisonLevel -=  decrease;
+		if(poisonLevel < 0){
+			poisonLevel = 0;
 		}
 	}
 }

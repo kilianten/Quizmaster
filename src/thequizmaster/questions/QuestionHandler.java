@@ -28,9 +28,10 @@ public class QuestionHandler {
 		                .parse(new FileReader("./res/questions.json"));
 	
 		        allQuestions = (JSONArray) object;
-		       
+		       System.out.println("Number of questions: " + allQuestions.size());
 		    }
 		    catch(FileNotFoundException fe)
+
 		    {
 		        fe.printStackTrace();
 		    }

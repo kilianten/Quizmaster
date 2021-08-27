@@ -7,6 +7,7 @@ public abstract class ItemsSprites {
 
     public static Sprite smallSyringe = new Sprite(16, 0, 0, SpriteSheet.itemsSheet);
     public static Sprite largeSyringe = new Sprite(16, 1, 0, SpriteSheet.itemsSheet);
+    public static Sprite mysterySyringe = new Sprite(16, 2, 0, SpriteSheet.itemsSheet);
 
 
 }

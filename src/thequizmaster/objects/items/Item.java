@@ -17,8 +17,9 @@ public class Item extends CollidableObject {
     public String name;
 
     public static Map<String, Integer> spawnChances = new HashMap<>() {{
-        put("Large Syringe", 1);
-        put("Small Syringe", 2);
+        put("Large Syringe", 2);
+        put("Small Syringe", 5);
+        put("Mystery Syringe", 2);
     }};
 
     public static Random random = new Random();
