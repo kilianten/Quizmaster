@@ -17,11 +17,11 @@ public abstract class Item extends CollidableObject {
     public String name;
 
     public static Map<String, Integer> spawnChances = new HashMap<>() {{
-        put("Large Syringe", 3);
-        put("Small Syringe", 6);
-        put("Mystery Syringe", 3);
-        put("Poison Syringe", 3);
-        put("Wirecutters", 20);
+        put("Large Syringe", 4);
+        put("Small Syringe", 7);
+        put("Mystery Syringe", 4);
+        put("Poison Syringe", 2);
+        put("Wirecutters", 1);
     }};
 
     public static Random random = new Random();

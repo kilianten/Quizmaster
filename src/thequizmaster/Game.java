@@ -7,28 +7,18 @@ import java.awt.Font;
 import java.awt.FontFormatException;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
-import java.awt.RadialGradientPaint;
-import java.awt.geom.Point2D;
 import java.awt.image.BufferStrategy;
 import java.awt.image.BufferedImage;
 import java.awt.image.DataBufferInt;
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
 
 import javax.swing.JFrame;
 
-import thequizmaster.entity.mob.Player;
-import thequizmaster.entity.mob.people.Douglas;
-import thequizmaster.entity.mob.people.Nolan;
 import thequizmaster.gamestates.GameState;
 import thequizmaster.gamestates.MainGame;
 import thequizmaster.graphics.Screen;
-import thequizmaster.graphics.LightSource;
 import thequizmaster.input.Keyboard;
-import thequizmaster.level.Level;
-import thequizmaster.level.RandomLevel;
-import thequizmaster.level.SpawnLevel;
 
 public class Game extends Canvas implements Runnable{
 	private static final long serialVersionUID = 1L;

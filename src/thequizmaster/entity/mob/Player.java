@@ -83,7 +83,7 @@ public class Player extends Mob {
 			if(inventory[i] != null){
 				int xOffset = random.nextInt(32);
 				int yOffset = random.nextInt(4);
-				game.createItem(x - 32 + xOffset, y + 26 + yOffset, inventory[i].name);
+				game.createItem(x - 32 + xOffset, y + 32 + yOffset, inventory[i].name);
 			}
 		}
 	}

@@ -1,9 +1,11 @@
 package thequizmaster.objects.traps;
 
-import thequizmaster.graphics.Sprite;
-
 public class ChainGameSaw {
 
-	private Sprite sprite;
+	int numOfPlayers;
+
+	ChainGameSaw(int numOfPlayers){
+		this.numOfPlayers = numOfPlayers;
+	}
 	
 }

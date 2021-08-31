@@ -23,8 +23,8 @@ public class SpawnLevel extends Level {
 			int h = height = image.getHeight();
 			tiles = new int[w * h];
 			image.getRGB(0,0, w, h, tiles, 0, w);
-			alterMap(w, h);
 			findRooms(w);
+			alterMap(w, h);
 		} catch (IOException e) {
 			e.printStackTrace();
 			System.out.println("Exception: Could not load level file at " + path);
@@ -33,10 +33,51 @@ public class SpawnLevel extends Level {
 
 	private void findRooms(int width) {
 		for(int i = 0; i < tiles.length; i++) {
-			if(tiles[i] == 0XFFb34949) {
-				continue;
+			if(isTopLeftCornerTile(i)) {
+				int roomWidth = findRoomWidth(i);
+				int roomHeight = findRoomHeight(i);
+				if(isRoom(i, roomWidth, roomHeight)){
+					Room room = new Room(i, roomWidth, roomHeight);
+				}
 			}
 		}
+	}
+
+	public boolean isRoom(int index, int roomWidth, int height){
+		if(roomWidth < 3 || height < 3) return false;
+		int topRightCorner = index + roomWidth;
+		for(int i = index; i < topRightCorner; i++){
+			for(int h = 0; h < height; h++) {
+				if(tiles[i + h * width] != 0XFFA4A4A7){
+					return false;
+				}
+			}
+		}
+		return true;
+	}
+
+	public int findRoomHeight(int i){
+		i++;
+		int counter = 0;
+		while(i / width < height && tiles[i] == 0XFFA4A4A7){
+			i+= width;
+			counter++;
+		}
+		return counter;
+	}
+
+	public int findRoomWidth(int i){
+		i++;
+		int counter = 0;
+		while(i % width != 0 && tiles[i] == 0XFFA4A4A7){
+			i++;
+			counter++;
+		}
+		return counter + 1;
+	}
+
+	public boolean isTopLeftCornerTile(int i){
+		return tiles[i] == 0XFFA4A4A7 && tiles[i - 1] == 0XFFb34949 && tiles[i - width] == 0XFFb34949;
 	}
 	
 	private void findMainRoom() {
