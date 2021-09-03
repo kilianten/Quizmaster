@@ -15,7 +15,6 @@ public class ChainGame extends MainEvent {
 	}
 
 	public void start(){
-		game.player.x = 0;
 		isGameEnded = true;
 		game.quiz = null;
 	}

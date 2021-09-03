@@ -17,12 +17,6 @@ public class Douglas extends Player {
 		this.level = level;
 	}
 	
-	public Douglas(int x, int y, Keyboard input) {
-		super(x, y, input);
-		setAnims();
-		fname = "Douglas";
-	}
-	
 	public void setAnims() {
 		standingSprites = DouglasSprites.douglasStandingSprites;
 		walkingFowardAnim = DouglasSprites.douglasWalkingFrontSprites;

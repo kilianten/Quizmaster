@@ -12,8 +12,11 @@ public class SpriteSheet {
 
 	// SpriteSheet
 	public static SpriteSheet tileSheet = new SpriteSheet("/textures/tiles.png", 512);
+
 	public static SpriteSheet douglasSheet = new SpriteSheet("/entities/douglas/douglas-export.png", 1280);
 	public static SpriteSheet nolanSheet = new SpriteSheet("/entities/nolan/nolan-.png", 1280);
+	public static SpriteSheet karlSheet = new SpriteSheet("/entities/karl/karl.png", 1280);
+
 	public static SpriteSheet trapsSheet = new SpriteSheet("/objects/traps.png", 1280);
 	public static SpriteSheet hudSheet = new SpriteSheet("/hud/hud-spritesheet.png", 640);
 	public static SpriteSheet itemsSheet = new SpriteSheet("/items/items.png", 640);

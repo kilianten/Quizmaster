@@ -18,17 +18,12 @@ public class Nolan extends Player {
 		this.level = level;
 	}
 	
-	public Nolan(int x, int y, Keyboard input) {
-		super(x, y, input);
-		setAnims();
-		fname = "Fr.";
-	}
-	
 	public void setAnims() {
 		standingSprites = NolanSprites.nolanStandingSprites;
 		walkingFowardAnim = NolanSprites.nolanWalkingFrontSprites;
-		walkingBackAnim = NolanSprites.nolanWalkingFrontSprites;
-		walkingLeftAnim = NolanSprites.nolanWalkingFrontSprites;
+		walkingBackAnim = NolanSprites.nolanWalkingBackSprites;
+		walkingLeftAnim = NolanSprites.nolanWalkingLeftSprites;
+		walkingRightAnim = NolanSprites.nolanWalkingRightSprites;
 		wireTrapDeathAnim = DouglasSprites.douglasWireTrapDeathSprites;
 
 		sprite = standingSprites[0];

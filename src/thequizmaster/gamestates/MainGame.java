@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import thequizmaster.Constants;
 import thequizmaster.entity.mob.Player;
 import thequizmaster.entity.mob.people.Douglas;
+import thequizmaster.entity.mob.people.Karl;
 import thequizmaster.entity.mob.people.Nolan;
 import thequizmaster.graphics.LightSource;
 import thequizmaster.graphics.Screen;
@@ -70,6 +71,7 @@ public class MainGame extends GameState {
 	
 	private void addPeople() {
 		people.add(new Nolan(key, level, this));
+		people.add(new Karl(key, level, this));
 	}
 	
 	public void checkCollidables() {
