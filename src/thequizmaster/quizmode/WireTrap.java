@@ -52,7 +52,6 @@ public class WireTrap extends QuizMode{
 			isGameEnded = true;
 		} else {
 			deathAnimation.update();
-
 		}
 	}
 	

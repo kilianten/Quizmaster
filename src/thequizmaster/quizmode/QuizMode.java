@@ -22,11 +22,16 @@ public class QuizMode {
 	public boolean answeredCorrectly;
 	public boolean isGameEnding = false;
 	public boolean isGameEnded = false;
+	protected boolean isAskingQuestion = true;
 	
 	protected Keyboard input;
 
 	public QuizMode() {
 		
+	}
+
+	public void start(){
+
 	}
 	
 	public QuizMode(Question question, Keyboard input) {
@@ -37,7 +42,7 @@ public class QuizMode {
 	}
 	
 	public void update() {
-		if(!isGameEnding) {
+		if(!isGameEnding && isAskingQuestion) {
 			if (input.upReleased) {
 				input.upReleased = false;
 				questionSelected--;

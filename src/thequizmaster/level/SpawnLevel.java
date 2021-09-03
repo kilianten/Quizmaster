@@ -2,18 +2,21 @@ package thequizmaster.level;
 
 import java.awt.image.BufferedImage;
 import java.io.IOException;
-import java.util.Random;
+import java.util.ArrayList;
 
 import javax.imageio.ImageIO;
 
 import thequizmaster.Constants;
-import thequizmaster.level.tile.Tile;
+import thequizmaster.gamestates.MainGame;
+import thequizmaster.objects.items.*;
 import thequizmaster.objects.traps.TripWire;
+import thequizmaster.quizmode.ChainGame;
+import thequizmaster.quizmode.MainEvent;
 
 public class SpawnLevel extends Level {
-	
-	public SpawnLevel(String path) {
-		super(path);
+
+	public SpawnLevel(String path, MainGame game) {
+		super(path, game);
 	}
 	
 	protected void loadLevel(String path) {
@@ -23,21 +26,58 @@ public class SpawnLevel extends Level {
 			int h = height = image.getHeight();
 			tiles = new int[w * h];
 			image.getRGB(0,0, w, h, tiles, 0, w);
-			findRooms(w);
+			findRooms();
 			alterMap(w, h);
+			game.quiz = findRandomMainEvent();
+			for(Room room: rooms){
+				System.out.println("height: " + room.height);
+				System.out.println("width: " + room.width);
+			}
 		} catch (IOException e) {
 			e.printStackTrace();
 			System.out.println("Exception: Could not load level file at " + path);
 		}
 	}
 
-	private void findRooms(int width) {
+	private MainEvent createMainEvent(String gamemode){
+		switch(gamemode) {
+			case "ChainGame":
+				Room room = ChainGame.isSuitableRoomAvailable(rooms);
+				if(room != null){
+					return new ChainGame(room, game);
+				}
+			default:
+				return null;
+		}
+	}
+
+	private MainEvent findRandomMainEvent() {
+		ArrayList<String> gamemodes = Constants.GAMEMODES;
+		MainEvent event = null;
+		while(gamemodes.size() > 0 && event == null){
+			int randomGameModeIndex = random.nextInt(gamemodes.size());
+			event = createMainEvent(gamemodes.get(randomGameModeIndex));
+			gamemodes.remove(randomGameModeIndex);
+			for(String gamemode: gamemodes){
+				System.out.println(gamemode);
+			}
+
+
+		}
+		if(event == null){
+			System.out.println("ERROR: No Gamemode Could be Created. No rooms available that met specifications");
+			System.exit(0);
+		}
+		return event;
+	}
+
+	private void findRooms() {
 		for(int i = 0; i < tiles.length; i++) {
 			if(isTopLeftCornerTile(i)) {
 				int roomWidth = findRoomWidth(i);
 				int roomHeight = findRoomHeight(i);
 				if(isRoom(i, roomWidth, roomHeight)){
-					Room room = new Room(i, roomWidth, roomHeight);
+					rooms.add(new Room(i, roomWidth, roomHeight));
 				}
 			}
 		}

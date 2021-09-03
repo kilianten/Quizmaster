@@ -5,34 +5,31 @@ import java.util.List;
 import java.util.Random;
 
 import thequizmaster.Constants;
+import thequizmaster.gamestates.MainGame;
 import thequizmaster.graphics.Screen;
 import thequizmaster.level.tile.Tile;
 import thequizmaster.objects.CollidableObject;
 import thequizmaster.objects.GameObject;
-import thequizmaster.objects.traps.TripWire;
+
 
 public class Level {
 
 	protected int width, height;
 	protected int[] tiles;
 	protected Random random;
+	protected ArrayList<Room> rooms;
+	protected MainGame game;
 
 	public List<CollidableObject> collidableObjects = new ArrayList<CollidableObject>();
 	public List<GameObject> gameObjects = new ArrayList<GameObject>();
 	public List<CollidableObject> interactablebjects = new ArrayList<CollidableObject>();
 
 
-	public Level(String path) {
+	public Level(String path, MainGame game) {
+		this.game = game;
 		random = new Random();
+		rooms = new ArrayList<>();
 		loadLevel(path);
-	}
-
-	public Level(int width, int height) {
-		this.width = width;
-		this.height = height;
-		random = new Random();
-		tiles = new int[width * height];
-		generateLevel();
 	}
 
 	public void addGameObject(GameObject gameObject) {
@@ -48,10 +45,6 @@ public class Level {
 	}
 
 	protected void loadLevel(String path) {
-
-	}
-
-	protected void generateLevel() {
 
 	}
 
@@ -109,4 +102,9 @@ public class Level {
 
 		return Tile.voidTile;
 	}
+
+	public void setup() {
+
+	}
+
 }

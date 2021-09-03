@@ -43,14 +43,14 @@ public class MainGame extends GameState {
 	public MainGame(Keyboard key) {
 		questionHandler = new QuestionHandler();
 		this.key = key;
-		level = new SpawnLevel("/levels/level01.png");
+		level = new SpawnLevel("/levels/level01.png", this);
 		people = new ArrayList<Player>();
 		drawObjects = new ArrayList<GameObject>();
 		addPeople();
 		player = new Douglas(key, level, this);
 		player.currentPlayer = true;
 		light = new LightSource(500, player.x, player.y);
-		quiz = null;
+		quiz.start();
 		createHUD();
 		createRandomItem(player.x, player.y);
 		createRandomItem(player.x + 20, player.y + 20);
