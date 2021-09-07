@@ -50,8 +50,7 @@ public class Player extends Mob {
 	public Sprite wireTrapCorpse;
 	public Sprite HUDImage;
 	public Item[] inventory;
-	public MainGame game;
-	
+
 	public Player(Keyboard input, MainGame game) {
 		this.input = input;
 		hitbox = new Hitbox(16, 12, -4, 10);
@@ -246,4 +245,6 @@ public class Player extends Mob {
 			poisonLevel = 0;
 		}
 	}
+
+
 }

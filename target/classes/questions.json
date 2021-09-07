@@ -11573,7 +11573,14 @@
     "options":["George Washington", "Abraham Lincoln", "James Madison", "Theodore Roosevelt", "Thomas Jefferson", "Harry S. Truman"],
     "difficulty": 3,
     "categories":["politics", "history", "medicine"]
-}
+},
+    {
+        "question":"In 2021, which country became the first to accept Bitcoin as legal tender?",
+        "answers":["El Salvador"],
+        "options":["Nicaragua", "Portugal", "Vatican City", "Honduras", "United States", "Bulgaria", "Serbia", "Cuba", "Niger", "Gabon", "Republic of the Congo"],
+        "difficulty": 3,
+        "categories":["currency", "technology"]
+    }
 
 
 ]

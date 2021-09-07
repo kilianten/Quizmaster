@@ -9,13 +9,12 @@ import thequizmaster.level.Level;
 
 public class Nolan extends Player {
 	
-	public Nolan(Keyboard input, Level level, MainGame game) {
+	public Nolan(Keyboard input, MainGame game) {
 		super(input, game);
 		setAnims();
 		fname = "Fr.";
 		x = 74 * 32;
 		y = 74 * 32;
-		this.level = level;
 	}
 	
 	public void setAnims() {

@@ -1,11 +1,19 @@
 package thequizmaster.objects.traps;
 
-public class ChainGameSaw {
+import thequizmaster.gamestates.MainGame;
+import thequizmaster.graphics.items.TrapSprites;
+import thequizmaster.objects.AnimatedObject;
 
-	int numOfPlayers;
+public class ChainGameSaw extends AnimatedObject {
 
-	ChainGameSaw(int numOfPlayers){
-		this.numOfPlayers = numOfPlayers;
+	public ChainGameSaw(int x, int y, MainGame game) {
+		super(TrapSprites.chainGameSawSprites, 10, true, x, y);
+		game.addDrawObject(this);
+		game.addUpdateObject(this);
 	}
-	
+
+
+
+
+
 }

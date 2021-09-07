@@ -77,7 +77,7 @@ public class SpawnLevel extends Level {
 				int roomWidth = findRoomWidth(i);
 				int roomHeight = findRoomHeight(i);
 				if(isRoom(i, roomWidth, roomHeight)){
-					rooms.add(new Room(i, roomWidth, roomHeight));
+					rooms.add(new Room(i % width, i / width, roomWidth, roomHeight));
 				}
 			}
 		}

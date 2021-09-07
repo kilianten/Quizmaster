@@ -1,9 +1,10 @@
 package thequizmaster.objects;
 
+import thequizmaster.entity.mob.Mob;
 import thequizmaster.graphics.Screen;
 import thequizmaster.graphics.Sprite;
 
-public class GameObject {
+public class GameObject implements Comparable<GameObject>{
 	
 	public int x;
 	public int y;
@@ -16,7 +17,9 @@ public class GameObject {
 	public void update() {
 		
 	}
-		
 
-	
+	@Override
+	public int compareTo(GameObject o) {
+		return Integer.compare(y, o.y);
+	}
 }

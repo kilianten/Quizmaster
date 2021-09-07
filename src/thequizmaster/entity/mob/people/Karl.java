@@ -8,13 +8,12 @@ import thequizmaster.level.Level;
 
 public class Karl extends Player {
 
-    public Karl(Keyboard input, Level level, MainGame game) {
+    public Karl(Keyboard input, MainGame game) {
         super(input, game);
         setAnims();
         fname = "Karl";
         x = 74 * 34;
         y = 74 * 32;
-        this.level = level;
     }
 
     public void setAnims() {

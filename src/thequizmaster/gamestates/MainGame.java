@@ -1,7 +1,9 @@
 package thequizmaster.gamestates;
 
 import java.awt.Graphics;
+import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Collections;
 
 import thequizmaster.Constants;
 import thequizmaster.entity.mob.Player;
@@ -14,7 +16,6 @@ import thequizmaster.input.Keyboard;
 import thequizmaster.level.Level;
 import thequizmaster.level.SpawnLevel;
 import thequizmaster.objects.CollidableObject;
-import thequizmaster.objects.Corpse;
 import thequizmaster.objects.GameObject;
 import thequizmaster.objects.Hitbox;
 import thequizmaster.objects.hud.InventoryBar;
@@ -30,11 +31,12 @@ public class MainGame extends GameState {
 
 	public Player player;
 	private LightSource light;
-	private ArrayList<Player> people;
+	public ArrayList<Player> people;
+	public ArrayList<Player> allPeople;
 	private ArrayList<GameObject> drawObjects;
-	private Level level;
+	private ArrayList<GameObject> updateObjects;
+	public Level level;
 	private Keyboard key;
-	private boolean isQuizActive = false;
 	private QuestionHandler questionHandler;
 	public QuizMode quiz;
 	private PoisonBar poisonBar;
@@ -44,18 +46,23 @@ public class MainGame extends GameState {
 	public MainGame(Keyboard key) {
 		questionHandler = new QuestionHandler();
 		this.key = key;
-		level = new SpawnLevel("/levels/level01.png", this);
-		people = new ArrayList<Player>();
-		drawObjects = new ArrayList<GameObject>();
+		people = new ArrayList<>();
+		drawObjects = new ArrayList<>();
+		updateObjects = new ArrayList<>();
+		allPeople = new ArrayList<>();
 		addPeople();
-		player = new Douglas(key, level, this);
+		player = new Douglas(key, this);
 		player.currentPlayer = true;
+		allPeople.add(player);
+		System.out.println("originalSize: " + people.size());
+
 		light = new LightSource(500, player.x, player.y);
+		level = new SpawnLevel("/levels/level01.png", this);
 		quiz.start();
 		createHUD();
 		createRandomItem(player.x, player.y);
 		createRandomItem(player.x + 20, player.y + 20);
-		createSearchBox(player.x - 100, player.y - 100);
+		createSearchBox(player.x - 100, player.y + 50);
 	}
 
 	private void createSearchBox(int x, int y) {
@@ -70,8 +77,13 @@ public class MainGame extends GameState {
 	}
 	
 	private void addPeople() {
-		people.add(new Nolan(key, level, this));
-		people.add(new Karl(key, level, this));
+		Player nolan = new Nolan(key, this);
+		Player karl = new Karl(key, this);
+
+		allPeople.add(nolan);
+		allPeople.add(karl);
+		people.add(nolan);
+		people.add(karl);
 	}
 	
 	public void checkCollidables() {
@@ -123,7 +135,6 @@ public class MainGame extends GameState {
 
 
 	public void removePlayerControl() {
-		isQuizActive = true;
 		player.canMove = false;
 	}
 
@@ -136,13 +147,15 @@ public class MainGame extends GameState {
 	}
 
 	private void givePlayerControl() {
-		isQuizActive = false;
 		player.canMove = true;
 	}
 
 	public void update() {
 		key.update();
 		checkCollidables();
+		for(GameObject object: updateObjects){
+			object.update();
+		}
 		if(!(quiz == null)) {
 			if(quiz.isFinished || quiz.answeredCorrectly) {
 				quiz = null;
@@ -161,7 +174,7 @@ public class MainGame extends GameState {
 		}
 		
 		if(key.changePlayer) {
-			if(!isQuizActive){
+			if(quiz == null){
 				swapPlayer();
 			}
 			key.changePlayer = false;
@@ -193,29 +206,8 @@ public class MainGame extends GameState {
 				screen.renderHitbox(level.interactablebjects.get(i).hitbox, 0xffB200B2);
 			}
 		}
-		
-		for(Player person: people) {
-			if(person.y < player.y) {
-				person.render(screen);
-			}
-		}
-		for(GameObject object: drawObjects) {
-			if(object.y < player.y) {
-				object.render(screen);
-			}
-		}
-		
-		player.render(screen);
-		for(Player person: people) {
-			if(person.y >= player.y) {
-				person.render(screen);
-			}
-		}
-		for(GameObject object: drawObjects) {
-			if(object.y >= player.y) {
-				object.render(screen);
-			}
-		}
+
+		drawObjectsAndPlayers(screen);
 	
 		if(devMode) {
 			screen.renderHitbox(player.hitbox, 0xff00b300);
@@ -223,12 +215,42 @@ public class MainGame extends GameState {
 		}
 	
 	}
-	
+
+	private void drawObjectsAndPlayers(Screen screen) {
+		Collections.sort(allPeople);
+		Collections.sort(drawObjects);
+
+
+		int peopleSize = allPeople.size();
+		int peopleIndex = 0;
+		int objectIndex = 0;
+		int currentObjectY = drawObjects.get(objectIndex).y;
+		int objectsSize = drawObjects.size();
+
+		while(peopleIndex < peopleSize){
+			while(currentObjectY <= allPeople.get(peopleIndex).y && objectIndex < objectsSize){
+				drawObjects.get(objectIndex).render(screen);
+				objectIndex++;
+				if(objectIndex < objectsSize){
+					currentObjectY = drawObjects.get(objectIndex).y;
+				}
+			}
+			allPeople.get(peopleIndex).render(screen);
+			peopleIndex++;
+		}
+
+		while(objectIndex < objectsSize){
+			drawObjects.get(objectIndex).render(screen);
+			objectIndex++;
+		}
+	}
+
 	public Player getPlayer() {
 		return player;
 	}
 	
 	public void swapPlayer() {
+		System.out.println("SIZE BEFORE ADD: " + people.size());
 		if(people.size() > 0) {
 			people.add(player);
 			player.resetSprite();
@@ -237,9 +259,11 @@ public class MainGame extends GameState {
 			player.currentPlayer = true;
 			people.remove(player);
 		}
+		System.out.println(people.size());
 	}
 	
 	public void replaceCurrentPlayer() {
+		allPeople.remove(player);
 		player = people.get(0);
 		player.currentPlayer = true;
 		people.remove(player);
@@ -247,6 +271,10 @@ public class MainGame extends GameState {
 
 	public void addDrawObject(GameObject object) {
 		drawObjects.add(object);
+	}
+
+	public void addUpdateObject(GameObject object) {
+		updateObjects.add(object);
 	}
 
 	public Item getItem(String type, int x, int y){
