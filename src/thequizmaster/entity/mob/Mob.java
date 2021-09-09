@@ -56,6 +56,16 @@ public class Mob extends Entity  implements Comparable<Mob> {
 			if(game.level.getTile(xt, yt).isSolid()) {
 				solid = true;
 			}
+			game.player.hitbox.updateHitbox(xa, ya);
+			for(int i = 0; i < game.level.collidableObjects.size(); i++) {
+				if(!game.level.collidableObjects.get(i).canWalkThrough){
+					Hitbox futureHitbox = new Hitbox((x + xa), (y + ya), 16, 12, -4, 10);
+					if(Hitbox.isColliding(game.level.collidableObjects.get(i).hitbox, futureHitbox)) {
+						hitbox.updateHitbox((x + xa), (y + ya));
+						solid = true;
+					}
+				}
+			}
 		}
 		return solid;
 	}

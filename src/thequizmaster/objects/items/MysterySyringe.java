@@ -1,13 +1,14 @@
 package thequizmaster.objects.items;
 
+import com.sun.tools.javac.Main;
 import thequizmaster.entity.mob.Player;
 import thequizmaster.gamestates.MainGame;
 import thequizmaster.graphics.items.ItemsSprites;
 
 public class MysterySyringe extends Item {
 
-    public MysterySyringe(int x, int y){
-        super("Mystery Syringe", ItemsSprites.mysterySyringe, x, y);
+    public MysterySyringe(int x, int y, MainGame game){
+        super("Mystery Syringe", ItemsSprites.mysterySyringe, x, y, game);
     }
 
     public boolean use(Player player, MainGame game){

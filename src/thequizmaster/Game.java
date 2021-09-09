@@ -92,7 +92,11 @@ public class Game extends Canvas implements Runnable{
 			delta += (now - lastTime) / Constants.NANOSECONDS;
 			lastTime = now;
 			while (delta >= 1){
-				update();
+				try {
+					update();
+				} catch (CloneNotSupportedException e) {
+					e.printStackTrace();
+				}
 				updates++;
 				delta--;
 			}
@@ -109,7 +113,7 @@ public class Game extends Canvas implements Runnable{
 		stop();
 	}
 	
-	public void update() {
+	public void update() throws CloneNotSupportedException {
 		key.update();
 		gameState.update();
 		if(key.slashPressed) {

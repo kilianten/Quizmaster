@@ -34,6 +34,7 @@ public class MainGame extends GameState {
 	public ArrayList<Player> people;
 	public ArrayList<Player> allPeople;
 	private ArrayList<GameObject> drawObjects;
+	private ArrayList<GameObject> drawOverObjects;
 	private ArrayList<GameObject> updateObjects;
 	public Level level;
 	private Keyboard key;
@@ -50,6 +51,7 @@ public class MainGame extends GameState {
 		drawObjects = new ArrayList<>();
 		updateObjects = new ArrayList<>();
 		allPeople = new ArrayList<>();
+		drawOverObjects = new ArrayList<>();
 		addPeople();
 		player = new Douglas(key, this);
 		player.currentPlayer = true;
@@ -68,7 +70,9 @@ public class MainGame extends GameState {
 	private void createSearchBox(int x, int y) {
 		CollidableObject object = new SearchBox(x, y);
 		level.addGameObject(object);
+		addDrawObject(object);
 		level.addInteractableObject(object);
+		level.addCollidableObject(object);
 	}
 
 	private void createHUD() {
@@ -227,6 +231,10 @@ public class MainGame extends GameState {
 		int currentObjectY = drawObjects.get(objectIndex).y;
 		int objectsSize = drawObjects.size();
 
+		for(GameObject object: drawOverObjects){
+			object.render(screen);
+		}
+
 		while(peopleIndex < peopleSize){
 			while(currentObjectY <= allPeople.get(peopleIndex).y && objectIndex < objectsSize){
 				drawObjects.get(objectIndex).render(screen);
@@ -243,6 +251,7 @@ public class MainGame extends GameState {
 			drawObjects.get(objectIndex).render(screen);
 			objectIndex++;
 		}
+
 	}
 
 	public Player getPlayer() {
@@ -250,7 +259,6 @@ public class MainGame extends GameState {
 	}
 	
 	public void swapPlayer() {
-		System.out.println("SIZE BEFORE ADD: " + people.size());
 		if(people.size() > 0) {
 			people.add(player);
 			player.resetSprite();
@@ -259,7 +267,6 @@ public class MainGame extends GameState {
 			player.currentPlayer = true;
 			people.remove(player);
 		}
-		System.out.println(people.size());
 	}
 	
 	public void replaceCurrentPlayer() {
@@ -281,22 +288,22 @@ public class MainGame extends GameState {
 		Item item;
 		switch(type) {
 			case "Small Syringe":
-				item = new CureSyringeSmall(x, y);
+				item = new CureSyringeSmall(x, y, this);
 				break;
 			case "Large Syringe":
-				item = new CureSyringeLarge(x, y);
+				item = new CureSyringeLarge(x, y, this);
 				break;
 			case "Mystery Syringe":
-				item = new MysterySyringe(x, y);
+				item = new MysterySyringe(x, y, this);
 				break;
 			case "Poison Syringe":
-				item = new PoisonSyringe(x, y);
+				item = new PoisonSyringe(x, y, this);
 				break;
 			case "Wirecutters":
-				item = new Wirecutters(x, y);
+				item = new Wirecutters(x, y, this);
 				break;
 			default:
-				item = new CureSyringeSmall(x, y);
+				item = new CureSyringeSmall(x, y, this);
 				System.out.println("Item Type Not Recognised");
 		}
 
@@ -329,4 +336,7 @@ public class MainGame extends GameState {
 		}
 	}
 
+	public void addAlwaysDrawOver(GameObject object) {
+		drawOverObjects.add(object);
+	}
 }

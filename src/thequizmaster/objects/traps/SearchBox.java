@@ -14,6 +14,7 @@ public class SearchBox extends CollidableObject {
         this.x = x;
         hitbox = new Hitbox(x, y, 50, 25, 8, 15);
         sprite =  TrapSprites.searchBoxSprite;
+        canWalkThrough = false;
     }
 
     public void hasCollided(MainGame mainGame) {

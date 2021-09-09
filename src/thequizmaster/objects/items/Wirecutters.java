@@ -9,8 +9,8 @@ import thequizmaster.objects.traps.TripWire;
 
 public class Wirecutters extends ChargesItem {
 
-    public Wirecutters(int x, int y) {
-        super("Wirecutters", ItemsSprites.wirecutters, x, y);
+    public Wirecutters(int x, int y, MainGame game) {
+        super("Wirecutters", ItemsSprites.wirecutters, x, y, game);
         numberOfCharges = 2;
         numberOfChargesRemaining = numberOfCharges;
     }

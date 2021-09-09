@@ -6,8 +6,8 @@ import thequizmaster.graphics.items.ItemsSprites;
 
 public class CureSyringeLarge extends Item {
 
-    public CureSyringeLarge(int x, int y){
-        super("Large Syringe", ItemsSprites.largeSyringe, x, y);
+    public CureSyringeLarge(int x, int y, MainGame game){
+        super("Large Syringe", ItemsSprites.largeSyringe, x, y, game);
     }
 
     public boolean use(Player player, MainGame game){

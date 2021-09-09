@@ -68,9 +68,9 @@ public class Level {
 			}
 		}
 
-		for (int i = 0; i < gameObjects.size(); i++) {
-			gameObjects.get(i).render(screen);
-		}
+		//for (int i = 0; i < gameObjects.size(); i++) {
+		//	gameObjects.get(i).render(screen);
+		//}
 
 	}
 

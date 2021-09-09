@@ -6,8 +6,8 @@ import thequizmaster.graphics.items.ItemsSprites;
 
 public class PoisonSyringe extends Item {
 
-    public PoisonSyringe(int x, int y){
-        super("Poison Syringe", ItemsSprites.poisonSyringe, x, y);
+    public PoisonSyringe(int x, int y, MainGame game){
+        super("Poison Syringe", ItemsSprites.poisonSyringe, x, y, game);
     }
 
     public boolean use(Player player, MainGame game){

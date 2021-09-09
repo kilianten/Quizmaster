@@ -1,6 +1,7 @@
 package thequizmaster.objects.items;
 
 import thequizmaster.Constants;
+import thequizmaster.gamestates.MainGame;
 import thequizmaster.graphics.Screen;
 import thequizmaster.graphics.Sprite;
 
@@ -9,8 +10,8 @@ public abstract class ChargesItem extends Item {
     public int numberOfCharges;
     public int numberOfChargesRemaining;
 
-    public ChargesItem(String name, Sprite sprite, int x, int y) {
-        super(name, sprite, x, y);
+    public ChargesItem(String name, Sprite sprite, int x, int y, MainGame game) {
+        super(name, sprite, x, y, game);
     }
 
     public void renderCharges(Screen screen, int itemIndex) {

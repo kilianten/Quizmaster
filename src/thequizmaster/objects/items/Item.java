@@ -26,12 +26,13 @@ public abstract class Item extends CollidableObject {
 
     public static Random random = new Random();
 
-    public Item(String name, Sprite sprite, int x, int y){
+    public Item(String name, Sprite sprite, int x, int y, MainGame game){
         this.name = name;
         this.sprite = sprite;
         this.x = x;
         this.y = y;
         hitbox = new Hitbox(x, y, sprite);
+        game.addAlwaysDrawOver(this);
     }
 
     public boolean use(Player player, MainGame game){
