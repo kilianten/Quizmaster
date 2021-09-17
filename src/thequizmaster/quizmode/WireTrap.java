@@ -16,8 +16,8 @@ public class WireTrap extends QuizMode{
 	private Player player;
 	private Animation deathAnimation;
 
-	public WireTrap(Question question, Keyboard input, Player player) {
-		super(question, input);
+	public WireTrap(Question question, Keyboard input, Player player, MainGame game) {
+		super(game, question, input);
 		timer = new CountdownTimer(30);
 		this.player = player;
 	}

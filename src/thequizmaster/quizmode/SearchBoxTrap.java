@@ -16,13 +16,11 @@ public class SearchBoxTrap extends QuizMode{
     private CountdownTimer timer;
     private Player player;
     private Animation deathAnimation;
-    private MainGame game;
 
     public SearchBoxTrap(Question question, Keyboard input, Player player, MainGame game) {
-        super(question, input);
+        super(game, question, input);
         timer = new CountdownTimer(30);
         this.player = player;
-        this.game = game;
     }
 
     public void renderHUD(Screen screen, Graphics g) {

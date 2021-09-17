@@ -44,7 +44,7 @@ public class SpawnLevel extends Level {
 			case "ChainGame":
 				Room room = ChainGame.isSuitableRoomAvailable(rooms);
 				if(room != null){
-					return new ChainGame(room, game);
+					return new ChainGame(game.key, room, game);
 				}
 			default:
 				return null;
@@ -147,7 +147,7 @@ public class SpawnLevel extends Level {
 					int chanceOfSpawingWire = random.nextInt(Constants.CHANCE_OF_SPAWNING_TRIPWIRE);
 					if(chanceOfSpawingWire == 0) {
 						TripWire trip = new TripWire(i % width * 32, i / width * 32 + 30);
-						addGameObject(trip);
+						game.addAlwaysDrawOver(trip);
 						addCollidableObject(trip);
 					}
 				}

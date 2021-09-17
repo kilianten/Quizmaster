@@ -22,6 +22,7 @@ import thequizmaster.objects.hud.InventoryBar;
 import thequizmaster.objects.hud.PoisonBar;
 import thequizmaster.objects.items.*;
 import thequizmaster.objects.traps.SearchBox;
+import thequizmaster.questions.Question;
 import thequizmaster.questions.QuestionHandler;
 import thequizmaster.quizmode.QuizMode;
 import thequizmaster.quizmode.SearchBoxTrap;
@@ -37,7 +38,7 @@ public class MainGame extends GameState {
 	private ArrayList<GameObject> drawOverObjects;
 	private ArrayList<GameObject> updateObjects;
 	public Level level;
-	private Keyboard key;
+	public Keyboard key;
 	private QuestionHandler questionHandler;
 	public QuizMode quiz;
 	private PoisonBar poisonBar;
@@ -133,6 +134,11 @@ public class MainGame extends GameState {
 		level.collidableObjects.remove(object);
 	}
 
+	public void removeDrawOverObject(GameObject object){
+		drawOverObjects.remove(object);
+	}
+
+
 	public void removeInteractableObject(GameObject object){
 		level.interactablebjects.remove(object);
 	}
@@ -143,14 +149,14 @@ public class MainGame extends GameState {
 	}
 
 	public void createWireTrapQuiz(){
-		quiz = new WireTrap(questionHandler.getQuestion(3), key, player);
+		quiz = new WireTrap(questionHandler.getQuestion(3), key, player, this);
 	}
 
 	public void createSearchBoxTrapQuiz(){
 		quiz = new SearchBoxTrap(questionHandler.getQuestion(4), key, player, this);
 	}
 
-	private void givePlayerControl() {
+	public void givePlayerControl() {
 		player.canMove = true;
 	}
 
@@ -161,17 +167,7 @@ public class MainGame extends GameState {
 			object.update();
 		}
 		if(!(quiz == null)) {
-			if(quiz.isFinished || quiz.answeredCorrectly) {
-				quiz = null;
-				givePlayerControl();
-			}
-			else {
-				if(quiz.isGameEnded) {
-					quiz.tidyUp(this);
-				} else {
-					quiz.update();
-				}
-			}
+			quiz.update();
 		} else {
 			player.update();
 			level.update();
@@ -338,5 +334,9 @@ public class MainGame extends GameState {
 
 	public void addAlwaysDrawOver(GameObject object) {
 		drawOverObjects.add(object);
+	}
+
+	public Question getQuestion(int difficulty){
+		return questionHandler.getQuestion(difficulty);
 	}
 }

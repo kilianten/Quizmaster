@@ -68,13 +68,14 @@ public class Player extends Mob {
 	}
 
 	public void update() {
-		updateHitboxes();
+
 		checkIfSelectingItem();
 		checkWalkingInput();
 		checkUsingItemInput();
 		checkDroppingItemInput();
 		updateAnimation();
 		poisonPlayer();
+		updateHitboxes();
 	}
 
 	public void killPlayer(){

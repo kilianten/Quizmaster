@@ -11,8 +11,7 @@ import thequizmaster.objects.Hitbox;
 import thequizmaster.quizmode.WireTrap;
 
 public class TripWire extends CollidableObject {
-	
-	private boolean tripped = false;
+
 	private Sprite sprite = Sprite.tripWire;
 	private Audio tripwireSound = new Audio();
 	private float tempVolume;
@@ -44,7 +43,6 @@ public class TripWire extends CollidableObject {
 			for(int j = 0; j < sprite.YSIZE; j++) {
 				if(playerX == i + x + xOffset && playerY == j + y) {
 					tripwireSound.play();
-					tripped = true;
 					return true;
 				}
 			}
@@ -55,7 +53,7 @@ public class TripWire extends CollidableObject {
 	public void hasCollided(MainGame mainGame) {
 		tripwireSound.play();
 		mainGame.removePlayerControl();
-		mainGame.removeGameObject(this);
+		mainGame.removeDrawOverObject(this);
 		mainGame.removeCollidableObject(this);
 		mainGame.createWireTrapQuiz();
 	}

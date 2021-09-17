@@ -1,6 +1,7 @@
 package thequizmaster.quizmode;
 
 import thequizmaster.gamestates.MainGame;
+import thequizmaster.input.Keyboard;
 import thequizmaster.level.Room;
 
 import java.util.ArrayList;
@@ -13,11 +14,11 @@ public class MainEvent extends QuizMode{
     public static int minHeight;
 
     protected Room room;
-    protected MainGame game;
 
-    public MainEvent(Room room, MainGame game){
+    public MainEvent(Keyboard input, Room room, MainGame game){
         this.room = room;
         this.game = game;
+        this.input = input;
     }
 
     public static Room isSuitableRoomAvailable(ArrayList<Room> rooms){

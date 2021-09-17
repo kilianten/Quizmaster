@@ -23,6 +23,9 @@ public class QuizMode {
 	public boolean isGameEnding = false;
 	public boolean isGameEnded = false;
 	protected boolean isAskingQuestion = true;
+	public MainGame game;
+	public boolean answered = false;
+	public boolean gameRunning = true;
 	
 	protected Keyboard input;
 
@@ -34,14 +37,41 @@ public class QuizMode {
 
 	}
 	
-	public QuizMode(Question question, Keyboard input) {
+	public QuizMode(MainGame game, Question question, Keyboard input) {
 		input.enterReleased = false;
 		this.question = question;
 		questionOptions = question.getOptionsAnswer();
 		this.input = input;
+		this.game = game;
 	}
 	
 	public void update() {
+		if(gameRunning){
+			if(answered) {
+				if(answeredCorrectly){
+					answeredCorrectlyResponse();
+				} else {
+					answeredIncorrectlyResponse();
+				}
+			} else {
+				getPlayerInput();
+			}
+		}
+		else {
+			tidyUp(game);
+		}
+	}
+
+	public void answeredCorrectlyResponse(){
+		game.givePlayerControl();
+		game.quiz = null;
+	}
+
+	public void answeredIncorrectlyResponse(){
+		gameRunning = false;
+	}
+
+	public void getPlayerInput(){
 		if(!isGameEnding && isAskingQuestion) {
 			if (input.upReleased) {
 				input.upReleased = false;
@@ -57,7 +87,8 @@ public class QuizMode {
 			}
 			if (input.enterReleased) {
 				answeredCorrectly = isCorrectAnswer();
-			}	
+				answered = true;
+			}
 		}
 	}
 	
