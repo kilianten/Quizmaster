@@ -19,7 +19,7 @@ public class Wirecutters extends ChargesItem {
         GameObject tripwire = game.isSpecficObjectColliding(player.interactionBox, "TripWire");
         if(tripwire != null){
             game.removeCollidableObject(tripwire);
-            game.removeGameObject(tripwire);
+            game.removeDrawOverObject(tripwire);
             return true;
         } else {
             return false;

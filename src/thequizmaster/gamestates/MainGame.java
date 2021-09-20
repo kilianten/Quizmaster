@@ -4,6 +4,7 @@ import java.awt.Graphics;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Random;
 
 import thequizmaster.Constants;
 import thequizmaster.entity.mob.Player;
@@ -29,6 +30,8 @@ import thequizmaster.quizmode.SearchBoxTrap;
 import thequizmaster.quizmode.WireTrap;
 
 public class MainGame extends GameState {
+
+	private Random random;
 
 	public Player player;
 	private LightSource light;
@@ -57,6 +60,8 @@ public class MainGame extends GameState {
 		player = new Douglas(key, this);
 		player.currentPlayer = true;
 		allPeople.add(player);
+
+		random = new Random();
 
 		light = new LightSource(500, player.x, player.y);
 		level = new SpawnLevel("/levels/level01.png", this);
@@ -148,11 +153,11 @@ public class MainGame extends GameState {
 	}
 
 	public void createWireTrapQuiz(){
-		quiz = new WireTrap(questionHandler.getQuestion(3), key, player, this);
+		quiz = new WireTrap(key, player, this);
 	}
 
 	public void createSearchBoxTrapQuiz(){
-		quiz = new SearchBoxTrap(questionHandler.getQuestion(4), key, player, this);
+		quiz = new SearchBoxTrap(key, player, this);
 	}
 
 	public void givePlayerControl() {
@@ -252,15 +257,29 @@ public class MainGame extends GameState {
 	public Player getPlayer() {
 		return player;
 	}
+
+	public void removeAsCurrentPlayer(Player p){
+		people.add(p);
+		p.resetSprite();
+		p.currentPlayer = false;
+	}
+
+	public void addAsCurrentPlayer(Player p){
+		player = p;
+		player.currentPlayer = true;
+		people.remove(player);
+	}
+
+	public void setRandomPlayer(){
+		removeAsCurrentPlayer(player);
+		int randomNum = random.nextInt(people.size());
+		addAsCurrentPlayer(people.get(randomNum));
+	}
 	
 	public void swapPlayer() {
 		if(people.size() > 0) {
-			people.add(player);
-			player.resetSprite();
-			player.currentPlayer = false;
-			player = people.get(0);
-			player.currentPlayer = true;
-			people.remove(player);
+			removeAsCurrentPlayer(player);
+			addAsCurrentPlayer(people.get(0));
 		}
 	}
 	

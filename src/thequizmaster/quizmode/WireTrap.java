@@ -15,17 +15,10 @@ public class WireTrap extends QuizMode{
 	private Player player;
 	private Animation deathAnimation;
 
-	public WireTrap(Question question, Keyboard input, Player player, MainGame game) {
-		super(game, question, input);
+	public WireTrap(Keyboard input, Player player, MainGame game) {
+		super(game, input);
 		timer = new CountdownTimer(30);
 		this.player = player;
-	}
-	
-	public void renderHUD(Screen screen, Graphics g) {
-		if (!answered){
-			drawQuestion(g);
-		}
-		screen.renderFixedObject(5, 5, timer.sprite);
 	}
 
 	public void initialAnsweredIncorrectly(){
@@ -39,13 +32,6 @@ public class WireTrap extends QuizMode{
 		} else {
 			deathAnimation.update();
 		}
-	}
-
-	public void answeredCorrectlyResponse(){
-		player.y += 10;
-		game.createRandomItem(player.x, player.y + 20);
-		game.givePlayerControl();
-		game.quiz = null;
 	}
 	
 	public void tidyUp() {

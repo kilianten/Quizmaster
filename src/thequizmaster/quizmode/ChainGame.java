@@ -12,7 +12,6 @@ import thequizmaster.objects.traps.ChainGameSaw;
 import java.awt.*;
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Random;
 
 public class ChainGame extends MainEvent {
 
@@ -21,24 +20,16 @@ public class ChainGame extends MainEvent {
 	public final int SETBACK_DELAY = 20;
 	public int deathY;
 
-	Random random = new Random();
-
 	public ChainGame(Keyboard input, Room room, MainGame game){
 		super(input, room, game);
+		game.setRandomPlayer();
 		gameName = "Chain Game";
 		maxPlayers = 2;
 		minWidth = 15;
 		minHeight = 8;
 		isAskingQuestion = true;
-		this.question = game.getQuestion(4);
-		questionOptions = question.getOptionsAnswer();
+		getNewQuestion();
 		createSawTraps();
-	}
-
-	public void renderHUD(Screen screen, Graphics g) {
-		if (!answered){
-			drawQuestion(g);
-		}
 	}
 
 	public void start(){
@@ -69,6 +60,12 @@ public class ChainGame extends MainEvent {
 		}
 	}
 
+	public void answeredCorrectlyResponse(){
+		answered = false;
+		game.swapPlayer();
+		getNewQuestion();
+	}
+
 	public void answeredIncorrectlyResponse(){
 		if(setBack == -1){
 			setBack = random.nextInt(3) + 3;
@@ -78,6 +75,7 @@ public class ChainGame extends MainEvent {
 			game.swapPlayer();
 			setBack = -1;
 			answered = false;
+			getNewQuestion();
 		} else {
 			if(delayCounter <= 0){
 				delayCounter = SETBACK_DELAY;

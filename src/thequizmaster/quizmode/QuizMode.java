@@ -4,6 +4,7 @@ import java.awt.Color;
 import java.awt.FontMetrics;
 import java.awt.Graphics;
 import java.util.ArrayList;
+import java.util.Random;
 
 import thequizmaster.Constants;
 import thequizmaster.Game;
@@ -21,12 +22,12 @@ public class QuizMode {
 	protected Question question;
 	protected int questionSelected = 0;
 	public boolean answeredCorrectly;
-	public boolean isGameEnding = false;
 	protected boolean isAskingQuestion = true;
 	public MainGame game;
 	public boolean answered = false;
 	public boolean gameRunning = true;
 	protected CountdownTimer timer;
+	protected Random random = new Random();
 
 	protected Keyboard input;
 
@@ -37,13 +38,17 @@ public class QuizMode {
 	public void start(){
 
 	}
-	
-	public QuizMode(MainGame game, Question question, Keyboard input) {
-		input.enterReleased = false;
-		this.question = question;
+
+	public void getNewQuestion(){
+		this.question = game.getQuestion(random.nextInt(5) + 1);
 		questionOptions = question.getOptionsAnswer();
+	}
+	
+	public QuizMode(MainGame game, Keyboard input) {
+		input.enterReleased = false;
 		this.input = input;
 		this.game = game;
+		getNewQuestion();
 	}
 	
 	public void update() {
@@ -128,7 +133,12 @@ public class QuizMode {
 	}
 
 	public void renderHUD(Screen screen, Graphics g) {
-		
+		if (!answered){
+			drawQuestion(g);
+		}
+		if(timer != null){
+			screen.renderFixedObject(5, 5, timer.sprite);
+		}
 	}
 	
 	public void drawQuestion(Graphics g) {
