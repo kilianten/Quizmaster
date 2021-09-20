@@ -8,25 +8,26 @@ import java.util.ArrayList;
 import thequizmaster.Constants;
 import thequizmaster.Game;
 import thequizmaster.gamestates.MainGame;
+import thequizmaster.graphics.Animation;
 import thequizmaster.graphics.Screen;
 import thequizmaster.input.Keyboard;
+import thequizmaster.objects.CountdownTimer;
 import thequizmaster.questions.Question;
 
 public class QuizMode {
 	
 	private String title;
-	public boolean isFinished = false;
 	protected ArrayList<String> questionOptions;
 	protected Question question;
 	protected int questionSelected = 0;
 	public boolean answeredCorrectly;
 	public boolean isGameEnding = false;
-	public boolean isGameEnded = false;
 	protected boolean isAskingQuestion = true;
 	public MainGame game;
 	public boolean answered = false;
 	public boolean gameRunning = true;
-	
+	protected CountdownTimer timer;
+
 	protected Keyboard input;
 
 	public QuizMode() {
@@ -56,10 +57,25 @@ public class QuizMode {
 			} else {
 				getPlayerInput();
 			}
+			if(timer != null){
+				updateTimer();
+			}
 		}
 		else {
-			tidyUp(game);
+			tidyUp();
 		}
+	}
+
+	private void updateTimer() {
+		if(timer.isFinished) {
+			timerFinishedResponse();
+		}
+		timer.update();
+	}
+
+	private void timerFinishedResponse() {
+		initialAnsweredIncorrectly();
+		answeredIncorrectlyResponse();
 	}
 
 	public void answeredCorrectlyResponse(){
@@ -72,7 +88,7 @@ public class QuizMode {
 	}
 
 	public void getPlayerInput(){
-		if(!isGameEnding && isAskingQuestion) {
+		if(isAskingQuestion) {
 			if (input.upReleased) {
 				input.upReleased = false;
 				questionSelected--;
@@ -87,11 +103,18 @@ public class QuizMode {
 			}
 			if (input.enterReleased) {
 				answeredCorrectly = isCorrectAnswer();
+				if(!answeredCorrectly){
+					initialAnsweredIncorrectly();
+				}
 				answered = true;
+				input.enterReleased = false;
 			}
 		}
 	}
-	
+
+	public void initialAnsweredIncorrectly(){
+	}
+
 	public void endGame() {
 		
 	}
@@ -109,7 +132,7 @@ public class QuizMode {
 	}
 	
 	public void drawQuestion(Graphics g) {
-		if(!isGameEnding) {
+		if(!answered) {
 			drawQuestionRects(g);
 			drawQuestions(g);
 		}
@@ -164,6 +187,6 @@ public class QuizMode {
 		}
 	}
 	
-	public void tidyUp(MainGame game) {
+	public void tidyUp() {
 	}
 }

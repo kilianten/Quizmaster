@@ -57,7 +57,6 @@ public class MainGame extends GameState {
 		player = new Douglas(key, this);
 		player.currentPlayer = true;
 		allPeople.add(player);
-		System.out.println("originalSize: " + people.size());
 
 		light = new LightSource(500, player.x, player.y);
 		level = new SpawnLevel("/levels/level01.png", this);

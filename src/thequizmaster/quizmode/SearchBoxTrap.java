@@ -13,7 +13,6 @@ import java.awt.*;
 
 public class SearchBoxTrap extends QuizMode{
 
-    private CountdownTimer timer;
     private Player player;
     private Animation deathAnimation;
 
@@ -28,39 +27,18 @@ public class SearchBoxTrap extends QuizMode{
         screen.renderFixedObject(5, 5, timer.sprite);
     }
 
-    public void update() {
-        super.update();
-        if(isGameEnding) {
-            endGame();
-        }
-        if (input.enterReleased) {
-            input.enterReleased = false;
-            if(!answeredCorrectly) {
-                isGameEnding = true;
-                deathAnimation = new Animation(.7, player.wireTrapDeathAnim, player, 10);
-                player.dying = true;
-                endGame();
-            } else {
-                player.y += 10;
-                game.createRandomItem(player.x, player.y + 20);
-                //game.createItem(player.x, player.y + 20, "Small Syringe");
-            }
-        }
-        if(timer.isFinished) {
-            isFinished = true;
-        }
-        timer.update();
+    public void answeredIncorrectlyResponse(){
+        tidyUp();
     }
 
-    public void endGame() {
-        if(deathAnimation.isFinished) {
-            isGameEnded = true;
-        } else {
-            deathAnimation.update();
-        }
+    public void answeredCorrectlyResponse(){
+        player.y += 10;
+        game.createRandomItem(player.x, player.y + 20);
+        game.givePlayerControl();
+        game.quiz = null;
     }
 
-    public void tidyUp(MainGame game) {
+    public void tidyUp() {
         game.addDrawObject(new Corpse(player.x, player.y, player.wireTrapCorpse));
         game.quiz = null;
         player.killPlayer();

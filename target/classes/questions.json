@@ -11580,6 +11580,83 @@
         "options":["Nicaragua", "Portugal", "Vatican City", "Honduras", "United States", "Bulgaria", "Serbia", "Cuba", "Niger", "Gabon", "Republic of the Congo"],
         "difficulty": 3,
         "categories":["currency", "technology"]
+    },
+    {
+        "question":"Which U.S state is known as the 'Sunshine State'?",
+        "answers":["Florida"],
+        "options":["Illinois", "Massachusetts", "Washingston", "Pennsylvania", "Michigan", "Louisiana", "Colorado", "Texas", "Oregan", "Arizona", "Tennessee", "California", "North Carolina", "Georgia", "Minnesota", "Nevada"],
+        "difficulty": 2,
+        "categories":["geography"]
+    },
+    {
+        "question":"Clarice Starling is the fictional protagonist of which film?",
+        "answers":["The Silence of the Lambs"],
+        "options":["Alien", "Scream", "Tomb Raider", "Terminator", "The Matrix", "Underworld", "Wonderwoman"],
+        "difficulty": 3,
+        "categories":["film"]
+    },
+    {
+        "question":"According to the proverb, 'Birds of Feather' what 'Together'?",
+        "answers":["Flock"],
+        "options":["Nest", "Fly", "Sing", "Move"],
+        "difficulty": 3,
+        "categories":["proverb", "language"]
+    },
+    {
+        "question":"In 1994 plague struck the city of Surat in which country?",
+        "answers":["India"],
+        "options":["Sudan", "Kazakhstan", "Nigeria", "China", "Mongolia"],
+        "difficulty": 4,
+        "categories":["history", "medicine"]
+    },
+    {
+        "question":"What spreads Yellow fever?",
+        "answers":["Mosquitos"],
+        "options":["Flies", "Dogs", "Mites", "Fleas", "Rodents"],
+        "difficulty": 5,
+        "categories":["medicine"]
+    },
+    {
+        "question":"The Arab Sprin of 2010 started in which country?",
+        "answers":["Tunisia"],
+        "options":["Egypt", "Libya", "Syria", "Uganda"],
+        "difficulty": 3,
+        "categories":[ "politics", "history"]
+    },
+    {
+        "question":"President Hosni Mubarak stepped down after 18 demonstrations. Which country was he president of?",
+        "answers":["Egypt"],
+        "options":["Tunisia", "Libya", "Syria", "Uganda"],
+        "difficulty": 2,
+        "categories":[ "politics", "history"]
+    },
+    {
+        "question":"'The lady doth protest too much, methinks' is a quote from which Shakespeare work?",
+        "answers":["Hamlet"],
+        "options":["MacBeth", "Romeo and Juliet", "The Tempest", "Measure for Measure"],
+        "difficulty": 3,
+        "categories":[ "quote"]
+    },
+    {
+        "question":"'Nature hath given men one tongue but two ears, that we may, hear from others twice as much as we speak' is a quote from whom?",
+        "answers":["Epictetus"],
+        "options":["Herodotus", "Plato", "Karl Marx", "Socrates", "Confucius", "Damascus", "Rene Descartes", "Anazimander", "Heraclitus", "Anaxagoras", "Lao Tzu"],
+        "difficulty": 5,
+        "categories":[ "quote"]
+    },
+    {
+        "question":"Fetuses respond to sound after 16 weeks gestation?",
+        "answers":["True"],
+        "options":["False"],
+        "difficulty": 3,
+        "categories":[ "nature"]
+    },
+    {
+        "question":"Fetuses respond to sound after 7 weeks gestation?",
+        "answers":["False"],
+        "options":["True"],
+        "difficulty": 3,
+        "categories":[ "nature"]
     }
 
 
