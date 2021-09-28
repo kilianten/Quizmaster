@@ -11657,7 +11657,84 @@
         "options":["True"],
         "difficulty": 3,
         "categories":[ "nature"]
+    },
+    {
+        "question":"Who directed the 1955 film 'To Catch a Thief'?",
+        "answers":["Alfred Hitchcock"],
+        "options":["John Huston", "Milos Forman", "Ingmar Bergman", "Charlie Chaplin"],
+        "difficulty": 4,
+        "categories":["film"]
+    },
+    {
+        "question":"Who played Frances Stevens in the 1955 film 'To Catch a Thief'?",
+        "answers":["Grace Kelly"],
+        "options":["Marilyn Monroe", "Ava Gardner", "Audrey Hepburn", "Natalie Wood"],
+        "difficulty": 4,
+        "categories":["film"]
+    },{
+    "question":"Who released the album 'Hurts 2B Human' in 2019?",
+    "answers":["Pink"],
+    "options":["P. Diddy", "Maroon 5", "Dua Lipa", "Logic", "Harry Styles", "Nicki Minaj"],
+    "difficulty": 4,
+    "categories":["music"]
+    },
+    {
+        "question":"How many stripes are on the U.S flag?",
+        "answers":["13"],
+        "options":["12", "15", "16", "17", "14", "18"],
+        "difficulty": 2,
+        "categories":["flags"]
+    },
+    {
+        "question":"What is the name of the cat from 'Alice in Wonderland'?",
+        "answers":["Cheshire Cat"],
+        "options":["Ellesmere Cat", "Alton Car", "Braintree Cat", "Dursley Cat", "Potton Cat", "Westerham Cat"],
+        "difficulty": 3,
+        "categories":["books", "film"]
+    },
+    {
+        "question":"Which of these countries does not hae a Union Jack in their flag?",
+        "answers":["Suriname", "Maldives", "Marshall Islands", "Micronesia"],
+        "options":["Australia", "New Zealand", "Fiji", "Tuvalu"],
+        "difficulty": 3,
+        "categories":["flags"]
+    },
+    {
+        "question":"Which of these colours is not featured on the Irish flag?",
+        "answers":["Blue", "Red", "Yellow", "Brown"],
+        "options":["Orange", "Green", "White"],
+        "difficulty": 1,
+        "categories":["flags"]
+    },
+    {
+        "question":"Which country's flag is known as the 'Danneborg'?",
+        "answers":["Denmark"],
+        "options":["Finland", "Germany", "Ireland", "Suriname", "Mozampique", "Amsterdam"],
+        "difficulty": 2,
+        "categories":["flags"]
+    },
+    {
+        "question":"Which of these colours is not featured on the French flag?",
+        "answers":["Blue", "Orange", "Yellow", "Brown"],
+        "options":["White", "Red", "Blue"],
+        "difficulty": 1,
+        "categories":["flags"]
+    },
+    {
+        "question":"The Oresund Bridge crosses the straight between which two countries?",
+        "answers":["Sweden and Denmark"],
+        "options":["Iran and Oman", "India and Sri Lanka", "Spain and Morocco", "Russia and the United States"],
+        "difficulty": 4,
+        "categories":["geography"]
+    },
+    {
+        "question":"Which of these countries features an eagle and a cactus?",
+        "answers":["Mexico"],
+        "options":["Peru", "Chile", "Marshall Islands", "Burkina Faso", "Saudi Arabia"],
+        "difficulty": 1,
+        "categories":["flags"]
     }
+
 
 
 ]

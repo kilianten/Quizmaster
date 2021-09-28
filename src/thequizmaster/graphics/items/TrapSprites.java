@@ -11,4 +11,12 @@ public abstract class TrapSprites {
     public static Sprite[] chainGameSawSprites = new Sprite [] {new Sprite(Constants.DEFAULT_ENTITY_SIZE, 1, 1, SpriteSheet.trapsSheet),
             new Sprite(Constants.DEFAULT_ENTITY_SIZE, 2, 1, SpriteSheet.trapsSheet),
             new Sprite(Constants.DEFAULT_ENTITY_SIZE, 3, 1, SpriteSheet.trapsSheet),
-            new Sprite(Constants.DEFAULT_ENTITY_SIZE, 4, 1, SpriteSheet.trapsSheet)};}
+            new Sprite(Constants.DEFAULT_ENTITY_SIZE, 4, 1, SpriteSheet.trapsSheet)};
+
+    public static Sprite chainGameOffLight = new Sprite(Constants.DEFAULT_SPRITE_SIZE, 10, 2, SpriteSheet.trapsSheet);
+    public static Sprite chainGameOnLight = new Sprite(Constants.DEFAULT_SPRITE_SIZE, 11, 2, SpriteSheet.trapsSheet);
+
+
+
+}
+

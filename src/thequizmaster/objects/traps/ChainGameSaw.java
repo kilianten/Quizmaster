@@ -8,7 +8,7 @@ public class ChainGameSaw extends AnimatedObject {
 
 	public ChainGameSaw(int x, int y, MainGame game) {
 		super(TrapSprites.chainGameSawSprites, 10, true, x, y);
-		game.addDrawObject(this);
+		game.addAlwaysDrawOver(this);
 		game.addUpdateObject(this);
 	}
 

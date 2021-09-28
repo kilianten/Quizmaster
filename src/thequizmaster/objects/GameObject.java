@@ -9,6 +9,7 @@ public class GameObject implements Comparable<GameObject>{
 	public int x;
 	public int y;
 	protected Sprite sprite;
+	protected int drawLevel = 0;
 	
 	public void render(Screen screen) {
 		screen.renderObject(x, y, sprite);

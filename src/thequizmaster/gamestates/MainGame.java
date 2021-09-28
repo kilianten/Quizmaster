@@ -252,6 +252,9 @@ public class MainGame extends GameState {
 			objectIndex++;
 		}
 
+
+
+
 	}
 
 	public Player getPlayer() {
@@ -356,5 +359,9 @@ public class MainGame extends GameState {
 
 	public Question getQuestion(int difficulty){
 		return questionHandler.getQuestion(difficulty);
+	}
+
+	public void removeUpdateObject(GameObject object) {
+		updateObjects.remove(object);
 	}
 }
