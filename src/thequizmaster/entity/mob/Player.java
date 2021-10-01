@@ -1,8 +1,6 @@
 package thequizmaster.entity.mob;
 
 
-import thequizmaster.Constants;
-import thequizmaster.Game;
 import thequizmaster.gamestates.MainGame;
 import thequizmaster.graphics.Screen;
 import thequizmaster.graphics.Sprite;

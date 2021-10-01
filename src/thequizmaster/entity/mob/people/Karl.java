@@ -4,7 +4,6 @@ import thequizmaster.entity.mob.Player;
 import thequizmaster.gamestates.MainGame;
 import thequizmaster.graphics.people.KarlSprites;
 import thequizmaster.input.Keyboard;
-import thequizmaster.level.Level;
 
 public class Karl extends Player {
 

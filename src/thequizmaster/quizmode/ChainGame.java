@@ -2,8 +2,6 @@ package thequizmaster.quizmode;
 
 import thequizmaster.entity.mob.Player;
 import thequizmaster.gamestates.MainGame;
-import thequizmaster.graphics.Sprite;
-import thequizmaster.graphics.items.TrapSprites;
 import thequizmaster.input.Keyboard;
 import thequizmaster.level.Room;
 import thequizmaster.objects.Corpse;
@@ -38,6 +36,7 @@ public class ChainGame extends MainEvent {
 
 	public void start(){
 		isAskingQuestion = true;
+		game.quiz = null;
 	}
 
 	public void tidyUp() {

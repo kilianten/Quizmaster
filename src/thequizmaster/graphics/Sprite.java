@@ -45,7 +45,10 @@ public class Sprite {
 			new Sprite(16, 9, 0, SpriteSheet.hudSheet),
 			new Sprite(16, 10, 0, SpriteSheet.hudSheet),
 			new Sprite(16, 11, 0, SpriteSheet.hudSheet)};
-    
+
+    public static Sprite paperSprite = new Sprite(320, 0, 3, SpriteSheet.hudSheet, true);
+
+
     //OBJECTS
     //OBJECTS-TRAPS
     public static Sprite tripWire = new Sprite(32, 0, 0, SpriteSheet.trapsSheet, 66);
@@ -75,7 +78,17 @@ public class Sprite {
         loadIrregularSprite();
     }
 
-    
+    public Sprite(int size, int x, int y, SpriteSheet sheet, boolean b) {
+        SIZE = size;
+        pixels = new int[SIZE * SIZE];
+        this.x = x * 16;
+        this. y = y * 16;
+        this.YSIZE = size;
+        this.sheet = sheet;
+        load();
+    }
+
+
     public void load(){
         for (int y = 0; y < SIZE; y++){
             for (int x = 0; x < SIZE; x++){

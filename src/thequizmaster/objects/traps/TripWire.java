@@ -8,7 +8,6 @@ import thequizmaster.graphics.Sprite;
 import thequizmaster.objects.Audio;
 import thequizmaster.objects.CollidableObject;
 import thequizmaster.objects.Hitbox;
-import thequizmaster.quizmode.WireTrap;
 
 public class TripWire extends CollidableObject {
 

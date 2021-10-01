@@ -2,10 +2,8 @@ package thequizmaster.objects.items;
 
 import thequizmaster.entity.mob.Player;
 import thequizmaster.gamestates.MainGame;
-import thequizmaster.graphics.Sprite;
 import thequizmaster.graphics.items.ItemsSprites;
 import thequizmaster.objects.GameObject;
-import thequizmaster.objects.traps.TripWire;
 
 public class Wirecutters extends ChargesItem {
 

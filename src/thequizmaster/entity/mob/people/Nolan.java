@@ -5,7 +5,6 @@ import thequizmaster.gamestates.MainGame;
 import thequizmaster.graphics.people.DouglasSprites;
 import thequizmaster.graphics.people.NolanSprites;
 import thequizmaster.input.Keyboard;
-import thequizmaster.level.Level;
 
 public class Nolan extends Player {
 	

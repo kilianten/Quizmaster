@@ -22,6 +22,7 @@ public class Keyboard implements KeyListener {
     public boolean interacting = false;
     public boolean useItem = true;
     public boolean droppingItem = true;
+    public boolean wantsBioMenu = false;
 
     public void update(){
         up = keys[KeyEvent.VK_UP] || keys[KeyEvent.VK_W];
@@ -87,6 +88,9 @@ public class Keyboard implements KeyListener {
         }
         if(e.getKeyCode() == KeyEvent.VK_E) {
             interacting = true;
+        }
+        if(e.getKeyCode() == KeyEvent.VK_SHIFT) {
+            wantsBioMenu = true;
         }
 
     }

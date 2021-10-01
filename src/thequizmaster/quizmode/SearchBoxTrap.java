@@ -6,8 +6,6 @@ import thequizmaster.input.Keyboard;
 import thequizmaster.objects.Corpse;
 import thequizmaster.objects.CountdownTimer;
 
-import java.awt.*;
-
 public class SearchBoxTrap extends QuizMode{
 
     private Player player;

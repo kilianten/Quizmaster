@@ -3,6 +3,7 @@ package thequizmaster.entity.mob;
 import thequizmaster.Constants;
 import thequizmaster.entity.Entity;
 import thequizmaster.gamestates.MainGame;
+import thequizmaster.gamestates.menus.InfoMenu;
 import thequizmaster.graphics.Sprite;
 import thequizmaster.objects.Hitbox;
 

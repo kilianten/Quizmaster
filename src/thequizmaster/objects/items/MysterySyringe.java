@@ -1,6 +1,5 @@
 package thequizmaster.objects.items;
 
-import com.sun.tools.javac.Main;
 import thequizmaster.entity.mob.Player;
 import thequizmaster.gamestates.MainGame;
 import thequizmaster.graphics.items.ItemsSprites;

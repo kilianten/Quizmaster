@@ -8,7 +8,6 @@ import javax.imageio.ImageIO;
 
 import thequizmaster.Constants;
 import thequizmaster.gamestates.MainGame;
-import thequizmaster.objects.items.*;
 import thequizmaster.objects.traps.TripWire;
 import thequizmaster.quizmode.ChainGame;
 import thequizmaster.quizmode.MainEvent;

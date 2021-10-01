@@ -9,7 +9,6 @@ import java.util.Random;
 import thequizmaster.Constants;
 import thequizmaster.Game;
 import thequizmaster.gamestates.MainGame;
-import thequizmaster.graphics.Animation;
 import thequizmaster.graphics.Screen;
 import thequizmaster.input.Keyboard;
 import thequizmaster.objects.CountdownTimer;

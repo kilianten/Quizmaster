@@ -11,6 +11,9 @@ import thequizmaster.entity.mob.Player;
 import thequizmaster.entity.mob.people.Douglas;
 import thequizmaster.entity.mob.people.Karl;
 import thequizmaster.entity.mob.people.Nolan;
+import thequizmaster.gamestates.GameState;
+import thequizmaster.gamestates.menus.InfoMenu;
+import thequizmaster.gamestates.menus.Menu;
 import thequizmaster.graphics.LightSource;
 import thequizmaster.graphics.Screen;
 import thequizmaster.input.Keyboard;
@@ -44,8 +47,13 @@ public class MainGame extends GameState {
 	public Keyboard key;
 	private QuestionHandler questionHandler;
 	public QuizMode quiz;
+	public InfoMenu infoMenu;
+
+
 	private PoisonBar poisonBar;
 	private InventoryBar inventoryBar;
+
+	public Menu menu;
 	public String interactingMessage = "";
 
 	public MainGame(Keyboard key) {
@@ -83,6 +91,7 @@ public class MainGame extends GameState {
 	private void createHUD() {
 		poisonBar = new PoisonBar();
 		inventoryBar = new InventoryBar();
+		infoMenu = new InfoMenu(this, key);
 	}
 	
 	private void addPeople() {
@@ -166,13 +175,18 @@ public class MainGame extends GameState {
 
 	public void update() {
 		key.update();
+		checkInput();
 		checkCollidables();
 		for(GameObject object: updateObjects){
 			object.update();
 		}
 		if(!(quiz == null)) {
 			quiz.update();
-		} else {
+		}
+		else if (menu != null){
+			menu.update();
+		}
+		else {
 			player.update();
 			level.update();
 		}
@@ -184,15 +198,32 @@ public class MainGame extends GameState {
 			key.changePlayer = false;
 		}
 	}
-	
+
+	private void checkInput() {
+		checkMenuInput();
+	}
+
 	public void renderHUD(Screen screen, Graphics g) {
 		if(!(quiz == null)) {
 			quiz.renderHUD(screen, g);
+		}  else if (menu != null) {
+			menu.render(screen);
 		} else {
 			poisonBar.render(screen, player.poisonLevel, player.HUDImage);
 			inventoryBar.render(screen);
 			player.renderItems(screen);
 			inventoryBar.renderSelected(screen, player.playerSelection);
+		}
+	}
+
+	private void checkMenuInput(){
+		if (key.wantsBioMenu){
+			if(menu == null){
+				menu = infoMenu;
+			} else {
+				menu = null;
+			}
+			key.wantsBioMenu = false;
 		}
 	}
 	

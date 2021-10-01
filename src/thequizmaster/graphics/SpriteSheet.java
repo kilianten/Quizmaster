@@ -22,7 +22,6 @@ public class SpriteSheet {
 	public static SpriteSheet itemsSheet = new SpriteSheet("/items/items.png", 640);
 
 
-
 	public SpriteSheet(String path, int size) {
 		this.path = path;
 		SIZE = size;

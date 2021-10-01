@@ -2,7 +2,6 @@ package thequizmaster.objects.traps;
 
 
 import thequizmaster.gamestates.MainGame;
-import thequizmaster.graphics.Sprite;
 import thequizmaster.graphics.items.TrapSprites;
 import thequizmaster.objects.CollidableObject;
 import thequizmaster.objects.Hitbox;
