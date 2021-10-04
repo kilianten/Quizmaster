@@ -11,6 +11,7 @@ public class Karl extends Player {
         super(input, game);
         setAnims();
         fname = "Karl";
+        sname = "Kaplan";
         x = 74 * 34;
         y = 74 * 32;
     }

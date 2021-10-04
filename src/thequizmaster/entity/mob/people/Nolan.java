@@ -12,6 +12,7 @@ public class Nolan extends Player {
 		super(input, game);
 		setAnims();
 		fname = "Fr.";
+		sname = "Nolan";
 		x = 74 * 32;
 		y = 74 * 32;
 	}

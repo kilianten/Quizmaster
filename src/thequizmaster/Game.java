@@ -36,7 +36,8 @@ public class Game extends Canvas implements Runnable{
 	private GameState gameState;
 	
 	public static Font digestFont;
-	
+	public static Font titleFont;
+
 	public boolean printStats = false;
 	
 	private BufferedImage image = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
@@ -59,6 +60,7 @@ public class Game extends Canvas implements Runnable{
 		
         try {
         	digestFont = Font.createFont(Font.TRUETYPE_FONT, new File("course.otf")).deriveFont(20f);
+			titleFont = Font.createFont(Font.TRUETYPE_FONT, new File("course.otf")).deriveFont(60f);
         } catch(IOException | FontFormatException e) {
         	System.out.println("Could not load custom font");
         }
@@ -161,8 +163,9 @@ public class Game extends Canvas implements Runnable{
 			HUDpixels[i] = screen.getHUDPixels()[i];
 		}
 		
-		g.drawImage(HUDimage, 0, 0, getWidth(), getHeight(), null);	
-		
+		g.drawImage(HUDimage, 0, 0, getWidth(), getHeight(), null);
+		gameState.renderHUDTEXT(g);
+
 		//graphics end
 		g.dispose();
 		bs.show();

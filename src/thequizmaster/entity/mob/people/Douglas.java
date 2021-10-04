@@ -11,8 +11,10 @@ public class Douglas extends Player {
 		super(input, game);
 		setAnims();
 		fname = "Douglas";
+		sname = "Hooper";
 		x = 74 * 34;
 		y = 74 * 32;
+		questionKnowledge.put("quotes", 3);
 	}
 	
 	public void setAnims() {

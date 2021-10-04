@@ -1,6 +1,6 @@
 package thequizmaster.gamestates;
 
-import java.awt.Graphics;
+import java.awt.*;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -34,12 +34,14 @@ import thequizmaster.quizmode.WireTrap;
 
 public class MainGame extends GameState {
 
+
 	private Random random;
 
 	public Player player;
 	private LightSource light;
 	public ArrayList<Player> people;
 	public ArrayList<Player> allPeople;
+	public ArrayList<Player> allPeopleNeverChange;
 	private ArrayList<GameObject> drawObjects;
 	private ArrayList<GameObject> drawOverObjects;
 	private ArrayList<GameObject> updateObjects;
@@ -63,11 +65,13 @@ public class MainGame extends GameState {
 		drawObjects = new ArrayList<>();
 		updateObjects = new ArrayList<>();
 		allPeople = new ArrayList<>();
+		allPeopleNeverChange = new ArrayList<>();
 		drawOverObjects = new ArrayList<>();
 		addPeople();
 		player = new Douglas(key, this);
 		player.currentPlayer = true;
 		allPeople.add(player);
+		allPeopleNeverChange.add(player);
 
 		random = new Random();
 
@@ -95,15 +99,23 @@ public class MainGame extends GameState {
 	}
 	
 	private void addPeople() {
-		Player nolan = new Nolan(key, this);
-		Player karl = new Karl(key, this);
+		Player[] players = new Player[8];
+		players[0] = new Nolan(key, this);
+		players[1] = new Karl(key, this);
 
-		allPeople.add(nolan);
-		allPeople.add(karl);
-		people.add(nolan);
-		people.add(karl);
+		for(Player p: players){
+			if(p != null){
+				addPlayerToGame(p);
+			}
+		}
 	}
-	
+
+	private void addPlayerToGame(Player p) {
+		allPeople.add(p);
+		allPeopleNeverChange.add(p);
+		people.add(p);
+	}
+
 	public void checkCollidables() {
 		for(int i = 0; i < level.collidableObjects.size(); i++) {
 			if(Hitbox.isColliding(level.collidableObjects.get(i).hitbox, player.hitbox)) {
@@ -193,7 +205,11 @@ public class MainGame extends GameState {
 		
 		if(key.changePlayer) {
 			if(quiz == null){
-				swapPlayer();
+				if(menu == null){
+					swapPlayer();
+				} else {
+					menu.swapPlayer();
+				}
 			}
 			key.changePlayer = false;
 		}
@@ -207,12 +223,20 @@ public class MainGame extends GameState {
 		if(!(quiz == null)) {
 			quiz.renderHUD(screen, g);
 		}  else if (menu != null) {
-			menu.render(screen);
+			menu.render(screen, g);
 		} else {
 			poisonBar.render(screen, player.poisonLevel, player.HUDImage);
 			inventoryBar.render(screen);
 			player.renderItems(screen);
 			inventoryBar.renderSelected(screen, player.playerSelection);
+		}
+	}
+
+	public void renderHUDTEXT(Graphics g) {
+		if (menu != null) {
+			menu.renderHUDTEXT(g);
+		} else {
+
 		}
 	}
 

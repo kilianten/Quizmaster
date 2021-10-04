@@ -11733,8 +11733,68 @@
         "options":["Peru", "Chile", "Marshall Islands", "Burkina Faso", "Saudi Arabia"],
         "difficulty": 1,
         "categories":["flags"]
+    },
+    {
+        "question":"Argentina is named after latin for what metal?",
+        "answers":["Silver"],
+        "options":["Steel", "Iron", "Aluminum", "Gold"],
+        "difficulty": 2,
+        "categories":["geography"]
+    },
+    {
+        "question":"Because of the religious connotations of the red cross and red crescent medical symbols, at the 2005 Diplomatic Conference, the US proposed what alternative symbol?",
+        "answers":["The Red Crystal"],
+        "options":["The Red Star", "The Red Hexagon", "The Red Triangle", "The Red Square", "The Red Thombus", "The Red Trapezoid"],
+        "difficulty": 5,
+        "categories":["flags"]
+    },
+    {
+        "question":"Where was the first Olympics held?",
+        "answers":["Athens"],
+        "options":["Rome", "Vienna", "Lima"],
+        "difficulty": 3,
+        "categories":["sports"]
+    },
+    {
+        "question":"When was the first Olympics held?",
+        "answers":["1896"],
+        "options":["1796", "1843", "1743", "1643"],
+        "difficulty": 4,
+        "categories":["sports"]
+    },
+    {
+        "question":"Who directed 1944's 'Double Indemnity'?",
+        "answers":["Billy Wilder"],
+        "options":["Alfred Hitchcock", "William Wyler", "Orson Welles", "Michael Curtiz", "Frank Capra"],
+        "difficulty": 5,
+        "categories":["film"]
+    },
+    {
+        "question":"Who voiced the genie in 1992's Aladdin?",
+        "answers":["Robin Williams"],
+        "options":["Tom Hanks", "Anthony Hopkins", "Kevin Costner", "Kevin Kline", "Gary Oldman", "Ralph Fiennes", "Jeremy Irons"],
+        "difficulty": 2,
+        "categories":["film"]
+    },
+    {
+        "question":"Who wrote 'The Three Musketeers'?",
+        "answers":["Alexandre Dumas"],
+        "options":["Victor Hugo", "Leo Tolstoy", "Anton Chekhov", "Marcel Proust", "Ralph Fiennes", "Maxim Gorky", "Ralph Waldo Emerson","Virginia Woolf"],
+        "difficulty": 3,
+        "categories":["authors", "books"]
+    },
+    {
+    "question":"When was 'The Three Musketeers' by Alexandre Dumas written?",
+    "answers":["1844"],
+    "options":["1944", "1744", "1794", "1894", "1811", "1711", "1911"],
+    "difficulty": 4,
+    "categories":["books", "authors"]
+    },
+    {
+        "question":"Alexandre Dumas, the writer of 'The Three Musketeers' was from which country?",
+        "answers":["France"],
+        "options":["The United Kingdom", "The United States", "Amsterdam", "Germany", "Poland", "Belgium"],
+        "difficulty": 4,
+        "categories":["authors", "books"]
     }
-
-
-
 ]

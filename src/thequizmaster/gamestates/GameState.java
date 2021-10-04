@@ -23,4 +23,7 @@ public class GameState {
 	public void renderHUD(Screen screen, Graphics g) {
 	
 	}
+
+	public void renderHUDTEXT(Graphics g) {
+	}
 }

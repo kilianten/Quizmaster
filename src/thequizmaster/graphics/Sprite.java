@@ -29,6 +29,7 @@ public class Sprite {
     public static Sprite poisonBar = new Sprite(128, 7, 0, SpriteSheet.hudSheet, 32);
     public static Sprite inventoryBar = new Sprite(144, 0, 2, SpriteSheet.hudSheet, 16);
     public static Sprite currentSelectedSprite = new Sprite(16, 9, 2, SpriteSheet.hudSheet);
+    public static Sprite knowledgeBarSprite = new Sprite(16, 10, 2, SpriteSheet.hudSheet);
 
 
     //HUD

@@ -34,7 +34,7 @@ public class WireTrap extends QuizMode{
 	public void tidyUp() {
 		game.addDrawObject(new Corpse(player.x, player.y, player.wireTrapCorpse));
 		game.quiz = null;
-		player.killPlayer();
+		player.killPlayer(player.wireTrapCorpse);
 		game.replaceCurrentPlayer();
 	}
 	

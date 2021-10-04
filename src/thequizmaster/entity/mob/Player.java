@@ -9,7 +9,7 @@ import thequizmaster.objects.Hitbox;
 import thequizmaster.objects.items.ChargesItem;
 import thequizmaster.objects.items.Item;
 
-import java.util.Random;
+import java.util.*;
 
 public class Player extends Mob {
 
@@ -19,6 +19,7 @@ public class Player extends Mob {
 	private boolean walking = false;
 	private boolean animating = false;
 	public String fname;
+	public String sname;
 	protected double speed = 2;
 
 	public int poisonLevel = 99;
@@ -29,11 +30,11 @@ public class Player extends Mob {
 	private long lastUpdate = 0;
 	private long currentAnimUpdateTime = 100;
 	public boolean dying = false;
+	public boolean isDead = false;
 
 	public Hitbox interactionBox;
 	
 	private String bio;
-	private String bestCategory;
 	public int playerSelection = 0;
 
 	public boolean currentPlayer = false;
@@ -48,6 +49,9 @@ public class Player extends Mob {
 	public Sprite wireTrapCorpse;
 	public Sprite HUDImage;
 	public Item[] inventory;
+	public Sprite deathImage = null;
+
+	public Map<String, Integer> questionKnowledge;
 
 	public Player(Keyboard input, MainGame game) {
 		this.input = input;
@@ -55,6 +59,7 @@ public class Player extends Mob {
 		interactionBox = new Hitbox(20, 20, 0, 11);
 		inventory = new Item[9];
 		this.game = game;
+		createQuestionKnowledgeMap();
 	}
 
 	public Player(int x, int y, Keyboard input) {
@@ -76,7 +81,9 @@ public class Player extends Mob {
 		updateHitboxes();
 	}
 
-	public void killPlayer(){
+	public void killPlayer(Sprite sprite){
+		isDead = true;
+		deathImage = sprite;
 		for(int i = 0; i < inventory.length; i++){
 			if(inventory[i] != null){
 				int xOffset = random.nextInt(32);
@@ -245,5 +252,24 @@ public class Player extends Mob {
 		}
 	}
 
+	public Sprite getPlayerMainSprite(){
+		if(isDead){
+			return deathImage;
+		}
+		return standingSprites[2];
+	}
+
+	public void createQuestionKnowledgeMap(){
+		questionKnowledge = new TreeMap<>();
+		questionKnowledge.put("geography", 1);
+		questionKnowledge.put("politics", 1);
+		questionKnowledge.put("quotes", 1);
+		questionKnowledge.put("history", 1);
+		questionKnowledge.put("books", 1);
+		questionKnowledge.put("sports", 1);
+		questionKnowledge.put("film", 1);
+		questionKnowledge.put("music", 1);
+		questionKnowledge.put("language", 1);
+	}
 
 }

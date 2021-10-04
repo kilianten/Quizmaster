@@ -42,7 +42,7 @@ public class ChainGame extends MainEvent {
 	public void tidyUp() {
 		game.addDrawObject(new Corpse(game.player.x, game.player.y, game.player.wireTrapCorpse));
 		game.quiz = null;
-		game.player.killPlayer();
+		game.player.killPlayer(game.player.wireTrapCorpse);
 		game.replaceCurrentPlayer();
 		for(Player player: game.allPeople){
 			player.y += 32;

@@ -48,7 +48,7 @@ public class Menu {
     
 
 
-    public void render(Screen screen) {
+    public void render(Screen screen, Graphics g) {
 
     }
 
@@ -79,5 +79,11 @@ public class Menu {
             g.fillRect(150, 250 + yOffset, 1000, 100);
             yOffset += 120;
         }
+    }
+
+    public void renderHUDTEXT(Graphics g) {
+    }
+
+    public void swapPlayer() {
     }
 }
