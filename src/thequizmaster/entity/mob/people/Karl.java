@@ -3,6 +3,7 @@ package thequizmaster.entity.mob.people;
 import thequizmaster.entity.mob.Player;
 import thequizmaster.gamestates.MainGame;
 import thequizmaster.graphics.people.KarlSprites;
+import thequizmaster.graphics.people.NolanSprites;
 import thequizmaster.input.Keyboard;
 
 public class Karl extends Player {
@@ -24,8 +25,10 @@ public class Karl extends Player {
         walkingRightAnim = KarlSprites.karlWalkingRightSprites;
         wireTrapDeathAnim = KarlSprites.karlWireTrapDeathSprites;
         wireTrapCorpse = KarlSprites.karlWireTrapCorpse;
-        sprite = standingSprites[0];
+        sprite = standingSprites[2];
         HUDImage = KarlSprites.karlHUDFaceImage;
+        chainGameWaiting = NolanSprites.nolanChainGameWaiting;
+
     }
 
 

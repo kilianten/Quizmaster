@@ -51,4 +51,22 @@ public abstract class NolanSprites {
 
 	public static Sprite nolanHUDFaceImage = new Sprite(Constants.DEFAULT_ENTITY_SIZE, 8, 0, SpriteSheet.nolanSheet);
 
+	public static Sprite[] nolanChainGameWaiting = new Sprite [] {new Sprite(Constants.DEFAULT_ENTITY_SIZE, 0, 5, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 1, 5, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 2, 5, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 3, 5, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 4, 5, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 5, 5, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 6, 5, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 7, 5, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 8, 5, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 9, 5, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 10, 5, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 11, 5, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 12, 5, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 13, 5, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 14, 5, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 15, 5, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 16, 5, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 17, 5, SpriteSheet.nolanSheet)};
 }

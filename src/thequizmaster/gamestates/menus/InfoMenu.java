@@ -28,8 +28,15 @@ public class InfoMenu extends Menu{
 
     public void renderHUDTEXT(Graphics g) {
         g.setFont(Game.titleFont);
-        g.setColor(Color.BLACK);
+        if(getCurrentPlayer().isDead){
+            g.setColor(Color.RED);
+        } else {
+            g.setColor(Color.BLACK);
+        }
+
         g.drawString(getCurrentPlayer().fname + " " + getCurrentPlayer().sname, 215, 205);
+
+        g.setColor(Color.BLACK);
         g.setFont(Game.digestFont);
         drawKnowledgeMap(g);
     }

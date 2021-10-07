@@ -51,13 +51,32 @@ public abstract class DouglasSprites {
 
 
 	public static Sprite[] douglasWireTrapDeathSprites = new Sprite [] {
-			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 0, 5, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 0, 6, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 1, 6, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 2, 6, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 3, 6, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 4, 6, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 5, 6, SpriteSheet.douglasSheet)};
+
+	public static Sprite[] douglasChainGameWaiting = new Sprite [] {new Sprite(Constants.DEFAULT_ENTITY_SIZE, 0, 5, SpriteSheet.douglasSheet),
 			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 1, 5, SpriteSheet.douglasSheet),
 			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 2, 5, SpriteSheet.douglasSheet),
 			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 3, 5, SpriteSheet.douglasSheet),
 			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 4, 5, SpriteSheet.douglasSheet),
-			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 5, 5, SpriteSheet.douglasSheet)};
-	
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 5, 5, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 6, 5, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 7, 5, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 8, 5, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 9, 5, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 10, 5, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 11, 5, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 12, 5, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 13, 5, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 14, 5, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 15, 5, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 16, 5, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 17, 5, SpriteSheet.douglasSheet)};
+
 	public static Sprite douglasWireTrapCorpse = new Sprite(Constants.DEFAULT_ENTITY_SIZE, 6, 5, SpriteSheet.douglasSheet);
 
 }

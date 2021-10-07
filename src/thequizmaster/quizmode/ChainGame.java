@@ -2,6 +2,7 @@ package thequizmaster.quizmode;
 
 import thequizmaster.entity.mob.Player;
 import thequizmaster.gamestates.MainGame;
+import thequizmaster.graphics.Animation;
 import thequizmaster.input.Keyboard;
 import thequizmaster.level.Room;
 import thequizmaster.objects.Corpse;
@@ -36,7 +37,6 @@ public class ChainGame extends MainEvent {
 
 	public void start(){
 		isAskingQuestion = true;
-		game.quiz = null;
 	}
 
 	public void tidyUp() {
@@ -60,6 +60,7 @@ public class ChainGame extends MainEvent {
 		int sawYOffest = room.topLeftCornerY - 60;
 		deathY = sawYOffest + 32;
 		for(Player player: allPlayers){
+			player.animation = new Animation(1, player.chainGameWaiting, player, random.nextInt(50), true);
 			saws.add(new ChainGameSaw(room.topLeftCornerX + sawOffsetX, sawYOffest, game));
 			player.x = room.topLeftCornerX + sawOffsetX + 32;
 			player.y = sawYOffest + 54;

@@ -11796,5 +11796,19 @@
         "options":["The United Kingdom", "The United States", "Amsterdam", "Germany", "Poland", "Belgium"],
         "difficulty": 4,
         "categories":["authors", "books"]
+    },
+    {
+        "question":"In the Harry Potter universe, what does Voldemort use to keep his soul safe in order to become immortal?",
+        "answers":["Horcrux"],
+        "options":["Brotchen", "Monsus", "Ceniflur", "Gertrend", "Offdiction", "Limgium"],
+        "difficulty": 4,
+        "categories":["books", "film"]
+    },
+    {
+        "question":"A 'Horcrux' belongs to which fictional universe?",
+        "answers":["Harry Potter"],
+        "options":["The Lord of the Rings", "Avatar", "The Avengers", "DargonHeart", "Pan's Labyrinth"],
+        "difficulty": 3,
+        "categories":["books", "film"]
     }
 ]

@@ -194,6 +194,9 @@ public class MainGame extends GameState {
 		}
 		if(!(quiz == null)) {
 			quiz.update();
+			for(Player person: allPeople){
+				person.animatePlayer();
+			}
 		}
 		else if (menu != null){
 			menu.update();

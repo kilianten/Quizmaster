@@ -2,6 +2,7 @@ package thequizmaster.entity.mob;
 
 
 import thequizmaster.gamestates.MainGame;
+import thequizmaster.graphics.Animation;
 import thequizmaster.graphics.Screen;
 import thequizmaster.graphics.Sprite;
 import thequizmaster.input.Keyboard;
@@ -45,11 +46,16 @@ public class Player extends Mob {
 	protected Sprite[] walkingBackAnim;
 	protected Sprite[] walkingLeftAnim;
 	protected Sprite[] walkingRightAnim;
+
+	public Sprite[] chainGameWaiting;
+
 	public Sprite[] wireTrapDeathAnim;
 	public Sprite wireTrapCorpse;
 	public Sprite HUDImage;
 	public Item[] inventory;
 	public Sprite deathImage = null;
+
+	public Animation animation = null;
 
 	public Map<String, Integer> questionKnowledge;
 
@@ -71,7 +77,6 @@ public class Player extends Mob {
 	}
 
 	public void update() {
-
 		checkIfSelectingItem();
 		checkWalkingInput();
 		checkUsingItemInput();
@@ -79,6 +84,17 @@ public class Player extends Mob {
 		updateAnimation();
 		poisonPlayer();
 		updateHitboxes();
+	}
+
+	public void animatePlayer(){
+		if(animation != null){
+			System.out.println("Animation");
+			if(animation.isFinished){
+				animation = null;
+			} else {
+				animation.update();
+			}
+		}
 	}
 
 	public void killPlayer(Sprite sprite){
@@ -108,6 +124,13 @@ public class Player extends Mob {
 	}
 
 	private void updateAnimation(){
+		if(animation != null){
+			if(animation.isFinished){
+				animation = null;
+			} else{
+				animation.update();
+			}
+		}
 		if(animating) {
 			if(System.currentTimeMillis() - lastUpdate > currentAnimUpdateTime) {
 				currentAnimIndex++;
@@ -206,7 +229,7 @@ public class Player extends Mob {
 	public void render(Screen screen) {
 		int xx = x - 32;
 		int yy = y - 32;
-		if (!walking && !dying) {
+		if (!walking && !dying && animation == null) {
 			sprite = standingSprites[dir];
 		}
 		screen.renderPlayer(xx, yy, sprite);

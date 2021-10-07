@@ -3,6 +3,7 @@ package thequizmaster.entity.mob.people;
 import thequizmaster.entity.mob.Player;
 import thequizmaster.gamestates.MainGame;
 import thequizmaster.graphics.people.DouglasSprites;
+import thequizmaster.graphics.people.NolanSprites;
 import thequizmaster.input.Keyboard;
 
 public class Douglas extends Player {
@@ -25,8 +26,11 @@ public class Douglas extends Player {
 		walkingRightAnim = DouglasSprites.douglasWalkingRightSprites;
 		wireTrapDeathAnim = DouglasSprites.douglasWireTrapDeathSprites;
 		wireTrapCorpse = DouglasSprites.douglasWireTrapCorpse;
-		sprite = standingSprites[0];
+		sprite = standingSprites[2];
 		HUDImage = DouglasSprites.douglasHUDFaceImage;
+
+		chainGameWaiting = DouglasSprites.douglasChainGameWaiting;
+
 	}
 	
 

@@ -19,7 +19,7 @@ public class WireTrap extends QuizMode{
 	}
 
 	public void initialAnsweredIncorrectly(){
-		deathAnimation = new Animation(.7, player.wireTrapDeathAnim, player, 10);
+		deathAnimation = new Animation(.7, player.wireTrapDeathAnim, player, 10, false);
 		player.dying = true;
 	}
 
