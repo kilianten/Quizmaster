@@ -15,6 +15,8 @@ public class Karl extends Player {
         sname = "Kaplan";
         x = 74 * 34;
         y = 74 * 32;
+        questionKnowledge.put("politics", 4);
+        questionKnowledge.put("history", 1);
     }
 
     public void setAnims() {
@@ -27,7 +29,9 @@ public class Karl extends Player {
         wireTrapCorpse = KarlSprites.karlWireTrapCorpse;
         sprite = standingSprites[2];
         HUDImage = KarlSprites.karlHUDFaceImage;
+
         chainGameWaiting = NolanSprites.nolanChainGameWaiting;
+        chainGamePull = NolanSprites.nolanChainGamePull;
 
     }
 

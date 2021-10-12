@@ -27,6 +27,8 @@ public class QuizMode {
 	public boolean gameRunning = true;
 	protected CountdownTimer timer;
 	protected Random random = new Random();
+	private int knowledgeChanceRevealAnswer = 0;
+	private boolean[] questionMapReveal = new boolean[4];
 
 	protected Keyboard input;
 
@@ -41,8 +43,26 @@ public class QuizMode {
 	public void getNewQuestion(){
 		this.question = game.getQuestion(random.nextInt(5) + 1);
 		questionOptions = question.getOptionsAnswer();
+		questionSelected = 0;
+		input.enterReleased = false;
+
+		doesPlayerHaveKnowledge();
 	}
-	
+
+	private void doesPlayerHaveKnowledge() {
+		knowledgeChanceRevealAnswer = game.player.getKnowledge(question.getCategories());
+
+
+		for(int i = 0; i < questionOptions.size(); i++){
+			int randomChance = random.nextInt(100);
+			if(knowledgeChanceRevealAnswer != 0 && randomChance < knowledgeChanceRevealAnswer){
+				questionMapReveal[i] = true;
+			} else {
+				questionMapReveal[i] = false;
+			}
+		}
+	}
+
 	public QuizMode(MainGame game, Keyboard input) {
 		input.enterReleased = false;
 		this.input = input;
@@ -151,18 +171,26 @@ public class QuizMode {
 		FontMetrics metrics = g.getFontMetrics(Game.digestFont);
 		int yOffset = 0;
 		g.setColor(Color.WHITE);
-		
-		for(int i = 0; i < questionOptions.size(); i++) {
-			g.drawString(questionOptions.get(i), 190, 300 + yOffset);
-			yOffset += 120;
-		}
-		
+
 		String[] currentQuestion = question.getQuestion();
 		for(int i = 0; i < currentQuestion.length; i++) {
 
 			int x = 100 + (1000 - metrics.stringWidth(currentQuestion[i])) / 2;
 			g.drawString(currentQuestion[i], x, 130 + (i * 20));
-		
+
+		}
+
+		for(int i = 0; i < questionOptions.size(); i++) {
+			g.setColor(Color.WHITE);
+			if(questionMapReveal[i]) {
+				if(questionOptions.get(i) == question.getAnswer()){
+					g.setColor(Color.GREEN);
+				} else {
+					g.setColor(Color.RED);
+				}
+			}
+			g.drawString(questionOptions.get(i), 190, 300 + yOffset);
+			yOffset += 120;
 		}
 
 		

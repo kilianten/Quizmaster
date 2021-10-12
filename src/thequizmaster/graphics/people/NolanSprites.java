@@ -49,7 +49,7 @@ public abstract class NolanSprites {
 			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 6, 1, SpriteSheet.nolanSheet),
 			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 7, 1, SpriteSheet.nolanSheet)};
 
-	public static Sprite nolanHUDFaceImage = new Sprite(Constants.DEFAULT_ENTITY_SIZE, 8, 0, SpriteSheet.nolanSheet);
+	public static Sprite nolanHUDFaceImage = new Sprite(Constants.DEFAULT_ENTITY_SIZE, 13, 0, SpriteSheet.nolanSheet);
 
 	public static Sprite[] nolanChainGameWaiting = new Sprite [] {new Sprite(Constants.DEFAULT_ENTITY_SIZE, 0, 5, SpriteSheet.nolanSheet),
 			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 1, 5, SpriteSheet.nolanSheet),
@@ -69,4 +69,66 @@ public abstract class NolanSprites {
 			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 15, 5, SpriteSheet.nolanSheet),
 			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 16, 5, SpriteSheet.nolanSheet),
 			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 17, 5, SpriteSheet.nolanSheet)};
+
+	public static Sprite[] nolanChainGamePull = new Sprite [] {new Sprite(Constants.DEFAULT_ENTITY_SIZE, 14, 0, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 15, 0, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 16, 0, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 17, 0, SpriteSheet.nolanSheet)};
+
+	public static Sprite[] nolanChainGameDeath = new Sprite [] {new Sprite(Constants.DEFAULT_ENTITY_SIZE, 0, 6, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 1, 6, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 2, 6, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 3, 6, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 4, 6, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 5, 6, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 6, 6, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 7, 6, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 8, 6, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 9, 6, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 0, 7, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 1, 7, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 2, 7, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 3, 7, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 4, 7, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 5, 7, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 6, 7, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 7, 7, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 8, 7, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 9, 7, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 10, 7, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 11, 7, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 12, 7, SpriteSheet.nolanSheet)};
+
+	public static Sprite[][] nolanIdleSprites = new Sprite [][] {
+			{
+					new Sprite(Constants.DEFAULT_ENTITY_SIZE, 8, 0, SpriteSheet.nolanSheet),
+					new Sprite(Constants.DEFAULT_ENTITY_SIZE, 9, 0, SpriteSheet.nolanSheet),
+					new Sprite(Constants.DEFAULT_ENTITY_SIZE, 10, 0, SpriteSheet.nolanSheet),
+					new Sprite(Constants.DEFAULT_ENTITY_SIZE, 11, 0, SpriteSheet.nolanSheet),
+					new Sprite(Constants.DEFAULT_ENTITY_SIZE, 12, 0, SpriteSheet.nolanSheet)
+			},
+			{
+					new Sprite(Constants.DEFAULT_ENTITY_SIZE, 8, 1, SpriteSheet.nolanSheet),
+					new Sprite(Constants.DEFAULT_ENTITY_SIZE, 9, 1, SpriteSheet.nolanSheet),
+					new Sprite(Constants.DEFAULT_ENTITY_SIZE, 10, 1, SpriteSheet.nolanSheet),
+					new Sprite(Constants.DEFAULT_ENTITY_SIZE, 11, 1, SpriteSheet.nolanSheet),
+					new Sprite(Constants.DEFAULT_ENTITY_SIZE, 12, 1, SpriteSheet.nolanSheet)
+			},
+			{
+					new Sprite(Constants.DEFAULT_ENTITY_SIZE, 8, 2, SpriteSheet.nolanSheet),
+					new Sprite(Constants.DEFAULT_ENTITY_SIZE, 9, 2, SpriteSheet.nolanSheet),
+					new Sprite(Constants.DEFAULT_ENTITY_SIZE, 10, 2, SpriteSheet.nolanSheet),
+					new Sprite(Constants.DEFAULT_ENTITY_SIZE, 11, 2, SpriteSheet.nolanSheet),
+					new Sprite(Constants.DEFAULT_ENTITY_SIZE, 12, 2, SpriteSheet.nolanSheet)
+			},
+			{
+					new Sprite(Constants.DEFAULT_ENTITY_SIZE, 8, 3, SpriteSheet.nolanSheet),
+					new Sprite(Constants.DEFAULT_ENTITY_SIZE, 9, 3, SpriteSheet.nolanSheet),
+					new Sprite(Constants.DEFAULT_ENTITY_SIZE, 10, 3, SpriteSheet.nolanSheet),
+					new Sprite(Constants.DEFAULT_ENTITY_SIZE, 11, 3, SpriteSheet.nolanSheet),
+					new Sprite(Constants.DEFAULT_ENTITY_SIZE, 12, 3, SpriteSheet.nolanSheet)
+			}
+
+	};
+
 }

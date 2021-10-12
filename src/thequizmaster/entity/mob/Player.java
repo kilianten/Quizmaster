@@ -14,7 +14,8 @@ import java.util.*;
 
 public class Player extends Mob {
 
-	Random random = new Random();
+    public Sprite chainGameDeathCorpse;
+    Random random = new Random();
 
 	public Keyboard input;
 	private boolean walking = false;
@@ -46,8 +47,11 @@ public class Player extends Mob {
 	protected Sprite[] walkingBackAnim;
 	protected Sprite[] walkingLeftAnim;
 	protected Sprite[] walkingRightAnim;
+	public Sprite[][] idleAnims;
 
 	public Sprite[] chainGameWaiting;
+	public Sprite[] chainGamePull;
+	public Sprite[] chainGameDeath;
 
 	public Sprite[] wireTrapDeathAnim;
 	public Sprite wireTrapCorpse;
@@ -88,7 +92,6 @@ public class Player extends Mob {
 
 	public void animatePlayer(){
 		if(animation != null){
-			System.out.println("Animation");
 			if(animation.isFinished){
 				animation = null;
 			} else {
@@ -104,7 +107,7 @@ public class Player extends Mob {
 			if(inventory[i] != null){
 				int xOffset = random.nextInt(32);
 				int yOffset = random.nextInt(4);
-				game.createItem(x - 32 + xOffset, y + 32 + yOffset, inventory[i].name);
+				game.createItem(x - 32 + xOffset, y + 40 + yOffset, inventory[i].name);
 			}
 		}
 	}
@@ -284,15 +287,39 @@ public class Player extends Mob {
 
 	public void createQuestionKnowledgeMap(){
 		questionKnowledge = new TreeMap<>();
-		questionKnowledge.put("geography", 1);
-		questionKnowledge.put("politics", 1);
-		questionKnowledge.put("quotes", 1);
-		questionKnowledge.put("history", 1);
-		questionKnowledge.put("books", 1);
-		questionKnowledge.put("sports", 1);
-		questionKnowledge.put("film", 1);
-		questionKnowledge.put("music", 1);
-		questionKnowledge.put("language", 1);
+		questionKnowledge.put("geography", 0);
+		questionKnowledge.put("politics", 0);
+		questionKnowledge.put("quotes", 0);
+		questionKnowledge.put("history", 0);
+		questionKnowledge.put("books", 0);
+		questionKnowledge.put("sports", 0);
+		questionKnowledge.put("film", 0);
+		questionKnowledge.put("music", 0);
+		questionKnowledge.put("language", 0);
+		questionKnowledge.put("religion", 0);
+		questionKnowledge.put("science", 0);
 	}
 
+	public int getKnowledge(ArrayList<String> categories) {
+		int maxKnowledge = 0;
+		for(String category: categories){
+			if(questionKnowledge.containsKey(category)){
+				if(questionKnowledge.get(category) > maxKnowledge){
+					maxKnowledge = questionKnowledge.get(category);
+				}
+			} else {
+				System.out.println(category + " not included in map");
+			}
+		}
+		return maxKnowledge * 10;
+	}
+
+	public boolean increaseKnowledge(String category) {
+		if(questionKnowledge.get(category) >= 4){
+			return false;
+		} else {
+			questionKnowledge.put(category, questionKnowledge.get(category) + 1);
+			return true;
+		}
+	}
 }

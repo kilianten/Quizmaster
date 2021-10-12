@@ -14,6 +14,7 @@ import thequizmaster.entity.mob.people.Nolan;
 import thequizmaster.gamestates.GameState;
 import thequizmaster.gamestates.menus.InfoMenu;
 import thequizmaster.gamestates.menus.Menu;
+import thequizmaster.graphics.Animation;
 import thequizmaster.graphics.LightSource;
 import thequizmaster.graphics.Screen;
 import thequizmaster.input.Keyboard;
@@ -202,6 +203,9 @@ public class MainGame extends GameState {
 			menu.update();
 		}
 		else {
+			for(Player person: allPeople){
+				person.animatePlayer();
+			}
 			player.update();
 			level.update();
 		}
@@ -323,12 +327,16 @@ public class MainGame extends GameState {
 		people.add(p);
 		p.resetSprite();
 		p.currentPlayer = false;
+		if(p.idleAnims != null){
+			p.animation = new Animation(1.7, player.idleAnims[player.dir], player, 0, true);
+		}
 	}
 
 	public void addAsCurrentPlayer(Player p){
 		player = p;
 		player.currentPlayer = true;
 		people.remove(player);
+		p.animation = null;
 	}
 
 	public void setRandomPlayer(){
@@ -378,8 +386,7 @@ public class MainGame extends GameState {
 				item = new Wirecutters(x, y, this);
 				break;
 			default:
-				item = new CureSyringeSmall(x, y, this);
-				System.out.println("Item Type Not Recognised");
+				item = new Book(Book.getRandomCategory(), x, y, this);
 		}
 
 		return item;

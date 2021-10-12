@@ -11810,5 +11810,45 @@
         "options":["The Lord of the Rings", "Avatar", "The Avengers", "DargonHeart", "Pan's Labyrinth"],
         "difficulty": 3,
         "categories":["books", "film"]
-    }
+    },{
+    "question":"Carlo Lorenzini created which character?",
+    "answers":["Pinocchio"],
+    "options":["Bambi", "Peter Pan", "Snow White", "Hercules", "Mulan"],
+    "difficulty": 3,
+    "categories":["books", "film"]
+    },{
+    "question":"When was 'Harry Potter and the Sorcerer's stone' first published?",
+    "answers":["1997"],
+    "options":["1998", "1995", "1996", "1999", "2001", "2000", "2002", "2003", "2004", "2005", "2006"],
+    "difficulty": 3,
+    "categories":["books"]
+},{
+    "question":"Who was the lead singer of 'Big Brother and the Holding Company' when they released their self-titled album?",
+    "answers":["Janis Joplin"],
+    "options":["Dusty Springfield", "Barbra Streisand", "Aretha Franklin", "Tina Turner", "Shirley Bassey", "Diana Ross"],
+    "difficulty": 3,
+    "categories":["books"]
+},{
+    "question":"Complete the Sigmund Freud quote, 'If youth knew; if age' what?",
+    "answers":["Could"],
+    "options":["Should", "Would", "Wood"],
+    "difficulty": 3,
+    "categories":["quotes"]
+},{
+    "question":"When did the Spanish Civil War start?",
+    "answers":["1936"],
+    "options":["1939", "1933", "1931", "1941", "1940", "1944"],
+    "difficulty": 4,
+    "categories":["war", "history"]
+},{
+    "question":"When did the Spanish Civil War end?",
+    "answers":["1939"],
+    "options":["1936", "1933", "1931", "1941", "1940", "1944"],
+    "difficulty": 4,
+    "categories":["war", "history"]
+}
+
+
+
+
 ]

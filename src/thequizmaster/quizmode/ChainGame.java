@@ -16,7 +16,7 @@ public class ChainGame extends MainEvent {
 
 	public int setBack = -1;
 	public int delayCounter;
-	public final int SETBACK_DELAY = 30;
+	public final int SETBACK_DELAY = 50;
 	public int deathY;
 	public int lightIndex;
 
@@ -37,20 +37,24 @@ public class ChainGame extends MainEvent {
 
 	public void start(){
 		isAskingQuestion = true;
+		game.quiz = null;
 	}
 
 	public void tidyUp() {
-		game.addDrawObject(new Corpse(game.player.x, game.player.y, game.player.wireTrapCorpse));
-		game.quiz = null;
-		game.player.killPlayer(game.player.wireTrapCorpse);
-		game.replaceCurrentPlayer();
-		for(Player player: game.allPeople){
-			player.y += 32;
+		if(game.player.animation.isFinished){
+			game.addDrawObject(new Corpse(game.player.x, game.player.y, game.player.chainGameDeath[22]));
+			game.quiz = null;
+			game.player.killPlayer(game.player.chainGameDeath[22]);
+			game.replaceCurrentPlayer();
+			for(Player player: game.allPeople){
+				player.y += 32;
+				player.animation = null;
+			}
+			for(ChainGameSaw saw: saws){
+				game.removeUpdateObject(saw);
+			}
+			lightIndex = 1;
 		}
-		for(ChainGameSaw saw: saws){
-			game.removeUpdateObject(saw);
-		}
-		lightIndex = 1;
 	}
 
 	public void createSawTraps(){
@@ -85,9 +89,11 @@ public class ChainGame extends MainEvent {
 			setBack = random.nextInt(3) + 3;
 			delayCounter = SETBACK_DELAY;
 			toggleLightOfPlayer(true);
+			game.player.animation = new Animation(1, game.player.chainGamePull, game.player, 0, true);
 		}
 		else if(setBack <= 0){
 			toggleLightOfPlayer(false);
+			game.player.animation = new Animation(1, game.player.chainGameWaiting, game.player, 0, true);
 			game.swapPlayer();
 			setBack = -1;
 			answered = false;
@@ -98,7 +104,8 @@ public class ChainGame extends MainEvent {
 				game.player.y -= 2;
 				setBack--;
 				if(game.player.y <= deathY){
-					tidyUp();
+					gameRunning = false;
+					game.player.animation = new Animation(1, game.player.chainGameDeath, game.player, 0, false);
 				}
 			}
 			delayCounter--;

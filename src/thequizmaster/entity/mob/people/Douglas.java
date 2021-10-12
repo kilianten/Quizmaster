@@ -15,7 +15,8 @@ public class Douglas extends Player {
 		sname = "Hooper";
 		x = 74 * 34;
 		y = 74 * 32;
-		questionKnowledge.put("quotes", 3);
+		questionKnowledge.put("quotes", 2);
+		questionKnowledge.put("language", 2);
 	}
 	
 	public void setAnims() {
@@ -30,7 +31,8 @@ public class Douglas extends Player {
 		HUDImage = DouglasSprites.douglasHUDFaceImage;
 
 		chainGameWaiting = DouglasSprites.douglasChainGameWaiting;
-
+		chainGamePull = DouglasSprites.douglasChainGamePull;
+		chainGameDeath = DouglasSprites.douglasChainGameDeath;
 	}
 	
 

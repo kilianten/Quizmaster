@@ -79,4 +79,32 @@ public abstract class DouglasSprites {
 
 	public static Sprite douglasWireTrapCorpse = new Sprite(Constants.DEFAULT_ENTITY_SIZE, 6, 5, SpriteSheet.douglasSheet);
 
+	public static Sprite[] douglasChainGamePull = new Sprite [] {new Sprite(Constants.DEFAULT_ENTITY_SIZE, 9, 0, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 10, 0, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 11, 0, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 12, 0, SpriteSheet.douglasSheet)};
+
+	public static Sprite[] douglasChainGameDeath = new Sprite [] {new Sprite(Constants.DEFAULT_ENTITY_SIZE, 0, 6, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 1, 6, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 2, 6, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 3, 6, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 4, 6, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 5, 6, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 6, 6, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 7, 6, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 8, 6, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 9, 6, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 0, 7, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 1, 7, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 2, 7, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 3, 7, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 4, 7, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 5, 7, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 6, 7, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 7, 7, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 8, 7, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 9, 7, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 10, 7, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 11, 7, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 12, 7, SpriteSheet.douglasSheet)};
 }

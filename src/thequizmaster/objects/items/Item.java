@@ -22,6 +22,7 @@ public abstract class Item extends CollidableObject {
         put("Mystery Syringe", 4);
         put("Poison Syringe", 2);
         put("Wirecutters", 1);
+        put("Book", 100);
     }};
 
     public static Random random = new Random();
