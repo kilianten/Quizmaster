@@ -18,11 +18,6 @@ public class Nolan extends Player {
 		questionKnowledge.put("religion", 4);
 		questionKnowledge.put("books", 2);
 	}
-
-	public void update(){
-		super.update();
-		System.out.println(animation);
-	}
 	
 	public void setAnims() {
 		standingSprites = NolanSprites.nolanStandingSprites;
@@ -35,8 +30,6 @@ public class Nolan extends Player {
 		chainGameWaiting = NolanSprites.nolanChainGameWaiting;
 		chainGamePull = NolanSprites.nolanChainGamePull;
 		chainGameDeath = NolanSprites.nolanChainGameDeath;
-
-		idleAnims = NolanSprites.nolanIdleSprites;
 
 		sprite = standingSprites[2];
 		HUDImage = NolanSprites.nolanHUDFaceImage;

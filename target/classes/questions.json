@@ -412,7 +412,7 @@
     "answers":["1925"],
     "options":["1933", "1939", "1924", "1911", "1915"],
     "difficulty": 4,
-    "categories":["history", "books"]
+    "categories":["history", "literature"]
 },
 {
     "question":"When was the Wall Street Crash?",
@@ -615,14 +615,14 @@
     "answers":["James Joyce"],
     "options":["Ernest Hemmingway", "Charles Dickens", "Jane Austen", "Leo Tolstoy", "Aldous Huxley", "Oscar Wilde", "F. Scott Fitzgerald"],
     "difficulty": 3,
-    "categories":["books", "authors"]
+    "categories":["literature", "authors"]
 },
 {
     "question":"Which of these James Joyce novels were published in 1922?",
     "answers":["Ulysses"],
     "options":["Dubliners", "Finnegans Wake", "Eveline"],
     "difficulty": 3,
-    "categories":["books", "authors"]
+    "categories":["literature", "authors"]
 },
 {
     "question":"When did Edwin Hubble discovery that the universe is expanding?",
@@ -1189,7 +1189,7 @@
     "answers":["Alice Adventures in Wonderland"],
     "options":["The Lord of the Rings", "The Last Unicorn", "The Name of the Wind", "The Lion, the Witch and the Wardrobe", "The Wonderful Wizard of OZ"],
     "difficulty":2,
-    "categories":["books", "quotes"]
+    "categories":["literature", "quotes"]
 },
 {
     "question":"'He whose life has a why can bear almost any how?' is a quote from whom?",
@@ -1203,7 +1203,7 @@
     "answers":["12"],
     "options":["5", "20", "1", "30", "10", "15", "100", "76"],
     "difficulty":3,
-    "categories":["books"]
+    "categories":["literature"]
 },
 {
     "question":"During World War II, B. F. Skinner's attempted to develop missiles guided by what?",
@@ -1714,14 +1714,14 @@
     "answers":["Miguel de Cervantes"],
     "options":["Carlos Ruiz Zafon", "Javier Marías", "Camilo Jose Cela", "Mario Vargas Llosa"],
     "difficulty": 3,
-    "categories":["books"]
+    "categories":["literature"]
 },
 {
     "question":"When was Don Quixote published?",
     "answers":["1605"],
     "options":["1705", "1805", "1905", "1505", "1405", "1305"],
     "difficulty": 4,
-    "categories":["books"]
+    "categories":["literature"]
 },
 {
     "question":"At what time was the first atom bomb detonated?",
@@ -1938,14 +1938,14 @@
     "answers":["1st January 1818"],
     "options":["12th May 1860", "5th Match 1919", "2nd January 1943", "18th June 1878"],
     "difficulty":3,
-    "categories":["books"]
+    "categories":["literature"]
 },
 {
     "question":"What age was Mary Shelley when she wrote Frankenstein?",
     "answers":["19"],
     "options":["27", "33", "43", "58", "61", "70"],
     "difficulty":2,
-    "categories":["books"]
+    "categories":["literature"]
 },
 {
     "question":"Where was Mary Shelley born?",
@@ -1966,7 +1966,7 @@
     "answers":["Geneva, Switzerland"],
     "options":["London, England", "Leipzig, Germany", "Namur, Belgium", "Paris, France", "Den Bosch, Netherlands"],
     "difficulty":3,
-    "categories":["books", "geography"]
+    "categories":["literature", "geography"]
 },
 {
     "question":"Where would you find the temple of Apollo?",
@@ -2330,7 +2330,7 @@
     "answers":["Macbeth"],
     "options":["Hamlet", "Romeo and Juliet", "The Tempest", "Measure for Measure"],
     "difficulty": 3,
-    "categories":["quotes", "books"]
+    "categories":["quotes", "literature"]
 },
 {
     "question":"Fatal Familiar Insomnia (FFI) is a rare sleep disorder that effects which part of the brain?",
@@ -2792,14 +2792,14 @@
     "answers":["True"],
     "options":["False"],
     "difficulty": 2,
-    "categories":["books"]
+    "categories":["literature"]
 },
 {
     "question":"Ivan the Terrible was the inspiration for Dracula?",
     "answers":["False"],
     "options":["True"],
     "difficulty": 3,
-    "categories":["books"]
+    "categories":["literature"]
 },
 {
     "question":"Bogota is the capital of which South American country?",
@@ -3128,7 +3128,7 @@
     "answers":["1984"],
     "options":["Animal Farm", "Homage to Catalonia", "Burmese Days"],
     "difficulty": 2,
-    "categories":["quotes", "books"]
+    "categories":["quotes", "literature"]
 },
 {
     "question":"Launched in 1980, what does CNN stand for?",
@@ -3695,7 +3695,7 @@
     "answers":["Kitty"],
     "options":["Minnie", "Lucky", "The Frank secret memory box", "Tigger", "Aiva", "Domino"],
     "difficulty": 3,
-    "categories":["books"]
+    "categories":["literature"]
 },
 {
     "question":"Where was Ludwig Van Beethoven born?",
@@ -3730,7 +3730,7 @@
     "answers":["Arthur C. Clarke"],
     "options":["Isaac Asimov", "Ray Bradbury", "Philip K. Dick", "Orson Scott Card", "Harlan Ellison"],
     "difficulty": 3,
-    "categories":["books"]
+    "categories":["literature"]
 },
 {
     "question":"What is the furthest point on Earth from Earth's center?",
@@ -3800,7 +3800,7 @@
     "answers":["Missouri River"],
     "options":["Mississippi River", "Yukon River", "Rio Grande", "Snake River"],
     "difficulty": 2,
-    "categories":["books"]
+    "categories":["literature"]
 },
 {
     "question":"When did the Solveit Union lauched Sputnik 1, the first artificial satelite?",
@@ -3849,7 +3849,7 @@
     "answers":["A Promised Land"],
     "options":["Yes We Can", "Hard Choices", "Long Walk to Freedom", "Open", "Change We Need", "Change We Can Believe in"],
     "difficulty": 3,
-    "categories":["books"]
+    "categories":["literature"]
 },
 {
     "question":"Golden Delicious is which type of fruit?",
@@ -3863,7 +3863,7 @@
     "answers":["Flatland"],
     "options":["2D World", "3 Dimensional heart", "Flatline", "2D"],
     "difficulty": 4,
-    "categories":["books"]
+    "categories":["literature"]
 },
 {
     "question":"On July 1914, Germany offered unconditional support for Austria-Hungary in an event that has become known as the what?",
@@ -4752,14 +4752,14 @@
     "answers":["Twilight"],
     "options":["The Hunger Games", "The Princess Diaries", "Divergent"],
     "difficulty": 3,
-    "categories":["books"]
+    "categories":["literature"]
 },
 {
     "question":"Who wrote the Lord of the Rings?",
     "answers":["J. R. R. Tolkien"],
     "options":["J. K. Rowling", "George R. Martin", "C. S. Lewis"],
     "difficulty": 1,
-    "categories":["books"]
+    "categories":["literature"]
 },
 {
     "question":"Akihito was en emporer of which country?",
@@ -4815,7 +4815,7 @@
     "answers":["42"],
     "options":["Cake", "Make as many relationships as possible", "Find peace at home", "Find God", "Love"],
     "difficulty": 3,
-    "categories":["books", "film"]
+    "categories":["literature", "film"]
 },
 {
     "question":"'He is happiest, be king or peasant, who finds peace at home' is a quote from whom?",
@@ -4990,7 +4990,7 @@
     "answers":["The Tempest"],
     "options":["Hamlet", "Macbeth", "Romeo and Juliet", "Orthello", "King Lear"],
     "difficulty": 3,
-    "categories":["books"]
+    "categories":["literature"]
 },
 {
     "question":"Addis Ababa is the capital of which country?",
@@ -5102,14 +5102,14 @@
     "answers":["Friedrich Nietzche"],
     "options":["Rene Descartes", "Immanuel Kant", "Karl Marx", "John Locke"],
     "difficulty": 3,
-    "categories":["philosophy", "books"]
+    "categories":["philosophy", "literature"]
 },
 {
     "question":"When was 'Beyond Good and Evil' published?",
     "answers":["1886"],
     "options":["1986", "1786", "1686", "1586", "1486"],
     "difficulty": 4,
-    "categories":["philosophy", "books"]
+    "categories":["philosophy", "literature"]
 },
 {
     "question":"What is the capital of Azerbaijan?",
@@ -5229,14 +5229,14 @@
     "answers":["Charles Darwin"],
     "options":["Albert Einstein", "Isaac Newton", "Marie Curie", "Galileo Galilei"],
     "difficulty": 3,
-    "categories":["books", "science"]
+    "categories":["literature", "science"]
 },
 {
     "question":"When was 'On the Origin of Species' published",
     "answers":["1859"],
     "options":["1949", "1929", "1919", "1889", "1979", "1839", "1809", "1789"],
     "difficulty": 3,
-    "categories":["books", "science"]
+    "categories":["literature", "science"]
 },
 {
     "question":"Sheryl Crow sang the title track for which James Bond film?",
@@ -5999,7 +5999,7 @@
     "answers":["Edward Snowden"],
     "options":["Noam Chomsky", "Julian Assange", "John McAfee", "Chelsea Manning", "Jacob Appelbaum"],
     "difficulty": 4,
-    "categories":["books"]
+    "categories":["literature"]
 },
 {
     "question":"When did World War 1 start?",
@@ -6097,7 +6097,7 @@
     "answers":["Germany"],
     "options":["Austria", "Romania", "The United States", "Russia", "Latvia", "Macedonia"],
     "difficulty": 3,
-    "categories":["authors", "books", "geography"]
+    "categories":["authors", "literature", "geography"]
 },
 {
     "question":"What is the capital of the Tuvula?",
@@ -6580,7 +6580,7 @@
     "answers":["Measure for Measure"],
     "options":["Hamlet", "Romeo and Juliet", "Macbeth", "King Lear", "The Tempest"],
     "difficulty": 4,
-    "categories":["quotes", "books"]
+    "categories":["quotes", "literature"]
 },
 {
     "question":"Jeff Bezos was the CEO of which company?",
@@ -6811,14 +6811,14 @@
     "answers":["Lost Horizon"],
     "options":["Brave New World", "Gulliver's Travels", "The Giver", "The Dispossessed"],
     "difficulty": 3,
-    "categories":["books"]
+    "categories":["literature"]
 },
 {
     "question":"'Lost Horizon' is a 1933 novel by which British autor?",
     "answers":["James Hilton"],
     "options":["George Orwell", "Thomas Hardy", "E. M. Forester", "C. S. Lewis", "Virginia Woolf"],
     "difficulty": 4,
-    "categories":["authors", "books"]
+    "categories":["authors", "literature"]
 },
 {
     "question":"Atoms for Peace was the title of a speech by which U.S president?",
@@ -8120,14 +8120,14 @@
     "answers":["Matt Taibbi"],
     "options":["Glenn Greenwald", "Lester Holt", "Fredricka Whitfield", "Christiane Amanpour", "Hu Shuli"],
     "difficulty": 5,
-    "categories":["books", "journalism"]
+    "categories":["literature", "journalism"]
 },
 {
     "question":"In Mary Shelley's 'Frankenstein', what is Dr. Frankenstein's first name?",
     "answers":["Victor"],
     "options":["Glenn", "Lester", "Fredrick", "Christopher", "Richard", "Frank"],
     "difficulty": 3,
-    "categories":["books"]
+    "categories":["literature"]
 },
 {
     "question":"When was the first iPhone released?",
@@ -8477,7 +8477,7 @@
     "answers":["Hamlet"],
     "options":["Macbeth", "Romeo and Juliet", "The Tempest", "Measure for Measure"],
     "difficulty": 4,
-    "categories":["quotes", "books"]
+    "categories":["quotes", "literature"]
 },
 {
     "question":"As of 2020, which of these are the most produced food commodities in the world?",
@@ -8827,21 +8827,21 @@
     "answers":["Isaac Newton"],
     "options":["Stephen Hawking", "Charles Darwin", "Alan Turing", "Alexander Fleming", "Albert Einstein"],
     "difficulty": 4,
-    "categories":["books", "science"]
+    "categories":["literature", "science"]
 },
 {
     "question":"When was Principia, by Isaac Newton, published?",
     "answers":["1687"],
     "options":["1787", "1707", "1727", "1747", "1767"],
     "difficulty": 5,
-    "categories":["books", "science"]
+    "categories":["literature", "science"]
 },
 {
     "question":"Principia, by Isaac Newton, was written in which language?",
     "answers":["Latin"],
     "options":["English", "Spanish", "French", "German"],
     "difficulty": 2,
-    "categories":["books", "language", "science"]
+    "categories":["literature", "language", "science"]
 },
 {
     "question":"The Big Splash is a hypothesis that a large object/planet hit the Earth causing to debree to shoot off into space, what is the large object known as?",
@@ -8904,21 +8904,21 @@
     "answers":["F. Scott Fitzgerald"],
     "options":["Anthony Burgess", "Virginia Woolf", "Ernest Hemingway", "John Steinbeck", "D. H. Lawrence", "Aldous Huxley"],
     "difficulty": 3,
-    "categories":["books"]
+    "categories":["literature"]
 },
 {
     "question":"Who wrote 'Brave New World'?",
     "answers":["Aldous Huxley"],
     "options":["Anthony Burgess", "Virginia Woolf", "Ernest Hemingway", "John Steinbeck", "D. H. Lawrence", "F. Scott Fitzgerald"],
     "difficulty": 3,
-    "categories":["books"]
+    "categories":["literature"]
 },
 {
     "question":"When was the Great Gatsby published?",
     "answers":["1925"],
     "options":["1955", "1975", "1985", "1965", "1945"],
     "difficulty": 5,
-    "categories":["books"]
+    "categories":["literature"]
 },
 {
     "question":"When did the Spanish Flu start?",
@@ -9177,7 +9177,7 @@
     "answers":["Entangled Life"],
     "options":["The Righteous Mind", "The Happiness Hypothesis", "The Coddling of the American Mind"],
     "difficulty": 5,
-    "categories":["books"]
+    "categories":["literature"]
 },
 {
     "question":"In January 2020, Netflix released a controversial film by Maïmouna Doucoure, called what?",
@@ -9387,14 +9387,14 @@
     "answers":["Victor Hugo"],
     "options":["George Elio", "Nathaniel Hawthorne", "Leo Tolstoy", "Gustav Flaubert", "Giacomo Leopardi"],
     "difficulty": 4,
-    "categories":["books"]
+    "categories":["literature"]
 },
 {
     "question":"Where is Les Miserables mainly set?",
     "answers":["Paris"],
     "options":["Rome", "Berlin", "Dublin", "Madrid"],
     "difficulty": 1,
-    "categories":["books"]
+    "categories":["literature"]
 },
 {
     "question":"Guano is the feces of which of these animals used as ferilizer?",
@@ -9800,7 +9800,7 @@
     "answers":["Matthew McConaughey"],
     "options":["Daniel Day-Lewis", "Keanu Reeves", "Leonardo DiCaprio", "Jack Nicholson", "Russell Crowe", "Tom Hanks", "William Hurt", "Edward Norton", "William Dafoe"],
     "difficulty": 4,
-    "categories":["books", "film"]
+    "categories":["literature", "film"]
 },
 {
     "question":"Who starred in the 1992 film, 'The Last of the Mohicans'?",
@@ -10382,21 +10382,21 @@
     "answers":["Skull Island"],
     "options":["Ape Island", "Angel Island", "The Black Island", "Cinnabar Island", "Dazhi Island", "Danger Island", "Fearing Island", "Krawk Island", "Maple Island", "Wanhu Island", "Tingle Island"],
     "difficulty": 2,
-    "categories":["books", "film"]
+    "categories":["literature", "film"]
 },
 {
     "question":"In 1896 H. G. Wells published a novel, 'The Island of Doctor' who?",
     "answers":["Doctor Moreau"],
     "options":["Doctor No", "Doctor Shepherd", "Doctor Hadley", "Doctor Quinn", "Doctor McCoy"],
     "difficulty": 4,
-    "categories":["books"]
+    "categories":["literature"]
 },
 {
     "question":"Ian Fleming is best known for what series of novels?",
     "answers":["James Bond"],
     "options":["The Hunger Games", "Twilight", "Mr. Men", "Narnia"],
     "difficulty": 4,
-    "categories":["authors", "books"]
+    "categories":["authors", "literature"]
 },
 {
     "question":"Ian Fleming, the creator of the James Bond series, owned an estate on the northern coastline of Jamaica, what did he call it?",
@@ -10410,7 +10410,7 @@
     "answers":["Dr. Julius No"],
     "options":["Dr. Xander No", "Dr. Cesar No", "Dr. Kaden No", "Dr. Allen No", "Dr. Harry No"],
     "difficulty": 5,
-    "categories":["books", "film"]
+    "categories":["literature", "film"]
 },
 {
     "question":"The Bay of Pigs Invasion was a failed landing operation on the coast of which country?",
@@ -10592,14 +10592,14 @@
     "answers":["1984"],
     "options":["Brave New World", "American War", "Divergent", "A Clockwork Orange"],
     "difficulty": 3,
-    "categories":["books"]
+    "categories":["literature"]
 },
 {
     "question":"Who wrote 'Brave New World'?",
     "answers":["Aldous Huxley"],
     "options":["Leni Zumas", "George Orwell", "Omar El Akkad", "Philip K. Dick"],
     "difficulty": 4,
-    "categories":["authors", "books"]
+    "categories":["authors", "literature"]
 },
 {
     "question":"A person who is inexperienced could be called, what?",
@@ -10648,7 +10648,7 @@
     "answers":["Invisible Man"],
     "options":["The Catcher in the Rye", "Fahrenheit 451", "On the Road", "The Crucible", "Horton Hears a Who!", "The Quiet American", "Charlotte's Web"],
     "difficulty": 5,
-    "categories":["books"]
+    "categories":["literature"]
 },
 {
     "question":"In ballet, which of these terms describes a duet dance typically a male and a female?",
@@ -10977,7 +10977,7 @@
     "answers":["Hedwig"],
     "options":["Nagini", "Oliver", "Winky", "Reeves", "Regulus"],
     "difficulty": 2,
-    "categories":["books", "film"]
+    "categories":["literature", "film"]
 },
 {
     "question":"Where would you find the Trevi fountain?",
@@ -11110,14 +11110,14 @@
     "answers":["Peter Pan"],
     "options":["Cinderella", "Pinocchio", "Sleeping Beauty", "The Faraway Tree", "A Midsummer Knight's Dream"],
     "difficulty": 2,
-    "categories":["books"]
+    "categories":["literature"]
 },
 {
     "question":"James M. Barrie is best known for creating which of these?",
     "answers":["Peter Pan"],
     "options":["James Bond", "Pinocchio", "Tin Tin", "The Jungle Book", "Winnie-the-Pooh"],
     "difficulty": 4,
-    "categories":["books"]
+    "categories":["literature"]
 },
 {
     "question":"Which famous figure was exiled to St. Helena in 1815, and died there in 1821?",
@@ -11222,7 +11222,7 @@
     "answers":["Toto"],
     "options":["Dug", "Copper", "Pongo", "Edward Scissorhands", "Dodger", "Nana", "Benji"],
     "difficulty": 4,
-    "categories":["film", "books"]
+    "categories":["film", "literature"]
 },
 {
     "question":"'Where do you want to go today' was a former slogan of which company?",
@@ -11264,7 +11264,7 @@
     "answers":["Leo Tolstoy"],
     "options":["William Shakespeare", "Edgar Allan Poe", "Charles Dickens", "Rabindranath Tagore", "Emily Dickinson", "Arthur Miller"],
     "difficulty": 4,
-    "categories":["books"]
+    "categories":["literature"]
 },
 {
     "question":"Caipirinha is the national coctail of which country?",
@@ -11285,7 +11285,7 @@
     "answers":["Winnie-the-Pooh"],
     "options":["James Bond", "Pinocchio", "Tin Tin", "The Jungle Book", "Peter Pan", "WALL·E", "Babe"],
     "difficulty": 4,
-    "categories":["books"]
+    "categories":["literature"]
 },
 {
     "question":"Which hormone is often known as the stress hormone?",
@@ -11558,7 +11558,7 @@
     "answers":["Edgar Allan Poe"],
     "options":["Ernest Hemingway", "Charles Dickens", "Virginia Woolf", "Mark Twain", "William Shakespeare", "Roald Dahl"],
     "difficulty": 4,
-    "categories":["books"]
+    "categories":["literature"]
 },
 {
     "question":"Which U.S president served the longest?",
@@ -11690,7 +11690,7 @@
         "answers":["Cheshire Cat"],
         "options":["Ellesmere Cat", "Alton Car", "Braintree Cat", "Dursley Cat", "Potton Cat", "Westerham Cat"],
         "difficulty": 3,
-        "categories":["books", "film"]
+        "categories":["literature", "film"]
     },
     {
         "question":"Which of these countries does not hae a Union Jack in their flag?",
@@ -11781,53 +11781,53 @@
         "answers":["Alexandre Dumas"],
         "options":["Victor Hugo", "Leo Tolstoy", "Anton Chekhov", "Marcel Proust", "Ralph Fiennes", "Maxim Gorky", "Ralph Waldo Emerson","Virginia Woolf"],
         "difficulty": 3,
-        "categories":["authors", "books"]
+        "categories":["authors", "literature"]
     },
     {
     "question":"When was 'The Three Musketeers' by Alexandre Dumas written?",
     "answers":["1844"],
     "options":["1944", "1744", "1794", "1894", "1811", "1711", "1911"],
     "difficulty": 4,
-    "categories":["books", "authors"]
+    "categories":["literature", "authors"]
     },
     {
         "question":"Alexandre Dumas, the writer of 'The Three Musketeers' was from which country?",
         "answers":["France"],
         "options":["The United Kingdom", "The United States", "Amsterdam", "Germany", "Poland", "Belgium"],
         "difficulty": 4,
-        "categories":["authors", "books"]
+        "categories":["authors", "literature"]
     },
     {
         "question":"In the Harry Potter universe, what does Voldemort use to keep his soul safe in order to become immortal?",
         "answers":["Horcrux"],
         "options":["Brotchen", "Monsus", "Ceniflur", "Gertrend", "Offdiction", "Limgium"],
         "difficulty": 4,
-        "categories":["books", "film"]
+        "categories":["literature", "film"]
     },
     {
         "question":"A 'Horcrux' belongs to which fictional universe?",
         "answers":["Harry Potter"],
         "options":["The Lord of the Rings", "Avatar", "The Avengers", "DargonHeart", "Pan's Labyrinth"],
         "difficulty": 3,
-        "categories":["books", "film"]
+        "categories":["literature", "film"]
     },{
     "question":"Carlo Lorenzini created which character?",
     "answers":["Pinocchio"],
     "options":["Bambi", "Peter Pan", "Snow White", "Hercules", "Mulan"],
     "difficulty": 3,
-    "categories":["books", "film"]
+    "categories":["literature", "film"]
     },{
     "question":"When was 'Harry Potter and the Sorcerer's stone' first published?",
     "answers":["1997"],
     "options":["1998", "1995", "1996", "1999", "2001", "2000", "2002", "2003", "2004", "2005", "2006"],
     "difficulty": 3,
-    "categories":["books"]
+    "categories":["literature"]
 },{
     "question":"Who was the lead singer of 'Big Brother and the Holding Company' when they released their self-titled album?",
     "answers":["Janis Joplin"],
     "options":["Dusty Springfield", "Barbra Streisand", "Aretha Franklin", "Tina Turner", "Shirley Bassey", "Diana Ross"],
     "difficulty": 3,
-    "categories":["books"]
+    "categories":["literature"]
 },{
     "question":"Complete the Sigmund Freud quote, 'If youth knew; if age' what?",
     "answers":["Could"],
@@ -11846,9 +11846,72 @@
     "options":["1936", "1933", "1931", "1941", "1940", "1944"],
     "difficulty": 4,
     "categories":["war", "history"]
+},{
+    "question":"Which company purchased Chrysler in 2014?",
+    "answers":["Fiat"],
+    "options":["Toyota", "Volkswagen", "Hyundai", "General Motors", "Ford", "Nissan", "Honda", "Renault"],
+    "difficulty": 4,
+    "categories":["transport", "business"]
+},{
+    "question":"Which American city is known as the 'Motor City'?",
+    "answers":["Detroit"],
+    "options":["Portland", "Boston", "Chicago", "Houston", "Seattle"],
+    "difficulty": 3,
+    "categories":["misc"]
+},{
+    "question":"Which of these is not part of the 'Big Five' extinctions?",
+    "answers":["End Jurassic"],
+    "options":["End Ordovician", "Late Devonian", "End Permian", "End Triassic", "End Cretaceous"],
+    "difficulty": 5,
+    "categories":["misc", "geology"]
+},{
+    "question":"Which of these is not part of the 'Ungulates'?",
+    "answers":["Dogs", "Chickens"],
+    "options":["Horses", "Cattle", "Giraffes", "Sheep", "Deer", "Pigs", "Camels", "Hippopotamuses"],
+    "difficulty": 4,
+    "categories":["nature"]
+},{
+    "question":"Which of these animals has add odd number of toes?",
+    "answers":["Horses", "Rhinoceroses", "Tapirs"],
+    "options":["Cattle", "Giraffes", "Sheep", "Deer", "Pigs", "Camels", "Hippopotamuses"],
+    "difficulty": 4,
+    "categories":["nature"]
+},{
+    "question":"What kind of animal was once used as a pregnancy test for women?",
+    "answers":["African clawed frog"],
+    "options":["African clawed eagle", "African clawed sloth", "African clawed cassowaries", "African clawed bear", "African clawed badger", "African clawed armadillos"],
+    "difficulty": 4,
+    "categories":["animals", "medicine", "nature", "history"]
+},{
+    "question":"Georges Cuvier is often known as the 'Founding father' of what?",
+    "answers":["Paleontology"],
+    "options":["Film", "Fitness", "Abuse Counselling", "Statistics","Physics", "Engineering", "Landscaping", "Food science"],
+    "difficulty": 4,
+    "categories":["history"]
+}, {
+        "question":"In 1841, John Phillips divided life into three chapters. Which of these was not one of them?",
+        "answers":["Physoic", "Parazoic", "Clinoic"],
+        "options":["Paleozoic", "Mesozoic", "Cenozoic"],
+        "difficulty": 4,
+        "categories":["history"]
+    }, {
+    "question":"Coined by John Phillips in 1841, what did 'Paleozoic' mean?",
+    "answers":["Ancient life"],
+    "options":["New life", "Middle life", "Beginning life", "Bacterial life"],
+    "difficulty": 4,
+    "categories":["history"]
+}, {
+    "question":"Coined by John Phillips in 1841, what did 'Cenozoic' mean?",
+    "answers":["New life"],
+    "options":["Ancient life", "Middle life", "Beginning life", "Bacterial life"],
+    "difficulty": 4,
+    "categories":["history"]
+}, {
+    "question":"Coined by John Phillips in 1841, what did 'Mesozoic' mean?",
+    "answers":["Middle life"],
+    "options":["Ancient life", "New life", "Beginning life", "Bacterial life"],
+    "difficulty": 4,
+    "categories":["history"]
 }
-
-
-
 
 ]

@@ -5,13 +5,12 @@ import thequizmaster.input.Keyboard;
 import thequizmaster.level.Room;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class MainEvent extends QuizMode{
 
     protected static String gameName;
     public static int maxPlayers;
-    public static int minWidth;
-    public static int minHeight;
 
     protected Room room;
 
@@ -21,13 +20,23 @@ public class MainEvent extends QuizMode{
         this.input = input;
     }
 
-    public static Room isSuitableRoomAvailable(ArrayList<Room> rooms){
+    public static Room isSuitableRoomAvailable(ArrayList<Room> rooms, int minWidth, int minHeight){
+        Collections.shuffle(rooms);
         for(Room room: rooms){
-            if(room.width > minWidth &&  room.height > minHeight){
+            if(room.width >= minWidth &&  room.height >= minHeight){
                 return room;
             }
         }
         return null;
+    }
+
+    public static boolean isRoomSuitable(Room room, int minWidth, int minHeight){
+        if(room.width >= minWidth &&  room.height >= minHeight){
+            return true;
+        }
+        else {
+            return false;
+        }
     }
 
 }

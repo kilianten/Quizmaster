@@ -8,6 +8,7 @@ import javax.imageio.ImageIO;
 
 import thequizmaster.Constants;
 import thequizmaster.gamestates.MainGame;
+import thequizmaster.objects.traps.StartButton;
 import thequizmaster.objects.traps.TripWire;
 import thequizmaster.quizmode.ChainGame;
 import thequizmaster.quizmode.MainEvent;
@@ -28,21 +29,39 @@ public class SpawnLevel extends Level {
 			findRooms();
 			alterMap(w, h);
 			game.quiz = findRandomMainEvent();
-			for(Room room: rooms){
-				System.out.println("height: " + room.height);
-				System.out.println("width: " + room.width);
-			}
+			populateRemainingRooms();
 		} catch (IOException e) {
 			e.printStackTrace();
 			System.out.println("Exception: Could not load level file at " + path);
 		}
 	}
 
+	private void populateRemainingRooms() {
+		for(Room room: rooms){
+			if(!room.isUsed){
+				ArrayList<String> gamemodes = (ArrayList)Constants.GAMEMODES.clone();
+				boolean eventFound = false;
+				while(gamemodes.size() > 0 && eventFound == false){
+					int randomGameModeIndex = random.nextInt(gamemodes.size());
+					if(getGamemodeForRoom(gamemodes.get(randomGameModeIndex), room)){
+						eventFound = true;
+					} else {
+						gamemodes.remove(randomGameModeIndex);
+					}
+				}
+				if(eventFound == false){
+					System.out.println("ERROR: Room could not be populated, dimensions: " + room.width + " * " + room.height);
+				}
+			}
+		}
+	}
+
 	private MainEvent createMainEvent(String gamemode){
 		switch(gamemode) {
 			case "ChainGame":
-				Room room = ChainGame.isSuitableRoomAvailable(rooms);
+				Room room = ChainGame.isSuitableRoomAvailable(rooms, ChainGame.minWidth, ChainGame.minHeight);
 				if(room != null){
+					room.isUsed = true;
 					return new ChainGame(game.key, room, game);
 				}
 			default:
@@ -50,8 +69,23 @@ public class SpawnLevel extends Level {
 		}
 	}
 
+	private boolean getGamemodeForRoom(String gamemode, Room room){
+		switch(gamemode) {
+			case "ChainGame":
+				if(ChainGame.isRoomSuitable(room, ChainGame.minWidth, ChainGame.minHeight)){
+					room.isUsed = true;
+					room.event = "ChainGame";
+					StartButton button = new StartButton( room.topLeftCornerX + (room.width * Constants.DEFAULT_ENTITY_SIZE)/2, room.topLeftCornerY + ( room.height * Constants.DEFAULT_ENTITY_SIZE)/2, game, this);
+					room.button = button;
+					return true;
+				}
+			default:
+				return false;
+		}
+	}
+
 	private MainEvent findRandomMainEvent() {
-		ArrayList<String> gamemodes = Constants.GAMEMODES;
+		ArrayList<String> gamemodes = (ArrayList)Constants.MAINEVENTGAMEMODES.clone();
 		MainEvent event = null;
 		while(gamemodes.size() > 0 && event == null){
 			int randomGameModeIndex = random.nextInt(gamemodes.size());
@@ -60,8 +94,6 @@ public class SpawnLevel extends Level {
 			for(String gamemode: gamemodes){
 				System.out.println(gamemode);
 			}
-
-
 		}
 		if(event == null){
 			System.out.println("ERROR: No Gamemode Could be Created. No rooms available that met specifications");

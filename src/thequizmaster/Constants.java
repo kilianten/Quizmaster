@@ -12,7 +12,11 @@ public class Constants {
     public final static double NANOSECONDS = 1000000000.0 / FPS;
     public final static String GAME_TITLE =  "The Quizmaster";
 
-    public final static ArrayList<String> GAMEMODES = new ArrayList<String>(){{
+    public final static ArrayList<String> MAINEVENTGAMEMODES = new ArrayList<String>(){{
+		add("ChainGame");
+	}};
+
+	public final static ArrayList<String> GAMEMODES = new ArrayList<String>(){{
 		add("ChainGame");
 	}};
     

@@ -19,6 +19,8 @@ public class ChainGame extends MainEvent {
 	public final int SETBACK_DELAY = 50;
 	public int deathY;
 	public int lightIndex;
+	public static int minWidth = 15;
+	public static int minHeight = 4;
 
 	private ArrayList<ChainGameSaw> saws = new ArrayList<>();
 	private ArrayList<ChainGameLight> lights = new ArrayList<>();
@@ -28,8 +30,6 @@ public class ChainGame extends MainEvent {
 		game.setRandomPlayer();
 		gameName = "Chain Game";
 		maxPlayers = 2;
-		minWidth = 15;
-		minHeight = 8;
 		isAskingQuestion = true;
 		getNewQuestion();
 		createSawTraps();
