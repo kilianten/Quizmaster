@@ -11912,6 +11912,43 @@
     "options":["Ancient life", "New life", "Beginning life", "Bacterial life"],
     "difficulty": 4,
     "categories":["history"]
+}, {
+    "question":"The pH scale goes from 1 to what number?",
+    "answers":["14"],
+    "options":["100", "10", "7", "9", "11", "20"],
+    "difficulty": 3,
+    "categories":["science"]
+}, {
+    "question":"On the pH scale what is neutral?",
+    "answers":["7"],
+    "options":["6", "10", "8", "9", "5", "4", "100"],
+    "difficulty": 3,
+    "categories":["science"]
+}, {
+    "question":"White nose syndrome effects what animal?",
+    "answers":["Bats"],
+    "options":["Rats", "Cats", "Elephants", "Badgers", "Snakes", "Lizards", "Owls", "Walaroos"],
+    "difficulty": 5,
+    "categories":["animals"]
+},{
+    "question":"What is the name of philosophy and social movement that advocates the use of evidence and reasoning to determine the most effective ways to benefit others?",
+    "answers":["Effective altruism"],
+    "options":["Seemly altruism", "Stateful altruism", "Hard altruism", "Traditional altruism", "Needless altruism", "Simplistic altruism"],
+    "difficulty": 3,
+    "categories":["philosophy"]
+},{
+    "question":"A Madrasa is a Muslim what?",
+    "answers":["School"],
+    "options":["Seemly altruism", "Stateful altruism", "Hard altruism", "Traditional altruism", "Needless altruism", "Simplistic altruism"],
+    "difficulty": 3,
+    "categories":["religion"]
+}
+,{
+    "question":"Which animal has killed the most humans?",
+    "answers":["Mosquitos"],
+    "options":["Humans", "Snakes", "Dogs"],
+    "difficulty": 3,
+    "categories":["animals"]
 }
 
 ]

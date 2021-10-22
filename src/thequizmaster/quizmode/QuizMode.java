@@ -8,6 +8,7 @@ import java.util.Random;
 
 import thequizmaster.Constants;
 import thequizmaster.Game;
+import thequizmaster.entity.mob.Player;
 import thequizmaster.gamestates.MainGame;
 import thequizmaster.graphics.Screen;
 import thequizmaster.input.Keyboard;
@@ -42,6 +43,15 @@ public class QuizMode {
 
 	public void getNewQuestion(){
 		this.question = game.getQuestion(random.nextInt(5) + 1);
+		questionOptions = question.getOptionsAnswer();
+		questionSelected = 0;
+		input.enterReleased = false;
+
+		doesPlayerHaveKnowledge();
+	}
+
+	public void getDifficultQuestion(int difficulty){
+		this.question = game.getQuestion(difficulty);
 		questionOptions = question.getOptionsAnswer();
 		questionSelected = 0;
 		input.enterReleased = false;
@@ -225,5 +235,13 @@ public class QuizMode {
 	}
 	
 	public void tidyUp() {
+	}
+
+	public void playerWon() {
+		for(Player player: game.allPeople){
+			player.y += 32;
+			player.animation = null;
+		}
+		game.quiz = null;
 	}
 }

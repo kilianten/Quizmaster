@@ -12,6 +12,7 @@ import thequizmaster.objects.traps.StartButton;
 import thequizmaster.objects.traps.TripWire;
 import thequizmaster.quizmode.ChainGame;
 import thequizmaster.quizmode.MainEvent;
+import thequizmaster.quizmode.SawChallenge;
 
 public class SpawnLevel extends Level {
 
@@ -57,9 +58,10 @@ public class SpawnLevel extends Level {
 	}
 
 	private MainEvent createMainEvent(String gamemode){
+		Room room;
 		switch(gamemode) {
 			case "ChainGame":
-				Room room = ChainGame.isSuitableRoomAvailable(rooms, ChainGame.minWidth, ChainGame.minHeight);
+				room = ChainGame.isSuitableRoomAvailable(rooms, ChainGame.minWidth, ChainGame.minHeight);
 				if(room != null){
 					room.isUsed = true;
 					return new ChainGame(game.key, room, game);
@@ -75,7 +77,15 @@ public class SpawnLevel extends Level {
 				if(ChainGame.isRoomSuitable(room, ChainGame.minWidth, ChainGame.minHeight)){
 					room.isUsed = true;
 					room.event = "ChainGame";
-					StartButton button = new StartButton( room.topLeftCornerX + (room.width * Constants.DEFAULT_ENTITY_SIZE)/2, room.topLeftCornerY + ( room.height * Constants.DEFAULT_ENTITY_SIZE)/2, game, this);
+					StartButton button = new StartButton( room, game, this);
+					room.button = button;
+					return true;
+				}
+			case "SawDifficulty":
+				if(SawChallenge.isRoomSuitable(room, SawChallenge.minWidth, SawChallenge.minHeight)){
+					room.isUsed = true;
+					room.event = "SawDifficulty";
+					StartButton button = new StartButton(room, game, this);
 					room.button = button;
 					return true;
 				}

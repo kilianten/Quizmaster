@@ -37,7 +37,6 @@ public class ChainGame extends MainEvent {
 
 	public void start(){
 		isAskingQuestion = true;
-		game.quiz = null;
 	}
 
 	public void tidyUp() {

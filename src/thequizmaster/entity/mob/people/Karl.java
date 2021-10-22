@@ -30,8 +30,9 @@ public class Karl extends Player {
         sprite = standingSprites[2];
         HUDImage = KarlSprites.karlHUDFaceImage;
 
-        chainGameWaiting = NolanSprites.nolanChainGameWaiting;
-        chainGamePull = NolanSprites.nolanChainGamePull;
+        chainGameWaiting = KarlSprites.karlChainGameWaiting;
+        chainGamePull = KarlSprites.karlChainGamePull;
+        chainGameDeath = KarlSprites.karlChainGameDeath;
 
     }
 

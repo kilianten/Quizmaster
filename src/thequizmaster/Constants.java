@@ -18,6 +18,7 @@ public class Constants {
 
 	public final static ArrayList<String> GAMEMODES = new ArrayList<String>(){{
 		add("ChainGame");
+		add("SawDifficulty");
 	}};
     
     public final static int DEFAULT_SPRITE_SIZE = 32;
