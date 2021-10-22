@@ -7374,7 +7374,7 @@
     "categories":["history", "science"]
 },
 {
-    "question":"Laika, was the Solveit space dog who went into space in 1957. What does Barker translate to?",
+    "question":"Laika, was the Solveit space dog who went into space in 1957. What does Laika translate to?",
     "answers":["Barker"],
     "options":["Rock", "Watchful", "Progressor", "Defender of mankind", "Wolf"],
     "difficulty": 3,
@@ -11949,6 +11949,12 @@
     "options":["Humans", "Snakes", "Dogs"],
     "difficulty": 3,
     "categories":["animals"]
-}
+},{
+    "question":"'And ye shall know the truth, and the truth shall make you free'?",
+    "answers":["Mosquitos"],
+    "options":["Humans", "Snakes", "Dogs"],
+    "difficulty": 3,
+    "categories":["animals"]
+},
 
 ]

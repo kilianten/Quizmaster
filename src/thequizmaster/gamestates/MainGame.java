@@ -206,6 +206,11 @@ public class MainGame extends GameState {
 			for(Player person: allPeople){
 				person.animatePlayer();
 			}
+			if(people.size() > 0){
+				for(Player person: people){
+					person.update();
+				}
+			}
 			player.update();
 			level.update();
 		}
@@ -213,7 +218,9 @@ public class MainGame extends GameState {
 		if(key.changePlayer) {
 			if(quiz == null){
 				if(menu == null){
-					swapPlayer();
+					if(!player.dying){
+						swapPlayer();
+					}
 				} else {
 					menu.swapPlayer();
 				}

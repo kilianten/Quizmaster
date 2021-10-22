@@ -17,6 +17,7 @@ public class Karl extends Player {
         y = 74 * 32;
         questionKnowledge.put("politics", 4);
         questionKnowledge.put("history", 1);
+        poisonRate = 10;
     }
 
     public void setAnims() {
@@ -33,6 +34,8 @@ public class Karl extends Player {
         chainGameWaiting = KarlSprites.karlChainGameWaiting;
         chainGamePull = KarlSprites.karlChainGamePull;
         chainGameDeath = KarlSprites.karlChainGameDeath;
+
+        poisonAnim = KarlSprites.karlPoisonDeath;
 
     }
 

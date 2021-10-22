@@ -6,6 +6,7 @@ import thequizmaster.graphics.Animation;
 import thequizmaster.graphics.Screen;
 import thequizmaster.graphics.Sprite;
 import thequizmaster.input.Keyboard;
+import thequizmaster.objects.Corpse;
 import thequizmaster.objects.Hitbox;
 import thequizmaster.objects.items.ChargesItem;
 import thequizmaster.objects.items.Item;
@@ -47,6 +48,8 @@ public class Player extends Mob {
 	protected Sprite[] walkingBackAnim;
 	protected Sprite[] walkingLeftAnim;
 	protected Sprite[] walkingRightAnim;
+
+	protected Sprite[] poisonAnim;
 	public Sprite[][] idleAnims;
 
 	public Sprite[] chainGameWaiting;
@@ -81,13 +84,23 @@ public class Player extends Mob {
 	}
 
 	public void update() {
-		checkIfSelectingItem();
-		checkWalkingInput();
-		checkUsingItemInput();
-		checkDroppingItemInput();
+		if(currentPlayer && !dying){
+			checkIfSelectingItem();
+			checkWalkingInput();
+			checkUsingItemInput();
+			checkDroppingItemInput();
+			updateHitboxes();
+		}
 		updateAnimation();
-		poisonPlayer();
-		updateHitboxes();
+		if(!dying){
+			poisonPlayer();
+		} else if(dying && animation == null){
+			game.addDrawObject(new Corpse(game.player.x, game.player.y, poisonAnim[17]));
+			killPlayer(poisonAnim[17]);
+			game.replaceCurrentPlayer();
+		}
+
+
 	}
 
 	public void animatePlayer(){
@@ -198,15 +211,22 @@ public class Player extends Mob {
 	}
 
 	private void poisonPlayer(){
-		if(poisonCounter >= poisonRate){
-			if(poisonLevel >= 1){
-				poisonLevel--;
+		if(poisonLevel <= 0){
+			dying = true;
+			animation = new Animation(.8, poisonAnim, this, 3, false);
+		} else {
+			if(poisonCounter >= poisonRate){
+				if(poisonLevel >= 1){
+					poisonLevel--;
+				}
+				poisonCounter = 0;
+			} else{
+				poisonCounter++;
 			}
-			poisonCounter = 0;
-		} else{
-			poisonCounter++;
 		}
 	}
+
+
 
 	private void setWalkingAnim() {
 		if(dir == 0) {
