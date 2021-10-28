@@ -80,9 +80,9 @@ public class MainGame extends GameState {
 		level = new SpawnLevel("/levels/level01.png", this);
 		quiz.start();
 		createHUD();
-		createRandomItem(player.x, player.y);
-		createRandomItem(player.x + 20, player.y + 20);
-		createSearchBox(player.x - 100, player.y + 50);
+		createRandomItem(player.x, player.y + 30);
+		createRandomItem(player.x + 20, player.y + 50);
+		createSearchBox(player.x, player.y + 50);
 	}
 
 	private void createSearchBox(int x, int y) {
@@ -152,6 +152,16 @@ public class MainGame extends GameState {
 		return null;
 	}
 
+	public Player isSpecficObjectCollidingWithPeople(Hitbox hitbox) {
+		for(int i = 0; i < people.size(); i++) {
+			if(Hitbox.isColliding(people.get(i).hitbox, hitbox)) {
+				return people.get(i);
+			}
+		}
+		return null;
+	}
+
+
 	public void removeGameObject(GameObject object){
 		level.gameObjects.remove(object);
 	}
@@ -203,15 +213,25 @@ public class MainGame extends GameState {
 			menu.update();
 		}
 		else {
+
+			Player tempPlayer = null;
+			for(Player person: people){
+				person.update();
+
+				if(person.isDead){
+					tempPlayer = person;
+				}
+			}
+			people.remove(tempPlayer);
+
+
 			for(Player person: allPeople){
 				person.animatePlayer();
 			}
-			if(people.size() > 0){
-				for(Player person: people){
-					person.update();
-				}
-			}
+
+
 			player.update();
+
 			level.update();
 		}
 		
@@ -285,6 +305,9 @@ public class MainGame extends GameState {
 		if(devMode) {
 			screen.renderHitbox(player.hitbox, 0xff00b300);
 			screen.renderHitbox(player.interactionBox, 0xffB200B2);
+			for (int i = 0; i < people.size(); i++) {
+				screen.renderHitbox(people.get(i).hitbox, 0xffff0000);
+			}
 		}
 	
 	}

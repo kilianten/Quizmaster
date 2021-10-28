@@ -20,7 +20,7 @@ public abstract class Item extends CollidableObject {
         put("Large Syringe", 4);
         put("Small Syringe", 7);
         put("Mystery Syringe", 4);
-        put("Poison Syringe", 2);
+        put("Poison Syringe", 200);
         put("Wirecutters", 1);
         put("Book", 1);
     }};
@@ -80,4 +80,7 @@ public abstract class Item extends CollidableObject {
     }
 
 
+    public void updateSelected(MainGame game){
+
+    }
 }

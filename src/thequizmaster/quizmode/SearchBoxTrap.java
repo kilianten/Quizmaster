@@ -22,7 +22,7 @@ public class SearchBoxTrap extends QuizMode{
 
     public void answeredCorrectlyResponse(){
         player.y += 10;
-        game.createRandomItem(player.x, player.y + 20);
+        game.createRandomItem(player.x, player.y + 25);
         game.givePlayerControl();
         game.quiz = null;
     }

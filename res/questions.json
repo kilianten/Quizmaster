@@ -16,7 +16,7 @@
     "categories":["geography"]
 },
 {
-    "question":"Idina Menzel sings 'let it go' 20 times in 'Let It Go' from Frozen",
+    "question":"Idina Menzel sings \"let it go\" 20 times in \"Let It Go\" from Frozen",
     "answers":["False"],
     "options":["True"],
     "difficulty":4,
@@ -44,7 +44,7 @@
     "categories":["geography"]
 },
 {
-    "question":"'Mesopotamia' is translated as 'the land between two rivers', which rivers was it referring to?",
+    "question":"\"Mesopotamia\" is translated as \"the land between two rivers\", which rivers was it referring to?",
     "answers":["Tigris & Euphrates"],
     "options":["Aras & Tigris", "Seyhan River & Aras", "Euphrates & Aras"],
     "difficulty":4,
@@ -79,7 +79,7 @@
     "categories":["geography"]
 },
 {
-    "question":"'No one is fool enough to choose war instead of peace - in peace sons bury fathers, but in war fathers bury sons' is a quote from whom?",
+    "question":"\"No one is fool enough to choose war instead of peace - in peace sons bury fathers, but in war fathers bury sons\" is a quote from whom?",
     "answers":["Herodotus"],
     "options":["Ronald Regan", "Plato", "Karl Marx", "Socrates", "Confucius", "Damascus", "Rene Descartes", "Epictetus", "Anazimander", "Heraclitus", "Anaxagoras", "Lao Tzu"],
     "difficulty":4,
@@ -107,14 +107,14 @@
     "categories":["religion", "history"]
 },
 {
-    "question":"'Stay away from negative people. They have a problem for every solution' is a quote from whom?",
+    "question":"\"Stay away from negative people. They have a problem for every solution\" is a quote from whom?",
     "answers":["Albert Einstein"],
     "options":["Ronald Regan", "Karl Marx", "Socrates", "Confucius", "Oprah Winfrey", "Rene Descartes", "Epictetus", "Marilyn Monroe", "Heraclitus", "Donald Trump", "Abhraham Lincoln", "C. S. Lewis", "Lao Tzu"],
     "difficulty":2,
     "categories":["quotes"]
 },
 {
-    "question":"'Everyone is a genius. But if you judge a fish by its ability to climb a tree, it will live its whole life believing that it is stupid' is a quote from whom?",
+    "question":"\"Everyone is a genius. But if you judge a fish by its ability to climb a tree, it will live its whole life believing that it is stupid\" is a quote from whom?",
     "answers":["Albert Einstein"],
     "options":["Ronald Regan", "Karl Marx", "Socrates", "Confucius", "Oprah Winfrey", "Rene Descartes", "Epictetus", "Marilyn Monroe", "Heraclitus", "Donald Trump", "Abhraham Lincoln", "C. S. Lewis", "Lao Tzu"],
     "difficulty":2,
@@ -177,14 +177,14 @@
     "categories":["language", "proverb"]
 },
 {
-    "question":"'If you are depressed you are living in the past. If you are anxious you are living in the future. If you are at peace you are living in the present?', is a quote from whom?",
+    "question":"\"If you are depressed you are living in the past. If you are anxious you are living in the future. If you are at peace you are living in the present?\", is a quote from whom?",
     "answers":["Lao Tzu"],
     "options":["Ronald Regan", "Karl Marx", "Socrates", "Confucius", "Oprah Winfrey", "Rene Descartes", "Epictetus", "Marilyn Monroe", "Heraclitus", "Donald Trump", "Abhraham Lincoln", "C. S. Lewis", "Albert Einstein"],
     "difficulty":2,
     "categories":["quotes"]
 },
 {
-    "question":"'In a self-sufficient manner, thereby carrying all of one's food, shelter and equipment as one climbs' desribes which mountaineering style?",
+    "question":"\"In a self-sufficient manner, thereby carrying all of one\"s food, shelter and equipment as one climbs\" desribes which mountaineering style?",
     "answers":["Alpine style"],
     "options":["Expedition style", "Traditional Style", "Bouldering", "Free-Solo climbing", "Scrambling style"],
     "difficulty":4,
@@ -214,7 +214,7 @@
 {
     "question":"Giordano Bruno was executed by the church for arguing what?",
     "answers":["That the sun was a star and the universe is infinite"],
-    "options":["The bible should be translated into ordinary vernacular, for all to understand", "That his wife wasn't a witch", "The church shouldn't tax the poor", "Arguing that science was greated than God"],
+    "options":["The bible should be translated into ordinary vernacular, for all to understand", "That his wife wasn\"t a witch", "The church shouldn\"t tax the poor", "Arguing that science was greated than God"],
     "difficulty":4,
     "categories":["history", "religion"]
 },
@@ -240,7 +240,7 @@
     "categories":["history", "religion"]
 },
 {
-    "question":"One of the most famous jewels in the world, also known as 'Le bleu de France', is called?",
+    "question":"One of the most famous jewels in the world, also known as \"Le bleu de France\", is called?",
     "answers":["The Hope Diamond"],
     "options":["The Beautiful Diamond", "The Blue Diamond", "The Green Diamond"],
     "difficulty":4,
@@ -268,14 +268,14 @@
     "categories":["science"]
 },
 {
-    "question":"The word 'vaccine' comes from the Latin word 'vacca' meaning what?",
+    "question":"The word \"vaccine\" comes from the Latin word \"vacca\" meaning what?",
     "answers":["Cow"],
     "options":["Cure", "Health", "Immunity", "Waver", "Empty"],
     "difficulty": 3,
     "categories":["language"]
 },
 {
-    "question":"Who invented the world's first vaccine?",
+    "question":"Who invented the world\"s first vaccine?",
     "answers":["Edward Jenner"],
     "options":["Galen", "Virginia Apgar", "Jonas Salk", "William Osler"],
     "difficulty": 3,
@@ -325,7 +325,7 @@
 },
 {
     "question":"In which theatre was Abraham Lincoln assassinated?",
-    "answers":["Ford's Theatre"],
+    "answers":["Ford\"s Theatre"],
     "options":["Central City Opera House", "Fox Theatre", "Dock Street Theatre"],
     "difficulty": 4,
     "categories":["history"]
@@ -338,7 +338,7 @@
     "categories":["history"]
 },
 {
-    "question":"Assassinated in 44BC, what was Caesar's full name?",
+    "question":"Assassinated in 44BC, what was Caesar\"s full name?",
     "answers":["Gaius Julius Caesar"],
     "options":["Julius Caesar", "Julius Senneca Caesar", "Julius Albertus Caesar"],
     "difficulty": 3,
@@ -401,14 +401,14 @@
     "categories":["science", "medical"]
 },
 {
-    "question":"What is the medical name for  a 'lazy eye'?",
+    "question":"What is the medical name for  a \"lazy eye\"?",
     "answers":["Amblyopia"],
     "options":["Myopia", "Presbyopia", "Cataracts", "Underyopia", "Biyopia", "Hyperopia"],
     "difficulty": 2,
     "categories":["science", "medical"]
 },
 {
-    "question":"When did Hitler publish 'Mein Kampf'?",
+    "question":"When did Hitler publish \"Mein Kampf\"?",
     "answers":["1925"],
     "options":["1933", "1939", "1924", "1911", "1915"],
     "difficulty": 4,
@@ -464,7 +464,7 @@
     "categories":["history"]
 },
 {
-    "question":"What was the name of Hitler's wife?",
+    "question":"What was the name of Hitler\"s wife?",
     "answers":["Eva Braun"],
     "options":["Marie Müller", "Luarie Schneider", "Mia Fischer"],
     "difficulty": 1,
@@ -478,7 +478,7 @@
     "categories":["history"]
 },
 {
-    "question":"'If I need only one shirt to cover myself with but use two, I am guilty of stealing one from another. If five bananas are enough to keep me going, my eating a sixth one is a form of theft' is a quote from whom?",
+    "question":"\"If I need only one shirt to cover myself with but use two, I am guilty of stealing one from another. If five bananas are enough to keep me going, my eating a sixth one is a form of theft\" is a quote from whom?",
     "answers":["Mahatma Gandhi"],
     "options":["Albert Einstein", "Mother Teresa", "Martin Luther King Jr.", "Malcolm X", "Abraham Lincoln"],
     "difficulty": 3,
@@ -492,7 +492,7 @@
     "categories":["quotes"]
 },
 {
-    "question":"IBM's Deep Blue chess-playing computer defeated which chess grandmaster in 1996 & 1997?",
+    "question":"IBM\"s Deep Blue chess-playing computer defeated which chess grandmaster in 1996 & 1997?",
     "answers":["Garry Kasparov"],
     "options":["Bobby Fischer", "Magnus Carlsen", "Anatoly Karpov", "Boris Spassky"],
     "difficulty": 3,
@@ -520,7 +520,7 @@
     "categories":["science"]
 },
 {
-    "question":"'The universe is under no obligation to make sense to you' is a quote from whom?",
+    "question":"\"The universe is under no obligation to make sense to you\" is a quote from whom?",
     "answers":["Neil DeGrasse Tyson"],
     "options":["Marie Curie", "Isaac Newton", "Micheal Faraday", "Albert Einstein", "Elon Musk", "Alezia Banks"],
     "difficulty": 3,
@@ -709,21 +709,21 @@
     "categories":["science"]
 },
 {
-    "question":"Finish the quote from Woody Allen, 'I don't want to achieve immortality through my work. I want to achieve it through ____'",
+    "question":"Finish the quote from Woody Allen, \"I don\"t want to achieve immortality through my work. I want to achieve it through ____\"",
     "answers":["Not dying"],
     "options":["Making films until I die", "My children", "My character", "My work"],
     "difficulty": 3,
     "categories":["quotes", "entertainment"]
 },
 {
-    "question":"'Sildenafil' is sold as what brand name?",
+    "question":"\"Sildenafil\" is sold as what brand name?",
     "answers":["Viagra"],
     "options":["Reglan", "Zantac", "Aspirin"],
     "difficulty": 3,
     "categories":["medicine"]
 },
 {
-    "question":"In 1907 Oskar Pfungst investigated 'Clever Hans' an animal that could seemingly do math. What animal was Clever Hans?",
+    "question":"In 1907 Oskar Pfungst investigated \"Clever Hans\" an animal that could seemingly do math. What animal was Clever Hans?",
     "answers":["A horse"],
     "options":["A dog", "A cat", "A lion", "A dolphin", "An elephant", "A turtle"],
     "difficulty": 3,
@@ -765,7 +765,7 @@
     "categories":["art"]
 },
 {
-    "question":"When did Marcel Duchamps create 'Fountain'?",
+    "question":"When did Marcel Duchamps create \"Fountain\"?",
     "answers":["1917"],
     "options":["1935", "1924", "1947", "1960", "1956", "1981"],
     "difficulty": 3,
@@ -779,14 +779,14 @@
     "categories":["proverb", "language"]
 },
 {
-    "question":"'That 2,000-Yard Stare' by Tom Lea depicts a nameless Marine at which battle?",
+    "question":"\"That 2,000-Yard Stare\" by Tom Lea depicts a nameless Marine at which battle?",
     "answers":["The Battle of Peleliu"],
     "options":["The Battle of Tarawa", "The Battle of Guam", "The battle of Iwo Jima"],
     "difficulty": 5,
     "categories":["art"]
 },
 {
-    "question":"The lyrics 'A little country boy' from Johnny B. Goode by Chuck Berry were originally what?",
+    "question":"The lyrics \"A little country boy\" from Johnny B. Goode by Chuck Berry were originally what?",
     "answers":["A little coloured boy"],
     "options":["A little white boy", "A little happy boy", "A little lonely"],
     "difficulty": 2,
@@ -842,7 +842,7 @@
     "categories":["language"]
 },
 {
-    "question":"The 'Molotov coctail' was named after the man who led the 1939-1940 Solveit campaign against Finland, what was his name?",
+    "question":"The \"Molotov coctail\" was named after the man who led the 1939-1940 Solveit campaign against Finland, what was his name?",
     "answers":["Vyacheslav Molotov"],
     "options":["Zarich iz Molo", "Moloslevak Tovluha", "Henri Molotov", "Molavio Abdulov", "Molein Kotov"],
     "difficulty": 3,
@@ -1024,7 +1024,7 @@
     "categories":["misc"]
 },
 {
-    "question":"Joseph Mohr, the writer of 'Silent Night' was originally from which country?",
+    "question":"Joseph Mohr, the writer of \"Silent Night\" was originally from which country?",
     "answers":["Austria"],
     "options":["Germany", "Great Britain", "Ireland", "Australia", "The United States", "Amsterdam"],
     "difficulty": 4,
@@ -1066,35 +1066,35 @@
     "categories":["geography"]
 },
 {
-    "question":"Which city is South Africa's executive capital?",
+    "question":"Which city is South Africa\"s executive capital?",
     "answers":["Pretoria"],
     "options":["Bloemfontein", "Cape Town", "Durban", "Johannesburg"],
     "difficulty": 5,
     "categories":["geography"]
 },
 {
-    "question":"Which city is South Africa's judicial capital?",
+    "question":"Which city is South Africa\"s judicial capital?",
     "answers":["Bloemfontein"],
     "options":["Pretoria", "Cape Town", "Durban", "Johannesburg"],
     "difficulty": 5,
     "categories":["geography"]
 },
 {
-    "question":"Which city is South Africa's legislative capital?",
+    "question":"Which city is South Africa\"s legislative capital?",
     "answers":["Cape Town"],
     "options":["Pretoria", "Bloemfontein", "Durban", "Johannesburg"],
     "difficulty": 5,
     "categories":["geography"]
 },
 {
-    "question":"Which city is South Africa's largest?",
+    "question":"Which city is South Africa\"s largest?",
     "answers":["Johannesburg"],
     "options":["Pretoria", "Bloemfontein", "Durban", "Cape Town"],
     "difficulty": 5,
     "categories":["geography"]
 },
 {
-    "question":"Which city is South Africa's largest?",
+    "question":"Which city is South Africa\"s largest?",
     "answers":["Johannesburg"],
     "options":["Pretoria", "Bloemfontein", "Durban", "Cape Town"],
     "difficulty": 5,
@@ -1178,35 +1178,35 @@
     "categories":["history", "misc"]
 },
 {
-    "question":"'For whoever has will be given more, and they will have an abundance. Whoever does not have, even what they have will be taken from them' comes from which bible verse?",
+    "question":"\"For whoever has will be given more, and they will have an abundance. Whoever does not have, even what they have will be taken from them\" comes from which bible verse?",
     "answers":["Matthew 25:29"],
     "options":["Isaiah 23:20", "Mark 21:2", "Psalm 29:10"],
     "difficulty": 4,
     "categories":["religion", "quotes"]
 },
 {
-    "question":"'Here we must run as fast as we can, just to stay in place. And if you wish to go anywhere you must run twice as fast as that' comes from which book?",
+    "question":"\"Here we must run as fast as we can, just to stay in place. And if you wish to go anywhere you must run twice as fast as that\" comes from which book?",
     "answers":["Alice Adventures in Wonderland"],
     "options":["The Lord of the Rings", "The Last Unicorn", "The Name of the Wind", "The Lion, the Witch and the Wardrobe", "The Wonderful Wizard of OZ"],
     "difficulty":2,
     "categories":["literature", "quotes"]
 },
 {
-    "question":"'He whose life has a why can bear almost any how?' is a quote from whom?",
+    "question":"\"He whose life has a why can bear almost any how?\" is a quote from whom?",
     "answers":["Friedrich Niezsche"],
     "options":["Ronald Regan", "Plato", "Karl Marx", "Socrates", "Confucius", "Rene Descartes", "Epictetus", "Lao Tzu", "Abhraham Lincoln", "C. S. Lewis"],
     "difficulty":3,
     "categories":["quotes"]
 },
 {
-    "question":"In 2018 Jordan B Peterson released his book with how many 'Rules for Life'?",
+    "question":"In 2018 Jordan B Peterson released his book with how many \"Rules for Life\"?",
     "answers":["12"],
     "options":["5", "20", "1", "30", "10", "15", "100", "76"],
     "difficulty":3,
     "categories":["literature"]
 },
 {
-    "question":"During World War II, B. F. Skinner's attempted to develop missiles guided by what?",
+    "question":"During World War II, B. F. Skinner\"s attempted to develop missiles guided by what?",
     "answers":["Pigeons"],
     "options":["Tornados", "Voice", "Radiowaves", "Heat", "GPS"],
     "difficulty":3,
@@ -1241,7 +1241,7 @@
     "categories":["quotes"]
 },
 {
-    "question":"'Cogito ergo sum' translates to what?",
+    "question":"\"Cogito ergo sum\" translates to what?",
     "answers":["I think, therefore I am"],
     "options":["Through adversity to the stars", "Seize the wine", "The die is cast", "Deeds, not words", "I believe because it is absurd"],
     "difficulty":3,
@@ -1325,28 +1325,28 @@
     "categories":["misc", "history"]
 },
 {
-    "question":"'Don't be a girly man' is a quote from whom?",
+    "question":"\"Don\"t be a girly man\" is a quote from whom?",
     "answers":["Arnold Schwarzenegger"],
     "options":["Chuck Norris", "Hugh Jackman", "Angelina Jolie", "Harrison Ford", "Jackie Chan", "Elton John"],
     "difficulty":2,
     "categories":["quotes"]
 },
 {
-    "question":"Which dog was originally known as a 'German Spitz'?",
+    "question":"Which dog was originally known as a \"German Spitz\"?",
     "answers":["American Eskimo Dog"],
     "options":["German Shepard", "Bulldog", "Beagle", "Rottweiler", "Dachshund", "Great Dane"],
     "difficulty":3,
     "categories":["nature"]
 },
 {
-    "question":"What is a 'moniker'?",
+    "question":"What is a \"moniker\"?",
     "answers":["A name"],
-    "options":["An old Russian currency", "A tool", "One of Saturn's planets", "A priest"],
+    "options":["An old Russian currency", "A tool", "One of Saturn\"s planets", "A priest"],
     "difficulty":3,
     "categories":["language"]
 },
 {
-    "question":"'Ask, and it shall be given to you; Seek, and ye shall' what?",
+    "question":"\"Ask, and it shall be given to you; Seek, and ye shall\" what?",
     "answers":["Find"],
     "options":["Discover", "Recover", "Get help", "Encounter"],
     "difficulty":1,
@@ -1360,7 +1360,7 @@
     "categories":["geography"]
 },
 {
-    "question":"Which verse is 'Ask, and it shall be given to you; Seek, and ye shall find; Knock, and it shall be open unto you; For everyone who asks receives, the one who seeks find; and to one who knocks, the door will be open'?",
+    "question":"Which verse is \"Ask, and it shall be given to you; Seek, and ye shall find; Knock, and it shall be open unto you; For everyone who asks receives, the one who seeks find; and to one who knocks, the door will be open\"?",
     "answers":["Matthew 7:7-7:8"],
     "options":["Matthew 7:25-7:31", "Isaiah 23:20-23:22", "Isaiah 7:25-7:31"],
     "difficulty":2,
@@ -1396,7 +1396,7 @@
 },
 {
     "question":"Dandelion comes from the French meaning what?",
-    "answers":["Lion's Tooth"],
+    "answers":["Lion\"s Tooth"],
     "options":["Bright and Yellow", "Gift of Leon", "Bright Leaves"],
     "difficulty":1,
     "categories":["language", "flowers"]
@@ -1445,13 +1445,13 @@
 },
 {
     "question":"When did the Irish famine take place?",
-    "answers":["1840's"],
-    "options":["1820's", "1790's", "1800's", "1640's", "1690's", "1750's", "1830's"],
+    "answers":["1840\"s"],
+    "options":["1820\"s", "1790\"s", "1800\"s", "1640\"s", "1690\"s", "1750\"s", "1830\"s"],
     "difficulty":3,
     "categories":["history"]
 },
 {
-    "question":"Approximately how many Irish people migrated to America during the 1840's?",
+    "question":"Approximately how many Irish people migrated to America during the 1840\"s?",
     "answers":["1.5 million"],
     "options":["3 million", "500 thousand", "4.3 million", "3.7 million"],
     "difficulty":3,
@@ -1480,8 +1480,8 @@
 },
 {
     "question":"Ikigai is a Japanese word whose meaning roughly translates to:?",
-    "answers":["'Reason for being'"],
-    "options":["'A hope for the lost'", "'Freedom to work'", "'Vengance for the peoples'", "Death by Work"],
+    "answers":["\"Reason for being\""],
+    "options":["\"A hope for the lost\"", "\"Freedom to work\"", "\"Vengance for the peoples\"", "Death by Work"],
     "difficulty":4,
     "categories":["language"]
 },
@@ -1500,7 +1500,7 @@
     "categories":["geography"]
 },
 {
-    "question":"Who famously said 'There is no great genious without a touch of madness'?",
+    "question":"Who famously said \"There is no great genious without a touch of madness\"?",
     "answers":["Aristotle"],
     "options":["Herodotus", "Plato", "Karl Marx", "Socrates", "Confucius", "Damascus", "Rene Descartes", "Epictetus", "Anazimander", "Heraclitus", "Anaxagoras", "Lao Tzu"],
     "difficulty":4,
@@ -1514,21 +1514,21 @@
     "categories":["science"]
 },
 {
-    "question":"Who famously said 'Men are disturbed not by things, but by the views which they take of things'?",
+    "question":"Who famously said \"Men are disturbed not by things, but by the views which they take of things\"?",
     "answers":["Epictetus"],
     "options":["Herodotus", "Plato", "Karl Marx", "Socrates", "Confucius", "Damascus", "Rene Descartes", "Aristotle", "Anazimander", "Heraclitus", "Anaxagoras", "Lao Tzu"],
     "difficulty":4,
     "categories":["quotes"]
 },
 {
-    "question":"Finish this Buddha quote, 'Three things cannot be hidden long: The sun, the moon and the', what?",
+    "question":"Finish this Buddha quote, \"Three things cannot be hidden long: The sun, the moon and the\", what?",
     "answers":["Truth"],
     "options":["The Earth", "The universe", "The stars", "God"],
     "difficulty":3,
     "categories":["quotes"]
 },
 {
-    "question":"Who famously said 'Men are disturbed not by things, but by the views which they take of things'?",
+    "question":"Who famously said \"Men are disturbed not by things, but by the views which they take of things\"?",
     "answers":["Hippocrates"],
     "options":["Herodotus", "Plato", "Karl Marx", "Socrates", "Confucius", "Damascus", "Rene Descartes", "Aristotle", "Anazimander", "Heraclitus", "Anaxagoras", "Lao Tzu", "Epictetus"],
     "difficulty":4,
@@ -1572,7 +1572,7 @@
 {
     "question":"Which if theses is an oxymoron?",
     "answers":["Living dead"],
-    "options":["Racecar", "Happy Trucker", "Eskimo's Igloo", "Lone wolf"],
+    "options":["Racecar", "Happy Trucker", "Eskimo\"s Igloo", "Lone wolf"],
     "difficulty":2,
     "categories":["language"]
 },
@@ -1633,7 +1633,7 @@
     "categories":["nature"]
 },
 {
-    "question":"From what animal's milk is the drink 'kumis' made from?",
+    "question":"From what animal\"s milk is the drink \"kumis\" made from?",
     "answers":["Mare"],
     "options":["Goat", "Horse", "Frog", "Dog"],
     "difficulty":3,
@@ -1647,14 +1647,14 @@
     "categories":["food"]
 },
 {
-    "question":"Which country has a national bean dish called 'ful'?",
+    "question":"Which country has a national bean dish called \"ful\"?",
     "answers":["Egypt"],
     "options":["Syria", "Pakistan", "Venezuela", "Bolivia", "Liberia", "Morocco"],
     "difficulty":4,
     "categories":["food"]
 },
 {
-    "question":"Who directed the 2010 film 'Inception'?",
+    "question":"Who directed the 2010 film \"Inception\"?",
     "answers":["Christopher Nolan"],
     "options":["Quentin Tarantino", "Steven Spielgberg", "Martin Scorsese", "Wes Anderson", "Woody Alan", "Clint Eastwood"],
     "difficulty": 2,
@@ -1703,7 +1703,7 @@
     "categories":["science"]
 },
 {
-    "question":"Which of these countries does not use the 'dinar'?",
+    "question":"Which of these countries does not use the \"dinar\"?",
     "answers":["Morocco", "Sudan", "Chad", "Oman", "Yemen", "Azerbaijan", "Turkey"],
     "options":["Algeria", "Bahrain", "Iraq", "Jordan", "Kuwait", "Libya", "Tunisia"],
     "difficulty": 3,
@@ -1815,14 +1815,14 @@
     "categories":["geography", "politics", "history"]
 },
 {
-    "question":"Meaning 'A minor irritation that spoils the success or enjoyment of something', the proverb says theres 'A fly in the' what?",
+    "question":"Meaning \"A minor irritation that spoils the success or enjoyment of something\", the proverb says theres \"A fly in the\" what?",
     "answers":["Ointment"],
     "options":["Champagne", "Soup", "1825", "1740-1742", "1780-1782", "1940-1942"],
     "difficulty": 3,
     "categories":["language"]
 },
 {
-    "question":"According to the Martin Luther King Jr quote, 'Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only' what can do that?",
+    "question":"According to the Martin Luther King Jr quote, \"Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only\" what can do that?",
     "answers":["Love"],
     "options":["Friendship", "Protests", "Peace", "Equality"],
     "difficulty": 1,
@@ -1852,7 +1852,7 @@
 {
     "question":"On October 12th 1492, Juan Rodriguez Bermejo of the Pinta spotted what we now call the Bahamas and reportedly shouted what?",
     "answers":["Land, Land"],
-    "options":["I'm king of the world", "Were gonna need a bigger boat", "Its beautiful", "I call ye, America"],
+    "options":["I\"m king of the world", "Were gonna need a bigger boat", "Its beautiful", "I call ye, America"],
     "difficulty": 1,
     "categories":["quotes"]
 },
@@ -1913,7 +1913,7 @@
     "categories":["geography", "history"]
 },
 {
-    "question":"'All that I feel to be good is good; all that I feel to be bad is bad' is a quote from whom?",
+    "question":"\"All that I feel to be good is good; all that I feel to be bad is bad\" is a quote from whom?",
     "answers":["Jean-Jacques Rousseau"],
     "options":["Ronald Regan", "Plato", "Karl Marx", "Socrates", "Confucius", "Damascus", "Rene Descartes", "Epictetus", "Anazimander", "Heraclitus", "Anaxagoras", "Lao Tzu", "Herodotus"],
     "difficulty":4,
@@ -1921,8 +1921,8 @@
 },
 {
     "question":"When was aluminium discovered?",
-    "answers":["1820's"],
-    "options":["1620's", "1720's", "1920's", "1520's", "1320's", "1220's"],
+    "answers":["1820\"s"],
+    "options":["1620\"s", "1720\"s", "1920\"s", "1520\"s", "1320\"s", "1220\"s"],
     "difficulty":4,
     "categories":["science", "history"]
 },
@@ -1977,8 +1977,8 @@
 },
 {
     "question":"What is inscribed at the entrance of the temple of Apollo?",
-    "answers":["'Know thyself'"],
-    "options":["'This too shall pass'", "'No entry'", "'No return'", "'God looks down upon ye'", "'Nevermore, never again'"],
+    "answers":["\"Know thyself\""],
+    "options":["\"This too shall pass\"", "\"No entry\"", "\"No return\"", "\"God looks down upon ye\"", "\"Nevermore, never again\""],
     "difficulty":4,
     "categories":["misc"]
 },
@@ -2018,14 +2018,14 @@
     "categories":["geography"]
 },
 {
-    "question":"When was Bailey's Irish Cream founded?",
+    "question":"When was Bailey\"s Irish Cream founded?",
     "answers":["1971"],
     "options":["1954", "1901", "1856", "1783", "1726"],
     "difficulty":4,
     "categories":["drinks"]
 },
 {
-    "question":"'First they ignore you, then they laugh at you, then they fight you, then you win?', is a quote from whom?",
+    "question":"\"First they ignore you, then they laugh at you, then they fight you, then you win?\", is a quote from whom?",
     "answers":["Mahatma Gandhi"],
     "options":["Ronald Regan", "Karl Marx", "Socrates", "Confucius", "Oprah Winfrey", "Rene Descartes", "Epictetus", "Marilyn Monroe", "Heraclitus", "Donald Trump", "Abhraham Lincoln", "C. S. Lewis", "Albert Einstein", "Lao Tzu", "Mother Teresa", "Martin Luther King Jr."],
     "difficulty":2,
@@ -2083,7 +2083,7 @@
 {
     "question":"What is the name of the superocean that surrounded the supercontinent Pangaea?",
     "answers":["Panthalassa"],
-    "options":["Pangea's ocean", "Antartalea", "Articuno", "Aguisque", "Volupat"],
+    "options":["Pangea\"s ocean", "Antartalea", "Articuno", "Aguisque", "Volupat"],
     "difficulty": 4,
     "categories":["geography", "history"]
 },
@@ -2123,7 +2123,7 @@
     "categories":["misc"]
 },
 {
-    "question":"Where would you find 'The Sea Organ'?",
+    "question":"Where would you find \"The Sea Organ\"?",
     "answers":["Zadar, Croatia"],
     "options":["Alytus, Lithuania", "Sopron, Hungary", "Puno, Peru"],
     "difficulty": 5,
@@ -2165,14 +2165,14 @@
     "categories":["geography"]
 },
 {
-    "question":"Tyrannosaurus Rex's name translates to 'King Tyrant Lizard'",
+    "question":"Tyrannosaurus Rex\"s name translates to \"King Tyrant Lizard\"",
     "answers":["True"],
     "options":["False"],
     "difficulty": 2,
     "categories":["language"]
 },
 {
-    "question":"Tyrannosaurus Rex's name translates to 'Reptile beast of pre world'",
+    "question":"Tyrannosaurus Rex\"s name translates to \"Reptile beast of pre world\"",
     "answers":["False"],
     "options":["True"],
     "difficulty": 2,
@@ -2221,7 +2221,7 @@
     "categories":["language"]
 },
 {
-    "question":"'The distinction between past, present and future is only an illusion, however tenacious this illusion may be' is a quote from whom?",
+    "question":"\"The distinction between past, present and future is only an illusion, however tenacious this illusion may be\" is a quote from whom?",
     "answers":["Albert Einstein"],
     "options":["Charles Darwin", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marie Curie", "George Orwell"],
     "difficulty": 3,
@@ -2235,21 +2235,21 @@
     "categories":["history"]
 },
 {
-    "question":"'In times of universal deceit, telling the truth is a revolutionary act' is a quote from whom?",
+    "question":"\"In times of universal deceit, telling the truth is a revolutionary act\" is a quote from whom?",
     "answers":["George Orwell"],
     "options":["Charles Darwin", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan"],
     "difficulty": 2,
     "categories":["quotes"]
 },
 {
-    "question":"Which Latin phrase is 'used to refer to the fact that something has been done or repeated so often that it has become annoying or tiresome'?",
+    "question":"Which Latin phrase is \"used to refer to the fact that something has been done or repeated so often that it has become annoying or tiresome\"?",
     "answers":["Ad nauseam"],
     "options":["Ad hoc", "Ad infinitum", "Ad hominem", "Ad interim"],
     "difficulty": 1,
     "categories":["language"]
 },
 {
-    "question":"'The man who views the world at 50 the same as he did at 20 has wasted 30 years of his life' is a quote from whom?",
+    "question":"\"The man who views the world at 50 the same as he did at 20 has wasted 30 years of his life\" is a quote from whom?",
     "answers":["Muhammad Ali"],
     "options":["Charles Darwin", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu"],
     "difficulty": 3,
@@ -2263,35 +2263,35 @@
     "categories":["geography"]
 },
 {
-    "question":"'Beware of false prophets, which come to you in sheep's clothing, but inwardly they are ravening wolves' is what bible verse?",
+    "question":"\"Beware of false prophets, which come to you in sheep\"s clothing, but inwardly they are ravening wolves\" is what bible verse?",
     "answers":["Matthew 7:15"],
     "options":["Matthew 9:2", "Leviticus 2:5", "Jeremiah 7:1"],
     "difficulty": 4,
     "categories":["quotes", "religion"]
 },
 {
-    "question":"Who discovered Alzheimer's disease?",
+    "question":"Who discovered Alzheimer\"s disease?",
     "answers":["Dr. Alois Alzheimer"],
     "options":["Dr. Andrew Alzheimer", "Dr. Alveris Alzheimer", "Dr. Alzheimer Muller"],
     "difficulty": 3,
     "categories":["science"]
 },
 {
-    "question":"Where was Dr. Alois Alzheimer, the discoverer of Alzheimer's disease from?",
+    "question":"Where was Dr. Alois Alzheimer, the discoverer of Alzheimer\"s disease from?",
     "answers":["Germany"],
     "options":["Holland", "Austria", "Sweden", "Denmark", "Norway", "Finland", "Russia", "Lithuania", "Macedonia"],
     "difficulty": 3,
     "categories":["science", "geography"]
 },
 {
-    "question":"When did Dr. Alois Alzheimer discover Alzheimer's disease?",
+    "question":"When did Dr. Alois Alzheimer discover Alzheimer\"s disease?",
     "answers":["1906"],
     "options":["1901", "1891", "1909", "1864", "1955", "1847"],
     "difficulty": 4,
     "categories":["science", "history"]
 },
 {
-    "question":"'Time and space are modes by which we think and not conditions in which we live' is a quote from whom?",
+    "question":"\"Time and space are modes by which we think and not conditions in which we live\" is a quote from whom?",
     "answers":["Albert Einstein"],
     "options":["Charles Darwin", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marie Curie", "George Orwell"],
     "difficulty": 3,
@@ -2326,7 +2326,7 @@
     "categories":["geography"]
 },
 {
-    "question":"'Sleep that knits up the ravell'd sleave of care, the death of each day's life, sore labour's bath, balm of hurt minds, great nature's second course, chief nourisher in life's feast' is a quote from which Shakespeare work?",
+    "question":"\"Sleep that knits up the ravell\"d sleave of care, the death of each day\"s life, sore labour\"s bath, balm of hurt minds, great nature\"s second course, chief nourisher in life\"s feast\" is a quote from which Shakespeare work?",
     "answers":["Macbeth"],
     "options":["Hamlet", "Romeo and Juliet", "The Tempest", "Measure for Measure"],
     "difficulty": 3,
@@ -2348,7 +2348,7 @@
 },
 {
     "question":"Amyloid beta are crucially involved in what?",
-    "answers":["Alzheimer's disease"],
+    "answers":["Alzheimer\"s disease"],
     "options":["Diabetes", "Herpes", "Bronchitis"],
     "difficulty": 4,
     "categories":["science"]
@@ -2403,14 +2403,14 @@
     "categories":["misc"]
 },
 {
-    "question":"'You can fool all the people some of the time, and some of the people all the time, but you cannot fool all the people all the time' is a quote from whom?",
+    "question":"\"You can fool all the people some of the time, and some of the people all the time, but you cannot fool all the people all the time\" is a quote from whom?",
     "answers":["Abraham Lincoln"],
     "options":["Charles Darwin", "Rene Descartes", "Isaac Newton", "Marie Curie", "George Orwell", "Albert Einstein", "George Washington", "Winston Churchill"],
     "difficulty": 3,
     "categories":["quotes"]
 },
 {
-    "question":"'Democracy is the worst form of goverment, except for all the others' is a quote from whom?",
+    "question":"\"Democracy is the worst form of goverment, except for all the others\" is a quote from whom?",
     "answers":["Winston Churchill"],
     "options":["Charles Darwin", "Rene Descartes", "Isaac Newton", "Marie Curie", "George Orwell", "Albert Einstein", "George Washington", "Abraham Lincoln"],
     "difficulty": 3,
@@ -2438,7 +2438,7 @@
     "categories":["history"]
 },
 {
-    "question":"Which of these actors did not star in 'The Deer Hunter'?",
+    "question":"Which of these actors did not star in \"The Deer Hunter\"?",
     "answers":["Joe pesci", "Anthony Hopkins", "Al Pacino", "Jack Nicholson"],
     "options":["Robert De Niro", "Christopher Walken", "Meryl Streep"],
     "difficulty": 2,
@@ -2452,7 +2452,7 @@
     "categories":["history"]
 },
 {
-    "question":"'Do not seek revenge or bear a grudge against anyone among your people, but love your neighbor as you love yourself' is what bible verse?",
+    "question":"\"Do not seek revenge or bear a grudge against anyone among your people, but love your neighbor as you love yourself\" is what bible verse?",
     "answers":["Leviticus 19:18"],
     "options":["Matthew 9:2", "Leviticus 2:5", "Jeremiah 7:1", "Matthew 7:15"],
     "difficulty": 4,
@@ -2466,7 +2466,7 @@
     "categories":["quotes", "religion"]
 },
 {
-    "question":"Where were ATM's fisrt introduced?",
+    "question":"Where were ATM\"s fisrt introduced?",
     "answers":["England"],
     "options":["China", "The United States", "Japan", "France", "Amsterdam"],
     "difficulty": 2,
@@ -2494,7 +2494,7 @@
     "categories":["TV"]
 },
 {
-    "question":"December 9 1978 saw the first women's professional league game of which sport?",
+    "question":"December 9 1978 saw the first women\"s professional league game of which sport?",
     "answers":["Basketball"],
     "options":["Baseball", "Rugby", "Soccer", "Tennis"],
     "difficulty": 3,
@@ -2592,7 +2592,7 @@
     "categories":["nature"]
 },
 {
-    "question":"Which band had an album that's artwork is based on radio waves from pulsar CP 1919",
+    "question":"Which band had an album that\"s artwork is based on radio waves from pulsar CP 1919",
     "answers":["Joy Division"],
     "options":[ "Pink Flyod", "The Beatles", "The Artic Monkeys", "The Strokes", "AC/DC", "Bon Jovi"],
     "difficulty": 3,
@@ -2615,7 +2615,7 @@
 {
     "question":"What is the paradox which describes the apparent contradiction between the lack of evidence and high possibility for extraterrestrial life?",
     "answers":["The Fermi Paradox"],
-    "options":["The Expectation Paradox", "Fletcher's Paradox", "Socratic Paradox", "The Solavida Paradox"],
+    "options":["The Expectation Paradox", "Fletcher\"s Paradox", "Socratic Paradox", "The Solavida Paradox"],
     "difficulty": 3,
     "categories":["science"]
 },
@@ -2641,14 +2641,14 @@
     "categories":["language", "art"]
 },
 {
-    "question":"A 'Sobriquet' is a what?",
+    "question":"A \"Sobriquet\" is a what?",
     "answers":["A nickname"],
-    "options":["A man who flirts", "A woman's hat", "A monacle", "A car part"],
+    "options":["A man who flirts", "A woman\"s hat", "A monacle", "A car part"],
     "difficulty": 3,
     "categories":["language"]
 },
 {
-    "question":"'The important thing is not to stop questioning' is a quote from whom?",
+    "question":"\"The important thing is not to stop questioning\" is a quote from whom?",
     "answers":["Albert Einstein"],
     "options":["Ronald Regan", "Karl Marx", "Socrates", "Confucius", "Oprah Winfrey", "Rene Descartes", "Epictetus", "Marilyn Monroe", "Heraclitus", "Donald Trump", "Abhraham Lincoln", "C. S. Lewis", "Lao Tzu"],
     "difficulty":3,
@@ -2711,21 +2711,21 @@
     "categories":["sports"]
 },
 {
-    "question":"When was 'The National Association for Stock Car Auto Racing (NASCAR)' founded?",
+    "question":"When was \"The National Association for Stock Car Auto Racing (NASCAR)\" founded?",
     "answers":["1947"],
     "options":["1967", "1987", "1927", "1907", "1957", "1977"],
     "difficulty": 4,
     "categories":["sports"]
 },
 {
-    "question":"What is the 'S' in NASCAR?",
+    "question":"What is the \"S\" in NASCAR?",
     "answers":["Stock"],
     "options":["Shift", "Semi", "State", "Service"],
     "difficulty": 4,
     "categories":["sports"]
 },
 {
-    "question":"What is the 'R' in NASCAR?",
+    "question":"What is the \"R\" in NASCAR?",
     "answers":["Racing"],
     "options":["Rack", "Ramp", "Road", "Rear", "Rapid"],
     "difficulty": 1,
@@ -2739,7 +2739,7 @@
     "categories":["sports"]
 },
 {
-    "question":"In 1955 who released a single called 'Folsom Prison Blues'?",
+    "question":"In 1955 who released a single called \"Folsom Prison Blues\"?",
     "answers":["Johnny Cash"],
     "options":["Bob Dylan", "Elvis", "Buddy Holly", "Ray Charles", "The Platters"],
     "difficulty": 2,
@@ -2830,7 +2830,7 @@
     "categories":["science"]
 },
 {
-    "question":"'It always seems impossible until it's done' is a quote from whom?",
+    "question":"\"It always seems impossible until it\"s done\" is a quote from whom?",
     "answers":["Nelson Mandela"],
     "options":["Charles Darwin", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
     "difficulty": 3,
@@ -2851,7 +2851,7 @@
     "categories":["quotes"]
 },
 {
-    "question":"Who is Bart Simpson's best friend?",
+    "question":"Who is Bart Simpson\"s best friend?",
     "answers":["Milhouse Van Houten"],
     "options":["Jimbo Jones", "Ralph Wiggum", "Nelson Muntz", "Martin Prince"],
     "difficulty": 1,
@@ -3104,8 +3104,8 @@
 },
 {
     "question":"In what decade did the Cuban Missile Crisis take place?",
-    "answers":["1960's"],
-    "options":["1970's", "1950's", "1940's", "1930's"],
+    "answers":["1960\"s"],
+    "options":["1970\"s", "1950\"s", "1940\"s", "1930\"s"],
     "difficulty": 2,
     "categories":["history"]
 },
@@ -3124,7 +3124,7 @@
     "categories":["geography"]
 },
 {
-    "question":"'War is peace, Freedom is slavery, Ignorance is strength' is a quote from which George Orwell novel?",
+    "question":"\"War is peace, Freedom is slavery, Ignorance is strength\" is a quote from which George Orwell novel?",
     "answers":["1984"],
     "options":["Animal Farm", "Homage to Catalonia", "Burmese Days"],
     "difficulty": 2,
@@ -3138,9 +3138,9 @@
     "categories":["TV"]
 },
 {
-    "question":"Which of these artists released an album 'Born in the USA'?",
+    "question":"Which of these artists released an album \"Born in the USA\"?",
     "answers":["Bruce Springsteen"],
-    "options":["Elvis Presley", "George Michael", "The Cure", "Elton John", "Guns N' Roses"],
+    "options":["Elvis Presley", "George Michael", "The Cure", "Elton John", "Guns N\" Roses"],
     "difficulty": 1,
     "categories":["music"]
 },
@@ -3222,7 +3222,7 @@
     "categories":["history"]
 },
 {
-    "question":"'Laugh and the whole world laughs with you, weep and you weep alone' is a quote from whom?",
+    "question":"\"Laugh and the whole world laughs with you, weep and you weep alone\" is a quote from whom?",
     "answers":["Ella Wheller Wilcox"],
     "options":["Charles Darwin", "Nelson Mandela", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
     "difficulty": 4,
@@ -3243,7 +3243,7 @@
     "categories":["nature", "science"]
 },
 {
-    "question":"'To light a candle is to cast a shadow' is a quote from whom?",
+    "question":"\"To light a candle is to cast a shadow\" is a quote from whom?",
     "answers":["Ursula Le Guin"],
     "options":["Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
     "difficulty": 4,
@@ -3264,77 +3264,77 @@
     "categories":["geography"]
 },
 {
-    "question":"What is the most abundant element on the Earth's crust?",
+    "question":"What is the most abundant element on the Earth\"s crust?",
     "answers":["Oxegen"],
     "options":["Silicon", "Aluminium", "Iron", "Calcium", "Sodium", "Magnesium", "Potassium", "Titanium", "Hydrogen"],
     "difficulty": 2,
     "categories":["science"]
 },
 {
-    "question":"What is the second most abundant element on the Earth's crust?",
+    "question":"What is the second most abundant element on the Earth\"s crust?",
     "answers":["Silicon"],
     "options":["Oxegen", "Aluminium", "Iron", "Calcium", "Sodium", "Magnesium", "Potassium", "Titanium", "Hydrogen"],
     "difficulty": 3,
     "categories":["science"]
 },
 {
-    "question":"What is the third most abundant element on the Earth's crust?",
+    "question":"What is the third most abundant element on the Earth\"s crust?",
     "answers":["Aluminium"],
     "options":["Oxegen", "Silicon", "Iron", "Calcium", "Sodium", "Magnesium", "Potassium", "Titanium", "Hydrogen"],
     "difficulty": 4,
     "categories":["science"]
 },
 {
-    "question":"Which element has the Symbol 'H'?",
+    "question":"Which element has the Symbol \"H\"?",
     "answers":["Hydrogen"],
     "options":["Helium", "Hafnium", "Hassium"],
     "difficulty": 1,
     "categories":["science"]
 },
 {
-    "question":"Which element has the Symbol 'He'?",
+    "question":"Which element has the Symbol \"He\"?",
     "answers":["Helium"],
     "options":["Hydrogen", "Hafnium", "Hassium"],
     "difficulty": 1,
     "categories":["science"]
 },
 {
-    "question":"Which element has the Symbol 'Li'?",
+    "question":"Which element has the Symbol \"Li\"?",
     "answers":["Lithium"],
     "options":["Iron", "Lanthanum", "Lead"],
     "difficulty": 1,
     "categories":["science"]
 },
 {
-    "question":"Which element has the Symbol 'Be'?",
+    "question":"Which element has the Symbol \"Be\"?",
     "answers":["Berylium"],
     "options":["Boron", "Lanthanum", "Bromine"],
     "difficulty": 1,
     "categories":["science"]
 },
 {
-    "question":"Which element has the Symbol 'B'?",
+    "question":"Which element has the Symbol \"B\"?",
     "answers":["Boron"],
     "options":["Barium", "Berylium", "Bromine", "Berkelium"],
     "difficulty": 1,
     "categories":["science"]
 },
 {
-    "question":"Which element has the Symbol 'C'?",
+    "question":"Which element has the Symbol \"C\"?",
     "answers":["Carbon"],
     "options":["Calcium", "Cerium", "Cadmium", "Chlorine"],
     "difficulty": 2,
     "categories":["science"]
 },
 {
-    "question":"Which element has the Symbol 'N'?",
+    "question":"Which element has the Symbol \"N\"?",
     "answers":["Nitrogen"],
     "options":["Neon", "Nickel", "Niobium"],
     "difficulty": 1,
     "categories":["science"]
 },
 {
-    "question":"Which element has the Symbol 'O'?",
+    "question":"Which element has the Symbol \"O\"?",
     "answers":["Oxegen"],
     "options":["Orium", "Osmium", "Oganesson"],
     "difficulty": 1,
@@ -3390,7 +3390,7 @@
     "categories":["science"]
 },
 {
-    "question":"Which element has the Symbol 'S'?",
+    "question":"Which element has the Symbol \"S\"?",
     "answers":["Sulfur"],
     "options":["Silicon", "Silver", "Sodium"],
     "difficulty": 2,
@@ -3418,7 +3418,7 @@
     "categories":["science"]
 },
 {
-    "question":"Which element has the Symbol 'K'?",
+    "question":"Which element has the Symbol \"K\"?",
     "answers":["Potassium"],
     "options":["Krypton", "Kiridium", "Kilium"],
     "difficulty": 2,
@@ -3628,14 +3628,14 @@
     "categories":["history"]
 },
 {
-    "question":"'Of course it is happening inside your head, Harry, but why on earth should that mean that it is not real' is a quote from which Harry Potter character?",
+    "question":"\"Of course it is happening inside your head, Harry, but why on earth should that mean that it is not real\" is a quote from which Harry Potter character?",
     "answers":["Albus Dumbledore"],
     "options":["Hagrid", "Hermione Grange", "Luna Lovegood", "Ron Weasley"],
     "difficulty": 2,
     "categories":["quotes"]
 },
 {
-    "question":"According to Mary Schmich 'worrying is as effective as trying to solve an algebra equation by' doing what?",
+    "question":"According to Mary Schmich \"worrying is as effective as trying to solve an algebra equation by\" doing what?",
     "answers":["Chewing gum"],
     "options":["Consulting a monkey", "Wasting time", "Hiring a troop of monkeys to solve it", "Watching TV", "Muttering nonsensically"],
     "difficulty": 3,
@@ -3656,7 +3656,7 @@
     "categories":["food"]
 },
 {
-    "question":"'The weak can never forgive. Forgiveness is an attribute of the strong' is a quote from whom?",
+    "question":"\"The weak can never forgive. Forgiveness is an attribute of the strong\" is a quote from whom?",
     "answers":["Mohandas Gandhi"],
     "options":["Ursula Le Guin", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
     "difficulty": 3,
@@ -3719,23 +3719,23 @@
     "categories":["history"]
 },
 {
-    "question":"'Any sufficiently advanced technology is indistinguishable from magic' is a quote from whom?",
+    "question":"\"Any sufficiently advanced technology is indistinguishable from magic\" is a quote from whom?",
     "answers":["Arthur C. Clarke"],
     "options":["Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
     "difficulty": 3,
     "categories":["quotes"]
 },
 {
-    "question":"Who wrote '2001:A Space Odyssey'?",
+    "question":"Who wrote \"2001:A Space Odyssey\"?",
     "answers":["Arthur C. Clarke"],
     "options":["Isaac Asimov", "Ray Bradbury", "Philip K. Dick", "Orson Scott Card", "Harlan Ellison"],
     "difficulty": 3,
     "categories":["literature"]
 },
 {
-    "question":"What is the furthest point on Earth from Earth's center?",
-    "answers":["Mount Chimborazo's peak"],
-    "options":["K2's peak", "Mount Everest's peak", "Burj Khalifa's peak"],
+    "question":"What is the furthest point on Earth from Earth\"s center?",
+    "answers":["Mount Chimborazo\"s peak"],
+    "options":["K2\"s peak", "Mount Everest\"s peak", "Burj Khalifa\"s peak"],
     "difficulty": 3,
     "categories":["misc"]
 },
@@ -3782,7 +3782,7 @@
     "categories":["science", "history"]
 },
 {
-    "question":"What was Walt Disney's first feature-length animated film?",
+    "question":"What was Walt Disney\"s first feature-length animated film?",
     "answers":["Snow White and the Seven Dwarfs"],
     "options":["Pinocchio", "Fantasia", "Dumbo", "Cinderella", "Treasure Island"],
     "difficulty": 2,
@@ -3817,14 +3817,14 @@
     "categories":["history"]
 },
 {
-    "question":"How long does it take the Sun's light to reach Earth?",
+    "question":"How long does it take the Sun\"s light to reach Earth?",
     "answers":["8 minutes and 20 seconds"],
     "options":["82 seconds", "1 day", "8 hours 20 minutes", "24 minutes 50 seconds", "24 seconds", "24 hours and 50 minutes", "3.5 minutes"],
     "difficulty": 3,
     "categories":["science"]
 },
 {
-    "question":"Assassinated alongside him, what was the name of Franz Ferdinand's wife?",
+    "question":"Assassinated alongside him, what was the name of Franz Ferdinand\"s wife?",
     "answers":["Sophie"],
     "options":["Katie", "Maggie", "Maddie", "Averie", "Ellie", "Sadie", "Valerie"],
     "difficulty": 5,
@@ -3873,7 +3873,7 @@
     "categories":["history"]
 },
 {
-    "question":"When did Germany offer unconditional support for Austria-Hungary, known as the 'Blank Cheque'?",
+    "question":"When did Germany offer unconditional support for Austria-Hungary, known as the \"Blank Cheque\"?",
     "answers":["July 5 1914"],
     "options":["July 5 1915", "July 5 1916", "July 5 1917", "July 5 1913", "July 5 1912", "October 23 1914", "October 23 1915", "October 23 1916", "October 23 1917", "October 23 1913", "October 23 1912", "April 11 1914", "April 11 1915", "April 11 1916", "April 11 1917", "April 11 1913", "April 11 1912"],
     "difficulty": 3,
@@ -3887,14 +3887,14 @@
     "categories":["geography"]
 },
 {
-    "question":"Henry Ford famously said 'A customer can have their car painted any colour he wants, as long as its' what colour?",
+    "question":"Henry Ford famously said \"A customer can have their car painted any colour he wants, as long as its\" what colour?",
     "answers":["Black"],
     "options":["White", "Silver", "Green", "Blue"],
     "difficulty": 2,
     "categories":["quotes"]
 },
 {
-    "question":"Henry Ford famously said 'A customer can have their car painted any colour he wants, as long as its' what?",
+    "question":"Henry Ford famously said \"A customer can have their car painted any colour he wants, as long as its\" what?",
     "answers":["Black"],
     "options":["Cheap", "Easy on the eyes", "Bright", "A colour of the American flag", "Possible"],
     "difficulty": 3,
@@ -3985,14 +3985,14 @@
     "categories":["geography"]
 },
 {
-    "question":"'Rough diamonds may sometimes be mistaken for worthless pebbles' is a quote from whom?",
+    "question":"\"Rough diamonds may sometimes be mistaken for worthless pebbles\" is a quote from whom?",
     "answers":["Thomas Browne"],
     "options":["Ursula Le Guin", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
     "difficulty": 4,
     "categories":["quotes"]
 },
 {
-    "question":"'Trouble shared is trouble halved' is a quote from whom?",
+    "question":"\"Trouble shared is trouble halved\" is a quote from whom?",
     "answers":["Lee Lacocca"],
     "options":["Ursula Le Guin", "Thomas Browne", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
     "difficulty": 4,
@@ -4027,7 +4027,7 @@
     "categories":["geography"]
 },
 {
-    "question":"In the 2009 film 'Public Enemies' Johnny Depp portrays which gangster?",
+    "question":"In the 2009 film \"Public Enemies\" Johnny Depp portrays which gangster?",
     "answers":["John Dillinger"],
     "options":["Baby Face Nelson", "Al Capone", "Bugsy Siegel", "Pretty Boy Floyd", "Jesse James"],
     "difficulty": 2,
@@ -4265,14 +4265,14 @@
     "categories":["food"]
 },
 {
-    "question":"'You can't shake hands with a clenched fist' is a quote from whom?",
+    "question":"\"You can\"t shake hands with a clenched fist\" is a quote from whom?",
     "answers":["Indira Gandi"],
     "options":["Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
     "difficulty": 3,
     "categories":["quotes"]
 },
 {
-    "question":"What does the title 'King' tell you about a snake?",
+    "question":"What does the title \"King\" tell you about a snake?",
     "answers":["They eat other snakes"],
     "options":["Theyre the biggest of their family", "Theyre venemous", "They have 2 heads", "They can spit"],
     "difficulty": 3,
@@ -4300,37 +4300,37 @@
     "categories":["politics", "history"]
 },
 {
-    "question":"'Man - A being in search of meaning' is a quote from whom?",
+    "question":"\"Man - A being in search of meaning\" is a quote from whom?",
     "answers":["Plato"],
     "options":["Ronald Regan", "Herodotus", "Karl Marx", "Socrates", "Confucius", "Damascus", "Rene Descartes", "Epictetus", "Anazimander", "Heraclitus", "Anaxagoras", "Lao Tzu"],
     "difficulty": 4,
     "categories":["quotes"]
 },
 {
-    "question":"'Many a trip continues long after movement in time and space have ceased' is a quote from whom?",
+    "question":"\"Many a trip continues long after movement in time and space have ceased\" is a quote from whom?",
     "answers":["John Steinbeck"],
     "options":["Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
     "difficulty": 4,
     "categories":["quotes"]
 },
 {
-    "question":"'That which does not kill us makes us stronger' is a quote from whom?",
+    "question":"\"That which does not kill us makes us stronger\" is a quote from whom?",
     "answers":["Freidrich Nietzche"],
     "options":["Plato", "Ronald Regan", "Herodotus", "Karl Marx", "Socrates", "Confucius", "Damascus", "Rene Descartes", "Epictetus", "Anazimander", "Heraclitus", "Anaxagoras", "Lao Tzu"],
     "difficulty": 4,
     "categories":["quotes"]
 },
 {
-    "question":"'You must be the change you wish to see in the world' is a quote from whom?",
+    "question":"\"You must be the change you wish to see in the world\" is a quote from whom?",
     "answers":["Mohandas Gandhi"],
     "options":["Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "John Steinbeck", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
     "difficulty": 4,
     "categories":["quotes"]
 },
 {
-    "question":"The distress code 'Mayday' comes from what French phrase?",
-    "answers":["M'aide"],
-    "options":["M'aime", "m'aller", "M'être"],
+    "question":"The distress code \"Mayday\" comes from what French phrase?",
+    "answers":["M\"aide"],
+    "options":["M\"aime", "m\"aller", "M\"être"],
     "difficulty": 4,
     "categories":["language"]
 },
@@ -4342,7 +4342,7 @@
     "categories":["language"]
 },
 {
-    "question":"'Wars begin when you will, but they do not end when you please' is a quote from whom?",
+    "question":"\"Wars begin when you will, but they do not end when you please\" is a quote from whom?",
     "answers":["Nicolo Machiavelli"],
     "options":["Plato", "Ronald Regan", "Herodotus", "Karl Marx", "Socrates", "Confucius", "Damascus", "Rene Descartes", "Epictetus", "Anazimander", "Heraclitus", "Anaxagoras", "Lao Tzu"],
     "difficulty": 4,
@@ -4370,7 +4370,7 @@
     "categories":["history"]
 },
 {
-    "question":"What percentage of the Earth's surface is covered by water?",
+    "question":"What percentage of the Earth\"s surface is covered by water?",
     "answers":["71%"],
     "options":["61%", "81%", "93%", "87%", "67%", "77%", "63%", "53%", "73%", "83%"],
     "difficulty": 2,
@@ -4440,21 +4440,21 @@
     "categories":["science", "medicine"]
 },
 {
-    "question":"The word origin of which profession comes from the Greek for 'star sailor'",
+    "question":"The word origin of which profession comes from the Greek for \"star sailor\"",
     "answers":["Astronaut"],
     "options":["Astronomer", "Astrophysicist", "Astrosailor"],
     "difficulty": 1,
     "categories":["science", "medicine"]
 },
 {
-    "question":"Patrick Henry famously said 'Give me liberty or give me' what?",
+    "question":"Patrick Henry famously said \"Give me liberty or give me\" what?",
     "answers":["Death"],
     "options":["Nothing", "Freedom", "Hope", "A clenched fist", "Olympus"],
     "difficulty": 2,
     "categories":["quotes"]
 },
 {
-    "question":"Which founding father famously said 'Give me liberty or give me death'?",
+    "question":"Which founding father famously said \"Give me liberty or give me death\"?",
     "answers":["Patrick Henry"],
     "options":["James Madison", "George Washington", "John Adams", "Benjamin Franklin", "Thomas Jefferson", "Alexander Hamilton", "Thomas Paine", "Samuel Adams"],
     "difficulty": 3,
@@ -4734,14 +4734,14 @@
     "categories":["misc", "entertainment"]
 },
 {
-    "question":"Ricky Martin, singer of 'Livin' La Vida Loca' is from what country?",
+    "question":"Ricky Martin, singer of \"Livin\" La Vida Loca\" is from what country?",
     "answers":["Puerto Rico"],
     "options":["Columbia", "Barbado", "Spain", "Cuba", "Mexico"],
     "difficulty": 3,
     "categories":["music"]
 },
 {
-    "question":"Who is the singer of 'Livin' La Vida Loca'?",
+    "question":"Who is the singer of \"Livin\" La Vida Loca\"?",
     "answers":["Ricky Martin"],
     "options":["Luis Fonsi", "Enrique Iglesias", "Shakira", "Selena", "Los Fabulosos Cadillacs"],
     "difficulty": 3,
@@ -4783,14 +4783,14 @@
     "categories":["art", "history"]
 },
 {
-    "question":"In 1982 Time Magazine's Man of the Year was a computer?",
+    "question":"In 1982 Time Magazine\"s Man of the Year was a computer?",
     "answers":["True"],
     "options":["False"],
     "difficulty": 2,
     "categories":["misc"]
 },
 {
-    "question":"In 1982 Time Magazine's Man of the Year was a dog?",
+    "question":"In 1982 Time Magazine\"s Man of the Year was a dog?",
     "answers":["False"],
     "options":["True"],
     "difficulty": 2,
@@ -4811,14 +4811,14 @@
     "categories":["film"]
 },
 {
-    "question":"In The Hitchhiker's Guide to the Galaxy, an enormous supercomputer calculates the meaning of life. What answer does it give?",
+    "question":"In The Hitchhiker\"s Guide to the Galaxy, an enormous supercomputer calculates the meaning of life. What answer does it give?",
     "answers":["42"],
     "options":["Cake", "Make as many relationships as possible", "Find peace at home", "Find God", "Love"],
     "difficulty": 3,
     "categories":["literature", "film"]
 },
 {
-    "question":"'He is happiest, be king or peasant, who finds peace at home' is a quote from whom?",
+    "question":"\"He is happiest, be king or peasant, who finds peace at home\" is a quote from whom?",
     "answers":["Johann Wolfgang von Goethe"],
     "options":["John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
     "difficulty": 4,
@@ -4826,13 +4826,13 @@
 },
 {
     "question":"Joan of Arc faught in which war?",
-    "answers":["Hundred Years' War"],
+    "answers":["Hundred Years\" War"],
     "options":["Wars of the Roses", "German–Polish War", "Despenser War", "War of the Two Peters"],
     "difficulty": 3,
     "categories":["history"]
 },
 {
-    "question":"When was the Hundred Years' War faught?",
+    "question":"When was the Hundred Years\" War faught?",
     "answers":["1337-1453"],
     "options":["1227-1327", "1427-1527", "1137-1237", "1527-1627", "1549-1623"],
     "difficulty": 4,
@@ -4848,7 +4848,7 @@
 {
     "question":"How did Joan of Arc die?",
     "answers":["She was burned at the stake"],
-    "options":["She took an arrow to the knee during battle", "She died in the Queen's prison", "Her horse kicked her", "She drank poison", "She was thrown off a cliff to see if she would fall or fly"],
+    "options":["She took an arrow to the knee during battle", "She died in the Queen\"s prison", "Her horse kicked her", "She drank poison", "She was thrown off a cliff to see if she would fall or fly"],
     "difficulty": 3,
     "categories":["history"]
 },
@@ -4888,14 +4888,14 @@
     "categories":["geography"]
 },
 {
-    "question":"'Anything that can go wrong will go wrong' is typically known as what?",
-    "answers":["Murphy's Law"],
-    "options":["Hanlon's Razor", "Occam's Razor", "The Pareto principle", "The 80/20 rule"],
+    "question":"\"Anything that can go wrong will go wrong\" is typically known as what?",
+    "answers":["Murphy\"s Law"],
+    "options":["Hanlon\"s Razor", "Occam\"s Razor", "The Pareto principle", "The 80/20 rule"],
     "difficulty": 2,
     "categories":["language"]
 },
 {
-    "question":"'The growth of wisdom can be accurately measured by the decline of ill-temper' is a quote from whom?",
+    "question":"\"The growth of wisdom can be accurately measured by the decline of ill-temper\" is a quote from whom?",
     "answers":["Friedrich Nietzche"],
     "options":["Johann Wolfgang von Goethe", "John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
     "difficulty": 4,
@@ -4937,7 +4937,7 @@
     "categories":["medicine", "science"]
 },
 {
-    "question":"'Its not the fall that kills you, its the sudden stop at the end' is a quote from whom?",
+    "question":"\"Its not the fall that kills you, its the sudden stop at the end\" is a quote from whom?",
     "answers":["Douglas Adams"],
     "options":["Johann Wolfgang von Goethe", "Friedrich Nietzche", "John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
     "difficulty": 4,
@@ -4986,7 +4986,7 @@
     "categories":["history"]
 },
 {
-    "question":"'Hell is empty and all the devils are here' is a Shakespeare quote from which of his works?",
+    "question":"\"Hell is empty and all the devils are here\" is a Shakespeare quote from which of his works?",
     "answers":["The Tempest"],
     "options":["Hamlet", "Macbeth", "Romeo and Juliet", "Orthello", "King Lear"],
     "difficulty": 3,
@@ -5021,7 +5021,7 @@
     "categories":["geography"]
 },
 {
-    "question":"'Great things are done by a series of small things brought together' is a quote from whom?",
+    "question":"\"Great things are done by a series of small things brought together\" is a quote from whom?",
     "answers":["Vincent Van Gough"],
     "options":["Johann Wolfgang von Goethe", "Douglas Adams", "Friedrich Nietzche", "John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
     "difficulty": 4,
@@ -5035,28 +5035,28 @@
     "categories":["geography"]
 },
 {
-    "question":"What is Venezuela's currency?",
+    "question":"What is Venezuela\"s currency?",
     "answers":["Venezuelan bolívar"],
     "options":["Venezuelan peso", "Venezuelan florin", "Venezuelan dollar", "Venezuelan lempira", "Venezuelan pound"],
     "difficulty": 3,
     "categories":["geography", "currency"]
 },
 {
-    "question":"What gas makes up approximately 21% of the air in the Earth's atmosphere?",
+    "question":"What gas makes up approximately 21% of the air in the Earth\"s atmosphere?",
     "answers":["Oxegen"],
     "options":["Carbon Dioxide", "Nitrogen", "Neon", "Hydrogen"],
     "difficulty": 3,
     "categories":["science"]
 },
 {
-    "question":"What gas makes up approximately 78% of the air in the Earth's atmosphere?",
+    "question":"What gas makes up approximately 78% of the air in the Earth\"s atmosphere?",
     "answers":["Nitrogen"],
     "options":["Carbon Dioxide", "Oxegen", "Neon", "Hydrogen"],
     "difficulty": 3,
     "categories":["science"]
 },
 {
-    "question":"'The reward of suffering is experience' is a quote from whom?",
+    "question":"\"The reward of suffering is experience\" is a quote from whom?",
     "answers":["Harry S. Truman"],
     "options":["Johann Wolfgang von Goethe", "Vincent Van Gough", "Douglas Adams", "Friedrich Nietzche", "John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
     "difficulty": 4,
@@ -5091,21 +5091,21 @@
     "categories":["geography"]
 },
 {
-    "question":"Who was the lead actor in 'The Great Dictator'?",
+    "question":"Who was the lead actor in \"The Great Dictator\"?",
     "answers":["Charlie Chaplin"],
     "options":["Sacha Baron Cohen", "Robert De Niro", "Hal Holbrook", "Humphrey Bogart"],
     "difficulty": 3,
     "categories":["film"]
 },
 {
-    "question":"Who wrote 'Beyond Good and Evil'?",
+    "question":"Who wrote \"Beyond Good and Evil\"?",
     "answers":["Friedrich Nietzche"],
     "options":["Rene Descartes", "Immanuel Kant", "Karl Marx", "John Locke"],
     "difficulty": 3,
     "categories":["philosophy", "literature"]
 },
 {
-    "question":"When was 'Beyond Good and Evil' published?",
+    "question":"When was \"Beyond Good and Evil\" published?",
     "answers":["1886"],
     "options":["1986", "1786", "1686", "1586", "1486"],
     "difficulty": 4,
@@ -5183,7 +5183,7 @@
     "categories":["science", "math"]
 },
 {
-    "question":"'It is the mark of an educated mind to entertain a thought without accepting it' is a quote from whom?",
+    "question":"\"It is the mark of an educated mind to entertain a thought without accepting it\" is a quote from whom?",
     "answers":["Aristotle"],
     "options":["Herodotus", "Plato", "Karl Marx", "Socrates", "Confucius", "Damascus", "Rene Descartes", "Epictetus", "Anazimander", "Heraclitus", "Anaxagoras", "Lao Tzu"],
     "difficulty":4,
@@ -5206,7 +5206,7 @@
 {
     "question":"What stone is used to understand Egyptian hieroglyphs?",
     "answers":["The Rosetta Stone"],
-    "options":["The Philosopher's Stone", "Blarney Stone", "The Black Stone of the Kaaba"],
+    "options":["The Philosopher\"s Stone", "Blarney Stone", "The Black Stone of the Kaaba"],
     "difficulty": 3,
     "categories":["language"]
 },
@@ -5225,14 +5225,14 @@
     "categories":["geography"]
 },
 {
-    "question":"Who wrote 'On the Origin of Species'",
+    "question":"Who wrote \"On the Origin of Species\"",
     "answers":["Charles Darwin"],
     "options":["Albert Einstein", "Isaac Newton", "Marie Curie", "Galileo Galilei"],
     "difficulty": 3,
     "categories":["literature", "science"]
 },
 {
-    "question":"When was 'On the Origin of Species' published",
+    "question":"When was \"On the Origin of Species\" published",
     "answers":["1859"],
     "options":["1949", "1929", "1919", "1889", "1979", "1839", "1809", "1789"],
     "difficulty": 3,
@@ -5246,21 +5246,21 @@
     "categories":["film", "music"]
 },
 {
-    "question":"'The journey of a thousand miles begins with one step' is a quote from whom?",
+    "question":"\"The journey of a thousand miles begins with one step\" is a quote from whom?",
     "answers":["Lao Tzu"],
     "options":["Harry S. Truman", "Johann Wolfgang von Goethe", "Vincent Van Gough", "Douglas Adams", "Friedrich Nietzche", "John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
     "difficulty": 4,
     "categories":["quotes"]
 },
 {
-    "question":"Who famously delivered the 'I Have a Dream' speech?",
+    "question":"Who famously delivered the \"I Have a Dream\" speech?",
     "answers":["Martin Luther King Jr"],
     "options":["Harry S. Truman", "Friedrich Nietzche", "Mohandas Gandhi", "Charles Darwin", "Nelson Mandela", "Muhammad Ali", "Bill Gates"],
     "difficulty": 1,
     "categories":["quotes"]
 },
 {
-    "question":"In his 'I Have a Dream' Martin Luther King Jr wanted his children not to be judged by the colour of their skin but by what?",
+    "question":"In his \"I Have a Dream\" Martin Luther King Jr wanted his children not to be judged by the colour of their skin but by what?",
     "answers":["The content of their character"],
     "options":["The ability that lies in their potential", "Their heart and personality", "Their deeds and growth", "Their capacity for change", "Their platitudes of grace"],
     "difficulty": 2,
@@ -5295,14 +5295,14 @@
     "categories":["geography"]
 },
 {
-    "question":"The Earth's rotation is overall slowing down",
+    "question":"The Earth\"s rotation is overall slowing down",
     "answers":["True"],
     "options":["False"],
     "difficulty": 2,
     "categories":["science", "nature"]
 },
 {
-    "question":"The Earth's rotation is overall speeding up",
+    "question":"The Earth\"s rotation is overall speeding up",
     "answers":["False"],
     "options":["True"],
     "difficulty": 2,
@@ -5374,7 +5374,7 @@
 {
     "question":"Hattie McDaniel became the first African American to win an Oscar for her role in which film?",
     "answers":["Gone with the Wind"],
-    "options":["A Star is Born", "Scarface", "Freaks", "Citizen Kane", "It's a Wonderful Life"],
+    "options":["A Star is Born", "Scarface", "Freaks", "Citizen Kane", "It\"s a Wonderful Life"],
     "difficulty": 3,
     "categories":["film"]
 },
@@ -5386,7 +5386,7 @@
     "categories":["geography"]
 },
 {
-    "question":"'I would rather be hated for who I am, than loved for who I am not' is a quote from whom?",
+    "question":"\"I would rather be hated for who I am, than loved for who I am not\" is a quote from whom?",
     "answers":["Kurt Kobain"],
     "options":["Lao Tzu", "Harry S. Truman", "Johann Wolfgang von Goethe", "Vincent Van Gough", "Douglas Adams", "Friedrich Nietzche", "John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "Nelson Mandela", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
     "difficulty": 4,
@@ -5400,7 +5400,7 @@
     "categories":["geography"]
 },
 {
-    "question":"'A winner is a dreamer who never gives up' is a quote from whom?",
+    "question":"\"A winner is a dreamer who never gives up\" is a quote from whom?",
     "answers":["Nelson Mandela"],
     "options":["Kurt Kobain", "Lao Tzu", "Harry S. Truman", "Johann Wolfgang von Goethe", "Vincent Van Gough", "Douglas Adams", "Friedrich Nietzche", "John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
     "difficulty": 4,
@@ -5414,7 +5414,7 @@
     "categories":["TV"]
 },
 {
-    "question":"Who played Malcolm in 'Malcolm in the Middle'?",
+    "question":"Who played Malcolm in \"Malcolm in the Middle\"?",
     "answers":["Frankie Muniz"],
     "options":["Justin Berfield", "Erik Per Sullivan", "Kyle Massey", "Shad Moss", "Jeremy Sumpter", "Josh Peck"],
     "difficulty": 3,
@@ -5435,42 +5435,42 @@
     "categories":["politics", "history"]
 },
 {
-    "question":"Juan Pablo Perez Alfonzo, a Venezuelan politician referred to what, as 'The Devils excrement'?",
+    "question":"Juan Pablo Perez Alfonzo, a Venezuelan politician referred to what, as \"The Devils excrement\"?",
     "answers":["Oil"],
     "options":["Rum", "Heroine", "Corn", "Icecream"],
     "difficulty": 3,
     "categories":["politics", "quotes"]
 },
 {
-    "question":"Before the Euro, what was Austria's currency?",
+    "question":"Before the Euro, what was Austria\"s currency?",
     "answers":["Schilling"],
     "options":["Pound", "Kroon", "Lats", "Tolar"],
     "difficulty": 4,
     "categories":["currency", "history", "misc"]
 },
 {
-    "question":"Before the Euro, what was Belgium's currency?",
+    "question":"Before the Euro, what was Belgium\"s currency?",
     "answers":["Franc"],
     "options":["Schilling", "Pound", "Kroon", "Lats", "Tolar"],
     "difficulty": 3,
     "categories":["currency", "history", "misc"]
 },
 {
-    "question":"Before the Euro, what was Cyprus's currency?",
+    "question":"Before the Euro, what was Cyprus\"s currency?",
     "answers":["Pound"],
     "options":["Franc", "Schilling", "Kroon", "Lats", "Tolar"],
     "difficulty": 4,
     "categories":["currency", "history", "misc"]
 },
 {
-    "question":"Before the Euro, what was Estonia's currency?",
+    "question":"Before the Euro, what was Estonia\"s currency?",
     "answers":["Kroon"],
     "options":["Franc", "Schilling", "Lats", "Tolar"],
     "difficulty": 5,
     "categories":["currency", "history", "misc"]
 },
 {
-    "question":"Before the Euro, what was Finland's currency?",
+    "question":"Before the Euro, what was Finland\"s currency?",
     "answers":["Markka"],
     "options":["Kroon", "Franc", "Schilling", "Lats", "Tolar"],
     "difficulty": 5,
@@ -5484,28 +5484,28 @@
     "categories":["currency", "history", "misc"]
 },
 {
-    "question":"Before the Euro, what was France's currency?",
+    "question":"Before the Euro, what was France\"s currency?",
     "answers":["Franc"],
     "options":["Kroon", "Markka", "Schilling", "Lats", "Tolar"],
     "difficulty": 1,
     "categories":["currency", "history", "misc"]
 },
 {
-    "question":"Before the Euro, what was German's currency?",
+    "question":"Before the Euro, what was German\"s currency?",
     "answers":["Deutschmark"],
     "options":["Kroon", "Franc", "Markka", "Schilling", "Lats", "Tolar"],
     "difficulty": 2,
     "categories":["currency", "history", "misc"]
 },
 {
-    "question":"Before the Euro, what was Greece's currency?",
+    "question":"Before the Euro, what was Greece\"s currency?",
     "answers":["Drachma"],
     "options":["Kroon", "Franc", "Markka", "Schilling", "Lats", "Tolar"],
     "difficulty": 3,
     "categories":["currency", "history", "misc"]
 },
 {
-    "question":"Before the Euro, what was Ireland's currency?",
+    "question":"Before the Euro, what was Ireland\"s currency?",
     "answers":["Pound"],
     "options":["Kroon", "Drachma", "Franc", "Markka", "Schilling", "Lats", "Tolar"],
     "difficulty": 3,
@@ -5519,70 +5519,70 @@
     "categories":["currency", "history", "misc"]
 },
 {
-    "question":"Before the Euro, what was Italy's currency?",
+    "question":"Before the Euro, what was Italy\"s currency?",
     "answers":["Lira"],
     "options":["Kroon", "Drachma", "Franc", "Markka", "Schilling", "Lats", "Tolar", "Pound"],
     "difficulty": 2,
     "categories":["currency", "history", "misc"]
 },
 {
-    "question":"Before the Euro, what was Latvia's currency?",
+    "question":"Before the Euro, what was Latvia\"s currency?",
     "answers":["Lats"],
     "options":["Kroon", "Drachma", "Franc", "Markka", "Schilling", "Lira", "Tolar", "Pound"],
     "difficulty": 3,
     "categories":["currency", "history", "misc"]
 },
 {
-    "question":"Before the Euro, what was Lithuania's currency?",
+    "question":"Before the Euro, what was Lithuania\"s currency?",
     "answers":["Litas"],
     "options":["Kroon", "Drachma", "Franc", "Markka", "Schilling", "Lira", "Lats", "Tolar", "Pound"],
     "difficulty": 3,
     "categories":["currency", "history", "misc"]
 },
 {
-    "question":"Before the Euro, what was Luxembourg's currency?",
+    "question":"Before the Euro, what was Luxembourg\"s currency?",
     "answers":["Franc"],
     "options":["Kroon", "Drachma", "Litas", "Markka", "Schilling", "Lira", "Lats", "Tolar", "Pound"],
     "difficulty": 3,
     "categories":["currency", "history", "misc"]
 },
 {
-    "question":"Before the Euro, what was Malta's currency?",
+    "question":"Before the Euro, what was Malta\"s currency?",
     "answers":["Lira"],
     "options":["Kroon", "Drachma", "Litas", "Markka", "Schilling", "Franc", "Lats", "Tolar", "Pound"],
     "difficulty": 3,
     "categories":["currency", "history", "misc"]
 },
 {
-    "question":"Before the Euro, what was Netherlands' currency?",
+    "question":"Before the Euro, what was Netherlands\" currency?",
     "answers":["Guilder"],
     "options":["Kroon", "Lira", "Drachma", "Litas", "Markka", "Schilling", "Franc", "Lats", "Tolar", "Pound"],
     "difficulty": 4,
     "categories":["currency", "history", "misc"]
 },
 {
-    "question":"Before the Euro, what was Portugal's currency?",
+    "question":"Before the Euro, what was Portugal\"s currency?",
     "answers":["Escudo"],
     "options":["Guilder", "Kroon", "Lira", "Drachma", "Litas", "Markka", "Schilling", "Franc", "Lats", "Tolar", "Pound"],
     "difficulty": 4,
     "categories":["currency", "history", "misc"]
 },
 {
-    "question":"Before the Euro, what was Slovakia's currency?",
+    "question":"Before the Euro, what was Slovakia\"s currency?",
     "answers":["Koruna"],
     "options":["Guilder", "Escudo", "Kroon", "Lira", "Drachma", "Litas", "Markka", "Schilling", "Franc", "Lats", "Tolar", "Pound"],
     "difficulty": 4,
     "categories":["currency", "history", "misc"]
 },
 {
-    "question":"Before the Euro, what was Slovenia's currency?",
+    "question":"Before the Euro, what was Slovenia\"s currency?",
     "answers":["Tolar"],
     "options":["Guilder", "Escudo", "Kroon", "Lira", "Drachma", "Litas", "Markka", "Schilling", "Franc", "Lats", "Koruna", "Pound"],
     "difficulty": 4,
     "categories":["currency", "history", "misc"]
 },
 {
-    "question":"Before the Euro, what was Spain's currency?",
+    "question":"Before the Euro, what was Spain\"s currency?",
     "answers":["Peseta"],
     "options":["Tolar", "Guilder", "Escudo", "Kroon", "Lira", "Drachma", "Litas", "Markka", "Schilling", "Franc", "Lats", "Koruna", "Pound"],
     "difficulty": 3,
@@ -5624,7 +5624,7 @@
     "categories":["nature", "animals"]
 },
 {
-    "question":"'Life is what happens when you are busy making other plans' is a quote from whom?",
+    "question":"\"Life is what happens when you are busy making other plans\" is a quote from whom?",
     "answers":["John Lennon"],
     "options":["Nelson Mandela", "Kurt Kobain", "Lao Tzu", "Harry S. Truman", "Johann Wolfgang von Goethe", "Vincent Van Gough", "Douglas Adams", "Friedrich Nietzche", "John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
     "difficulty": 4,
@@ -5645,7 +5645,7 @@
     "categories":["law", "history"]
 },
 {
-    "question":"'It is during our darkest moments that we must focus to see the light' is a quote from whom?",
+    "question":"\"It is during our darkest moments that we must focus to see the light\" is a quote from whom?",
     "answers":["Plato"],
     "options":["Herodotus", "Karl Marx", "Socrates", "Confucius", "Damascus", "Rene Descartes", "Epictetus", "Anazimander", "Heraclitus", "Anaxagoras", "Lao Tzu"],
     "difficulty":4,
@@ -5673,7 +5673,7 @@
     "categories":["geography"]
 },
 {
-    "question":"What was the name of Bob Marley's first child?",
+    "question":"What was the name of Bob Marley\"s first child?",
     "answers":["Ziggy"],
     "options":["Damian", "Cedella", "Stephen", "Rohan", "Karen", "Ky-Mani"],
     "difficulty": 5,
@@ -5694,7 +5694,7 @@
     "categories":["food"]
 },
 {
-    "question":"Writing for the Rolling Stone, Matt Taibbi called which organization a 'Great vampire squid wrapped around the face of humanity'?",
+    "question":"Writing for the Rolling Stone, Matt Taibbi called which organization a \"Great vampire squid wrapped around the face of humanity\"?",
     "answers":["Goldman Sachs"],
     "options":["Electronic Arts", "Amazon", "Fox Entertainment Group", "NFL", "The Trump Organization", "Uber", "Facebook"],
     "difficulty": 5,
@@ -5717,7 +5717,7 @@
 {
     "question":"What is interesting about the island of Bermeja?",
     "answers":["It is a phantom island"],
-    "options":["All the residents are deaf", "It's located in the South Pole", "It is 1 meter long", "Everyone who visits it dies", "All the residents vanished in the 16th century"],
+    "options":["All the residents are deaf", "It\"s located in the South Pole", "It is 1 meter long", "Everyone who visits it dies", "All the residents vanished in the 16th century"],
     "difficulty": 4,
     "categories":["geography"]
 },
@@ -5757,14 +5757,14 @@
     "categories":["food"]
 },
 {
-    "question":"What is Ecaudor's currency?",
+    "question":"What is Ecaudor\"s currency?",
     "answers":["United States dollar"],
     "options":["Ecaudorian peso", "Ecaudorian florin", "Ecaudorian dollar", "Ecaudorian lempira", "Ecaudorian pound"],
     "difficulty": 3,
     "categories":["currency", "geography"]
 },
 {
-    "question":"What is Zimbabwe's currency?",
+    "question":"What is Zimbabwe\"s currency?",
     "answers":["United States dollar"],
     "options":["Zimbabwean peso", "Zimbabwean florin", "Zimbabwean dollar", "Zimbabwean lempira", "Zimbabwean pound"],
     "difficulty": 3,
@@ -5787,7 +5787,7 @@
 {
     "question":"What is the tallest above ground waterfall?",
     "answers":["Angel Falls"],
-    "options":["Tugela Falls", "Pu'uka'oku Falls", "Mongefossen", "Gocta Waterfall"],
+    "options":["Tugela Falls", "Pu\"uka\"oku Falls", "Mongefossen", "Gocta Waterfall"],
     "difficulty": 4,
     "categories":["geography", "nature"]
 },
@@ -5820,7 +5820,7 @@
     "categories":["geography"]
 },
 {
-    "question":"'The only true wisdom is in knowing that you know nothing' is a quote from whom?",
+    "question":"\"The only true wisdom is in knowing that you know nothing\" is a quote from whom?",
     "answers":["Socrates"],
     "options":["Herodotus", "Plato", "Karl Marx", "Aristotle", "Confucius", "Damascus", "Rene Descartes", "Epictetus", "Anazimander", "Heraclitus", "Anaxagoras", "Lao Tzu"],
     "difficulty":4,
@@ -5848,7 +5848,7 @@
     "categories":["geography"]
 },
 {
-    "question":"'History repeats itself, first as tragedy, second as farce' is a quote from whom?",
+    "question":"\"History repeats itself, first as tragedy, second as farce\" is a quote from whom?",
     "answers":["Karl Marx"],
     "options":["Nelson Mandela", "John Lennon", "Kurt Kobain", "Lao Tzu", "Harry S. Truman", "Johann Wolfgang von Goethe", "Vincent Van Gough", "Douglas Adams", "Friedrich Nietzche", "John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
     "difficulty": 4,
@@ -5897,7 +5897,7 @@
     "categories":["misc"]
 },
 {
-    "question":"The Challenger Deep in the Mariana Trench is the deepest known point in the Earth's ocean, how deep is it?",
+    "question":"The Challenger Deep in the Mariana Trench is the deepest known point in the Earth\"s ocean, how deep is it?",
     "answers":["10,994 metres"],
     "options":["100,994 metres", "1,994 metres", "1,000,994 metres", "500,994 metres", "5,994 metres", "5,000,994 metres", "50,994 metres"],
     "difficulty": 4,
@@ -5911,7 +5911,7 @@
     "categories":["religion"]
 },
 {
-    "question":"Finish the Stephen Hawking quote, 'In space no one can hear you scream; and in a black hole, no one can see you', what?",
+    "question":"Finish the Stephen Hawking quote, \"In space no one can hear you scream; and in a black hole, no one can see you\", what?",
     "answers":["Disappear"],
     "options":["At all", "Implode", "Dissipate", "Shout"],
     "difficulty": 4,
@@ -5953,28 +5953,28 @@
     "categories":["language"]
 },
 {
-    "question":"Spa stands for the latin 'Sanus Per Aquam', meaning what",
+    "question":"Spa stands for the latin \"Sanus Per Aquam\", meaning what",
     "answers":["Health through water"],
     "options":["Purity per body", "Body for water", "Surrounded by water", "Sanitation through water"],
     "difficulty": 3,
     "categories":["language"]
 },
 {
-    "question":"Who became known as the 'Father of chemical warfare' during World War 1",
+    "question":"Who became known as the \"Father of chemical warfare\" during World War 1",
     "answers":["Fritz Haber"],
     "options":["Robert Oppenhiemer", "Ernst Junger", "Georges Painvin", "John Keegan", "Klaus Fuchs"],
     "difficulty": 3,
     "categories":["war", "history"]
 },
 {
-    "question":"'The stuff you own ends up owning you. It's only after you lose everything that you're free to do anything' is a quote from which movie?",
+    "question":"\"The stuff you own ends up owning you. It\"s only after you lose everything that you\"re free to do anything\" is a quote from which movie?",
     "answers":["Fight Club"],
     "options":["Pulp Fiction", "Deep Impact", "Falling Down", "Good Will Hunting", "Fargo", "The Fifth Element"],
     "difficulty": 3,
     "categories":["film", "quotes"]
 },
 {
-    "question":"What was the first name of Brad Pitt's character in 'Fight Club'?",
+    "question":"What was the first name of Brad Pitt\"s character in \"Fight Club\"?",
     "answers":["Tyler"],
     "options":["Chad", "Marcus", "Freddy", "Brad", "Noah", "Lucas"],
     "difficulty": 3,
@@ -5988,14 +5988,14 @@
     "categories":["trees", "nature"]
 },
 {
-    "question":"In 2020, which founding journalist left 'The Intercept' due to censorship?",
+    "question":"In 2020, which founding journalist left \"The Intercept\" due to censorship?",
     "answers":["Glenn Greenwald"],
     "options":["Matt Taibbi", "Lester Holt", "Fredricka Whitfield", "Christiane Amanpour", "Hu Shuli"],
     "difficulty": 5,
     "categories":["journalism", "misc"]
 },
 {
-    "question":"In 2019, who published their autobiography entitled 'Permanent Record'?",
+    "question":"In 2019, who published their autobiography entitled \"Permanent Record\"?",
     "answers":["Edward Snowden"],
     "options":["Noam Chomsky", "Julian Assange", "John McAfee", "Chelsea Manning", "Jacob Appelbaum"],
     "difficulty": 4,
@@ -6031,7 +6031,7 @@
 },
 {
     "question":"What is the capital of the Yemen?",
-    "answers":["Sana'a"],
+    "answers":["Sana\"a"],
     "options":["Taizz", "Aden", "Zabid", "Ibb", "Al Hudaydah", "Al Mukalla"],
     "difficulty": 4,
     "categories":["geography"]
@@ -6254,7 +6254,7 @@
     "categories":["music"]
 },
 {
-    "question":"Who had the biggest selling UK album of 2005 with 'Back To Bedlam'?",
+    "question":"Who had the biggest selling UK album of 2005 with \"Back To Bedlam\"?",
     "answers":["James Blunt"],
     "options":["Coldplay", "Robbie Wailliam", "Gorillaz", "Westlife", "The Killers"],
     "difficulty": 3,
@@ -6325,7 +6325,7 @@
 },
 {
     "question":"What is the capital of Chad",
-    "answers":["N'Djamena"],
+    "answers":["N\"Djamena"],
     "options":["Abeche", "Sarh", "Moundou", "Kelo"],
     "difficulty": 4,
     "categories":["geography"]
@@ -6415,9 +6415,9 @@
     "categories":["film"]
 },
 {
-    "question":"Chekhov's what is a principle in storytelling that states that every element in a story must be necessary, any irrelevant elements should be removed?",
-    "answers":["Chekhov's gun"],
-    "options":["Chekhov's ring", "Chekhov's law", "Chekhov's scroll", "Chekhov's flower", "Chekhov's chain", "Chekhov's piano", "Chekhov's trap", "Chekhov's loop"],
+    "question":"Chekhov\"s what is a principle in storytelling that states that every element in a story must be necessary, any irrelevant elements should be removed?",
+    "answers":["Chekhov\"s gun"],
+    "options":["Chekhov\"s ring", "Chekhov\"s law", "Chekhov\"s scroll", "Chekhov\"s flower", "Chekhov\"s chain", "Chekhov\"s piano", "Chekhov\"s trap", "Chekhov\"s loop"],
     "difficulty": 4,
     "categories":["misc", "film"]
 },
@@ -6576,7 +6576,7 @@
     "categories":["politics", "misc"]
 },
 {
-    "question":"'O it is excellent to have a giant's strength; but it is tyrannous to use it like a giant', comes from which Shakespeare work?",
+    "question":"\"O it is excellent to have a giant\"s strength; but it is tyrannous to use it like a giant\", comes from which Shakespeare work?",
     "answers":["Measure for Measure"],
     "options":["Hamlet", "Romeo and Juliet", "Macbeth", "King Lear", "The Tempest"],
     "difficulty": 4,
@@ -6611,21 +6611,21 @@
     "categories":["art", "history"]
 },
 {
-    "question":"What is the name of Peppa Pig's brother?",
+    "question":"What is the name of Peppa Pig\"s brother?",
     "answers":["George"],
     "options":["Stephen", "Mike", "Randy", "Karl", "Max", "Ron"],
     "difficulty": 2,
     "categories":["TV"]
 },
 {
-    "question":"What is Stan's second name in South Park?",
+    "question":"What is Stan\"s second name in South Park?",
     "answers":["Marsh"],
     "options":["Cartman", "Smith", "Dixon", "Myers", "Willis", "Collins"],
     "difficulty": 2,
     "categories":["TV"]
 },
 {
-    "question":"What is Stan's father's name in South Park?",
+    "question":"What is Stan\"s father\"s name in South Park?",
     "answers":["Randy"],
     "options":["Lance", "Darryl", "Mateo", "Ronan", "Steve", "Cory"],
     "difficulty": 3,
@@ -6639,14 +6639,14 @@
     "categories":["art"]
 },
 {
-    "question":"Who painted 'The Birth of Venus'?",
+    "question":"Who painted \"The Birth of Venus\"?",
     "answers":["Sandro Botticelli"],
     "options":["Michelangelo", "Leonardo da Vinci", "Raphael", "Donatello", "Caravaggio", "Titian"],
     "difficulty": 3,
     "categories":["art"]
 },
 {
-    "question":"Who painted 'Saint Jerome in the Wilderness'?",
+    "question":"Who painted \"Saint Jerome in the Wilderness\"?",
     "answers":["Leonardo da Vinci"],
     "options":["Michelangelo", "Sandro Botticelli", "Raphael", "Donatello", "Caravaggio", "Titian"],
     "difficulty": 3,
@@ -6681,7 +6681,7 @@
     "categories":["religion"]
 },
 {
-    "question":"What was Michelangelo's surname?",
+    "question":"What was Michelangelo\"s surname?",
     "answers":["Buonarroti"],
     "options":["Lucciano", "Di Traglia", "Schiavone", "Presutti"],
     "difficulty": 4,
@@ -6702,7 +6702,7 @@
     "categories":["art", "history"]
 },
 {
-    "question":"'A single death is a tragedy, a million deaths are a statistic' is a quote from whom?",
+    "question":"\"A single death is a tragedy, a million deaths are a statistic\" is a quote from whom?",
     "answers":["Joseph Stalin"],
     "options":["Adolf Hitler", "Joseph Goebbels", "Fritz Haber", "Jim Jones"],
     "difficulty": 4,
@@ -6737,7 +6737,7 @@
     "categories":["philosophy", "misc"]
 },
 {
-    "question":"What is the name of Plato's brother?",
+    "question":"What is the name of Plato\"s brother?",
     "answers":["Glaucon"],
     "options":["Aegeus", "Agnes", "Alejandro", "Elpis", "Erato"],
     "difficulty": 3,
@@ -6765,7 +6765,7 @@
     "categories":["science"]
 },
 {
-    "question":"'Ask not what your country can do for you, ask what you can do for your country' is a quote from which American President?",
+    "question":"\"Ask not what your country can do for you, ask what you can do for your country\" is a quote from which American President?",
     "answers":["John F. Kennedy"],
     "options":["Ronald Reagan", "George W. Bush", "Dwight D. Eisenhower", "Harry S. Truman", "Franklin D. Roosevelt"],
     "difficulty": 2,
@@ -6786,7 +6786,7 @@
     "categories":["geography"]
 },
 {
-    "question":"In World War 2 which of these countries were part of 'The Big Three'",
+    "question":"In World War 2 which of these countries were part of \"The Big Three\"",
     "answers":["The United States", "The Solviet Union", "The United Kingdom"],
     "options":["Poland", "Mexico", "Germany"],
     "difficulty": 2,
@@ -6800,7 +6800,7 @@
     "categories":["sports"]
 },
 {
-    "question":"Which Japenese emporer announced Japan's surrender to the Allied Forces in 1945?",
+    "question":"Which Japenese emporer announced Japan\"s surrender to the Allied Forces in 1945?",
     "answers":["Hirohito"],
     "options":["Akihito", "Yoshihito", "Mutsuhito", "Osahito"],
     "difficulty": 1,
@@ -6809,12 +6809,12 @@
 {
     "question":"Shangri-La is a fictional place described in the 1933 novel?",
     "answers":["Lost Horizon"],
-    "options":["Brave New World", "Gulliver's Travels", "The Giver", "The Dispossessed"],
+    "options":["Brave New World", "Gulliver\"s Travels", "The Giver", "The Dispossessed"],
     "difficulty": 3,
     "categories":["literature"]
 },
 {
-    "question":"'Lost Horizon' is a 1933 novel by which British autor?",
+    "question":"\"Lost Horizon\" is a 1933 novel by which British autor?",
     "answers":["James Hilton"],
     "options":["George Orwell", "Thomas Hardy", "E. M. Forester", "C. S. Lewis", "Virginia Woolf"],
     "difficulty": 4,
@@ -6891,7 +6891,7 @@
     "categories":["history", "misc"]
 },
 {
-    "question":"Which is not one of the 4 C's of diamonds?",
+    "question":"Which is not one of the 4 C\"s of diamonds?",
     "answers":["Character", "Curvature", "Cabbage"],
     "options":["Cut", "Colour", "Clarity", "Carat"],
     "difficulty": 3,
@@ -6947,7 +6947,7 @@
     "categories":["mythology"]
 },
 {
-    "question":"According to Greek mythology, looking into Medusa's eyes would turn a person into what?",
+    "question":"According to Greek mythology, looking into Medusa\"s eyes would turn a person into what?",
     "answers":["Stone"],
     "options":["Diamond", "Dirt", "Iron", "Sand", "Pandora"],
     "difficulty": 2,
@@ -7087,140 +7087,140 @@
     "categories":["film"]
 },
 {
-    "question":"Which film won the 2019 (92nd) Oscar for 'Best Picture'",
+    "question":"Which film won the 2019 (92nd) Oscar for \"Best Picture\"",
     "answers":["Parasite"],
     "options":["Ford v Ferrari", "The Irishman", "Joker", "Marriage Story", "1917", "Once Upon a Time in Hollywood"],
     "difficulty": 3,
     "categories":["film"]
 },
 {
-    "question":"Which film won the 2018 (91st) Oscar for 'Best Picture'",
+    "question":"Which film won the 2018 (91st) Oscar for \"Best Picture\"",
     "answers":["Green Book"],
     "options":["Black Panther", "BlacKkKlansman", "Bohemian Rhapsody", "The Favourite", "Roma", "A Star Is Born"],
     "difficulty": 3,
     "categories":["film"]
 },
 {
-    "question":"Which film won the 2017 (90th) Oscar for 'Best Picture'",
+    "question":"Which film won the 2017 (90th) Oscar for \"Best Picture\"",
     "answers":["The Shape of Water"],
     "options":["Call Me by Your Name", "Darkest Hour", "Dunkirk", "Get Out", "Phantom Thread", "Three Billboards Outside Ebbing, Missouri"],
     "difficulty": 3,
     "categories":["film"]
 },
 {
-    "question":"Which film won the 2016 (89th) Oscar for 'Best Picture'",
+    "question":"Which film won the 2016 (89th) Oscar for \"Best Picture\"",
     "answers":["Moonlight"],
     "options":["Arrival", "Hacksaw Ridge", "Hell or High Water", "Hidden Figures", "La La Land", "Manchester by the Sea"],
     "difficulty": 3,
     "categories":["film"]
 },
 {
-    "question":"Which film won the 2015 (88th) Oscar for 'Best Picture'",
+    "question":"Which film won the 2015 (88th) Oscar for \"Best Picture\"",
     "answers":["Spotlight"],
     "options":["The Big Short", "Bridge of Spies", "Brooklyn", "Mad Max: Fury Road", "The Revenant", "Room"],
     "difficulty": 3,
     "categories":["film"]
 },
 {
-    "question":"Which film won the 2014 (87th) Oscar for 'Best Picture'",
+    "question":"Which film won the 2014 (87th) Oscar for \"Best Picture\"",
     "answers":["Birdman or (The Unexpected Virtue of Ignorance)"],
     "options":["American Sniper", "Boyhood", "The Grand Budapest Hotel", "The Imitation Game", "The Theory of Everything", "Whiplash"],
     "difficulty": 3,
     "categories":["film"]
 },
 {
-    "question":"Which film won the 2013 (86th) Oscar for 'Best Picture'",
+    "question":"Which film won the 2013 (86th) Oscar for \"Best Picture\"",
     "answers":["12 Years a Slave"],
     "options":["American Hustle", "Captain Phillips", "Dallas Buyers Club", "Gravity", "Her", "The Wolf of Wall Street"],
     "difficulty": 3,
     "categories":["film"]
 },
 {
-    "question":"Which film won the 2012 (85th) Oscar for 'Best Picture'",
+    "question":"Which film won the 2012 (85th) Oscar for \"Best Picture\"",
     "answers":["Argo"],
     "options":["Amour", "Django Unchained", "Les Miserables", "Life of Pi", "Lincoln", "Zero Dark Thirty"],
     "difficulty": 3,
     "categories":["film"]
 },
 {
-    "question":"Which film won the 2011 (84th) Oscar for 'Best Picture'",
+    "question":"Which film won the 2011 (84th) Oscar for \"Best Picture\"",
     "answers":["The Artist"],
     "options":["The Descendants", "The Help", "Hugo", "Midnight in Paris", "Moneyball", "The Tree of Life"],
     "difficulty": 3,
     "categories":["film"]
 },
 {
-    "question":"Which film won the 2010 (83rd) Oscar for 'Best Picture'",
-    "answers":["The King's Speech"],
+    "question":"Which film won the 2010 (83rd) Oscar for \"Best Picture\"",
+    "answers":["The King\"s Speech"],
     "options":["127 Hours", "Black Swan", "The Fighter", "Inception", "The Social Network", "Toy Story 3"],
     "difficulty": 3,
     "categories":["film"]
 },
 {
-    "question":"Which film won the 2009 (82nd) Oscar for 'Best Picture'",
+    "question":"Which film won the 2009 (82nd) Oscar for \"Best Picture\"",
     "answers":["The Hurt Locker"],
     "options":["Avatar", "The Blind Side", "District 9", "Inglourious Basterds", "A Serious Man", "Up"],
     "difficulty": 4,
     "categories":["film"]
 },
 {
-    "question":"Which film won the 2008 (81st) Oscar for 'Best Picture'",
+    "question":"Which film won the 2008 (81st) Oscar for \"Best Picture\"",
     "answers":["Slumdog Millionaire"],
     "options":["The Curious Case of Benjamin Button", "Frost/Nixon", "Milk", "The Reader"],
     "difficulty": 4,
     "categories":["film"]
 },
 {
-    "question":"Which film won the 2007 (80th) Oscar for 'Best Picture'",
+    "question":"Which film won the 2007 (80th) Oscar for \"Best Picture\"",
     "answers":["No Country for Old Men"],
     "options":["Atonement", "Juno", "Michael Clayton", "There Will Be Blood"],
     "difficulty": 4,
     "categories":["film"]
 },
 {
-    "question":"Which film won the 2006 (79th) Oscar for 'Best Picture'",
+    "question":"Which film won the 2006 (79th) Oscar for \"Best Picture\"",
     "answers":["The Departed"],
     "options":["Babel", "Letters from Iwo Jima", "The Queen", "Little Miss Sunshine"],
     "difficulty": 4,
     "categories":["film"]
 },
 {
-    "question":"Which film won the 2005 (78th) Oscar for 'Best Picture'",
+    "question":"Which film won the 2005 (78th) Oscar for \"Best Picture\"",
     "answers":["Crash"],
     "options":["Brokeback Mountain", "Capote", "Good Night, and Good Luck", "Munich"],
     "difficulty": 4,
     "categories":["film"]
 },
 {
-    "question":"Which film won the 2004 (77th) Oscar for 'Best Picture'",
+    "question":"Which film won the 2004 (77th) Oscar for \"Best Picture\"",
     "answers":["Million Dollar Baby"],
     "options":["The Aviator", "Finding Neverland", "Ray", "Sideways"],
     "difficulty": 4,
     "categories":["film"]
 },
 {
-    "question":"Which film won the 2003 (76th) Oscar for 'Best Picture'",
+    "question":"Which film won the 2003 (76th) Oscar for \"Best Picture\"",
     "answers":["The Lord of the Rings: The Return of the King"],
     "options":["Lost in Translation", "Master and Commander: The Far Side of the World", "Mystic River", "Seabiscuit"],
     "difficulty": 4,
     "categories":["film"]
 },
 {
-    "question":"Which film won the 2002 (75th) Oscar for 'Best Picture'",
+    "question":"Which film won the 2002 (75th) Oscar for \"Best Picture\"",
     "answers":["Chicago"],
     "options":["Gangs of New York", "The Hours", "The Lord of the Rings: The Two Towers", "The Pianist"],
     "difficulty": 5,
     "categories":["film"]
 },
 {
-    "question":"Which film won the 2001 (74th) Oscar for 'Best Picture'",
+    "question":"Which film won the 2001 (74th) Oscar for \"Best Picture\"",
     "answers":["A Beautiful Mind"],
     "options":["Moulin Rouge!", "Gosford Park", "In the Bedroom", "The Lord of the Rings: The Fellowship of the Ring"],
     "difficulty": 5,
     "categories":["film"]
 },
 {
-    "question":"Which film won the 2000 (73rd) Oscar for 'Best Picture'",
+    "question":"Which film won the 2000 (73rd) Oscar for \"Best Picture\"",
     "answers":["Gladiator"],
     "options":["Chocolat", "Traffic", "Crouching Tiger, Hidden Dragon", "Erin Brockovich"],
     "difficulty": 5,
@@ -7234,28 +7234,28 @@
     "categories":["misc"]
 },
 {
-    "question":"Who Played Barney Stinson in 'How I Met Your Mother'?",
+    "question":"Who Played Barney Stinson in \"How I Met Your Mother\"?",
     "answers":["Neil Patrick Harris"],
     "options":["Jason Segel", "Josh Radnor", "Bob Saget", "Matthew Perry"],
     "difficulty": 2,
     "categories":["TV"]
 },
 {
-    "question":"From the popular videogame, who is Ratchet's companion?",
+    "question":"From the popular videogame, who is Ratchet\"s companion?",
     "answers":["Clank"],
     "options":["Daxter", "Tails", "Cortana", "Solas"],
     "difficulty": 3,
     "categories":["videogames"]
 },
 {
-    "question":"Which Halo charcater later became the name for Microsoft's virtual assistant?",
+    "question":"Which Halo charcater later became the name for Microsoft\"s virtual assistant?",
     "answers":["Cortana"],
     "options":["Alexa", "Tails", "Pixel", "Ava", "Abigail", "Mia", "Talulla", "Fay"],
     "difficulty": 3,
     "categories":["videogames", "technology"]
 },
 {
-    "question":"Which of these is one of Mars' moons?",
+    "question":"Which of these is one of Mars\" moons?",
     "answers":["Phobos", "Deimos"],
     "options":["Europa", "Titan", "Ganymede", "Enceladus", "Io", "Triton", "Callisto"],
     "difficulty": 3,
@@ -7325,7 +7325,7 @@
     "categories":["science"]
 },
 {
-    "question":"According to the quote, 'Hard times create strong men. Strong men create good times. Good times create' what?",
+    "question":"According to the quote, \"Hard times create strong men. Strong men create good times. Good times create\" what?",
     "answers":["Weak men"],
     "options":["Hard men", "Hard times", "Weak times"],
     "difficulty": 2,
@@ -7717,7 +7717,7 @@
     "categories":["history"]
 },
 {
-    "question":"Which letter is derived from the Phoenician letter samekh, meaning 'fish'?",
+    "question":"Which letter is derived from the Phoenician letter samekh, meaning \"fish\"?",
     "answers":["X"],
     "options":["F", "S", "T", "Q", "Y"],
     "difficulty": 2,
@@ -7766,7 +7766,7 @@
     "categories":["politics", "history"]
 },
 {
-    "question":"What is this missing word in this quote from Andrew Yang, 'Humans need ___ more than ___ needs us'?",
+    "question":"What is this missing word in this quote from Andrew Yang, \"Humans need ___ more than ___ needs us\"?",
     "answers":["Work"],
     "options":["The Earth", "America", "Extraterrestrial life", "The Sun", "Fun"],
     "difficulty": 3,
@@ -7780,7 +7780,7 @@
     "categories":["misc"]
 },
 {
-    "question":"What is the economic term that describes a good whose demand drops when people's incomes rise?",
+    "question":"What is the economic term that describes a good whose demand drops when people\"s incomes rise?",
     "answers":["Inferior good"],
     "options":["Veblen good", "Normal good", "Luxury good", "Giffen good"],
     "difficulty": 2,
@@ -7857,7 +7857,7 @@
     "categories":["medical", "science", "language"]
 },
 {
-    "question":"Adermatoglyphia is a condition that means a patient won't have what?",
+    "question":"Adermatoglyphia is a condition that means a patient won\"t have what?",
     "answers":["Fingerprints"],
     "options":["Nails", "Earlobes", "Skin", "Facial hair"],
     "difficulty": 2,
@@ -7920,7 +7920,7 @@
     "categories":["nature", "science"]
 },
 {
-    "question":"1959 which became the 1st craft to leave Earth's gravity?",
+    "question":"1959 which became the 1st craft to leave Earth\"s gravity?",
     "answers":["Luna 1"],
     "options":["Explorer 1", "Barker 1", "Astroneer 1", "Sputnik 1"],
     "difficulty": 3,
@@ -7962,7 +7962,7 @@
     "categories":["medicine", "film"]
 },
 {
-    "question":"Rosemary Kennedy, JFK's sister spent most of her time in care after what?",
+    "question":"Rosemary Kennedy, JFK\"s sister spent most of her time in care after what?",
     "answers":["A lobotomy"],
     "options":["A car accident", "A mental break down", "A near drowning"],
     "difficulty": 2,
@@ -8116,14 +8116,14 @@
     "categories":["politics"]
 },
 {
-    "question":"Which journalist published 'Hate Inc.' in 2019?",
+    "question":"Which journalist published \"Hate Inc.\" in 2019?",
     "answers":["Matt Taibbi"],
     "options":["Glenn Greenwald", "Lester Holt", "Fredricka Whitfield", "Christiane Amanpour", "Hu Shuli"],
     "difficulty": 5,
     "categories":["literature", "journalism"]
 },
 {
-    "question":"In Mary Shelley's 'Frankenstein', what is Dr. Frankenstein's first name?",
+    "question":"In Mary Shelley\"s \"Frankenstein\", what is Dr. Frankenstein\"s first name?",
     "answers":["Victor"],
     "options":["Glenn", "Lester", "Fredrick", "Christopher", "Richard", "Frank"],
     "difficulty": 3,
@@ -8158,14 +8158,14 @@
     "categories":["astronomy", "science"]
 },
 {
-    "question":"'God does not play dice' is a quote from whom?",
+    "question":"\"God does not play dice\" is a quote from whom?",
     "answers":["Albert Einstein"],
     "options":["Nelson Mandela", "John Lennon", "Kurt Kobain", "Lao Tzu", "Harry S. Truman", "Johann Wolfgang von Goethe", "Vincent Van Gough", "Douglas Adams", "Friedrich Nietzche", "John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Mohandas Gandhi", "Ella Wheller Wilcox", "Charles Darwin", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Muhammad Ali", "Karl Marx", "Stephen Jobs", "Bill Gates"],
     "difficulty": 4,
     "categories":["quotes"]
 },
 {
-    "question":"'Lasciate ogne speranza, voi ch'intrate' is most frequently tranlated to mean what?",
+    "question":"\"Lasciate ogne speranza, voi ch\"intrate\" is most frequently tranlated to mean what?",
     "answers":["Abandon all hope, ye who enter here"],
     "options":["I think, therefore I am", "Through adversity, to the stars", "the die, has already been cast", "I believe it, because it is absurd"],
     "difficulty": 3,
@@ -8200,7 +8200,7 @@
     "categories":["science"]
 },
 {
-    "question":"Gene comes from 'genos' Greek for what word?",
+    "question":"Gene comes from \"genos\" Greek for what word?",
     "answers":["Birth"],
     "options":["Parent", "Tiny", "Mini", "Grape", "Small planet"],
     "difficulty": 3,
@@ -8305,49 +8305,49 @@
     "categories":["mythology"]
 },
 {
-    "question":"'Primeval atom' was the original name intended for which scientific term?",
+    "question":"\"Primeval atom\" was the original name intended for which scientific term?",
     "answers":["The Big Bang"],
     "options":["DNA", "Quantum theory", "Evolution by natural selection"],
     "difficulty": 3,
     "categories":["science"]
 },
 {
-    "question":"Who played Andy Dufresne in 'The Shawshank Redemption'?",
+    "question":"Who played Andy Dufresne in \"The Shawshank Redemption\"?",
     "answers":["Tim Robbins"],
     "options":["Harvey Keitel", "Philip Seymour Hoffman", "Tim Roth", "Morgan Freeman", "William H. Macy"],
     "difficulty": 4,
     "categories":["film"]
 },
 {
-    "question":"In the original novel 'The Shawshank Redemption' was based on, what nationality was Red?",
+    "question":"In the original novel \"The Shawshank Redemption\" was based on, what nationality was Red?",
     "answers":["Irish"],
     "options":["English", "American", "Australian", "Italian"],
     "difficulty": 4,
     "categories":["film"]
 },
 {
-    "question":"Who directed 'The Godfather' released in 1972?",
+    "question":"Who directed \"The Godfather\" released in 1972?",
     "answers":["Francis Ford Coppola"],
     "options":["Martin Scorsese", "Steven Spielberg", "William Friedkin", "Robert Altman"],
     "difficulty": 3,
     "categories":["film"]
 },
 {
-    "question":"'Leave the gun, take the cannoli' is a quote from which gangster film?",
+    "question":"\"Leave the gun, take the cannoli\" is a quote from which gangster film?",
     "answers":["The Godfather"],
     "options":["Gangs of New York", "Goodfellas", "A Bronx Tale", "American Gangster", "The Departed"],
     "difficulty": 5,
     "categories":["film"]
 },
 {
-    "question":"Who directed 2008's 'The Dark Knight'?",
+    "question":"Who directed 2008\"s \"The Dark Knight\"?",
     "answers":["Christopher Nolan"],
     "options":["Paul Thomas Anderson", "David Fincher", "Martin Scorsese", "Quentin Tarantino", "Darren Aronofsky"],
     "difficulty": 2,
     "categories":["film"]
 },
 {
-    "question":"Who played Batman in 2008's 'The Dark Knight'?",
+    "question":"Who played Batman in 2008\"s \"The Dark Knight\"?",
     "answers":["Christian Bale"],
     "options":["Edward Cullen", "Ben Aflek", "Russell Crowe", "Viggo Mortensen", "Jake Gyllenhaal"],
     "difficulty": 1,
@@ -8368,7 +8368,7 @@
     "categories":["film"]
 },
 {
-    "question":"Which colour would you least assosiate with 'tawny'?",
+    "question":"Which colour would you least assosiate with \"tawny\"?",
     "answers":["Blue", "Red"],
     "options":["Orange", "Yellow", "Brown"],
     "difficulty": 4,
@@ -8396,14 +8396,14 @@
     "categories":["drinks", "history"]
 },
 {
-    "question":"'Fools find no pleasure in understanding but delight in airing their own opinions', is from which Bible verse?",
+    "question":"\"Fools find no pleasure in understanding but delight in airing their own opinions\", is from which Bible verse?",
     "answers":["Proverbs 18:2"],
     "options":["Matthew 18:2", "Genesis 18:2", "Leviticus 18:2", "Exodus 18:2"],
     "difficulty": 4,
     "categories":["drinks", "history"]
 },
 {
-    "question":"'Fools find no pleasure in understanding but delight in airing their own opinions', is from which Bible verse?",
+    "question":"\"Fools find no pleasure in understanding but delight in airing their own opinions\", is from which Bible verse?",
     "answers":["Proverbs 18:2"],
     "options":["Matthew 18:2", "Genesis 18:2", "Leviticus 18:2", "Exodus 18:2"],
     "difficulty": 4,
@@ -8473,7 +8473,7 @@
     "categories":["misc"]
 },
 {
-    "question":"'Let Hercules himself do what he may; The cat will mew and the dog will have his day' is a quote from which Shakespeare work?",
+    "question":"\"Let Hercules himself do what he may; The cat will mew and the dog will have his day\" is a quote from which Shakespeare work?",
     "answers":["Hamlet"],
     "options":["Macbeth", "Romeo and Juliet", "The Tempest", "Measure for Measure"],
     "difficulty": 4,
@@ -8522,9 +8522,9 @@
     "categories":["architecture", "law", "history"]
 },
 {
-    "question":"'Never attribute to malice that which is adequately explained by stupidity' is known as what?",
-    "answers":["Hanlon's razor"],
-    "options":["Occam's razor", "Hitchen's razor", "Hume's razor"],
+    "question":"\"Never attribute to malice that which is adequately explained by stupidity\" is known as what?",
+    "answers":["Hanlon\"s razor"],
+    "options":["Occam\"s razor", "Hitchen\"s razor", "Hume\"s razor"],
     "difficulty": 4,
     "categories":["proverb"]
 },
@@ -8578,7 +8578,7 @@
     "categories":["history"]
 },
 {
-    "question":"How many of Henry VIII's wives were beheaded?",
+    "question":"How many of Henry VIII\"s wives were beheaded?",
     "answers":["2"],
     "options":["3", "4", "5", "1"],
     "difficulty": 3,
@@ -8606,14 +8606,14 @@
     "categories":["religion", "history"]
 },
 {
-    "question":"Which US President made the 'Four Freedoms' speech?",
+    "question":"Which US President made the \"Four Freedoms\" speech?",
     "answers":["Franklin Roosevelt"],
     "options":["Ronald Regan", "Gerald Fort", "John F. Kennedy", "Dwight D. Eisenhower", "Harry S. Truman"],
     "difficulty": 4,
     "categories":["politics"]
 },
 {
-    "question":"Which US President made the 'Four Freedoms' speech?",
+    "question":"Which US President made the \"Four Freedoms\" speech?",
     "answers":["Franklin Roosevelt"],
     "options":["Ronald Regan", "Gerald Fort", "John F. Kennedy", "Dwight D. Eisenhower", "Harry S. Truman"],
     "difficulty": 4,
@@ -8635,7 +8635,7 @@
 },
 {
     "question":"What was the mythical substance that could turn ordinary metals such as iron, tin, lead, zinc, nickel or copper into precious metals like gold and silver?",
-    "answers":["The philosopher's stone"],
+    "answers":["The philosopher\"s stone"],
     "options":["Manna", "Alien metal", "Tears of Ra"],
     "difficulty": 2,
     "categories":["mythology"]
@@ -8662,7 +8662,7 @@
     "categories":["war", "history"]
 },
 {
-    "question":"Cromwell's men in 1649 killed 3500 people, known as 'The Siege of' what?",
+    "question":"Cromwell\"s men in 1649 killed 3500 people, known as \"The Siege of\" what?",
     "answers":["The Siege of Drogheda"],
     "options":["The Siege of Kinsale", "The Siege of Westport", "The Siege of Dingle", "The Siege of Louth"],
     "difficulty": 4,
@@ -8677,8 +8677,8 @@
 },
 {
     "question":"Where did the Great Fire of London start?",
-    "answers":["Thomas Farriner's bakery"],
-    "options":["Thomas Farriner's resturaunt", "Thomas Farriner's tavern", "Thomas Farriner's lightbulb store", "Thomas Farriner's candle shop"],
+    "answers":["Thomas Farriner\"s bakery"],
+    "options":["Thomas Farriner\"s resturaunt", "Thomas Farriner\"s tavern", "Thomas Farriner\"s lightbulb store", "Thomas Farriner\"s candle shop"],
     "difficulty": 4,
     "categories":["history"]
 },
@@ -8788,35 +8788,35 @@
     "categories":["transport", "history"]
 },
 {
-    "question":"According to Voltaire, 'No snowflake' in what 'ever feels responsible'?",
+    "question":"According to Voltaire, \"No snowflake\" in what \"ever feels responsible\"?",
     "answers":["An avalanche"],
     "options":["A snowstorm", "A snowman", "A snowball", "A storm"],
     "difficulty": 4,
     "categories":["quotes"]
 },
 {
-    "question":"According to Carl Jung, 'The foundation of all mental illness is the avoidance of true' what?",
+    "question":"According to Carl Jung, \"The foundation of all mental illness is the avoidance of true\" what?",
     "answers":["Suffering"],
     "options":["Acceptance", "Help", "Therapy", "Goodness", "Benevolence"],
     "difficulty": 5,
     "categories":["quotes"]
 },
 {
-    "question":"'Man often becomes what he believes himself to be' is a quote from whom?",
+    "question":"\"Man often becomes what he believes himself to be\" is a quote from whom?",
     "answers":["Mohandas Gandhi"],
     "options":["Nelson Mandela", "John Lennon", "Kurt Kobain", "Lao Tzu", "Harry S. Truman", "Johann Wolfgang von Goethe", "Vincent Van Gough", "Douglas Adams", "Friedrich Nietzche", "John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Albert Einstein", "Ella Wheller Wilcox", "Charles Darwin", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Muhammad Ali", "Karl Marx", "Stephen Jobs", "Bill Gates"],
     "difficulty": 4,
     "categories":["quotes"]
 },
 {
-    "question":"'Change is the only constant' is a quote from whom?",
+    "question":"\"Change is the only constant\" is a quote from whom?",
     "answers":["Heraclitus"],
     "options":["Shakespeare", "Herodotus", "Plato", "Karl Marx", "Aristotle", "Confucius", "Damascus", "Rene Descartes", "Epictetus", "Anazimander", "Socrates", "Anaxagoras", "Lao Tzu"],
     "difficulty": 4,
     "categories":["quotes"]
 },
 {
-    "question":"According to Heraclitus, what 'Is the only constant'?",
+    "question":"According to Heraclitus, what \"Is the only constant\"?",
     "answers":["Change"],
     "options":["Love", "Time", "Friendship", "Humanity", "Nothing"],
     "difficulty": 1,
@@ -8907,7 +8907,7 @@
     "categories":["literature"]
 },
 {
-    "question":"Who wrote 'Brave New World'?",
+    "question":"Who wrote \"Brave New World\"?",
     "answers":["Aldous Huxley"],
     "options":["Anthony Burgess", "Virginia Woolf", "Ernest Hemingway", "John Steinbeck", "D. H. Lawrence", "F. Scott Fitzgerald"],
     "difficulty": 3,
@@ -8991,7 +8991,7 @@
     "categories":["art"]
 },
 {
-    "question":"Who painted 'The Scream' in 1893?",
+    "question":"Who painted \"The Scream\" in 1893?",
     "answers":["Edward Munch"],
     "options":["David Smith", "Paul Cezanne", "Alberto Giacometti", "Henry Moore", "Charles C. Ingham"],
     "difficulty": 4,
@@ -9056,7 +9056,7 @@
 {
     "question":"Which capital was previously called Kristiania?",
     "answers":["Oslo, Norway"],
-    "options":["Abuja, Nigeria", "Monrovia, Liberia", "Mogadishu, Somalia", "St. John's, Antigua and Barbuda", "Vientiane, Laos", "Lisbon, Portugal", "Kigali, Rwanda"],
+    "options":["Abuja, Nigeria", "Monrovia, Liberia", "Mogadishu, Somalia", "St. John\"s, Antigua and Barbuda", "Vientiane, Laos", "Lisbon, Portugal", "Kigali, Rwanda"],
     "difficulty": 4,
     "categories":["geography", "history"]
 },
@@ -9131,7 +9131,7 @@
     "categories":["politics", "history"]
 },
 {
-    "question":"'There is nothing either good or bad, but thinking makes it so' is a quote from whom?",
+    "question":"\"There is nothing either good or bad, but thinking makes it so\" is a quote from whom?",
     "answers":["William Shakespeare"],
     "options":["Heraclitus", "Herodotus", "Plato", "Karl Marx", "Aristotle", "Confucius", "Damascus", "Rene Descartes", "Epictetus", "Anazimander", "Socrates", "Anaxagoras", "Lao Tzu"],
     "difficulty": 4,
@@ -9159,14 +9159,14 @@
     "categories":["medicine"]
 },
 {
-    "question":"'Things won are done; joy's soul lies in the doing' is a quote from whom?",
+    "question":"\"Things won are done; joy\"s soul lies in the doing\" is a quote from whom?",
     "answers":["William Shakespeare"],
     "options":["Heraclitus", "Herodotus", "Plato", "Karl Marx", "Aristotle", "Confucius", "Damascus", "Rene Descartes", "Epictetus", "Anazimander", "Socrates", "Anaxagoras", "Lao Tzu"],
     "difficulty": 4,
     "categories":["quotes"]
 },
 {
-    "question":"Which hormone is known as 'The love drug'?",
+    "question":"Which hormone is known as \"The love drug\"?",
     "answers":["Oxytocin"],
     "options":["Prolactin", "Testosterone", "Thyroxine", "Leptin", "Kisspeptin", "Cortisol"],
     "difficulty": 5,
@@ -9187,7 +9187,7 @@
     "categories":["film"]
 },
 {
-    "question":"'A lie gets halfway around the world before the truth has a chance to get its pants on' is a quote from whom?",
+    "question":"\"A lie gets halfway around the world before the truth has a chance to get its pants on\" is a quote from whom?",
     "answers":["Winston Churchill"],
     "options":["Mohandas Gandhi", "Nelson Mandela", "John Lennon", "Kurt Kobain", "Lao Tzu", "Harry S. Truman", "Johann Wolfgang von Goethe", "Vincent Van Gough", "Douglas Adams", "Friedrich Nietzche", "John Steinbeck", "Indira Gandi", "Arthur C. Clarke", "Ursula Le Guin", "Albert Einstein", "Ella Wheller Wilcox", "Charles Darwin", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Muhammad Ali", "Karl Marx", "Stephen Jobs", "Bill Gates"],
     "difficulty": 4,
@@ -9250,14 +9250,14 @@
     "categories":["war"]
 },
 {
-    "question":"Who directed Schindler's List?",
+    "question":"Who directed Schindler\"s List?",
     "answers":["Steven Spielberg"],
     "options":["David Fincher", "Peter Weir", "Gus Van Sant", "Robert Zemeckis", "Michael Mann"],
     "difficulty": 3,
     "categories":["film"]
 },
 {
-    "question":"Steven Spielberg offered the Schindler's List directors job to which director?",
+    "question":"Steven Spielberg offered the Schindler\"s List directors job to which director?",
     "answers":["Roman Polanski"],
     "options":["David Fincher", "Peter Weir", "Gus Van Sant", "Robert Zemeckis", "Michael Mann"],
     "difficulty": 4,
@@ -9271,35 +9271,35 @@
     "categories":["film"]
 },
 {
-    "question":"The last spoken line of which 'The Lord of the Rings' movies is 'Well, I'm back'?",
+    "question":"The last spoken line of which \"The Lord of the Rings\" movies is \"Well, I\"m back\"?",
     "answers":["The Return of the King"],
     "options":["The Two Towers", "The Fellowship of the Ring", "The Hobbit"],
     "difficulty": 5,
     "categories":["film"]
 },
 {
-    "question":"In the Lord of the Rings, what is Frodo's second name?",
+    "question":"In the Lord of the Rings, what is Frodo\"s second name?",
     "answers":["Baggins"],
     "options":["Broggins", "Bleggings", "Biggins", "Buggings"],
     "difficulty": 2,
     "categories":["film"]
 },
 {
-    "question":"In the Lord of the Rings, what is Bilbo's relationship to Frodo?",
+    "question":"In the Lord of the Rings, what is Bilbo\"s relationship to Frodo?",
     "answers":["Uncle"],
     "options":["Brother", "Cousin", "Grandfather", "Father"],
     "difficulty": 2,
     "categories":["film"]
 },
 {
-    "question":"Was 'Pulp Fiction' nominated for Best Picture at the Oscars?",
+    "question":"Was \"Pulp Fiction\" nominated for Best Picture at the Oscars?",
     "answers":["True"],
     "options":["False"],
     "difficulty": 3,
     "categories":["film"]
 },
 {
-    "question":"Was 'Interview With a Vampire' nominated for Best Picture at the Oscars?",
+    "question":"Was \"Interview With a Vampire\" nominated for Best Picture at the Oscars?",
     "answers":["False"],
     "options":["True"],
     "difficulty": 3,
@@ -9327,7 +9327,7 @@
     "categories":["geography"]
 },
 {
-    "question":"When Henry Kissinger said 'A dagger pointed at the heart of Antarctica', which country was he referring to?",
+    "question":"When Henry Kissinger said \"A dagger pointed at the heart of Antarctica\", which country was he referring to?",
     "answers":["Chile"],
     "options":["Hungary", "Argentina", "Puerto Rico", "United Arab Emirates", "Bosnia and Herzegovina", "Namibia", "Madagascar", "India"],
     "difficulty": 3,
@@ -9411,7 +9411,7 @@
     "categories":["politics"]
 },
 {
-    "question":"Who replaced Jay Leno as the host of 'The Tonight Show'?",
+    "question":"Who replaced Jay Leno as the host of \"The Tonight Show\"?",
     "answers":["Jimmy Fallon"],
     "options":["David Letterman", "Jimmy Kimmel", "Bill Maher", "Conan O’Brien", "Stephen Colbert"],
     "difficulty": 3,
@@ -9474,7 +9474,7 @@
     "categories":["videogames"]
 },
 {
-    "question":"'The King of Limbs', 'In Rainbows' and 'The Bends' are all albums from which alternative rock band?",
+    "question":"\"The King of Limbs\", \"In Rainbows\" and \"The Bends\" are all albums from which alternative rock band?",
     "answers":["Radiohead"],
     "options":["The Strokes", "The Pixies", "Pulp", "Blur", "Muse", "Coldplay"],
     "difficulty": 3,
@@ -9495,21 +9495,21 @@
     "categories":["music"]
 },
 {
-    "question":"Which other former U.S. president did Thoedore Roosevelt say 'is bent on peace, I fear'?",
+    "question":"Which other former U.S. president did Thoedore Roosevelt say \"is bent on peace, I fear\"?",
     "answers":["William McKinley"],
     "options":["William Howard Taft", "Abraham Lincoln", "Woodrow Wilson", "Grover CLeveland", "Benjamin Harrison"],
     "difficulty": 5,
     "categories":["quotes"]
 },
 {
-    "question":"Referring to president William McKinley, which other former president stated 'McKinley is bent on peace, I fear'?",
+    "question":"Referring to president William McKinley, which other former president stated \"McKinley is bent on peace, I fear\"?",
     "answers":["Theodore Roosevelt"],
     "options":["William Howard Taft", "Abraham Lincoln", "Woodrow Wilson", "Grover CLeveland", "Benjamin Harrison"],
     "difficulty": 4,
     "categories":["quotes"]
 },
 {
-    "question":"Referring to president William McKinley, Theodore Roosevelt once said 'McKinley is bent on' what ', I fear'?",
+    "question":"Referring to president William McKinley, Theodore Roosevelt once said \"McKinley is bent on\" what \", I fear\"?",
     "answers":["Peace"],
     "options":["War", "Destruction of the Union", "Tyranny", "Hatred"],
     "difficulty": 5,
@@ -9530,7 +9530,7 @@
     "categories":["politics", "history"]
 },
 {
-    "question":"What was the first name of Fritz Haber's wife?",
+    "question":"What was the first name of Fritz Haber\"s wife?",
     "answers":["Clara"],
     "options":["Evelyn", "Shirley", "Kaya", "Janet", "Lizbeth", "Renee", "Londyn"],
     "difficulty": 5,
@@ -9586,7 +9586,7 @@
     "categories":["medicine", "language"]
 },
 {
-    "question":"Which of these famous figures' real name is Samuel Clemens?",
+    "question":"Which of these famous figures\" real name is Samuel Clemens?",
     "answers":["Mark Twain"],
     "options":["Vincent Van Gough", "David Letterman", "Macaulay Culkin", "Bradley Cooper", "Audrey Hepburn"],
     "difficulty": 4,
@@ -9600,21 +9600,21 @@
     "categories":["war", "history"]
 },
 {
-    "question":"Which date did Franklin D. Roosevelt say 'will live in infamy'?",
+    "question":"Which date did Franklin D. Roosevelt say \"will live in infamy\"?",
     "answers":["December 7th 1941"],
     "options":["April 3rd 1941", "July 23rd 1942", "August 18th 1942", "September 9th 1939", "May 8th 1939"],
     "difficulty": 2,
     "categories":["war", "history"]
 },
 {
-    "question":"The 1953 film 'From Here to Eternity', takes place during which war?",
+    "question":"The 1953 film \"From Here to Eternity\", takes place during which war?",
     "answers":["World War 2"],
     "options":["World War 1", "The American Civil War", "Vietnam War", "Northwest Indian War", "American Revolutionary War"],
     "difficulty": 3,
     "categories":["film", "war"]
 },
 {
-    "question":"What was the first name of Franklin D. Roosevelt's wife?",
+    "question":"What was the first name of Franklin D. Roosevelt\"s wife?",
     "answers":["Eleanor"],
     "options":["Abagail", "Barbara", "Erica", "Meghan", "Addison", "Anna", "Hilary"],
     "difficulty": 2,
@@ -9705,14 +9705,14 @@
     "categories":["history"]
 },
 {
-    "question":"When did 'The Sopranos' debut?",
+    "question":"When did \"The Sopranos\" debut?",
     "answers":["1999"],
     "options":["2001", "1997", "1995", "1993", "1991"],
     "difficulty": 3,
     "categories":["TV"]
 },
 {
-    "question":"Who released 'Great Balls of Fire' in 1957?",
+    "question":"Who released \"Great Balls of Fire\" in 1957?",
     "answers":["Jerry Lee Lewis"],
     "options":["The Beatles", "The Rolling Stones", "The Shirelles", "The Everly Brothers", "The Hollies", "Tommy James & the Shondells"],
     "difficulty": 4,
@@ -9775,35 +9775,35 @@
     "categories":["music"]
 },
 {
-    "question":"How many seasons of 'The Sopranos' were there?",
+    "question":"How many seasons of \"The Sopranos\" were there?",
     "answers":["6"],
     "options":["7", "8", "9", "10", "11"],
     "difficulty": 4,
     "categories":["TV"]
 },
 {
-    "question":"Who played J.D in 'Scrubs'?",
+    "question":"Who played J.D in \"Scrubs\"?",
     "answers":["Zach Braff"],
-    "options":["Donald Faison", "Matt LeBlanc", "Ed O'Neill", "John Krasinski", "Nick Offerman", "Simon Helberg"],
+    "options":["Donald Faison", "Matt LeBlanc", "Ed O\"Neill", "John Krasinski", "Nick Offerman", "Simon Helberg"],
     "difficulty": 3,
     "categories":["TV"]
 },
 {
-    "question":"Who played the janitor in 'Scrubs'?",
+    "question":"Who played the janitor in \"Scrubs\"?",
     "answers":["Neil Flynn"],
-    "options":["Donald Faison", "Matt LeBlanc", "Ed O'Neill", "John Krasinski", "Nick Offerman", "Simon Helberg"],
+    "options":["Donald Faison", "Matt LeBlanc", "Ed O\"Neill", "John Krasinski", "Nick Offerman", "Simon Helberg"],
     "difficulty": 4,
     "categories":["TV"]
 },
 {
-    "question":"Which actor released 'Greenlights' in 2020?",
+    "question":"Which actor released \"Greenlights\" in 2020?",
     "answers":["Matthew McConaughey"],
     "options":["Daniel Day-Lewis", "Keanu Reeves", "Leonardo DiCaprio", "Jack Nicholson", "Russell Crowe", "Tom Hanks", "William Hurt", "Edward Norton", "William Dafoe"],
     "difficulty": 4,
     "categories":["literature", "film"]
 },
 {
-    "question":"Who starred in the 1992 film, 'The Last of the Mohicans'?",
+    "question":"Who starred in the 1992 film, \"The Last of the Mohicans\"?",
     "answers":["Daniel Day-Lewis"],
     "options":["Keanu Reeves", "Leonardo DiCaprio", "Jack Nicholson", "Russell Crowe", "Tom Hanks", "William Hurt", "Edward Norton", "William Dafoe"],
     "difficulty": 4,
@@ -9936,16 +9936,16 @@
     "categories":["geography"]
 },
 {
-    "question":"'Grizzly Man', 'Lo and Behold, Reveries of the Connected World' and 'Encounters at the End of the World' are all documentaries directed by which filmmaker?",
+    "question":"\"Grizzly Man\", \"Lo and Behold, Reveries of the Connected World\" and \"Encounters at the End of the World\" are all documentaries directed by which filmmaker?",
     "answers":["Werner Herzog"],
     "options":["Errol Morris", "Michael Moore", "Joshua Oppenhiemer", "Michael Apted"],
     "difficulty": 5,
     "categories":["film"]
 },
 {
-    "question":"Which Scottish rock band with the 2005 single 'Take Me Out' got their name from an assassinated historical figure?",
+    "question":"Which Scottish rock band with the 2005 single \"Take Me Out\" got their name from an assassinated historical figure?",
     "answers":["Franz Ferdinand"],
-    "options":["Abraham Lincoln", "The Gandhi's", "The Luther Kings"],
+    "options":["Abraham Lincoln", "The Gandhi\"s", "The Luther Kings"],
     "difficulty": 3,
     "categories":["music"]
 },
@@ -10006,35 +10006,35 @@
     "categories":["film"]
 },
 {
-    "question":"Complete this quote from 'The Good the Bad and the Ugly', 'In this world there's two kinds of people, my friend: Those with loaded guns and those who' what?",
+    "question":"Complete this quote from \"The Good the Bad and the Ugly\", \"In this world there\"s two kinds of people, my friend: Those with loaded guns and those who\" what?",
     "answers":["Dig"],
     "options":["Obey", "Belong", "Remain", "Submit"],
     "difficulty": 4,
     "categories":["film", "quotes"]
 },
 {
-    "question":"Was the 1999 film 'Fight Club' based on a novel?",
+    "question":"Was the 1999 film \"Fight Club\" based on a novel?",
     "answers":["True"],
     "options":["False"],
     "difficulty": 3,
     "categories":["film"]
 },
 {
-    "question":"Was the 1992 film 'Resevoir Dogs' based on a novel?",
+    "question":"Was the 1992 film \"Resevoir Dogs\" based on a novel?",
     "answers":["True"],
     "options":["False"],
     "difficulty": 3,
     "categories":["film"]
 },
 {
-    "question":"In the film 'Inception', Cobb tries to infiltrate the dreams of Robert Fischer, played by who?",
+    "question":"In the film \"Inception\", Cobb tries to infiltrate the dreams of Robert Fischer, played by who?",
     "answers":["Cillian Murphy"],
     "options":["Tom Hardy", "Joseph Gordon-Levitt", "Tom Berenger", "Lukas Haas"],
     "difficulty": 4,
     "categories":["film"]
 },
 {
-    "question":"Indonesia's declared independence in 1945 from which country?",
+    "question":"Indonesia\"s declared independence in 1945 from which country?",
     "answers":["Netherlands"],
     "options":["France", "China", "Japan", "The United States", "The United Kingdom"],
     "difficulty": 3,
@@ -10062,7 +10062,7 @@
     "categories":["language"]
 },
 {
-    "question":"During the Vietnam War, what was 'Agent Orange'?",
+    "question":"During the Vietnam War, what was \"Agent Orange\"?",
     "answers":["A defoliant"],
     "options":["A spy", "A military plan", "A weapon", "An airport", "A nickname for Sgt. Norage"],
     "difficulty": 3,
@@ -10097,7 +10097,7 @@
     "categories":["film", "music"]
 },
 {
-    "question":"Who plays Bane in 'The Dark Knight Rises'?",
+    "question":"Who plays Bane in \"The Dark Knight Rises\"?",
     "answers":["Tom Hardy"],
     "options":["Matt Damon", "Jeremy Piven", "Ryan Reynolds", "Joel Edgerton"],
     "difficulty": 3,
@@ -10153,7 +10153,7 @@
     "categories":["history", "politics", "geography"]
 },
 {
-    "question":"According to the quote attributes to Jon Stewart, 'War is God’s way of teaching Americans' what?",
+    "question":"According to the quote attributes to Jon Stewart, \"War is God’s way of teaching Americans\" what?",
     "answers":["Geography"],
     "options":["History", "Maths", "Foreign policy"],
     "difficulty": 5,
@@ -10168,7 +10168,7 @@
     "categories":["geography"]
 },
 {
-    "question":"What was the D. in President Franklin D. Roosevelt's name?",
+    "question":"What was the D. in President Franklin D. Roosevelt\"s name?",
     "answers":["Delano"],
     "options":["Dominic", "Drew", "Dick", "Damon", "Devin", "Declan", "Donahi", "Dondre", "Dennis", "Domek", "Dolan"],
     "difficulty": 5,
@@ -10210,7 +10210,7 @@
     "categories":["geography"]
 },
 {
-    "question":"Popularized during WW2, grafitti of a bald man with a large nose peaking over a wall was often accompanied by text saying who 'Was here'?",
+    "question":"Popularized during WW2, grafitti of a bald man with a large nose peaking over a wall was often accompanied by text saying who \"Was here\"?",
     "answers":["Kilroy"],
     "options":["Gideon", "Alfonso", "German", "Gaven"],
     "difficulty": 4,
@@ -10259,7 +10259,7 @@
     "categories":["language"]
 },
 {
-    "question":"Who played the role of Rusty in 'They Were Expendable'?",
+    "question":"Who played the role of Rusty in \"They Were Expendable\"?",
     "answers":["John Wayne"],
     "options":["Clint Eastwood", "Randolph Scott", "Gary Cooper", "James Stewart"],
     "difficulty": 4,
@@ -10308,7 +10308,7 @@
     "categories":["fashion"]
 },
 {
-    "question":"In 'West Side Story' the Puerto Rican gang is called what?",
+    "question":"In \"West Side Story\" the Puerto Rican gang is called what?",
     "answers":["The Sharks"],
     "options":["The Eels", "The Mules", "The Lions", "The Rats", "The Rams", "The Chameleons"],
     "difficulty": 4,
@@ -10317,7 +10317,7 @@
 {
     "question":"Which of these would be considered a malapropism?",
     "answers":["Dance the flamingo"],
-    "options":["Spend some yen", "Destroy Danny's Den", "To shop around", "Depart together", "To witness the living dead"],
+    "options":["Spend some yen", "Destroy Danny\"s Den", "To shop around", "Depart together", "To witness the living dead"],
     "difficulty": 4,
     "categories":["language"]
 },
@@ -10336,7 +10336,7 @@
     "categories":["music"]
 },
 {
-    "question":"Tom Ford became a film director directing 'A Single Man' and 'Nocturnal Animals', what was his previous job?",
+    "question":"Tom Ford became a film director directing \"A Single Man\" and \"Nocturnal Animals\", what was his previous job?",
     "answers":["A fashion designer"],
     "options":["A stuntman", "A surgeon", "A singer", "An optician"],
     "difficulty": 4,
@@ -10378,14 +10378,14 @@
     "categories":["language"]
 },
 {
-    "question":"What was the name of the island from 'King Kong'?",
+    "question":"What was the name of the island from \"King Kong\"?",
     "answers":["Skull Island"],
     "options":["Ape Island", "Angel Island", "The Black Island", "Cinnabar Island", "Dazhi Island", "Danger Island", "Fearing Island", "Krawk Island", "Maple Island", "Wanhu Island", "Tingle Island"],
     "difficulty": 2,
     "categories":["literature", "film"]
 },
 {
-    "question":"In 1896 H. G. Wells published a novel, 'The Island of Doctor' who?",
+    "question":"In 1896 H. G. Wells published a novel, \"The Island of Doctor\" who?",
     "answers":["Doctor Moreau"],
     "options":["Doctor No", "Doctor Shepherd", "Doctor Hadley", "Doctor Quinn", "Doctor McCoy"],
     "difficulty": 4,
@@ -10406,7 +10406,7 @@
     "categories":["authors"]
 },
 {
-    "question":"From them James Bond series, what was Dr. No's full name?",
+    "question":"From them James Bond series, what was Dr. No\"s full name?",
     "answers":["Dr. Julius No"],
     "options":["Dr. Xander No", "Dr. Cesar No", "Dr. Kaden No", "Dr. Allen No", "Dr. Harry No"],
     "difficulty": 5,
@@ -10427,7 +10427,7 @@
     "categories":["film"]
 },
 {
-    "question":"Who is said to have coined the term 'Cold War'?",
+    "question":"Who is said to have coined the term \"Cold War\"?",
     "answers":["George Orwell"],
     "options":["Dwight D. Eisenhower", "John F. Kennedy", "Douglas MacArthur", "Ernest Hemingway", "Pablo Picasso"],
     "difficulty": 4,
@@ -10455,14 +10455,14 @@
     "categories":["sports"]
 },
 {
-    "question":"Which artist featured on Taylor Swift's tracks 'Exile' and 'Evermore'?",
+    "question":"Which artist featured on Taylor Swift\"s tracks \"Exile\" and \"Evermore\"?",
     "answers":["Bon Ivor"],
     "options":["Haim", "Billie Eilish", "Lizzo", "Elvis Costello", "Anderson .Paak"],
     "difficulty": 4,
     "categories":["music"]
 },
 {
-    "question":"Which artist released albums 'Stones', 'Beautiful Noise' and 'Serenade'?",
+    "question":"Which artist released albums \"Stones\", \"Beautiful Noise\" and \"Serenade\"?",
     "answers":["Neil Diamond"],
     "options":["The Rolling Stones", "Pearl Jam", "David Bowie", "Simon & Garfunkel", "R.E.M."],
     "difficulty": 3,
@@ -10546,14 +10546,14 @@
     "categories":["nature"]
 },
 {
-    "question":"In 1968 which female artist released the album 'Lady Soul'?",
+    "question":"In 1968 which female artist released the album \"Lady Soul\"?",
     "answers":["Barbra Streisand"],
     "options":["Dusty Springfield", "Barbra Streisand", "Tina Turner", "Diana Ross"],
     "difficulty": 3,
     "categories":["music"]
 },
 {
-    "question":"2013 action film '2 Guns' starred Denzel Washington with which other actor?",
+    "question":"2013 action film \"2 Guns\" starred Denzel Washington with which other actor?",
     "answers":["Mark Wahlberg"],
     "options":["Bruce Willis", "Dwayne Johnson", "Ben Affleck", "Liam Hemsworth"],
     "difficulty": 3,
@@ -10574,7 +10574,7 @@
     "categories":["film"]
 },
 {
-    "question":"Which Beatles album did 'A Day In The Life' feature in?",
+    "question":"Which Beatles album did \"A Day In The Life\" feature in?",
     "answers":["Sgt Pepper’s Lonely Hearts Club Band"],
     "options":["Beatles For Sale", "Abbey Road", "Yellow Submarine", "Let It Be"],
     "difficulty": 4,
@@ -10588,14 +10588,14 @@
     "categories":["technology"]
 },
 {
-    "question":"From which book did the term 'Doublethink' originate from?",
+    "question":"From which book did the term \"Doublethink\" originate from?",
     "answers":["1984"],
     "options":["Brave New World", "American War", "Divergent", "A Clockwork Orange"],
     "difficulty": 3,
     "categories":["literature"]
 },
 {
-    "question":"Who wrote 'Brave New World'?",
+    "question":"Who wrote \"Brave New World\"?",
     "answers":["Aldous Huxley"],
     "options":["Leni Zumas", "George Orwell", "Omar El Akkad", "Philip K. Dick"],
     "difficulty": 4,
@@ -10646,7 +10646,7 @@
 {
     "question":"Ralph Ellison published which novel in 1953?",
     "answers":["Invisible Man"],
-    "options":["The Catcher in the Rye", "Fahrenheit 451", "On the Road", "The Crucible", "Horton Hears a Who!", "The Quiet American", "Charlotte's Web"],
+    "options":["The Catcher in the Rye", "Fahrenheit 451", "On the Road", "The Crucible", "Horton Hears a Who!", "The Quiet American", "Charlotte\"s Web"],
     "difficulty": 5,
     "categories":["literature"]
 },
@@ -10665,7 +10665,7 @@
     "categories":["food"]
 },
 {
-    "question":"Which of these mineral's is often called 'Fool's gold'?",
+    "question":"Which of these mineral\"s is often called \"Fool\"s gold\"?",
     "answers":["Pyrite"],
     "options":["Sepiolite", "Tephroite", "Vaesite", "Nelenite"],
     "difficulty": 5,
@@ -10716,7 +10716,7 @@
 {
     "question":"Galileo famously dropped two spheres of different masses from where?",
     "answers":["The Leaning Tower of Pisa"],
-    "options":["Colosseum", "St. Peter's Basilica", "Giotto's Bell Tower", "His house"],
+    "options":["Colosseum", "St. Peter\"s Basilica", "Giotto\"s Bell Tower", "His house"],
     "difficulty": 2,
     "categories":["science"]
 },
@@ -10749,8 +10749,8 @@
     "categories":["music"]
 },
 {
-    "question":"Which rapper's real name is Sean Combs?",
-    "answers":["Lil' Wayne"],
+    "question":"Which rapper\"s real name is Sean Combs?",
+    "answers":["Lil\" Wayne"],
     "options":["Busta Rhymes", "Kendrick Lamar", "Nas", "Chance The Rapper", "2 Chainz", "Ice-T"],
     "difficulty": 4,
     "categories":["music"]
@@ -10798,14 +10798,14 @@
     "categories":["religion"]
 },
 {
-    "question":"Scrubs actor, Donald Faison was pissed that which game 'stole' his dance 'poison'?",
+    "question":"Scrubs actor, Donald Faison was pissed that which game \"stole\" his dance \"poison\"?",
     "answers":["Fortnite"],
     "options":["Call of Duty: Modern Warfare", "Just Dance 3", "Minecraft", "Dead by Daylight"],
     "difficulty": 4,
     "categories":["videogames"]
 },
 {
-    "question":"Jomon pottery comes from a period of which country's ancient history?",
+    "question":"Jomon pottery comes from a period of which country\"s ancient history?",
     "answers":["Japan"],
     "options":["India", "China", "Bhutan", "Turkey", "Syria", "Russia"],
     "difficulty": 5,
@@ -10959,7 +10959,7 @@
     "categories":["history"]
 },
 {
-    "question":"In ancienct China, the '3 perfections' typically referred to painting, poetry and what else?",
+    "question":"In ancienct China, the \"3 perfections\" typically referred to painting, poetry and what else?",
     "answers":["Calligraphy"],
     "options":["Singing", "Drawing", "Sculpture", "Tapestry", "Architecture"],
     "difficulty": 5,
@@ -10973,7 +10973,7 @@
     "categories":["mythology"]
 },
 {
-    "question":"What is the name of Harry Potter's owl?",
+    "question":"What is the name of Harry Potter\"s owl?",
     "answers":["Hedwig"],
     "options":["Nagini", "Oliver", "Winky", "Reeves", "Regulus"],
     "difficulty": 2,
@@ -11008,7 +11008,7 @@
     "categories":["geography"]
 },
 {
-    "question":"Who narrated in Micheal Jackson's music video 'Thriller'?",
+    "question":"Who narrated in Micheal Jackson\"s music video \"Thriller\"?",
     "answers":["Vincent Price"],
     "options":["Christopher Lee", "Boris Karloff", "Jeffrey Combs", "Robert Englund", "Peter Cushing", "Donald Pleasence"],
     "difficulty": 4,
@@ -11023,8 +11023,8 @@
 },
 {
     "question":"In what decade did, American Bobby Fischer beat Boris Spassky in the World Chess Championship in Iceland?",
-    "answers":["70's"],
-    "options":["80's", "90's", "60's", "50's", "40's"],
+    "answers":["70\"s"],
+    "options":["80\"s", "90\"s", "60\"s", "50\"s", "40\"s"],
     "difficulty": 4,
     "categories":["misc"]
 },
@@ -11043,7 +11043,7 @@
     "categories":["math"]
 },
 {
-    "question":"What was the name of Genghis Khan's gradnson who founded the Yuan dynasty?",
+    "question":"What was the name of Genghis Khan\"s gradnson who founded the Yuan dynasty?",
     "answers":["Kublai"],
     "options":["Yushan", "Xandhu", "Genghis", "Tuboi"],
     "difficulty": 5,
@@ -11087,12 +11087,12 @@
 {
     "question":"Of mythology and used in reference to a weakness, what part of Achilles body was unprotected in battle?",
     "answers":["His heel"],
-    "options":["His face", "His throat", "His heart", "His Adam's apple", "His shoulders"],
+    "options":["His face", "His throat", "His heart", "His Adam\"s apple", "His shoulders"],
     "difficulty": 1,
     "categories":["mythology", "language"]
 },
 {
-    "question":"The man who created the modern 'Peace Symbol' was from which country?",
+    "question":"The man who created the modern \"Peace Symbol\" was from which country?",
     "answers":["Britain"],
     "options":["China", "Vietnam", "The United States", "France"],
     "difficulty": 4,
@@ -11106,9 +11106,9 @@
     "categories":["geography"]
 },
 {
-    "question":"'Do you believe in fairies? Say quick that you believe. If you believe, clap your hands!' is quote from which novel?",
+    "question":"\"Do you believe in fairies? Say quick that you believe. If you believe, clap your hands!\" is quote from which novel?",
     "answers":["Peter Pan"],
-    "options":["Cinderella", "Pinocchio", "Sleeping Beauty", "The Faraway Tree", "A Midsummer Knight's Dream"],
+    "options":["Cinderella", "Pinocchio", "Sleeping Beauty", "The Faraway Tree", "A Midsummer Knight\"s Dream"],
     "difficulty": 2,
     "categories":["literature"]
 },
@@ -11183,7 +11183,7 @@
     "categories":["law", "music","history"]
 },
 {
-    "question":"'The College Dropout' was released by which of these artists?",
+    "question":"\"The College Dropout\" was released by which of these artists?",
     "answers":["Kanye West"],
     "options":["Ludacris", "Asher Roth", "DJ Khaled", "Rihanna", "Nicki Minaj"],
     "difficulty": 3,
@@ -11211,56 +11211,56 @@
     "categories":["law", "history"]
 },
 {
-    "question":"'Toto, I've a feeling we're no in Kansas anymore' is a quote from which film?",
+    "question":"\"Toto, I\"ve a feeling we\"re no in Kansas anymore\" is a quote from which film?",
     "answers":["The Wizard of Oz"],
     "options":["Interstellar", "Casablanca", "Harold and Maude", "Edward Scissorhands", "Rear Window", "Twister", "You Only Live Twice"],
     "difficulty": 3,
     "categories":["film", "quotes"]
 },
 {
-    "question":"What is the name of the dog from 'The Wizard of Oz'?",
+    "question":"What is the name of the dog from \"The Wizard of Oz\"?",
     "answers":["Toto"],
     "options":["Dug", "Copper", "Pongo", "Edward Scissorhands", "Dodger", "Nana", "Benji"],
     "difficulty": 4,
     "categories":["film", "literature"]
 },
 {
-    "question":"'Where do you want to go today' was a former slogan of which company?",
+    "question":"\"Where do you want to go today\" was a former slogan of which company?",
     "answers":["Microsoft"],
     "options":["Amazon", "Google", "Uber", "Visa", "Nokia", "CNN", "UPS"],
     "difficulty": 4,
     "categories":["business"]
 },
 {
-    "question":"'You're gonna need a bigger boat' is a quote from which film?",
+    "question":"\"You\"re gonna need a bigger boat\" is a quote from which film?",
     "answers":["Jaws"],
     "options":["Interstellar", "Casablanca", "Harold and Maude", "Edward Scissorhands", "Rear Window", "Twister", "You Only Live Twice", "The Wizard of Oz"],
     "difficulty": 2,
     "categories":["film", "quotes"]
 },
 {
-    "question":"According to Emily Dickinson 'Forever is composed of' what?",
+    "question":"According to Emily Dickinson \"Forever is composed of\" what?",
     "answers":["Nows"],
     "options":["Time", "Nothing", "Memories", "Ourselves", "Stars"],
     "difficulty": 4,
     "categories":["poetry", "quotes"]
 },
 {
-    "question":"Who played Rey in 'The Force Awakens'?",
+    "question":"Who played Rey in \"The Force Awakens\"?",
     "answers":["Daisy Ridley"],
     "options":["Lucy Hale", "Alexandra Chando", "Kristen Stewart", "Debby Ryan", "Emily Osment", "Lea Michele", "Nina Dobrev", "Lily Collins"],
     "difficulty": 4,
     "categories":["film"]
 },
 {
-    "question":"Which president famously said 'The only thing we have to fear is fear itself'?",
+    "question":"Which president famously said \"The only thing we have to fear is fear itself\"?",
     "answers":["Fraklin  D. Roosevelt"],
     "options":["Woodrow Wilson", "Harry S. Truman", "Dwight D. Eisenhower", "John F. Kennedy", "Lyndon B. Johnson"],
     "difficulty": 2,
     "categories":["quotes", "politics"]
 },
 {
-    "question":"Who wrote 'The Kingdom of God Is Within You' in 1894?",
+    "question":"Who wrote \"The Kingdom of God Is Within You\" in 1894?",
     "answers":["Leo Tolstoy"],
     "options":["William Shakespeare", "Edgar Allan Poe", "Charles Dickens", "Rabindranath Tagore", "Emily Dickinson", "Arthur Miller"],
     "difficulty": 4,
@@ -11344,21 +11344,21 @@
     "categories":["law"]
 },
 {
-    "question":"Which song did Patrick Bateman of American Psycho refair to as Huey Lewis and the News 'Undisputed masterpiece'?",
+    "question":"Which song did Patrick Bateman of American Psycho refair to as Huey Lewis and the News \"Undisputed masterpiece\"?",
     "answers":["Hip to be Square"],
     "options":["The Heart of Rock & Roll", "Stuck With You", "I Want a New Drug", "Heart and Soul", "I Know What I Like", "The Power of Love", "Heart and Soul"],
     "difficulty": 4,
     "categories":["film", "music", "quote"]
 },
 {
-    "question":"Who wrote the lyrics for 'Amazing Grace'?",
+    "question":"Who wrote the lyrics for \"Amazing Grace\"?",
     "answers":["John Newton"],
     "options":["Deryck Larry", "Ian Alford", "Rupert Dolan", "Earl Macgregor", "Cormac Forster"],
     "difficulty": 4,
     "categories":["film", "music", "quote"]
 },
 {
-    "question":"The 'Radium Girls' were female factory workers who contracted radiation poisoning while producing what?",
+    "question":"The \"Radium Girls\" were female factory workers who contracted radiation poisoning while producing what?",
     "answers":["Watches"],
     "options":["Radios", "Televisions", "Ovens", "Lightbulbs", "Hair Dryers", "Electric shavers", "Toasters"],
     "difficulty": 4,
@@ -11367,12 +11367,12 @@
 {
     "question":"Which of these is the name of an oath historically taken by physicians?",
     "answers":["Hippocratic oath"],
-    "options":["Platonoic oath", "Marxist oath", "Socratic oath", "Descartes' oath", "Anzimanderly oath", "Tzuan oath"],
+    "options":["Platonoic oath", "Marxist oath", "Socratic oath", "Descartes\" oath", "Anzimanderly oath", "Tzuan oath"],
     "difficulty": 5,
     "categories":["medicine"]
 },
 {
-    "question":"What is the missing word of Amazing Grace. 'Was ' what ', but now I see'?",
+    "question":"What is the missing word of Amazing Grace. \"Was \" what \", but now I see\"?",
     "answers":["Blind"],
     "options":["Young", "Wrong", "Helpless", "Amazing", "Lost", "Dark"],
     "difficulty": 2,
@@ -11444,7 +11444,7 @@
 {
     "question":"Which of these games was released first?",
     "answers":["Mario Bros."],
-    "options":["Super Mario Land", "Super Mario bros.", "Mario's Bombs Away", "Super Mario Kart", "Super Mario Odyssey", "Super Mario World"],
+    "options":["Super Mario Land", "Super Mario bros.", "Mario\"s Bombs Away", "Super Mario Kart", "Super Mario Odyssey", "Super Mario World"],
     "difficulty": 3,
     "categories":["videogames"]
 },
@@ -11498,21 +11498,21 @@
     "categories":["religion"]
 },
 {
-    "question":"Released in 1962, starring Bette David and Joan Crawford, finish the title of the film 'What Ever Happened to Baby?'?",
+    "question":"Released in 1962, starring Bette David and Joan Crawford, finish the title of the film \"What Ever Happened to Baby?\"?",
     "answers":["Jane"],
     "options":["Kinsley", "Dana", "Anne", "Rose", "Betty", "Danna"],
     "difficulty": 4,
     "categories":["film"]
 },
 {
-    "question":"What does the Q in 'QR code' stand for?",
+    "question":"What does the Q in \"QR code\" stand for?",
     "answers":["Quick"],
     "options":["Qualify", "Quotation", "Quaerter", "Quit"],
     "difficulty": 3,
     "categories":["technology"]
 },
 {
-    "question":"What does the R in 'QR code' stand for?",
+    "question":"What does the R in \"QR code\" stand for?",
     "answers":["Response"],
     "options":["Relative", "Real-time", "Result", "Request"],
     "difficulty": 3,
@@ -11554,7 +11554,7 @@
     "categories":["religion"]
 },
 {
-    "question":"Who wrote 'The Masque of the Red Death' in 1842?",
+    "question":"Who wrote \"The Masque of the Red Death\" in 1842?",
     "answers":["Edgar Allan Poe"],
     "options":["Ernest Hemingway", "Charles Dickens", "Virginia Woolf", "Mark Twain", "William Shakespeare", "Roald Dahl"],
     "difficulty": 4,
@@ -11582,7 +11582,7 @@
         "categories":["currency", "technology"]
     },
     {
-        "question":"Which U.S state is known as the 'Sunshine State'?",
+        "question":"Which U.S state is known as the \"Sunshine State\"?",
         "answers":["Florida"],
         "options":["Illinois", "Massachusetts", "Washingston", "Pennsylvania", "Michigan", "Louisiana", "Colorado", "Texas", "Oregan", "Arizona", "Tennessee", "California", "North Carolina", "Georgia", "Minnesota", "Nevada"],
         "difficulty": 2,
@@ -11596,7 +11596,7 @@
         "categories":["film"]
     },
     {
-        "question":"According to the proverb, 'Birds of Feather' what 'Together'?",
+        "question":"According to the proverb, \"Birds of Feather\" what \"Together\"?",
         "answers":["Flock"],
         "options":["Nest", "Fly", "Sing", "Move"],
         "difficulty": 3,
@@ -11631,14 +11631,14 @@
         "categories":[ "politics", "history"]
     },
     {
-        "question":"'The lady doth protest too much, methinks' is a quote from which Shakespeare work?",
+        "question":"\"The lady doth protest too much, methinks\" is a quote from which Shakespeare work?",
         "answers":["Hamlet"],
         "options":["MacBeth", "Romeo and Juliet", "The Tempest", "Measure for Measure"],
         "difficulty": 3,
         "categories":[ "quote"]
     },
     {
-        "question":"'Nature hath given men one tongue but two ears, that we may, hear from others twice as much as we speak' is a quote from whom?",
+        "question":"\"Nature hath given men one tongue but two ears, that we may, hear from others twice as much as we speak\" is a quote from whom?",
         "answers":["Epictetus"],
         "options":["Herodotus", "Plato", "Karl Marx", "Socrates", "Confucius", "Damascus", "Rene Descartes", "Anazimander", "Heraclitus", "Anaxagoras", "Lao Tzu"],
         "difficulty": 5,
@@ -11659,20 +11659,20 @@
         "categories":[ "nature"]
     },
     {
-        "question":"Who directed the 1955 film 'To Catch a Thief'?",
+        "question":"Who directed the 1955 film \"To Catch a Thief\"?",
         "answers":["Alfred Hitchcock"],
         "options":["John Huston", "Milos Forman", "Ingmar Bergman", "Charlie Chaplin"],
         "difficulty": 4,
         "categories":["film"]
     },
     {
-        "question":"Who played Frances Stevens in the 1955 film 'To Catch a Thief'?",
+        "question":"Who played Frances Stevens in the 1955 film \"To Catch a Thief\"?",
         "answers":["Grace Kelly"],
         "options":["Marilyn Monroe", "Ava Gardner", "Audrey Hepburn", "Natalie Wood"],
         "difficulty": 4,
         "categories":["film"]
     },{
-    "question":"Who released the album 'Hurts 2B Human' in 2019?",
+    "question":"Who released the album \"Hurts 2B Human\" in 2019?",
     "answers":["Pink"],
     "options":["P. Diddy", "Maroon 5", "Dua Lipa", "Logic", "Harry Styles", "Nicki Minaj"],
     "difficulty": 4,
@@ -11686,7 +11686,7 @@
         "categories":["flags"]
     },
     {
-        "question":"What is the name of the cat from 'Alice in Wonderland'?",
+        "question":"What is the name of the cat from \"Alice in Wonderland\"?",
         "answers":["Cheshire Cat"],
         "options":["Ellesmere Cat", "Alton Car", "Braintree Cat", "Dursley Cat", "Potton Cat", "Westerham Cat"],
         "difficulty": 3,
@@ -11707,7 +11707,7 @@
         "categories":["flags"]
     },
     {
-        "question":"Which country's flag is known as the 'Danneborg'?",
+        "question":"Which country\"s flag is known as the \"Danneborg\"?",
         "answers":["Denmark"],
         "options":["Finland", "Germany", "Ireland", "Suriname", "Mozampique", "Amsterdam"],
         "difficulty": 2,
@@ -11763,35 +11763,35 @@
         "categories":["sports"]
     },
     {
-        "question":"Who directed 1944's 'Double Indemnity'?",
+        "question":"Who directed 1944\"s \"Double Indemnity\"?",
         "answers":["Billy Wilder"],
         "options":["Alfred Hitchcock", "William Wyler", "Orson Welles", "Michael Curtiz", "Frank Capra"],
         "difficulty": 5,
         "categories":["film"]
     },
     {
-        "question":"Who voiced the genie in 1992's Aladdin?",
+        "question":"Who voiced the genie in 1992\"s Aladdin?",
         "answers":["Robin Williams"],
         "options":["Tom Hanks", "Anthony Hopkins", "Kevin Costner", "Kevin Kline", "Gary Oldman", "Ralph Fiennes", "Jeremy Irons"],
         "difficulty": 2,
         "categories":["film"]
     },
     {
-        "question":"Who wrote 'The Three Musketeers'?",
+        "question":"Who wrote \"The Three Musketeers\"?",
         "answers":["Alexandre Dumas"],
         "options":["Victor Hugo", "Leo Tolstoy", "Anton Chekhov", "Marcel Proust", "Ralph Fiennes", "Maxim Gorky", "Ralph Waldo Emerson","Virginia Woolf"],
         "difficulty": 3,
         "categories":["authors", "literature"]
     },
     {
-    "question":"When was 'The Three Musketeers' by Alexandre Dumas written?",
+    "question":"When was \"The Three Musketeers\" by Alexandre Dumas written?",
     "answers":["1844"],
     "options":["1944", "1744", "1794", "1894", "1811", "1711", "1911"],
     "difficulty": 4,
     "categories":["literature", "authors"]
     },
     {
-        "question":"Alexandre Dumas, the writer of 'The Three Musketeers' was from which country?",
+        "question":"Alexandre Dumas, the writer of \"The Three Musketeers\" was from which country?",
         "answers":["France"],
         "options":["The United Kingdom", "The United States", "Amsterdam", "Germany", "Poland", "Belgium"],
         "difficulty": 4,
@@ -11805,9 +11805,9 @@
         "categories":["literature", "film"]
     },
     {
-        "question":"A 'Horcrux' belongs to which fictional universe?",
+        "question":"A \"Horcrux\" belongs to which fictional universe?",
         "answers":["Harry Potter"],
-        "options":["The Lord of the Rings", "Avatar", "The Avengers", "DargonHeart", "Pan's Labyrinth"],
+        "options":["The Lord of the Rings", "Avatar", "The Avengers", "DargonHeart", "Pan\"s Labyrinth"],
         "difficulty": 3,
         "categories":["literature", "film"]
     },{
@@ -11817,19 +11817,19 @@
     "difficulty": 3,
     "categories":["literature", "film"]
     },{
-    "question":"When was 'Harry Potter and the Sorcerer's stone' first published?",
+    "question":"When was \"Harry Potter and the Sorcerer\"s stone\" first published?",
     "answers":["1997"],
     "options":["1998", "1995", "1996", "1999", "2001", "2000", "2002", "2003", "2004", "2005", "2006"],
     "difficulty": 3,
     "categories":["literature"]
 },{
-    "question":"Who was the lead singer of 'Big Brother and the Holding Company' when they released their self-titled album?",
+    "question":"Who was the lead singer of \"Big Brother and the Holding Company\" when they released their self-titled album?",
     "answers":["Janis Joplin"],
     "options":["Dusty Springfield", "Barbra Streisand", "Aretha Franklin", "Tina Turner", "Shirley Bassey", "Diana Ross"],
     "difficulty": 3,
     "categories":["literature"]
 },{
-    "question":"Complete the Sigmund Freud quote, 'If youth knew; if age' what?",
+    "question":"Complete the Sigmund Freud quote, \"If youth knew; if age\" what?",
     "answers":["Could"],
     "options":["Should", "Would", "Wood"],
     "difficulty": 3,
@@ -11853,19 +11853,19 @@
     "difficulty": 4,
     "categories":["transport", "business"]
 },{
-    "question":"Which American city is known as the 'Motor City'?",
+    "question":"Which American city is known as the \"Motor City\"?",
     "answers":["Detroit"],
     "options":["Portland", "Boston", "Chicago", "Houston", "Seattle"],
     "difficulty": 3,
     "categories":["misc"]
 },{
-    "question":"Which of these is not part of the 'Big Five' extinctions?",
+    "question":"Which of these is not part of the \"Big Five\" extinctions?",
     "answers":["End Jurassic"],
     "options":["End Ordovician", "Late Devonian", "End Permian", "End Triassic", "End Cretaceous"],
     "difficulty": 5,
     "categories":["misc", "geology"]
 },{
-    "question":"Which of these is not part of the 'Ungulates'?",
+    "question":"Which of these is not part of the \"Ungulates\"?",
     "answers":["Dogs", "Chickens"],
     "options":["Horses", "Cattle", "Giraffes", "Sheep", "Deer", "Pigs", "Camels", "Hippopotamuses"],
     "difficulty": 4,
@@ -11883,7 +11883,7 @@
     "difficulty": 4,
     "categories":["animals", "medicine", "nature", "history"]
 },{
-    "question":"Georges Cuvier is often known as the 'Founding father' of what?",
+    "question":"Georges Cuvier is often known as the \"Founding father\" of what?",
     "answers":["Paleontology"],
     "options":["Film", "Fitness", "Abuse Counselling", "Statistics","Physics", "Engineering", "Landscaping", "Food science"],
     "difficulty": 4,
@@ -11895,19 +11895,19 @@
         "difficulty": 4,
         "categories":["history"]
     }, {
-    "question":"Coined by John Phillips in 1841, what did 'Paleozoic' mean?",
+    "question":"Coined by John Phillips in 1841, what did \"Paleozoic\" mean?",
     "answers":["Ancient life"],
     "options":["New life", "Middle life", "Beginning life", "Bacterial life"],
     "difficulty": 4,
     "categories":["history"]
 }, {
-    "question":"Coined by John Phillips in 1841, what did 'Cenozoic' mean?",
+    "question":"Coined by John Phillips in 1841, what did \"Cenozoic\" mean?",
     "answers":["New life"],
     "options":["Ancient life", "Middle life", "Beginning life", "Bacterial life"],
     "difficulty": 4,
     "categories":["history"]
 }, {
-    "question":"Coined by John Phillips in 1841, what did 'Mesozoic' mean?",
+    "question":"Coined by John Phillips in 1841, what did \"Mesozoic\" mean?",
     "answers":["Middle life"],
     "options":["Ancient life", "New life", "Beginning life", "Bacterial life"],
     "difficulty": 4,
@@ -11950,11 +11950,65 @@
     "difficulty": 3,
     "categories":["animals"]
 },{
-    "question":"'And ye shall know the truth, and the truth shall make you free'?",
-    "answers":["Mosquitos"],
-    "options":["Humans", "Snakes", "Dogs"],
+    "question":"\"And ye shall know the truth, and the truth shall make you free\" is from which bible verse?",
+    "answers":["John 8:32"],
+    "options":["Proverbs 18:2","Matthew 18:2", "Genesis 18:2", "Leviticus 18:2", "Exodus 18:2"],
+    "difficulty": 5,
+    "categories":["religion"]
+},{
+    "question":"Which civil war took place from 1975-1990",
+    "answers":["Lebanese Civil War"],
+    "options":["United States Civil War","Syrian Civil War", "Bosnian Civil War", "Somali Civil War"],
     "difficulty": 3,
-    "categories":["animals"]
-},
+    "categories":["war", "history"]
+},{
+    "question":"When did the Lebanese Civil War start?",
+    "answers":["1975"],
+    "options":["1960","1955", "1980", "1970", "1965", "1945", "1950", "1955"],
+    "difficulty": 5,
+    "categories":["war", "history"]
+},{
+    "question":"When did the Lebanese Civil War end?",
+    "answers":["1990"],
+    "options":["1960","1955", "1980", "1970", "1965", "1945", "1950", "1955", "1980", "1985", "1975"],
+    "difficulty": 5,
+    "categories":["war", "history"]
+},{
+    "question":"An extremely difficult or involved problem can be called a what?",
+    "answers":["A Gordian knot"],
+    "options":["A Gargantuan knot","A Gorgamite knot", "A Gorgeon knot", "A Gallop knot", "A Grouning knot"],
+    "difficulty": 4,
+    "categories":["language"]
+},{
+    "question":"In 1998, Hilary Clinton said who, \"have always been the primary victims of war\"?",
+    "answers":["Women"],
+    "options":["Men","Soldiers", "Medics", "Children"],
+    "difficulty": 4,
+    "categories":["quote"]
+},{
+    "question":"What is the name of a psychological disorder where someone pretends to be ill or deliberately produces symptoms of illness in themselves?",
+    "answers":["Munchausens syndrome"],
+    "options":["Barret syndrome","Ashermans syndrome", "Fisher syndrome", "Irritable bowel syndrome", "Turners syndrome", "Marfan syndrome"],
+    "difficulty": 3,
+    "categories":["medicine"]
+},{
+    "question":"\"A time comes when\" when what  \"is betrayal\", according to Martin Luther King Jr.?",
+    "answers":["Silence"],
+    "options":["Truth","Honesty", "Friendship", "Thinking"],
+    "difficulty": 4,
+    "categories":["quote"]
+},{
+    "question":"What is the word for a Muslim who knows the Koran by heart",
+    "answers":["Hafiz"],
+    "options":["Hazim","Harim", "Palif", "Hatirm", "Harif"],
+    "difficulty": 4,
+    "categories":["religion"]
+},{
+    "question":"In 1988 David Duke, entered the presidential election for which party",
+    "answers":["Democratic"],
+    "options":["Republican"],
+    "difficulty": 3,
+    "categories":["politics"]
+}
 
 ]

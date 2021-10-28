@@ -90,17 +90,28 @@ public class Player extends Mob {
 			checkUsingItemInput();
 			checkDroppingItemInput();
 			updateHitboxes();
+			updateSelectedItem();
 		}
 		updateAnimation();
 		if(!dying){
 			poisonPlayer();
-		} else if(dying && animation == null){
-			game.addDrawObject(new Corpse(game.player.x, game.player.y, poisonAnim[17]));
+		}
+		if(dying && animation == null){
+			game.addDrawObject(new Corpse(x, y, poisonAnim[17]));
 			killPlayer(poisonAnim[17]);
-			game.replaceCurrentPlayer();
+			if(currentPlayer){
+				game.replaceCurrentPlayer();
+			}
+			isDead = true;
 		}
 
 
+	}
+
+	private void updateSelectedItem() {
+		if(inventory[playerSelection] != null){
+			inventory[playerSelection].updateSelected(game);
+		}
 	}
 
 	public void animatePlayer(){
@@ -123,6 +134,12 @@ public class Player extends Mob {
 				game.createItem(x - 32 + xOffset, y + 40 + yOffset, inventory[i].name);
 			}
 		}
+	}
+
+	public void movePlayer(int x, int y){
+		this.x = x;
+		this.y = y;
+		updateHitboxes();
 	}
 
 	private void updateHitboxes(){

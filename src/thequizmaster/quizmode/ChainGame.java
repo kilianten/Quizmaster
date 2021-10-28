@@ -65,8 +65,7 @@ public class ChainGame extends MainEvent {
 		for(Player player: allPlayers){
 			player.animation = new Animation(1, player.chainGameWaiting, player, random.nextInt(50), true);
 			saws.add(new ChainGameSaw(room.topLeftCornerX + sawOffsetX, sawYOffest, game));
-			player.x = room.topLeftCornerX + sawOffsetX + 32;
-			player.y = sawYOffest + 54;
+			player.movePlayer(room.topLeftCornerX + sawOffsetX + 32, sawYOffest + 54);
 			sawOffsetX += 64;
 			lights.add(new ChainGameLight(room.topLeftCornerX + sawOffsetX - 48, sawYOffest - 3, game, player));
 		}
