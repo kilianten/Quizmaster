@@ -14,7 +14,6 @@ public class PoisonSyringe extends Item {
     public boolean use(Player player, MainGame game){
         Player otherPlayer = game.isSpecficObjectCollidingWithPeople(player.interactionBox);
         if(otherPlayer != null){
-            System.out.println("poisoned other");
             otherPlayer.decreasePoisonLevel(40);
         } else {
             player.decreasePoisonLevel(40);

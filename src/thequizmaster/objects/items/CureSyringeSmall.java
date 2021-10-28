@@ -11,8 +11,20 @@ public class CureSyringeSmall extends Item {
     }
 
     public boolean use(Player player, MainGame game){
-        player.increasePoisonLevel(30);
+        Player otherPlayer = game.isSpecficObjectCollidingWithPeople(player.interactionBox);
+        if(otherPlayer != null){
+            otherPlayer.increasePoisonLevel(40);
+        } else {
+            player.increasePoisonLevel(40);
+        }
         return true;
+    }
+
+    public void updateSelected(MainGame game){
+        Player otherPlayer = game.isSpecficObjectCollidingWithPeople(game.player.interactionBox);
+        if(otherPlayer != null){
+            game.setInteractingMessage("Cure " + otherPlayer.fname + "?");
+        }
     }
 
 }
