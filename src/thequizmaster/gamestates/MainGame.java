@@ -132,12 +132,13 @@ public class MainGame extends GameState {
 				if(player.input.interacting){
 					level.interactablebjects.get(i).isInteractedWith(this);
 					player.input.interacting = false;
+
 				}
 				break;
 			}
 		}
 		player.input.interacting = false;
-		if(!foundInteractiveObject){
+		if(!foundInteractiveObject || quiz != null){
 			interactingMessage = "";
 		}
 
@@ -387,6 +388,13 @@ public class MainGame extends GameState {
 		player = people.get(0);
 		player.currentPlayer = true;
 		people.remove(player);
+	}
+
+	public void setPlayersForward() {
+		for(Player p: people){
+			p.dir = 2;
+		}
+		player.dir = 2;
 	}
 
 	public void addDrawObject(GameObject object) {

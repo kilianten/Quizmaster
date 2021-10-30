@@ -18,7 +18,6 @@ public class CollidableObject extends GameObject {
 	}
 
 	public void isInteractedWith(MainGame mainGame) {
-
 	}
 	
 }

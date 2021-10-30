@@ -44,6 +44,10 @@ public class Level {
 		interactablebjects.add(collObject);
 	}
 
+	public void removeInteractableObject(CollidableObject collObject) {
+		interactablebjects.remove(collObject);
+	}
+
 	protected void loadLevel(String path) {
 
 	}

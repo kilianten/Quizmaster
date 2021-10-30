@@ -328,7 +328,7 @@ public class Player extends Mob {
 		questionKnowledge.put("politics", 0);
 		questionKnowledge.put("quotes", 0);
 		questionKnowledge.put("history", 0);
-		questionKnowledge.put("books", 0);
+		questionKnowledge.put("literature", 0);
 		questionKnowledge.put("sports", 0);
 		questionKnowledge.put("film", 0);
 		questionKnowledge.put("music", 0);

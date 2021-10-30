@@ -1,5 +1,6 @@
 package thequizmaster.level;
 
+import thequizmaster.Constants;
 import thequizmaster.gamestates.MainGame;
 import thequizmaster.objects.traps.StartButton;
 import thequizmaster.quizmode.MainEvent;
@@ -22,6 +23,14 @@ public class Room {
         this.topLeftCornerX = topLeftCornerX * 32;
         this.topLeftCornerY = topLeftCornerY * 32;
         isUsed = false;
+    }
+
+    public int getCenterX(){
+        return topLeftCornerX + (width * Constants.DEFAULT_SPRITE_SIZE)/2;
+    }
+
+    public int getCenterY(){
+        return topLeftCornerY + (height * Constants.DEFAULT_SPRITE_SIZE)/2;
     }
 
 

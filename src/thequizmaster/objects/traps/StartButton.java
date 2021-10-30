@@ -21,9 +21,11 @@ public class StartButton extends CollidableObject
         this.room = room;
         this.game = game;
         event = room.event;
-        this.x = room.topLeftCornerX + (room.width * Constants.DEFAULT_SPRITE_SIZE)/2;
-        this.y = room.topLeftCornerY + ( room.height * Constants.DEFAULT_SPRITE_SIZE)/2;
-        hitbox = new Hitbox(x, y, 6, 40, 25, 22);
+        System.out.println(room.topLeftCornerX);
+        System.out.println(room.width + " WIDTH");
+        this.x = room.getCenterX() - Constants.DEFAULT_ENTITY_SIZE/2;
+        this.y = room.getCenterY()  - Constants.DEFAULT_ENTITY_SIZE;
+        hitbox = new Hitbox(x, y, 8, 42, 25, 20);
         sprite =  TrapSprites.startButtonSprite;
         canWalkThrough = false;
         game.addDrawObject(this);
@@ -38,6 +40,7 @@ public class StartButton extends CollidableObject
     public void isInteractedWith(MainGame mainGame) {
         mainGame.player.dir = 0;
         createEvent();
+        mainGame.removeInteractableObject(this);
     }
 
     public void createEvent(){

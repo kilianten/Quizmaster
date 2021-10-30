@@ -16,7 +16,7 @@ public class Nolan extends Player {
 		x = 74 * 32;
 		y = 74 * 32;
 		questionKnowledge.put("religion", 4);
-		questionKnowledge.put("books", 2);
+		questionKnowledge.put("literature", 2);
 	}
 	
 	public void setAnims() {

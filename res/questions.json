@@ -184,7 +184,7 @@
     "categories":["quotes"]
 },
 {
-    "question":"\"In a self-sufficient manner, thereby carrying all of one\"s food, shelter and equipment as one climbs\" desribes which mountaineering style?",
+    "question":"\"In a self-sufficient manner, thereby carrying all of ones food, shelter and equipment as one climbs\" desribes which mountaineering style?",
     "answers":["Alpine style"],
     "options":["Expedition style", "Traditional Style", "Bouldering", "Free-Solo climbing", "Scrambling style"],
     "difficulty":4,
@@ -275,7 +275,7 @@
     "categories":["language"]
 },
 {
-    "question":"Who invented the world\"s first vaccine?",
+    "question":"Who invented the worlds first vaccine?",
     "answers":["Edward Jenner"],
     "options":["Galen", "Virginia Apgar", "Jonas Salk", "William Osler"],
     "difficulty": 3,
@@ -325,7 +325,7 @@
 },
 {
     "question":"In which theatre was Abraham Lincoln assassinated?",
-    "answers":["Ford\"s Theatre"],
+    "answers":["Fords Theatre"],
     "options":["Central City Opera House", "Fox Theatre", "Dock Street Theatre"],
     "difficulty": 4,
     "categories":["history"]
@@ -338,7 +338,7 @@
     "categories":["history"]
 },
 {
-    "question":"Assassinated in 44BC, what was Caesar\"s full name?",
+    "question":"Assassinated in 44BC, what was Caesars full name?",
     "answers":["Gaius Julius Caesar"],
     "options":["Julius Caesar", "Julius Senneca Caesar", "Julius Albertus Caesar"],
     "difficulty": 3,
@@ -464,7 +464,7 @@
     "categories":["history"]
 },
 {
-    "question":"What was the name of Hitler\"s wife?",
+    "question":"What was the name of Hitlers wife?",
     "answers":["Eva Braun"],
     "options":["Marie Müller", "Luarie Schneider", "Mia Fischer"],
     "difficulty": 1,
@@ -492,7 +492,7 @@
     "categories":["quotes"]
 },
 {
-    "question":"IBM\"s Deep Blue chess-playing computer defeated which chess grandmaster in 1996 & 1997?",
+    "question":"IBMs Deep Blue chess-playing computer defeated which chess grandmaster in 1996 & 1997?",
     "answers":["Garry Kasparov"],
     "options":["Bobby Fischer", "Magnus Carlsen", "Anatoly Karpov", "Boris Spassky"],
     "difficulty": 3,
@@ -1066,35 +1066,35 @@
     "categories":["geography"]
 },
 {
-    "question":"Which city is South Africa\"s executive capital?",
+    "question":"Which city is South Africas executive capital?",
     "answers":["Pretoria"],
     "options":["Bloemfontein", "Cape Town", "Durban", "Johannesburg"],
     "difficulty": 5,
     "categories":["geography"]
 },
 {
-    "question":"Which city is South Africa\"s judicial capital?",
+    "question":"Which city is South Africas judicial capital?",
     "answers":["Bloemfontein"],
     "options":["Pretoria", "Cape Town", "Durban", "Johannesburg"],
     "difficulty": 5,
     "categories":["geography"]
 },
 {
-    "question":"Which city is South Africa\"s legislative capital?",
+    "question":"Which city is South Africas legislative capital?",
     "answers":["Cape Town"],
     "options":["Pretoria", "Bloemfontein", "Durban", "Johannesburg"],
     "difficulty": 5,
     "categories":["geography"]
 },
 {
-    "question":"Which city is South Africa\"s largest?",
+    "question":"Which city is South Africas largest?",
     "answers":["Johannesburg"],
     "options":["Pretoria", "Bloemfontein", "Durban", "Cape Town"],
     "difficulty": 5,
     "categories":["geography"]
 },
 {
-    "question":"Which city is South Africa\"s largest?",
+    "question":"Which city is South Africas largest?",
     "answers":["Johannesburg"],
     "options":["Pretoria", "Bloemfontein", "Durban", "Cape Town"],
     "difficulty": 5,
@@ -1206,7 +1206,7 @@
     "categories":["literature"]
 },
 {
-    "question":"During World War II, B. F. Skinner\"s attempted to develop missiles guided by what?",
+    "question":"During World War II, B. F. Skinners attempted to develop missiles guided by what?",
     "answers":["Pigeons"],
     "options":["Tornados", "Voice", "Radiowaves", "Heat", "GPS"],
     "difficulty":3,
@@ -1341,7 +1341,7 @@
 {
     "question":"What is a \"moniker\"?",
     "answers":["A name"],
-    "options":["An old Russian currency", "A tool", "One of Saturn\"s planets", "A priest"],
+    "options":["An old Russian currency", "A tool", "One of Saturns planets", "A priest"],
     "difficulty":3,
     "categories":["language"]
 },
@@ -1396,7 +1396,7 @@
 },
 {
     "question":"Dandelion comes from the French meaning what?",
-    "answers":["Lion\"s Tooth"],
+    "answers":["Lions Tooth"],
     "options":["Bright and Yellow", "Gift of Leon", "Bright Leaves"],
     "difficulty":1,
     "categories":["language", "flowers"]
@@ -1445,13 +1445,13 @@
 },
 {
     "question":"When did the Irish famine take place?",
-    "answers":["1840\"s"],
-    "options":["1820\"s", "1790\"s", "1800\"s", "1640\"s", "1690\"s", "1750\"s", "1830\"s"],
+    "answers":["1840s"],
+    "options":["1820s", "1790s", "1800s", "1640s", "1690s", "1750s", "1830s"],
     "difficulty":3,
     "categories":["history"]
 },
 {
-    "question":"Approximately how many Irish people migrated to America during the 1840\"s?",
+    "question":"Approximately how many Irish people migrated to America during the 1840s?",
     "answers":["1.5 million"],
     "options":["3 million", "500 thousand", "4.3 million", "3.7 million"],
     "difficulty":3,
@@ -1572,7 +1572,7 @@
 {
     "question":"Which if theses is an oxymoron?",
     "answers":["Living dead"],
-    "options":["Racecar", "Happy Trucker", "Eskimo\"s Igloo", "Lone wolf"],
+    "options":["Racecar", "Happy Trucker", "Eskimos Igloo", "Lone wolf"],
     "difficulty":2,
     "categories":["language"]
 },
@@ -1633,7 +1633,7 @@
     "categories":["nature"]
 },
 {
-    "question":"From what animal\"s milk is the drink \"kumis\" made from?",
+    "question":"From what animals milk is the drink \"kumis\" made from?",
     "answers":["Mare"],
     "options":["Goat", "Horse", "Frog", "Dog"],
     "difficulty":3,
@@ -1921,8 +1921,8 @@
 },
 {
     "question":"When was aluminium discovered?",
-    "answers":["1820\"s"],
-    "options":["1620\"s", "1720\"s", "1920\"s", "1520\"s", "1320\"s", "1220\"s"],
+    "answers":["1820s"],
+    "options":["1620s", "1720s", "1920s", "1520s", "1320s", "1220s"],
     "difficulty":4,
     "categories":["science", "history"]
 },
@@ -2018,7 +2018,7 @@
     "categories":["geography"]
 },
 {
-    "question":"When was Bailey\"s Irish Cream founded?",
+    "question":"When was Baileys Irish Cream founded?",
     "answers":["1971"],
     "options":["1954", "1901", "1856", "1783", "1726"],
     "difficulty":4,
@@ -2083,7 +2083,7 @@
 {
     "question":"What is the name of the superocean that surrounded the supercontinent Pangaea?",
     "answers":["Panthalassa"],
-    "options":["Pangea\"s ocean", "Antartalea", "Articuno", "Aguisque", "Volupat"],
+    "options":["Pangeas ocean", "Antartalea", "Articuno", "Aguisque", "Volupat"],
     "difficulty": 4,
     "categories":["geography", "history"]
 },
@@ -2165,14 +2165,14 @@
     "categories":["geography"]
 },
 {
-    "question":"Tyrannosaurus Rex\"s name translates to \"King Tyrant Lizard\"",
+    "question":"Tyrannosaurus Rexs name translates to \"King Tyrant Lizard\"",
     "answers":["True"],
     "options":["False"],
     "difficulty": 2,
     "categories":["language"]
 },
 {
-    "question":"Tyrannosaurus Rex\"s name translates to \"Reptile beast of pre world\"",
+    "question":"Tyrannosaurus Rexs name translates to \"Reptile beast of pre world\"",
     "answers":["False"],
     "options":["True"],
     "difficulty": 2,
@@ -2263,28 +2263,28 @@
     "categories":["geography"]
 },
 {
-    "question":"\"Beware of false prophets, which come to you in sheep\"s clothing, but inwardly they are ravening wolves\" is what bible verse?",
+    "question":"\"Beware of false prophets, which come to you in sheeps clothing, but inwardly they are ravening wolves\" is what bible verse?",
     "answers":["Matthew 7:15"],
     "options":["Matthew 9:2", "Leviticus 2:5", "Jeremiah 7:1"],
     "difficulty": 4,
     "categories":["quotes", "religion"]
 },
 {
-    "question":"Who discovered Alzheimer\"s disease?",
+    "question":"Who discovered Alzheimers disease?",
     "answers":["Dr. Alois Alzheimer"],
     "options":["Dr. Andrew Alzheimer", "Dr. Alveris Alzheimer", "Dr. Alzheimer Muller"],
     "difficulty": 3,
     "categories":["science"]
 },
 {
-    "question":"Where was Dr. Alois Alzheimer, the discoverer of Alzheimer\"s disease from?",
+    "question":"Where was Dr. Alois Alzheimer, the discoverer of Alzheimers disease from?",
     "answers":["Germany"],
     "options":["Holland", "Austria", "Sweden", "Denmark", "Norway", "Finland", "Russia", "Lithuania", "Macedonia"],
     "difficulty": 3,
     "categories":["science", "geography"]
 },
 {
-    "question":"When did Dr. Alois Alzheimer discover Alzheimer\"s disease?",
+    "question":"When did Dr. Alois Alzheimer discover Alzheimers disease?",
     "answers":["1906"],
     "options":["1901", "1891", "1909", "1864", "1955", "1847"],
     "difficulty": 4,
@@ -2326,7 +2326,7 @@
     "categories":["geography"]
 },
 {
-    "question":"\"Sleep that knits up the ravell\"d sleave of care, the death of each day\"s life, sore labour\"s bath, balm of hurt minds, great nature\"s second course, chief nourisher in life\"s feast\" is a quote from which Shakespeare work?",
+    "question":"\"Sleep that knits up the ravell\"d sleave of care, the death of each days life, sore labours bath, balm of hurt minds, great natures second course, chief nourisher in lifes feast\" is a quote from which Shakespeare work?",
     "answers":["Macbeth"],
     "options":["Hamlet", "Romeo and Juliet", "The Tempest", "Measure for Measure"],
     "difficulty": 3,
@@ -2348,7 +2348,7 @@
 },
 {
     "question":"Amyloid beta are crucially involved in what?",
-    "answers":["Alzheimer\"s disease"],
+    "answers":["Alzheimers disease"],
     "options":["Diabetes", "Herpes", "Bronchitis"],
     "difficulty": 4,
     "categories":["science"]
@@ -2466,7 +2466,7 @@
     "categories":["quotes", "religion"]
 },
 {
-    "question":"Where were ATM\"s fisrt introduced?",
+    "question":"Where were ATMs fisrt introduced?",
     "answers":["England"],
     "options":["China", "The United States", "Japan", "France", "Amsterdam"],
     "difficulty": 2,
@@ -2494,7 +2494,7 @@
     "categories":["TV"]
 },
 {
-    "question":"December 9 1978 saw the first women\"s professional league game of which sport?",
+    "question":"December 9 1978 saw the first womens professional league game of which sport?",
     "answers":["Basketball"],
     "options":["Baseball", "Rugby", "Soccer", "Tennis"],
     "difficulty": 3,
@@ -2592,7 +2592,7 @@
     "categories":["nature"]
 },
 {
-    "question":"Which band had an album that\"s artwork is based on radio waves from pulsar CP 1919",
+    "question":"Which band had an album thats artwork is based on radio waves from pulsar CP 1919",
     "answers":["Joy Division"],
     "options":[ "Pink Flyod", "The Beatles", "The Artic Monkeys", "The Strokes", "AC/DC", "Bon Jovi"],
     "difficulty": 3,
@@ -2615,7 +2615,7 @@
 {
     "question":"What is the paradox which describes the apparent contradiction between the lack of evidence and high possibility for extraterrestrial life?",
     "answers":["The Fermi Paradox"],
-    "options":["The Expectation Paradox", "Fletcher\"s Paradox", "Socratic Paradox", "The Solavida Paradox"],
+    "options":["The Expectation Paradox", "Fletchers Paradox", "Socratic Paradox", "The Solavida Paradox"],
     "difficulty": 3,
     "categories":["science"]
 },
@@ -2643,7 +2643,7 @@
 {
     "question":"A \"Sobriquet\" is a what?",
     "answers":["A nickname"],
-    "options":["A man who flirts", "A woman\"s hat", "A monacle", "A car part"],
+    "options":["A man who flirts", "A womans hat", "A monacle", "A car part"],
     "difficulty": 3,
     "categories":["language"]
 },
@@ -2830,7 +2830,7 @@
     "categories":["science"]
 },
 {
-    "question":"\"It always seems impossible until it\"s done\" is a quote from whom?",
+    "question":"\"It always seems impossible until its done\" is a quote from whom?",
     "answers":["Nelson Mandela"],
     "options":["Charles Darwin", "Rene Descartes", "Isaac Newton", "Stephen Hawking", "Marthin Luther King Jr.", "Ronald Regan", "George Orwell", "Lao Tzu", "Muhammad Ali", "Albert Einstein", "Stephen Jobs", "Bill Gates"],
     "difficulty": 3,
@@ -2851,7 +2851,7 @@
     "categories":["quotes"]
 },
 {
-    "question":"Who is Bart Simpson\"s best friend?",
+    "question":"Who is Bart Simpsons best friend?",
     "answers":["Milhouse Van Houten"],
     "options":["Jimbo Jones", "Ralph Wiggum", "Nelson Muntz", "Martin Prince"],
     "difficulty": 1,
@@ -3104,8 +3104,8 @@
 },
 {
     "question":"In what decade did the Cuban Missile Crisis take place?",
-    "answers":["1960\"s"],
-    "options":["1970\"s", "1950\"s", "1940\"s", "1930\"s"],
+    "answers":["1960s"],
+    "options":["1970s", "1950s", "1940s", "1930s"],
     "difficulty": 2,
     "categories":["history"]
 },
@@ -3264,21 +3264,21 @@
     "categories":["geography"]
 },
 {
-    "question":"What is the most abundant element on the Earth\"s crust?",
+    "question":"What is the most abundant element on the Earths crust?",
     "answers":["Oxegen"],
     "options":["Silicon", "Aluminium", "Iron", "Calcium", "Sodium", "Magnesium", "Potassium", "Titanium", "Hydrogen"],
     "difficulty": 2,
     "categories":["science"]
 },
 {
-    "question":"What is the second most abundant element on the Earth\"s crust?",
+    "question":"What is the second most abundant element on the Earths crust?",
     "answers":["Silicon"],
     "options":["Oxegen", "Aluminium", "Iron", "Calcium", "Sodium", "Magnesium", "Potassium", "Titanium", "Hydrogen"],
     "difficulty": 3,
     "categories":["science"]
 },
 {
-    "question":"What is the third most abundant element on the Earth\"s crust?",
+    "question":"What is the third most abundant element on the Earths crust?",
     "answers":["Aluminium"],
     "options":["Oxegen", "Silicon", "Iron", "Calcium", "Sodium", "Magnesium", "Potassium", "Titanium", "Hydrogen"],
     "difficulty": 4,
@@ -3733,9 +3733,9 @@
     "categories":["literature"]
 },
 {
-    "question":"What is the furthest point on Earth from Earth\"s center?",
-    "answers":["Mount Chimborazo\"s peak"],
-    "options":["K2\"s peak", "Mount Everest\"s peak", "Burj Khalifa\"s peak"],
+    "question":"What is the furthest point on Earth from Earths center?",
+    "answers":["Mount Chimborazos peak"],
+    "options":["K2s peak", "Mount Everests peak", "Burj Khalifas peak"],
     "difficulty": 3,
     "categories":["misc"]
 },
@@ -3782,7 +3782,7 @@
     "categories":["science", "history"]
 },
 {
-    "question":"What was Walt Disney\"s first feature-length animated film?",
+    "question":"What was Walt Disneys first feature-length animated film?",
     "answers":["Snow White and the Seven Dwarfs"],
     "options":["Pinocchio", "Fantasia", "Dumbo", "Cinderella", "Treasure Island"],
     "difficulty": 2,
@@ -3817,14 +3817,14 @@
     "categories":["history"]
 },
 {
-    "question":"How long does it take the Sun\"s light to reach Earth?",
+    "question":"How long does it take the Suns light to reach Earth?",
     "answers":["8 minutes and 20 seconds"],
     "options":["82 seconds", "1 day", "8 hours 20 minutes", "24 minutes 50 seconds", "24 seconds", "24 hours and 50 minutes", "3.5 minutes"],
     "difficulty": 3,
     "categories":["science"]
 },
 {
-    "question":"Assassinated alongside him, what was the name of Franz Ferdinand\"s wife?",
+    "question":"Assassinated alongside him, what was the name of Franz Ferdinands wife?",
     "answers":["Sophie"],
     "options":["Katie", "Maggie", "Maddie", "Averie", "Ellie", "Sadie", "Valerie"],
     "difficulty": 5,
@@ -4370,7 +4370,7 @@
     "categories":["history"]
 },
 {
-    "question":"What percentage of the Earth\"s surface is covered by water?",
+    "question":"What percentage of the Earths surface is covered by water?",
     "answers":["71%"],
     "options":["61%", "81%", "93%", "87%", "67%", "77%", "63%", "53%", "73%", "83%"],
     "difficulty": 2,
@@ -4440,7 +4440,7 @@
     "categories":["science", "medicine"]
 },
 {
-    "question":"The word origin of which profession comes from the Greek for \"star sailor\"",
+    "question":"The word origin of which profession comes from the Greek for star sailor\"",
     "answers":["Astronaut"],
     "options":["Astronomer", "Astrophysicist", "Astrosailor"],
     "difficulty": 1,
@@ -4783,14 +4783,14 @@
     "categories":["art", "history"]
 },
 {
-    "question":"In 1982 Time Magazine\"s Man of the Year was a computer?",
+    "question":"In 1982 Time Magazines Man of the Year was a computer?",
     "answers":["True"],
     "options":["False"],
     "difficulty": 2,
     "categories":["misc"]
 },
 {
-    "question":"In 1982 Time Magazine\"s Man of the Year was a dog?",
+    "question":"In 1982 Time Magazines Man of the Year was a dog?",
     "answers":["False"],
     "options":["True"],
     "difficulty": 2,
@@ -4811,7 +4811,7 @@
     "categories":["film"]
 },
 {
-    "question":"In The Hitchhiker\"s Guide to the Galaxy, an enormous supercomputer calculates the meaning of life. What answer does it give?",
+    "question":"In The Hitchhikers Guide to the Galaxy, an enormous supercomputer calculates the meaning of life. What answer does it give?",
     "answers":["42"],
     "options":["Cake", "Make as many relationships as possible", "Find peace at home", "Find God", "Love"],
     "difficulty": 3,
@@ -4848,7 +4848,7 @@
 {
     "question":"How did Joan of Arc die?",
     "answers":["She was burned at the stake"],
-    "options":["She took an arrow to the knee during battle", "She died in the Queen\"s prison", "Her horse kicked her", "She drank poison", "She was thrown off a cliff to see if she would fall or fly"],
+    "options":["She took an arrow to the knee during battle", "She died in the Queens prison", "Her horse kicked her", "She drank poison", "She was thrown off a cliff to see if she would fall or fly"],
     "difficulty": 3,
     "categories":["history"]
 },
@@ -4889,8 +4889,8 @@
 },
 {
     "question":"\"Anything that can go wrong will go wrong\" is typically known as what?",
-    "answers":["Murphy\"s Law"],
-    "options":["Hanlon\"s Razor", "Occam\"s Razor", "The Pareto principle", "The 80/20 rule"],
+    "answers":["Murphys Law"],
+    "options":["Hanlons Razor", "Occams Razor", "The Pareto principle", "The 80/20 rule"],
     "difficulty": 2,
     "categories":["language"]
 },
@@ -5035,21 +5035,21 @@
     "categories":["geography"]
 },
 {
-    "question":"What is Venezuela\"s currency?",
+    "question":"What is Venezuelas currency?",
     "answers":["Venezuelan bolívar"],
     "options":["Venezuelan peso", "Venezuelan florin", "Venezuelan dollar", "Venezuelan lempira", "Venezuelan pound"],
     "difficulty": 3,
     "categories":["geography", "currency"]
 },
 {
-    "question":"What gas makes up approximately 21% of the air in the Earth\"s atmosphere?",
+    "question":"What gas makes up approximately 21% of the air in the Earths atmosphere?",
     "answers":["Oxegen"],
     "options":["Carbon Dioxide", "Nitrogen", "Neon", "Hydrogen"],
     "difficulty": 3,
     "categories":["science"]
 },
 {
-    "question":"What gas makes up approximately 78% of the air in the Earth\"s atmosphere?",
+    "question":"What gas makes up approximately 78% of the air in the Earths atmosphere?",
     "answers":["Nitrogen"],
     "options":["Carbon Dioxide", "Oxegen", "Neon", "Hydrogen"],
     "difficulty": 3,
@@ -5206,7 +5206,7 @@
 {
     "question":"What stone is used to understand Egyptian hieroglyphs?",
     "answers":["The Rosetta Stone"],
-    "options":["The Philosopher\"s Stone", "Blarney Stone", "The Black Stone of the Kaaba"],
+    "options":["The Philosophers Stone", "Blarney Stone", "The Black Stone of the Kaaba"],
     "difficulty": 3,
     "categories":["language"]
 },
@@ -5295,14 +5295,14 @@
     "categories":["geography"]
 },
 {
-    "question":"The Earth\"s rotation is overall slowing down",
+    "question":"The Earths rotation is overall slowing down",
     "answers":["True"],
     "options":["False"],
     "difficulty": 2,
     "categories":["science", "nature"]
 },
 {
-    "question":"The Earth\"s rotation is overall speeding up",
+    "question":"The Earths rotation is overall speeding up",
     "answers":["False"],
     "options":["True"],
     "difficulty": 2,
@@ -5374,7 +5374,7 @@
 {
     "question":"Hattie McDaniel became the first African American to win an Oscar for her role in which film?",
     "answers":["Gone with the Wind"],
-    "options":["A Star is Born", "Scarface", "Freaks", "Citizen Kane", "It\"s a Wonderful Life"],
+    "options":["A Star is Born", "Scarface", "Freaks", "Citizen Kane", "Its a Wonderful Life"],
     "difficulty": 3,
     "categories":["film"]
 },
@@ -5442,35 +5442,35 @@
     "categories":["politics", "quotes"]
 },
 {
-    "question":"Before the Euro, what was Austria\"s currency?",
+    "question":"Before the Euro, what was Austrias currency?",
     "answers":["Schilling"],
     "options":["Pound", "Kroon", "Lats", "Tolar"],
     "difficulty": 4,
     "categories":["currency", "history", "misc"]
 },
 {
-    "question":"Before the Euro, what was Belgium\"s currency?",
+    "question":"Before the Euro, what was Belgiums currency?",
     "answers":["Franc"],
     "options":["Schilling", "Pound", "Kroon", "Lats", "Tolar"],
     "difficulty": 3,
     "categories":["currency", "history", "misc"]
 },
 {
-    "question":"Before the Euro, what was Cyprus\"s currency?",
+    "question":"Before the Euro, what was Cypruss currency?",
     "answers":["Pound"],
     "options":["Franc", "Schilling", "Kroon", "Lats", "Tolar"],
     "difficulty": 4,
     "categories":["currency", "history", "misc"]
 },
 {
-    "question":"Before the Euro, what was Estonia\"s currency?",
+    "question":"Before the Euro, what was Estonias currency?",
     "answers":["Kroon"],
     "options":["Franc", "Schilling", "Lats", "Tolar"],
     "difficulty": 5,
     "categories":["currency", "history", "misc"]
 },
 {
-    "question":"Before the Euro, what was Finland\"s currency?",
+    "question":"Before the Euro, what was Finlands currency?",
     "answers":["Markka"],
     "options":["Kroon", "Franc", "Schilling", "Lats", "Tolar"],
     "difficulty": 5,
@@ -5484,28 +5484,28 @@
     "categories":["currency", "history", "misc"]
 },
 {
-    "question":"Before the Euro, what was France\"s currency?",
+    "question":"Before the Euro, what was Frances currency?",
     "answers":["Franc"],
     "options":["Kroon", "Markka", "Schilling", "Lats", "Tolar"],
     "difficulty": 1,
     "categories":["currency", "history", "misc"]
 },
 {
-    "question":"Before the Euro, what was German\"s currency?",
+    "question":"Before the Euro, what was Germans currency?",
     "answers":["Deutschmark"],
     "options":["Kroon", "Franc", "Markka", "Schilling", "Lats", "Tolar"],
     "difficulty": 2,
     "categories":["currency", "history", "misc"]
 },
 {
-    "question":"Before the Euro, what was Greece\"s currency?",
+    "question":"Before the Euro, what was Greeces currency?",
     "answers":["Drachma"],
     "options":["Kroon", "Franc", "Markka", "Schilling", "Lats", "Tolar"],
     "difficulty": 3,
     "categories":["currency", "history", "misc"]
 },
 {
-    "question":"Before the Euro, what was Ireland\"s currency?",
+    "question":"Before the Euro, what was Irelands currency?",
     "answers":["Pound"],
     "options":["Kroon", "Drachma", "Franc", "Markka", "Schilling", "Lats", "Tolar"],
     "difficulty": 3,
@@ -5519,35 +5519,35 @@
     "categories":["currency", "history", "misc"]
 },
 {
-    "question":"Before the Euro, what was Italy\"s currency?",
+    "question":"Before the Euro, what was Italys currency?",
     "answers":["Lira"],
     "options":["Kroon", "Drachma", "Franc", "Markka", "Schilling", "Lats", "Tolar", "Pound"],
     "difficulty": 2,
     "categories":["currency", "history", "misc"]
 },
 {
-    "question":"Before the Euro, what was Latvia\"s currency?",
+    "question":"Before the Euro, what was Latvias currency?",
     "answers":["Lats"],
     "options":["Kroon", "Drachma", "Franc", "Markka", "Schilling", "Lira", "Tolar", "Pound"],
     "difficulty": 3,
     "categories":["currency", "history", "misc"]
 },
 {
-    "question":"Before the Euro, what was Lithuania\"s currency?",
+    "question":"Before the Euro, what was Lithuanias currency?",
     "answers":["Litas"],
     "options":["Kroon", "Drachma", "Franc", "Markka", "Schilling", "Lira", "Lats", "Tolar", "Pound"],
     "difficulty": 3,
     "categories":["currency", "history", "misc"]
 },
 {
-    "question":"Before the Euro, what was Luxembourg\"s currency?",
+    "question":"Before the Euro, what was Luxembourgs currency?",
     "answers":["Franc"],
     "options":["Kroon", "Drachma", "Litas", "Markka", "Schilling", "Lira", "Lats", "Tolar", "Pound"],
     "difficulty": 3,
     "categories":["currency", "history", "misc"]
 },
 {
-    "question":"Before the Euro, what was Malta\"s currency?",
+    "question":"Before the Euro, what was Maltas currency?",
     "answers":["Lira"],
     "options":["Kroon", "Drachma", "Litas", "Markka", "Schilling", "Franc", "Lats", "Tolar", "Pound"],
     "difficulty": 3,
@@ -5561,28 +5561,28 @@
     "categories":["currency", "history", "misc"]
 },
 {
-    "question":"Before the Euro, what was Portugal\"s currency?",
+    "question":"Before the Euro, what was Portugals currency?",
     "answers":["Escudo"],
     "options":["Guilder", "Kroon", "Lira", "Drachma", "Litas", "Markka", "Schilling", "Franc", "Lats", "Tolar", "Pound"],
     "difficulty": 4,
     "categories":["currency", "history", "misc"]
 },
 {
-    "question":"Before the Euro, what was Slovakia\"s currency?",
+    "question":"Before the Euro, what was Slovakias currency?",
     "answers":["Koruna"],
     "options":["Guilder", "Escudo", "Kroon", "Lira", "Drachma", "Litas", "Markka", "Schilling", "Franc", "Lats", "Tolar", "Pound"],
     "difficulty": 4,
     "categories":["currency", "history", "misc"]
 },
 {
-    "question":"Before the Euro, what was Slovenia\"s currency?",
+    "question":"Before the Euro, what was Slovenias currency?",
     "answers":["Tolar"],
     "options":["Guilder", "Escudo", "Kroon", "Lira", "Drachma", "Litas", "Markka", "Schilling", "Franc", "Lats", "Koruna", "Pound"],
     "difficulty": 4,
     "categories":["currency", "history", "misc"]
 },
 {
-    "question":"Before the Euro, what was Spain\"s currency?",
+    "question":"Before the Euro, what was Spains currency?",
     "answers":["Peseta"],
     "options":["Tolar", "Guilder", "Escudo", "Kroon", "Lira", "Drachma", "Litas", "Markka", "Schilling", "Franc", "Lats", "Koruna", "Pound"],
     "difficulty": 3,
@@ -5673,7 +5673,7 @@
     "categories":["geography"]
 },
 {
-    "question":"What was the name of Bob Marley\"s first child?",
+    "question":"What was the name of Bob Marleys first child?",
     "answers":["Ziggy"],
     "options":["Damian", "Cedella", "Stephen", "Rohan", "Karen", "Ky-Mani"],
     "difficulty": 5,
@@ -5717,7 +5717,7 @@
 {
     "question":"What is interesting about the island of Bermeja?",
     "answers":["It is a phantom island"],
-    "options":["All the residents are deaf", "It\"s located in the South Pole", "It is 1 meter long", "Everyone who visits it dies", "All the residents vanished in the 16th century"],
+    "options":["All the residents are deaf", "Its located in the South Pole", "It is 1 meter long", "Everyone who visits it dies", "All the residents vanished in the 16th century"],
     "difficulty": 4,
     "categories":["geography"]
 },
@@ -5757,14 +5757,14 @@
     "categories":["food"]
 },
 {
-    "question":"What is Ecaudor\"s currency?",
+    "question":"What is Ecaudors currency?",
     "answers":["United States dollar"],
     "options":["Ecaudorian peso", "Ecaudorian florin", "Ecaudorian dollar", "Ecaudorian lempira", "Ecaudorian pound"],
     "difficulty": 3,
     "categories":["currency", "geography"]
 },
 {
-    "question":"What is Zimbabwe\"s currency?",
+    "question":"What is Zimbabwes currency?",
     "answers":["United States dollar"],
     "options":["Zimbabwean peso", "Zimbabwean florin", "Zimbabwean dollar", "Zimbabwean lempira", "Zimbabwean pound"],
     "difficulty": 3,
@@ -5897,7 +5897,7 @@
     "categories":["misc"]
 },
 {
-    "question":"The Challenger Deep in the Mariana Trench is the deepest known point in the Earth\"s ocean, how deep is it?",
+    "question":"The Challenger Deep in the Mariana Trench is the deepest known point in the Earths ocean, how deep is it?",
     "answers":["10,994 metres"],
     "options":["100,994 metres", "1,994 metres", "1,000,994 metres", "500,994 metres", "5,994 metres", "5,000,994 metres", "50,994 metres"],
     "difficulty": 4,
@@ -5967,14 +5967,14 @@
     "categories":["war", "history"]
 },
 {
-    "question":"\"The stuff you own ends up owning you. It\"s only after you lose everything that you\"re free to do anything\" is a quote from which movie?",
+    "question":"\"The stuff you own ends up owning you. Its only after you lose everything that you\"re free to do anything\" is a quote from which movie?",
     "answers":["Fight Club"],
     "options":["Pulp Fiction", "Deep Impact", "Falling Down", "Good Will Hunting", "Fargo", "The Fifth Element"],
     "difficulty": 3,
     "categories":["film", "quotes"]
 },
 {
-    "question":"What was the first name of Brad Pitt\"s character in \"Fight Club\"?",
+    "question":"What was the first name of Brad Pitts character in \"Fight Club\"?",
     "answers":["Tyler"],
     "options":["Chad", "Marcus", "Freddy", "Brad", "Noah", "Lucas"],
     "difficulty": 3,
@@ -6415,9 +6415,9 @@
     "categories":["film"]
 },
 {
-    "question":"Chekhov\"s what is a principle in storytelling that states that every element in a story must be necessary, any irrelevant elements should be removed?",
-    "answers":["Chekhov\"s gun"],
-    "options":["Chekhov\"s ring", "Chekhov\"s law", "Chekhov\"s scroll", "Chekhov\"s flower", "Chekhov\"s chain", "Chekhov\"s piano", "Chekhov\"s trap", "Chekhov\"s loop"],
+    "question":"Chekhovs what is a principle in storytelling that states that every element in a story must be necessary, any irrelevant elements should be removed?",
+    "answers":["Chekhovs gun"],
+    "options":["Chekhovs ring", "Chekhovs law", "Chekhovs scroll", "Chekhovs flower", "Chekhovs chain", "Chekhovs piano", "Chekhovs trap", "Chekhovs loop"],
     "difficulty": 4,
     "categories":["misc", "film"]
 },
@@ -6576,7 +6576,7 @@
     "categories":["politics", "misc"]
 },
 {
-    "question":"\"O it is excellent to have a giant\"s strength; but it is tyrannous to use it like a giant\", comes from which Shakespeare work?",
+    "question":"\"O it is excellent to have a giants strength; but it is tyrannous to use it like a giant\", comes from which Shakespeare work?",
     "answers":["Measure for Measure"],
     "options":["Hamlet", "Romeo and Juliet", "Macbeth", "King Lear", "The Tempest"],
     "difficulty": 4,
@@ -6611,21 +6611,21 @@
     "categories":["art", "history"]
 },
 {
-    "question":"What is the name of Peppa Pig\"s brother?",
+    "question":"What is the name of Peppa Pigs brother?",
     "answers":["George"],
     "options":["Stephen", "Mike", "Randy", "Karl", "Max", "Ron"],
     "difficulty": 2,
     "categories":["TV"]
 },
 {
-    "question":"What is Stan\"s second name in South Park?",
+    "question":"What is Stans second name in South Park?",
     "answers":["Marsh"],
     "options":["Cartman", "Smith", "Dixon", "Myers", "Willis", "Collins"],
     "difficulty": 2,
     "categories":["TV"]
 },
 {
-    "question":"What is Stan\"s father\"s name in South Park?",
+    "question":"What is Stans fathers name in South Park?",
     "answers":["Randy"],
     "options":["Lance", "Darryl", "Mateo", "Ronan", "Steve", "Cory"],
     "difficulty": 3,
@@ -6681,7 +6681,7 @@
     "categories":["religion"]
 },
 {
-    "question":"What was Michelangelo\"s surname?",
+    "question":"What was Michelangelos surname?",
     "answers":["Buonarroti"],
     "options":["Lucciano", "Di Traglia", "Schiavone", "Presutti"],
     "difficulty": 4,
@@ -6737,7 +6737,7 @@
     "categories":["philosophy", "misc"]
 },
 {
-    "question":"What is the name of Plato\"s brother?",
+    "question":"What is the name of Platos brother?",
     "answers":["Glaucon"],
     "options":["Aegeus", "Agnes", "Alejandro", "Elpis", "Erato"],
     "difficulty": 3,
@@ -6800,7 +6800,7 @@
     "categories":["sports"]
 },
 {
-    "question":"Which Japenese emporer announced Japan\"s surrender to the Allied Forces in 1945?",
+    "question":"Which Japenese emporer announced Japans surrender to the Allied Forces in 1945?",
     "answers":["Hirohito"],
     "options":["Akihito", "Yoshihito", "Mutsuhito", "Osahito"],
     "difficulty": 1,
@@ -6809,7 +6809,7 @@
 {
     "question":"Shangri-La is a fictional place described in the 1933 novel?",
     "answers":["Lost Horizon"],
-    "options":["Brave New World", "Gulliver\"s Travels", "The Giver", "The Dispossessed"],
+    "options":["Brave New World", "Gullivers Travels", "The Giver", "The Dispossessed"],
     "difficulty": 3,
     "categories":["literature"]
 },
@@ -6891,7 +6891,7 @@
     "categories":["history", "misc"]
 },
 {
-    "question":"Which is not one of the 4 C\"s of diamonds?",
+    "question":"Which is not one of the 4 Cs of diamonds?",
     "answers":["Character", "Curvature", "Cabbage"],
     "options":["Cut", "Colour", "Clarity", "Carat"],
     "difficulty": 3,
@@ -6947,7 +6947,7 @@
     "categories":["mythology"]
 },
 {
-    "question":"According to Greek mythology, looking into Medusa\"s eyes would turn a person into what?",
+    "question":"According to Greek mythology, looking into Medusas eyes would turn a person into what?",
     "answers":["Stone"],
     "options":["Diamond", "Dirt", "Iron", "Sand", "Pandora"],
     "difficulty": 2,
@@ -7151,7 +7151,7 @@
 },
 {
     "question":"Which film won the 2010 (83rd) Oscar for \"Best Picture\"",
-    "answers":["The King\"s Speech"],
+    "answers":["The Kings Speech"],
     "options":["127 Hours", "Black Swan", "The Fighter", "Inception", "The Social Network", "Toy Story 3"],
     "difficulty": 3,
     "categories":["film"]
@@ -7241,14 +7241,14 @@
     "categories":["TV"]
 },
 {
-    "question":"From the popular videogame, who is Ratchet\"s companion?",
+    "question":"From the popular videogame, who is Ratchets companion?",
     "answers":["Clank"],
     "options":["Daxter", "Tails", "Cortana", "Solas"],
     "difficulty": 3,
     "categories":["videogames"]
 },
 {
-    "question":"Which Halo charcater later became the name for Microsoft\"s virtual assistant?",
+    "question":"Which Halo charcater later became the name for Microsofts virtual assistant?",
     "answers":["Cortana"],
     "options":["Alexa", "Tails", "Pixel", "Ava", "Abigail", "Mia", "Talulla", "Fay"],
     "difficulty": 3,
@@ -7780,7 +7780,7 @@
     "categories":["misc"]
 },
 {
-    "question":"What is the economic term that describes a good whose demand drops when people\"s incomes rise?",
+    "question":"What is the economic term that describes a good whose demand drops when peoples incomes rise?",
     "answers":["Inferior good"],
     "options":["Veblen good", "Normal good", "Luxury good", "Giffen good"],
     "difficulty": 2,
@@ -7920,7 +7920,7 @@
     "categories":["nature", "science"]
 },
 {
-    "question":"1959 which became the 1st craft to leave Earth\"s gravity?",
+    "question":"1959 which became the 1st craft to leave Earths gravity?",
     "answers":["Luna 1"],
     "options":["Explorer 1", "Barker 1", "Astroneer 1", "Sputnik 1"],
     "difficulty": 3,
@@ -7962,7 +7962,7 @@
     "categories":["medicine", "film"]
 },
 {
-    "question":"Rosemary Kennedy, JFK\"s sister spent most of her time in care after what?",
+    "question":"Rosemary Kennedy, JFKs sister spent most of her time in care after what?",
     "answers":["A lobotomy"],
     "options":["A car accident", "A mental break down", "A near drowning"],
     "difficulty": 2,
@@ -8123,7 +8123,7 @@
     "categories":["literature", "journalism"]
 },
 {
-    "question":"In Mary Shelley\"s \"Frankenstein\", what is Dr. Frankenstein\"s first name?",
+    "question":"In Mary Shelleys \"Frankenstein\", what is Dr. Frankensteins first name?",
     "answers":["Victor"],
     "options":["Glenn", "Lester", "Fredrick", "Christopher", "Richard", "Frank"],
     "difficulty": 3,
@@ -8340,14 +8340,14 @@
     "categories":["film"]
 },
 {
-    "question":"Who directed 2008\"s \"The Dark Knight\"?",
+    "question":"Who directed 2008s \"The Dark Knight\"?",
     "answers":["Christopher Nolan"],
     "options":["Paul Thomas Anderson", "David Fincher", "Martin Scorsese", "Quentin Tarantino", "Darren Aronofsky"],
     "difficulty": 2,
     "categories":["film"]
 },
 {
-    "question":"Who played Batman in 2008\"s \"The Dark Knight\"?",
+    "question":"Who played Batman in 2008s \"The Dark Knight\"?",
     "answers":["Christian Bale"],
     "options":["Edward Cullen", "Ben Aflek", "Russell Crowe", "Viggo Mortensen", "Jake Gyllenhaal"],
     "difficulty": 1,
@@ -8523,8 +8523,8 @@
 },
 {
     "question":"\"Never attribute to malice that which is adequately explained by stupidity\" is known as what?",
-    "answers":["Hanlon\"s razor"],
-    "options":["Occam\"s razor", "Hitchen\"s razor", "Hume\"s razor"],
+    "answers":["Hanlons razor"],
+    "options":["Occams razor", "Hitchens razor", "Humes razor"],
     "difficulty": 4,
     "categories":["proverb"]
 },
@@ -8578,7 +8578,7 @@
     "categories":["history"]
 },
 {
-    "question":"How many of Henry VIII\"s wives were beheaded?",
+    "question":"How many of Henry VIIIs wives were beheaded?",
     "answers":["2"],
     "options":["3", "4", "5", "1"],
     "difficulty": 3,
@@ -8635,7 +8635,7 @@
 },
 {
     "question":"What was the mythical substance that could turn ordinary metals such as iron, tin, lead, zinc, nickel or copper into precious metals like gold and silver?",
-    "answers":["The philosopher\"s stone"],
+    "answers":["The philosophers stone"],
     "options":["Manna", "Alien metal", "Tears of Ra"],
     "difficulty": 2,
     "categories":["mythology"]
@@ -8662,7 +8662,7 @@
     "categories":["war", "history"]
 },
 {
-    "question":"Cromwell\"s men in 1649 killed 3500 people, known as \"The Siege of\" what?",
+    "question":"Cromwells men in 1649 killed 3500 people, known as \"The Siege of\" what?",
     "answers":["The Siege of Drogheda"],
     "options":["The Siege of Kinsale", "The Siege of Westport", "The Siege of Dingle", "The Siege of Louth"],
     "difficulty": 4,
@@ -8677,8 +8677,8 @@
 },
 {
     "question":"Where did the Great Fire of London start?",
-    "answers":["Thomas Farriner\"s bakery"],
-    "options":["Thomas Farriner\"s resturaunt", "Thomas Farriner\"s tavern", "Thomas Farriner\"s lightbulb store", "Thomas Farriner\"s candle shop"],
+    "answers":["Thomas Farriners bakery"],
+    "options":["Thomas Farriners resturaunt", "Thomas Farriners tavern", "Thomas Farriners lightbulb store", "Thomas Farriners candle shop"],
     "difficulty": 4,
     "categories":["history"]
 },
@@ -9056,7 +9056,7 @@
 {
     "question":"Which capital was previously called Kristiania?",
     "answers":["Oslo, Norway"],
-    "options":["Abuja, Nigeria", "Monrovia, Liberia", "Mogadishu, Somalia", "St. John\"s, Antigua and Barbuda", "Vientiane, Laos", "Lisbon, Portugal", "Kigali, Rwanda"],
+    "options":["Abuja, Nigeria", "Monrovia, Liberia", "Mogadishu, Somalia", "St. Johns, Antigua and Barbuda", "Vientiane, Laos", "Lisbon, Portugal", "Kigali, Rwanda"],
     "difficulty": 4,
     "categories":["geography", "history"]
 },
@@ -9159,7 +9159,7 @@
     "categories":["medicine"]
 },
 {
-    "question":"\"Things won are done; joy\"s soul lies in the doing\" is a quote from whom?",
+    "question":"\"Things won are done; joys soul lies in the doing\" is a quote from whom?",
     "answers":["William Shakespeare"],
     "options":["Heraclitus", "Herodotus", "Plato", "Karl Marx", "Aristotle", "Confucius", "Damascus", "Rene Descartes", "Epictetus", "Anazimander", "Socrates", "Anaxagoras", "Lao Tzu"],
     "difficulty": 4,
@@ -9250,14 +9250,14 @@
     "categories":["war"]
 },
 {
-    "question":"Who directed Schindler\"s List?",
+    "question":"Who directed Schindlers List?",
     "answers":["Steven Spielberg"],
     "options":["David Fincher", "Peter Weir", "Gus Van Sant", "Robert Zemeckis", "Michael Mann"],
     "difficulty": 3,
     "categories":["film"]
 },
 {
-    "question":"Steven Spielberg offered the Schindler\"s List directors job to which director?",
+    "question":"Steven Spielberg offered the Schindlers List directors job to which director?",
     "answers":["Roman Polanski"],
     "options":["David Fincher", "Peter Weir", "Gus Van Sant", "Robert Zemeckis", "Michael Mann"],
     "difficulty": 4,
@@ -9278,14 +9278,14 @@
     "categories":["film"]
 },
 {
-    "question":"In the Lord of the Rings, what is Frodo\"s second name?",
+    "question":"In the Lord of the Rings, what is Frodos second name?",
     "answers":["Baggins"],
     "options":["Broggins", "Bleggings", "Biggins", "Buggings"],
     "difficulty": 2,
     "categories":["film"]
 },
 {
-    "question":"In the Lord of the Rings, what is Bilbo\"s relationship to Frodo?",
+    "question":"In the Lord of the Rings, what is Bilbos relationship to Frodo?",
     "answers":["Uncle"],
     "options":["Brother", "Cousin", "Grandfather", "Father"],
     "difficulty": 2,
@@ -9530,7 +9530,7 @@
     "categories":["politics", "history"]
 },
 {
-    "question":"What was the first name of Fritz Haber\"s wife?",
+    "question":"What was the first name of Fritz Habers wife?",
     "answers":["Clara"],
     "options":["Evelyn", "Shirley", "Kaya", "Janet", "Lizbeth", "Renee", "Londyn"],
     "difficulty": 5,
@@ -9614,7 +9614,7 @@
     "categories":["film", "war"]
 },
 {
-    "question":"What was the first name of Franklin D. Roosevelt\"s wife?",
+    "question":"What was the first name of Franklin D. Roosevelts wife?",
     "answers":["Eleanor"],
     "options":["Abagail", "Barbara", "Erica", "Meghan", "Addison", "Anna", "Hilary"],
     "difficulty": 2,
@@ -9945,7 +9945,7 @@
 {
     "question":"Which Scottish rock band with the 2005 single \"Take Me Out\" got their name from an assassinated historical figure?",
     "answers":["Franz Ferdinand"],
-    "options":["Abraham Lincoln", "The Gandhi\"s", "The Luther Kings"],
+    "options":["Abraham Lincoln", "The Gandhis", "The Luther Kings"],
     "difficulty": 3,
     "categories":["music"]
 },
@@ -10006,7 +10006,7 @@
     "categories":["film"]
 },
 {
-    "question":"Complete this quote from \"The Good the Bad and the Ugly\", \"In this world there\"s two kinds of people, my friend: Those with loaded guns and those who\" what?",
+    "question":"Complete this quote from \"The Good the Bad and the Ugly\", \"In this world theres two kinds of people, my friend: Those with loaded guns and those who\" what?",
     "answers":["Dig"],
     "options":["Obey", "Belong", "Remain", "Submit"],
     "difficulty": 4,
@@ -10034,7 +10034,7 @@
     "categories":["film"]
 },
 {
-    "question":"Indonesia\"s declared independence in 1945 from which country?",
+    "question":"Indonesias declared independence in 1945 from which country?",
     "answers":["Netherlands"],
     "options":["France", "China", "Japan", "The United States", "The United Kingdom"],
     "difficulty": 3,
@@ -10168,7 +10168,7 @@
     "categories":["geography"]
 },
 {
-    "question":"What was the D. in President Franklin D. Roosevelt\"s name?",
+    "question":"What was the D. in President Franklin D. Roosevelts name?",
     "answers":["Delano"],
     "options":["Dominic", "Drew", "Dick", "Damon", "Devin", "Declan", "Donahi", "Dondre", "Dennis", "Domek", "Dolan"],
     "difficulty": 5,
@@ -10317,7 +10317,7 @@
 {
     "question":"Which of these would be considered a malapropism?",
     "answers":["Dance the flamingo"],
-    "options":["Spend some yen", "Destroy Danny\"s Den", "To shop around", "Depart together", "To witness the living dead"],
+    "options":["Spend some yen", "Destroy Dannys Den", "To shop around", "Depart together", "To witness the living dead"],
     "difficulty": 4,
     "categories":["language"]
 },
@@ -10406,7 +10406,7 @@
     "categories":["authors"]
 },
 {
-    "question":"From them James Bond series, what was Dr. No\"s full name?",
+    "question":"From them James Bond series, what was Dr. Nos full name?",
     "answers":["Dr. Julius No"],
     "options":["Dr. Xander No", "Dr. Cesar No", "Dr. Kaden No", "Dr. Allen No", "Dr. Harry No"],
     "difficulty": 5,
@@ -10455,7 +10455,7 @@
     "categories":["sports"]
 },
 {
-    "question":"Which artist featured on Taylor Swift\"s tracks \"Exile\" and \"Evermore\"?",
+    "question":"Which artist featured on Taylor Swifts tracks \"Exile\" and \"Evermore\"?",
     "answers":["Bon Ivor"],
     "options":["Haim", "Billie Eilish", "Lizzo", "Elvis Costello", "Anderson .Paak"],
     "difficulty": 4,
@@ -10646,7 +10646,7 @@
 {
     "question":"Ralph Ellison published which novel in 1953?",
     "answers":["Invisible Man"],
-    "options":["The Catcher in the Rye", "Fahrenheit 451", "On the Road", "The Crucible", "Horton Hears a Who!", "The Quiet American", "Charlotte\"s Web"],
+    "options":["The Catcher in the Rye", "Fahrenheit 451", "On the Road", "The Crucible", "Horton Hears a Who!", "The Quiet American", "Charlottes Web"],
     "difficulty": 5,
     "categories":["literature"]
 },
@@ -10665,7 +10665,7 @@
     "categories":["food"]
 },
 {
-    "question":"Which of these mineral\"s is often called \"Fool\"s gold\"?",
+    "question":"Which of these minerals is often called \"Fools gold\"?",
     "answers":["Pyrite"],
     "options":["Sepiolite", "Tephroite", "Vaesite", "Nelenite"],
     "difficulty": 5,
@@ -10716,7 +10716,7 @@
 {
     "question":"Galileo famously dropped two spheres of different masses from where?",
     "answers":["The Leaning Tower of Pisa"],
-    "options":["Colosseum", "St. Peter\"s Basilica", "Giotto\"s Bell Tower", "His house"],
+    "options":["Colosseum", "St. Peters Basilica", "Giottos Bell Tower", "His house"],
     "difficulty": 2,
     "categories":["science"]
 },
@@ -10749,7 +10749,7 @@
     "categories":["music"]
 },
 {
-    "question":"Which rapper\"s real name is Sean Combs?",
+    "question":"Which rappers real name is Sean Combs?",
     "answers":["Lil\" Wayne"],
     "options":["Busta Rhymes", "Kendrick Lamar", "Nas", "Chance The Rapper", "2 Chainz", "Ice-T"],
     "difficulty": 4,
@@ -10798,14 +10798,14 @@
     "categories":["religion"]
 },
 {
-    "question":"Scrubs actor, Donald Faison was pissed that which game \"stole\" his dance \"poison\"?",
+    "question":"Scrubs actor, Donald Faison was pissed that which game stole\" his dance \"poison\"?",
     "answers":["Fortnite"],
     "options":["Call of Duty: Modern Warfare", "Just Dance 3", "Minecraft", "Dead by Daylight"],
     "difficulty": 4,
     "categories":["videogames"]
 },
 {
-    "question":"Jomon pottery comes from a period of which country\"s ancient history?",
+    "question":"Jomon pottery comes from a period of which countrys ancient history?",
     "answers":["Japan"],
     "options":["India", "China", "Bhutan", "Turkey", "Syria", "Russia"],
     "difficulty": 5,
@@ -10973,7 +10973,7 @@
     "categories":["mythology"]
 },
 {
-    "question":"What is the name of Harry Potter\"s owl?",
+    "question":"What is the name of Harry Potters owl?",
     "answers":["Hedwig"],
     "options":["Nagini", "Oliver", "Winky", "Reeves", "Regulus"],
     "difficulty": 2,
@@ -11008,7 +11008,7 @@
     "categories":["geography"]
 },
 {
-    "question":"Who narrated in Micheal Jackson\"s music video \"Thriller\"?",
+    "question":"Who narrated in Micheal Jacksons music video \"Thriller\"?",
     "answers":["Vincent Price"],
     "options":["Christopher Lee", "Boris Karloff", "Jeffrey Combs", "Robert Englund", "Peter Cushing", "Donald Pleasence"],
     "difficulty": 4,
@@ -11023,8 +11023,8 @@
 },
 {
     "question":"In what decade did, American Bobby Fischer beat Boris Spassky in the World Chess Championship in Iceland?",
-    "answers":["70\"s"],
-    "options":["80\"s", "90\"s", "60\"s", "50\"s", "40\"s"],
+    "answers":["70s"],
+    "options":["80s", "90s", "60s", "50s", "40s"],
     "difficulty": 4,
     "categories":["misc"]
 },
@@ -11043,7 +11043,7 @@
     "categories":["math"]
 },
 {
-    "question":"What was the name of Genghis Khan\"s gradnson who founded the Yuan dynasty?",
+    "question":"What was the name of Genghis Khans gradnson who founded the Yuan dynasty?",
     "answers":["Kublai"],
     "options":["Yushan", "Xandhu", "Genghis", "Tuboi"],
     "difficulty": 5,
@@ -11087,7 +11087,7 @@
 {
     "question":"Of mythology and used in reference to a weakness, what part of Achilles body was unprotected in battle?",
     "answers":["His heel"],
-    "options":["His face", "His throat", "His heart", "His Adam\"s apple", "His shoulders"],
+    "options":["His face", "His throat", "His heart", "His Adams apple", "His shoulders"],
     "difficulty": 1,
     "categories":["mythology", "language"]
 },
@@ -11108,7 +11108,7 @@
 {
     "question":"\"Do you believe in fairies? Say quick that you believe. If you believe, clap your hands!\" is quote from which novel?",
     "answers":["Peter Pan"],
-    "options":["Cinderella", "Pinocchio", "Sleeping Beauty", "The Faraway Tree", "A Midsummer Knight\"s Dream"],
+    "options":["Cinderella", "Pinocchio", "Sleeping Beauty", "The Faraway Tree", "A Midsummer Knights Dream"],
     "difficulty": 2,
     "categories":["literature"]
 },
@@ -11444,7 +11444,7 @@
 {
     "question":"Which of these games was released first?",
     "answers":["Mario Bros."],
-    "options":["Super Mario Land", "Super Mario bros.", "Mario\"s Bombs Away", "Super Mario Kart", "Super Mario Odyssey", "Super Mario World"],
+    "options":["Super Mario Land", "Super Mario bros.", "Marios Bombs Away", "Super Mario Kart", "Super Mario Odyssey", "Super Mario World"],
     "difficulty": 3,
     "categories":["videogames"]
 },
@@ -11707,7 +11707,7 @@
         "categories":["flags"]
     },
     {
-        "question":"Which country\"s flag is known as the \"Danneborg\"?",
+        "question":"Which countrys flag is known as the \"Danneborg\"?",
         "answers":["Denmark"],
         "options":["Finland", "Germany", "Ireland", "Suriname", "Mozampique", "Amsterdam"],
         "difficulty": 2,
@@ -11715,7 +11715,7 @@
     },
     {
         "question":"Which of these colours is not featured on the French flag?",
-        "answers":["Blue", "Orange", "Yellow", "Brown"],
+        "answers":["Orange", "Yellow", "Brown"],
         "options":["White", "Red", "Blue"],
         "difficulty": 1,
         "categories":["flags"]
@@ -11763,14 +11763,14 @@
         "categories":["sports"]
     },
     {
-        "question":"Who directed 1944\"s \"Double Indemnity\"?",
+        "question":"Who directed 1944s \"Double Indemnity\"?",
         "answers":["Billy Wilder"],
         "options":["Alfred Hitchcock", "William Wyler", "Orson Welles", "Michael Curtiz", "Frank Capra"],
         "difficulty": 5,
         "categories":["film"]
     },
     {
-        "question":"Who voiced the genie in 1992\"s Aladdin?",
+        "question":"Who voiced the genie in 1992s Aladdin?",
         "answers":["Robin Williams"],
         "options":["Tom Hanks", "Anthony Hopkins", "Kevin Costner", "Kevin Kline", "Gary Oldman", "Ralph Fiennes", "Jeremy Irons"],
         "difficulty": 2,
@@ -11807,7 +11807,7 @@
     {
         "question":"A \"Horcrux\" belongs to which fictional universe?",
         "answers":["Harry Potter"],
-        "options":["The Lord of the Rings", "Avatar", "The Avengers", "DargonHeart", "Pan\"s Labyrinth"],
+        "options":["The Lord of the Rings", "Avatar", "The Avengers", "DargonHeart", "Pans Labyrinth"],
         "difficulty": 3,
         "categories":["literature", "film"]
     },{
@@ -11817,7 +11817,7 @@
     "difficulty": 3,
     "categories":["literature", "film"]
     },{
-    "question":"When was \"Harry Potter and the Sorcerer\"s stone\" first published?",
+    "question":"When was \"Harry Potter and the Sorcerers stone\" first published?",
     "answers":["1997"],
     "options":["1998", "1995", "1996", "1999", "2001", "2000", "2002", "2003", "2004", "2005", "2006"],
     "difficulty": 3,

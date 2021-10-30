@@ -27,6 +27,7 @@ public class ChainGame extends MainEvent {
 
 	public ChainGame(Keyboard input, Room room, MainGame game){
 		super(input, room, game);
+		game.setPlayersForward();
 		game.setRandomPlayer();
 		gameName = "Chain Game";
 		maxPlayers = 2;
