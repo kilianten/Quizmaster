@@ -52,16 +52,18 @@ public class Screen {
     
 
     public void renderPlayer(int xp, int yp, Sprite sprite) {
-    	xp -= xOffset;
-    	yp -= yOffset;
+
+		int spriteSizeOffset = sprite.SIZE - Constants.DEFAULT_ENTITY_SIZE;
+		xp -= xOffset + spriteSizeOffset/2;
+    	yp -= yOffset + spriteSizeOffset/2;
     	
-    	for(int y = 0; y < 64; y++) {
+    	for(int y = 0; y < sprite.SIZE; y++) {
     		int ya = y + yp;
-    		for(int x = 0; x < 64; x++) {
+    		for(int x = 0; x < sprite.SIZE; x++) {
     			int xa = x + xp;
-    			if(xa < -64 || xa >= width || ya < 0 || ya >= height) break;
+    			if(xa < - sprite.SIZE || xa >= width || ya < 0 || ya >= height) break;
     			if (xa < 0) xa = 0;
-    			int col = sprite.pixels[x + y * 64];
+    			int col = sprite.pixels[x + y * sprite.SIZE];
     			if(col != 0xfff000ca) pixels[xa + ya * width] = col;
     		}
     	}

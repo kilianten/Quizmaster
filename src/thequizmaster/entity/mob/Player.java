@@ -57,6 +57,7 @@ public class Player extends Mob {
 	public Sprite[] chainGameDeath;
 
 	public Sprite[] chainedSawChallengeAnim;
+	public Sprite[] deathSawChallengeAnim;
 
 	public Sprite[] wireTrapDeathAnim;
 	public Sprite wireTrapCorpse;
@@ -65,6 +66,8 @@ public class Player extends Mob {
 	public Sprite deathImage = null;
 
 	public Animation animation = null;
+
+
 
 	public Map<String, Integer> questionKnowledge;
 

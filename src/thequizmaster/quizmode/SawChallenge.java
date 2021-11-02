@@ -10,6 +10,7 @@ import thequizmaster.input.Keyboard;
 import thequizmaster.level.Room;
 import thequizmaster.objects.Corpse;
 import thequizmaster.objects.Delay;
+import thequizmaster.objects.traps.ChainGameSaw;
 import thequizmaster.objects.traps.TV;
 
 public class SawChallenge extends MainEvent {
@@ -42,11 +43,13 @@ public class SawChallenge extends MainEvent {
     }
 
     public void tidyUp() {
-        game.quiz = null;
-        game.replaceCurrentPlayer();
-        for(Player player: game.allPeople){
-            player.animation = null;
+        if(game.player.animation.isFinished){
+            game.addDrawObject(new Corpse(game.player.x, game.player.y, game.player.deathSawChallengeAnim[25]));
+            game.quiz = null;
+            game.player.killPlayer(game.player.deathSawChallengeAnim[25]);
+            game.replaceCurrentPlayer();
         }
+
     }
 
     public void createSawTrap(){
@@ -78,7 +81,7 @@ public class SawChallenge extends MainEvent {
 
     public void answeredIncorrectlyResponse(){
         gameRunning = false;
-        game.player.animation = new Animation(1, game.player.chainGameDeath, game.player, 0, false);
+        game.player.animation = new Animation(1, game.player.deathSawChallengeAnim, game.player, 0, false);
     }
 
     public void playerWon() {

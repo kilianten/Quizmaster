@@ -36,6 +36,8 @@ public class Nolan extends Player {
 		HUDImage = NolanSprites.nolanHUDFaceImage;
 
 		chainedSawChallengeAnim = NolanSprites.nolanChainedSawChallenge;
+		deathSawChallengeAnim = NolanSprites.nolanDeathSawChallenge;
+
 
 	}
 	

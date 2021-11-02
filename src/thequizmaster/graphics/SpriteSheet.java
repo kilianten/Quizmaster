@@ -16,6 +16,10 @@ public class SpriteSheet {
 	public static SpriteSheet douglasSheet = new SpriteSheet("/entities/douglas/douglas.png", 1280);
 	public static SpriteSheet nolanSheet = new SpriteSheet("/entities/nolan/nolan.png", 1280);
 	public static SpriteSheet karlSheet = new SpriteSheet("/entities/karl/karl.png", 1280);
+	public static SpriteSheet douglasSheet96 = new SpriteSheet("/entities/douglas/douglas96.png", 1440);
+	public static SpriteSheet karlSheet96 = new SpriteSheet("/entities/karl/karl96.png", 1440);
+	public static SpriteSheet nolanSheet96 = new SpriteSheet("/entities/nolan/nolan96.png", 1440);
+
 
 	public static SpriteSheet trapsSheet = new SpriteSheet("/objects/traps.png", 1280);
 	public static SpriteSheet hudSheet = new SpriteSheet("/hud/hud-spritesheet.png", 640);

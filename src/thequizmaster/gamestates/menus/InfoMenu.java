@@ -21,8 +21,12 @@ public class InfoMenu extends Menu{
     }
 
     public void render(Screen screen, Graphics g){
+        int offset = 0;
         paperHud.render(screen);
-        screen.renderFixedObject( 230, 30, getCurrentPlayer().getPlayerMainSprite());
+        if(getCurrentPlayer().getPlayerMainSprite().SIZE == 96){
+            offset = 16;
+        }
+        screen.renderFixedObject( 230 - offset, 30 - offset, getCurrentPlayer().getPlayerMainSprite());
         drawKnowledgeBars(screen);
     }
 

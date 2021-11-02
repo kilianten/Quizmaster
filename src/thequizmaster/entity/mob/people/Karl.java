@@ -2,6 +2,7 @@ package thequizmaster.entity.mob.people;
 
 import thequizmaster.entity.mob.Player;
 import thequizmaster.gamestates.MainGame;
+import thequizmaster.graphics.people.DouglasSprites;
 import thequizmaster.graphics.people.KarlSprites;
 import thequizmaster.graphics.people.NolanSprites;
 import thequizmaster.input.Keyboard;
@@ -37,6 +38,8 @@ public class Karl extends Player {
         poisonAnim = KarlSprites.karlPoisonDeath;
 
         chainedSawChallengeAnim = KarlSprites.karlChainedSawChallenge;
+        deathSawChallengeAnim = KarlSprites.karlDeathSawChallenge;
+
 
     }
 

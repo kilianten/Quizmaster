@@ -126,6 +126,35 @@ public abstract class DouglasSprites {
 			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 14, 8, SpriteSheet.douglasSheet),
 			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 15, 8, SpriteSheet.douglasSheet)};
 
+	public static Sprite[] douglasDeathSawChallenge = new Sprite [] {
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 0,  9, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 1,  9, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 2,  9, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 3,  9, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 4,  9, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 5,  9, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 6,  9, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 7,  9, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 8,  9, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 9,  9, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 10,  9, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 11,  9, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 12,  9, SpriteSheet.douglasSheet),
+			new Sprite(96, 0, 0, SpriteSheet.douglasSheet96),
+			new Sprite(96, 1, 0, SpriteSheet.douglasSheet96),
+			new Sprite(96, 2, 0, SpriteSheet.douglasSheet96),
+			new Sprite(96, 3, 0, SpriteSheet.douglasSheet96),
+			new Sprite(96, 4, 0, SpriteSheet.douglasSheet96),
+			new Sprite(96, 5, 0, SpriteSheet.douglasSheet96),
+			new Sprite(96, 6, 0, SpriteSheet.douglasSheet96),
+			new Sprite(96, 7, 0, SpriteSheet.douglasSheet96),
+			new Sprite(96, 8, 0, SpriteSheet.douglasSheet96),
+			new Sprite(96, 9, 0, SpriteSheet.douglasSheet96),
+			new Sprite(96, 10, 0, SpriteSheet.douglasSheet96),
+			new Sprite(96, 11, 0, SpriteSheet.douglasSheet96),
+			new Sprite(96, 12, 0, SpriteSheet.douglasSheet96)
+	};
+
 
 
 }
