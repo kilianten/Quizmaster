@@ -240,6 +240,7 @@ public class MainGame extends GameState {
 			if(quiz == null){
 				if(menu == null){
 					if(!player.dying){
+						player.walking = false;
 						swapPlayer();
 					}
 				} else {

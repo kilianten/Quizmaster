@@ -21,8 +21,6 @@ public class StartButton extends CollidableObject
         this.room = room;
         this.game = game;
         event = room.event;
-        System.out.println(room.topLeftCornerX);
-        System.out.println(room.width + " WIDTH");
         this.x = room.getCenterX() - Constants.DEFAULT_ENTITY_SIZE/2;
         this.y = room.getCenterY()  - Constants.DEFAULT_ENTITY_SIZE;
         hitbox = new Hitbox(x, y, 8, 42, 25, 20);

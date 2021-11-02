@@ -5,6 +5,7 @@ import thequizmaster.Constants;
 import thequizmaster.entity.mob.Player;
 import thequizmaster.gamestates.MainGame;
 import thequizmaster.graphics.Animation;
+import thequizmaster.graphics.Sprite;
 import thequizmaster.input.Keyboard;
 import thequizmaster.level.Room;
 import thequizmaster.objects.Corpse;
@@ -18,6 +19,8 @@ public class SawChallenge extends MainEvent {
     private int numberOfQuestions;
     private int questionsAnswered = 0;
     private TV tv;
+    private int delayTimer = 20;
+    private long lastUpdated = 0;
 
     public SawChallenge(Keyboard input, Room room, MainGame game){
         super(input, room, game);
@@ -49,12 +52,10 @@ public class SawChallenge extends MainEvent {
 
     public void answeredCorrectlyResponse(){
         answered = false;
-
         questionsAnswered++;
         if(questionsAnswered >= numberOfQuestions){
             playerWon();
         } else {
-            tv.currentNumber++;
             getDifficultQuestion(questionsAnswered + 1);
         }
     }

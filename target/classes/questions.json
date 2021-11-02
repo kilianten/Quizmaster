@@ -11998,17 +11998,60 @@
     "difficulty": 4,
     "categories":["quote"]
 },{
-    "question":"What is the word for a Muslim who knows the Koran by heart",
+    "question":"What is the word for a Muslim who knows the Koran by heart?",
     "answers":["Hafiz"],
     "options":["Hazim","Harim", "Palif", "Hatirm", "Harif"],
     "difficulty": 4,
     "categories":["religion"]
 },{
-    "question":"In 1988 David Duke, entered the presidential election for which party",
+    "question":"In 1988 David Duke, entered the presidential election for which party?",
     "answers":["Democratic"],
     "options":["Republican"],
     "difficulty": 3,
     "categories":["politics"]
-}
+},
+    {
+        "question":"Cleveland is in what U.S state?",
+        "answers":["Ohio"],
+        "options":["California", "Massachusetts", "Washingston", "Pennsylvania", "Illinois", "Michigan", "Colorado", "Texas", "Oregan", "Arizona", "Tennessee", "Florida", "North Carolina", "Georgia", "Minnesota", "Nevada"],
+        "difficulty": 2,
+        "categories":["geography"]
+    },
+    {
+        "question":"The Rouge River flows through which state?",
+        "answers":["Michigan"],
+        "options":["California", "Massachusetts", "Washingston", "Pennsylvania", "Illinois", "Ohio", "Colorado", "Texas", "Oregan", "Arizona", "Tennessee", "Florida", "North Carolina", "Georgia", "Minnesota", "Nevada"],
+        "difficulty": 4,
+        "categories":["geography"]
+    },
+    {
+        "question":"In which country would you have found the Tenere river before it was knocked down?",
+        "answers":["Nigeria"],
+        "options":["Kyrgyzstan", "Canada", "Ireland", "The United States", "Republic of the Congo"],
+        "difficulty": 4,
+        "categories":["nature"]
+    },
+    {
+        "question":"The Tenere tree, the most isolated tree on Earth was found in which desert?",
+        "answers":["The Sahara"],
+        "options":["Arctic Desert", "Antarctic Desert", "Arabian Desert", "The United States", "Gobi Desert", "Atacama Desert"],
+        "difficulty": 4,
+        "categories":["nature"]
+    },
+    {
+        "question":"\"The Joy of Painting\" is an American TV show featuring which painter?",
+        "answers":["Bob Ross"],
+        "options":["Banksy", "Cindy Sherman", "Luo Zhongli", "Cecily Brown"],
+        "difficulty": 2,
+        "categories":["art"]
+    },
+    {
+        "question":"Where is Central Park?",
+        "answers":["New York"],
+        "options":["California", "Massachusetts", "Washingston", "Pennsylvania", "Illinois", "Ohio", "Colorado", "Texas", "Oregan", "Arizona", "Tennessee", "Florida", "North Carolina", "Georgia", "Minnesota", "Nevada"],
+        "difficulty": 1,
+        "categories":["geography"]
+    }
+
 
 ]
