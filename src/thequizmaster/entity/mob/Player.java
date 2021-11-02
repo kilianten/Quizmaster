@@ -56,6 +56,8 @@ public class Player extends Mob {
 	public Sprite[] chainGamePull;
 	public Sprite[] chainGameDeath;
 
+	public Sprite[] chainedSawChallengeAnim;
+
 	public Sprite[] wireTrapDeathAnim;
 	public Sprite wireTrapCorpse;
 	public Sprite HUDImage;

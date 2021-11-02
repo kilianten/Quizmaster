@@ -36,6 +36,8 @@ public class Karl extends Player {
 
         poisonAnim = KarlSprites.karlPoisonDeath;
 
+        chainedSawChallengeAnim = KarlSprites.karlChainedSawChallenge;
+
     }
 
 

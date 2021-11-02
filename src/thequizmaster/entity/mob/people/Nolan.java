@@ -3,6 +3,7 @@ package thequizmaster.entity.mob.people;
 import thequizmaster.entity.mob.Player;
 import thequizmaster.gamestates.MainGame;
 import thequizmaster.graphics.people.DouglasSprites;
+import thequizmaster.graphics.people.KarlSprites;
 import thequizmaster.graphics.people.NolanSprites;
 import thequizmaster.input.Keyboard;
 
@@ -33,6 +34,9 @@ public class Nolan extends Player {
 
 		sprite = standingSprites[2];
 		HUDImage = NolanSprites.nolanHUDFaceImage;
+
+		chainedSawChallengeAnim = NolanSprites.nolanChainedSawChallenge;
+
 	}
 	
 	

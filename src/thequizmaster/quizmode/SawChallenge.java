@@ -29,10 +29,12 @@ public class SawChallenge extends MainEvent {
         isAskingQuestion = true;
         player = game.player;
         player.dir = 2;
+        player.y += 30;
         getDifficultQuestion(questionsAnswered + 1);
         createSawTrap();
         numberOfQuestions = random.nextInt(4) + 1;
         tv = new TV(room.topLeftCornerX + Constants.DEFAULT_SPRITE_SIZE, room.topLeftCornerY, game);
+        player.animation = new Animation(.7, player.chainedSawChallengeAnim, player, 0, true);
     }
 
     public void start(){
@@ -80,7 +82,7 @@ public class SawChallenge extends MainEvent {
     }
 
     public void playerWon() {
-        player.y += 32;
+        player.animation = null;
         game.quiz = null;
     }
 

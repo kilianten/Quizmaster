@@ -130,4 +130,34 @@ public abstract class KarlSprites {
 			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 15, 2, SpriteSheet.karlSheet),
 			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 16, 2, SpriteSheet.karlSheet),
 			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 17, 2, SpriteSheet.karlSheet)};
+
+	public static Sprite[] karlChainedSawChallenge = new Sprite [] {
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 0, 8, SpriteSheet.karlSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 1, 8, SpriteSheet.karlSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 2, 8, SpriteSheet.karlSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 3, 8, SpriteSheet.karlSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 4, 8, SpriteSheet.karlSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 5, 8, SpriteSheet.karlSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 6, 8, SpriteSheet.karlSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 7, 8, SpriteSheet.karlSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 8, 8, SpriteSheet.karlSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 9, 8, SpriteSheet.karlSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 10, 8, SpriteSheet.karlSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 11, 8, SpriteSheet.karlSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 12, 8, SpriteSheet.karlSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 13, 8, SpriteSheet.karlSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 14, 8, SpriteSheet.karlSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 15, 8, SpriteSheet.karlSheet)};
+
+
+
+
+
+
+
+
+
+
+
 }
+

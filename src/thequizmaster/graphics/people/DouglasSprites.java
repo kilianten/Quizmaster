@@ -107,4 +107,25 @@ public abstract class DouglasSprites {
 			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 10, 7, SpriteSheet.douglasSheet),
 			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 11, 7, SpriteSheet.douglasSheet),
 			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 12, 7, SpriteSheet.douglasSheet)};
+
+	public static Sprite[] douglasChainedSawChallenge = new Sprite [] {
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 0, 8, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 1, 8, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 2, 8, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 3, 8, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 4, 8, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 5, 8, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 6, 8, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 7, 8, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 8, 8, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 9, 8, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 10, 8, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 11, 8, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 12, 8, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 13, 8, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 14, 8, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 15, 8, SpriteSheet.douglasSheet)};
+
+
+
 }
