@@ -9,6 +9,7 @@ import thequizmaster.graphics.Sprite;
 import thequizmaster.input.Keyboard;
 import thequizmaster.level.Room;
 import thequizmaster.objects.Corpse;
+import thequizmaster.objects.Delay;
 import thequizmaster.objects.traps.TV;
 
 public class SawChallenge extends MainEvent {
@@ -19,8 +20,8 @@ public class SawChallenge extends MainEvent {
     private int numberOfQuestions;
     private int questionsAnswered = 0;
     private TV tv;
-    private int delayTimer = 20;
-    private long lastUpdated = 0;
+    private Delay delay;
+    private boolean isTVNumberIncreased = false;
 
     public SawChallenge(Keyboard input, Room room, MainGame game){
         super(input, room, game);
@@ -51,12 +52,25 @@ public class SawChallenge extends MainEvent {
     }
 
     public void answeredCorrectlyResponse(){
-        answered = false;
-        questionsAnswered++;
-        if(questionsAnswered >= numberOfQuestions){
-            playerWon();
+        if(delay == null){
+            delay = new Delay(2);
+            isTVNumberIncreased = false;
         } else {
-            getDifficultQuestion(questionsAnswered + 1);
+            delay.update();
+        }
+        if(delay.isFinished) {
+            answered = false;
+            questionsAnswered++;
+            if (questionsAnswered >= numberOfQuestions) {
+                playerWon();
+            }
+            else {
+
+                getDifficultQuestion(questionsAnswered + 1);
+            }
+        } else if (!isTVNumberIncreased && delay.isHalfway){
+            tv.currentNumber++;
+            isTVNumberIncreased = true;
         }
     }
 
