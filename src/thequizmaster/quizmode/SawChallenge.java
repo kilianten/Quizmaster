@@ -31,6 +31,7 @@ public class SawChallenge extends MainEvent {
         player = game.player;
         player.dir = 2;
         player.y += 30;
+        player.x += 5;
         getDifficultQuestion(questionsAnswered + 1);
         createSawTrap();
         numberOfQuestions = random.nextInt(4) + 1;

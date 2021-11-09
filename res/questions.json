@@ -12051,7 +12051,50 @@
         "options":["California", "Massachusetts", "Washingston", "Pennsylvania", "Illinois", "Ohio", "Colorado", "Texas", "Oregan", "Arizona", "Tennessee", "Florida", "North Carolina", "Georgia", "Minnesota", "Nevada"],
         "difficulty": 1,
         "categories":["geography"]
+    },
+    {
+        "question":"What was Vladimir Lenins real name?",
+        "answers":["Vladimir Ilyich Ulyanov"],
+        "options":["Vladimir Stanislav Osipov", "Vladimir Zina Popoa", "Vladimir Akim Kozlov", "Vladimir Koldan Popo"],
+        "difficulty": 5,
+        "categories":["history"]
+    },
+    {
+        "question":"Who was the first U.S. president?",
+        "answers":["George Washington"],
+        "options":["John Adams", "Thomas Jefferson", "James Madison", "Abraham Lincoln"],
+        "difficulty": 1,
+        "categories":["history", "politics"]
+    },
+    {
+        "question":"Who was the second U.S. president?",
+        "answers":["John Adams"],
+        "options":["George Washington", "Thomas Jefferson", "James Madison", "Abraham Lincoln", "Benjamin Franklin"],
+        "difficulty": 2,
+        "categories":["history", "politics"]
+    },
+    {
+        "question":"Who was the third U.S. president?",
+        "answers":["Thomas Jefferson"],
+        "options":["George Washington", "John Adams", "James Madison", "Abraham Lincoln", "Benjamin Franklin"],
+        "difficulty": 2,
+        "categories":["history", "politics"]
+    },
+    {
+        "question":"Who was the fourth U.S. president?",
+        "answers":["James Madison"],
+        "options":["George Washington", "John Adams", "Thomas Jefferson", "Abraham Lincoln", "Benjamin Franklin", "James Monroe"],
+        "difficulty": 2,
+        "categories":["history", "politics"]
+    },
+    {
+        "question":"Who was the fifth U.S. president?",
+        "answers":["James Monroe"],
+        "options":["George Washington", "John Adams", "Thomas Jefferson", "Abraham Lincoln", "Benjamin Franklin", "James Madison"],
+        "difficulty": 3,
+        "categories":["history", "politics"]
     }
+
 
 
 ]
