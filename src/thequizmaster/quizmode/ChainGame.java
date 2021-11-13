@@ -42,7 +42,7 @@ public class ChainGame extends MainEvent {
 
 	public void tidyUp() {
 		if(game.player.animation.isFinished){
-			game.addDrawObject(new Corpse(game.player.x, game.player.y, game.player.chainGameDeath[22]));
+			game.addDrawObject(new Corpse(game.player.x, game.player.y, game.player.chainGameDeath[22], 1000));
 			game.quiz = null;
 			game.player.killPlayer(game.player.chainGameDeath[22]);
 			game.replaceCurrentPlayer();

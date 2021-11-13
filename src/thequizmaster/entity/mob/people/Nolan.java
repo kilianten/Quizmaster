@@ -18,6 +18,7 @@ public class Nolan extends Player {
 		y = 74 * 32;
 		questionKnowledge.put("religion", 4);
 		questionKnowledge.put("literature", 2);
+		poisonRate = 1;
 	}
 	
 	public void setAnims() {
@@ -37,6 +38,7 @@ public class Nolan extends Player {
 
 		chainedSawChallengeAnim = NolanSprites.nolanChainedSawChallenge;
 		deathSawChallengeAnim = NolanSprites.nolanDeathSawChallenge;
+		poisonAnim = NolanSprites.nolanPoisonDeath;
 
 
 	}

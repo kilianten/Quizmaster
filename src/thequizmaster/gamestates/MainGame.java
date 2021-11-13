@@ -17,10 +17,12 @@ import thequizmaster.gamestates.menus.Menu;
 import thequizmaster.graphics.Animation;
 import thequizmaster.graphics.LightSource;
 import thequizmaster.graphics.Screen;
+import thequizmaster.graphics.people.NolanSprites;
 import thequizmaster.input.Keyboard;
 import thequizmaster.level.Level;
 import thequizmaster.level.SpawnLevel;
 import thequizmaster.objects.CollidableObject;
+import thequizmaster.objects.Corpse;
 import thequizmaster.objects.GameObject;
 import thequizmaster.objects.Hitbox;
 import thequizmaster.objects.hud.InventoryBar;
@@ -318,23 +320,24 @@ public class MainGame extends GameState {
 		Collections.sort(allPeople);
 		Collections.sort(drawObjects);
 
-
 		int peopleSize = allPeople.size();
 		int peopleIndex = 0;
 		int objectIndex = 0;
-		int currentObjectY = drawObjects.get(objectIndex).y;
+		int currentObjectY = drawObjects.get(objectIndex).getDrawY();
 		int objectsSize = drawObjects.size();
 
 		for(GameObject object: drawOverObjects){
 			object.render(screen);
 		}
 
+
 		while(peopleIndex < peopleSize){
-			while(currentObjectY <= allPeople.get(peopleIndex).y && objectIndex < objectsSize){
+
+			while(currentObjectY <= allPeople.get(peopleIndex).getDrawY() && objectIndex < objectsSize){
 				drawObjects.get(objectIndex).render(screen);
 				objectIndex++;
 				if(objectIndex < objectsSize){
-					currentObjectY = drawObjects.get(objectIndex).y;
+					currentObjectY = drawObjects.get(objectIndex).getDrawY();
 				}
 			}
 			allPeople.get(peopleIndex).render(screen);
@@ -344,6 +347,7 @@ public class MainGame extends GameState {
 		while(objectIndex < objectsSize){
 			drawObjects.get(objectIndex).render(screen);
 			objectIndex++;
+
 		}
 
 

@@ -10,10 +10,22 @@ public class Corpse extends GameObject {
 		this.x = x;
 		this.sprite = sprite;
 	}
+
+	public Corpse(int x, int y, Sprite sprite, int drawYOffset) {
+		this.y = y;
+		this.x = x;
+		this.sprite = sprite;
+		this.drawYOffset = drawYOffset;
+	}
 	
 	public void render(Screen screen) {
 		screen.renderObject(x - 32, y - 32, sprite);
 	}
+
+	public int getDrawY(){
+		return this.y + (sprite.YSIZE);
+	}
+
 
 	public void update() {
 		

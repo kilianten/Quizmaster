@@ -173,7 +173,7 @@ public class Game extends Canvas implements Runnable{
 	
 	public void printStats(Graphics g) {
 		g.drawString("X: " + gameState.getPlayer().x + ", Y: " + gameState.getPlayer().y, 0, 20);
-		g.drawString("XTILE: " + gameState.getPlayer().x / Constants.DEFAULT_SPRITE_SIZE + ", YTILE: " + gameState.getPlayer().y / Constants.DEFAULT_SPRITE_SIZE, 200, 20);
+		g.drawString("XTILE: " + gameState.getPlayer().x / Constants.DEFAULT_SPRITE_SIZE + ", YTILE: " + gameState.getPlayer().y / Constants.DEFAULT_SPRITE_SIZE + "YDRAW: " + gameState.getPlayer().getDrawY(), 200, 20);
 		g.drawString("Poison Rate: " + gameState.getPlayer().poisonRate + ", Poison Level: " + gameState.getPlayer().poisonLevel + ", Selection: " + gameState.getPlayer().playerSelection, 0, 40);
 	}
 

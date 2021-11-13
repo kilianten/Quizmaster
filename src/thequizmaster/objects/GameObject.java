@@ -8,8 +8,9 @@ public class GameObject implements Comparable<GameObject>{
 	
 	public int x;
 	public int y;
+	public int drawYOffset = 0;
 	protected Sprite sprite;
-	protected int drawLevel = 0;
+
 	
 	public void render(Screen screen) {
 		screen.renderObject(x, y, sprite);
@@ -19,8 +20,12 @@ public class GameObject implements Comparable<GameObject>{
 		
 	}
 
+	public int getDrawY(){
+		return this.y + sprite.YSIZE + drawYOffset;
+	}
+
 	@Override
 	public int compareTo(GameObject o) {
-		return Integer.compare(y, o.y);
+		return Integer.compare(getDrawY(), o.getDrawY());
 	}
 }
