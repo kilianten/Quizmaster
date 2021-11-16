@@ -12093,8 +12093,97 @@
         "options":["George Washington", "John Adams", "Thomas Jefferson", "Abraham Lincoln", "Benjamin Franklin", "James Madison"],
         "difficulty": 3,
         "categories":["history", "politics"]
-    }
-
-
-
+    },
+    {
+        "question":"In 1798, which U.S. president signed into law the Alien & Seditions Act?",
+        "answers":["John Adams"],
+        "options":["George Washington", "James Monroe", "Thomas Jefferson", "Abraham Lincoln", "Benjamin Franklin", "James Madison"],
+        "difficulty": 4,
+        "categories":["history", "politics"]
+    },
+    {
+        "question":"A subtly aimed political message intended and only understood by a particular demographic group is known as what?",
+        "answers":["A dog whistle"],
+        "options":["A kettle whistle", "A spoon whistle", "A night whistle", "A train whistle"],
+        "difficulty": 2,
+        "categories":["proverb", "language"]
+    },
+    {
+        "question":"According to Ronald Reagan the most terrifying words in the English language are: \"Im from \" what \"and I'm here to help\"?",
+        "answers":["The government"],
+        "options":["The police", "The United States", "China", "A private school", "The upper class", "Out of Town"],
+        "difficulty": 3,
+        "categories":["quote"]
+    },
+    {
+        "question":"Which of these countries has rank choice voting?",
+        "answers":["Ireland", "Malta", "Australia"],
+        "options":["The police", "The United States", "China", "A private school", "The upper class", "Out of Town"],
+        "difficulty": 3,
+        "categories":["quote"]
+    },
+    {
+        "question":"According to Greek mythology, what was the center of the world?",
+        "answers":["Delphi"],
+        "options":["Pleonexia", "Hubris", "Eudaemonia"],
+        "difficulty": 4,
+        "categories":["mythology"]
+    },
+    {
+        "question":"Zeus, attempting to locate the center of the earth, launched two what from the two ends of the world?",
+        "answers":["Eagles"],
+        "options":["Snakes", "Crows", "Arrows", "Pigeons", "Doves"],
+        "difficulty": 3,
+        "categories":["mythology", "animals"]
+    },
+    {
+        "question":"Which Roman Emperor, in 206AD was used as a footstool by a Persian king, eventually being flayed and stuffed?",
+        "answers":["Emporer Valerian"],
+        "options":["Emporer Justinian", "Emporer Vespasian", "Emporer Hadrian", "Emporer Claudius"],
+        "difficulty": 4,
+        "categories":["history"]
+    },
+    {
+        "question":"In 30 BC, Cleopatra died of what?",
+        "answers":["Poisoning"],
+        "options":["A sword to the heart", "Falling out of a window", "Lynching", "Burning at the stake"],
+        "difficulty": 3,
+        "categories":["history"]
+    }, {
+    "question":"On what continent would you find the Gobi Desert?",
+    "answers":["Asia"],
+    "options":["Australia", "South America", "North America", "Africa", "Europe"],
+    "difficulty": 3,
+    "categories":["geography"]
+},{
+    "question":"In which of these countries can you find the Gobi desert?",
+    "answers":["China", "Mongolia"],
+    "options":["Colombia", "Iraq", "Algeria", "Angola", "Chile", "Mozambique"],
+    "difficulty": 3,
+    "categories":["geography"]
+},{
+    "question":"Alexander the Great was tutored by Aristotle?",
+    "answers":["True"],
+    "options":["False"],
+    "difficulty": 2,
+    "categories":["history"]
+},{
+    "question":"Alexander the Great was tutored by Aristotle?",
+    "answers":["True"],
+    "options":["False"],
+    "difficulty": 3,
+    "categories":["history"]
+},{
+    "question":"Plato was tutored by Aristotle?",
+    "answers":["True"],
+    "options":["False"],
+    "difficulty": 2,
+    "categories":["history"]
+},{
+    "question":"Pythagoras was tutored by Aristotle?",
+    "answers":["False"],
+    "options":["True"],
+    "difficulty": 3,
+    "categories":["history"]
+}
 ]

@@ -155,6 +155,27 @@ public abstract class DouglasSprites {
 			new Sprite(96, 12, 0, SpriteSheet.douglasSheet96)
 	};
 
+	public static Sprite[] douglasPoisonDeath = new Sprite [] {
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 8, 1, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 9, 1, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 10, 1, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 11, 1, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 12, 1, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 13, 1, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 14, 1, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 15, 1, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 16, 1, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 17, 1, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 8, 2, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 9, 2, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 10, 2, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 12, 2, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 12, 2, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 13, 2, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 14, 2, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 15, 2, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 16, 2, SpriteSheet.douglasSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 17, 2, SpriteSheet.douglasSheet)};
 
 
 }

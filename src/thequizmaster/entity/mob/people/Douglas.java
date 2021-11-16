@@ -38,6 +38,8 @@ public class Douglas extends Player {
 		chainedSawChallengeAnim = DouglasSprites.douglasChainedSawChallenge;
 
 		deathSawChallengeAnim = DouglasSprites.douglasDeathSawChallenge;
+		poisonAnim = DouglasSprites.douglasPoisonDeath;
+
 
 	}
 	

@@ -235,8 +235,7 @@ public class Player extends Mob {
 	private void poisonPlayer(){
 		if(poisonLevel <= 0){
 			dying = true;
-			System.out.println("posisoned");
-			animation = new Animation(.8, poisonAnim, this, 3, true);
+			animation = new Animation(1.2, poisonAnim, this, 3, false);
 		} else {
 			if(poisonCounter >= poisonRate){
 				if(poisonLevel >= 1){

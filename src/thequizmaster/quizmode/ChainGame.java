@@ -1,14 +1,17 @@
 package thequizmaster.quizmode;
 
+import thequizmaster.Game;
 import thequizmaster.entity.mob.Player;
 import thequizmaster.gamestates.MainGame;
 import thequizmaster.graphics.Animation;
+import thequizmaster.graphics.Screen;
 import thequizmaster.input.Keyboard;
 import thequizmaster.level.Room;
 import thequizmaster.objects.Corpse;
 import thequizmaster.objects.traps.ChainGameLight;
 import thequizmaster.objects.traps.ChainGameSaw;
 
+import java.awt.*;
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -21,6 +24,7 @@ public class ChainGame extends MainEvent {
 	public int lightIndex;
 	public static int minWidth = 15;
 	public static int minHeight = 4;
+	private int questionsToWin = 20;
 
 	private ArrayList<ChainGameSaw> saws = new ArrayList<>();
 	private ArrayList<ChainGameLight> lights = new ArrayList<>();
@@ -34,6 +38,7 @@ public class ChainGame extends MainEvent {
 		isAskingQuestion = true;
 		getNewQuestion();
 		createSawTraps();
+		questionsToWin += random.nextInt(5);
 	}
 
 	public void start(){
@@ -73,6 +78,11 @@ public class ChainGame extends MainEvent {
 	}
 
 	public void answeredCorrectlyResponse(){
+		if(questionsToWin <= 1){
+			playerWon();
+		} else {
+			questionsToWin--;
+		}
 		answered = false;
 		for(ChainGameLight light: lights){
 			if(light.player == game.player){
@@ -127,5 +137,9 @@ public class ChainGame extends MainEvent {
 		}
 	}
 
-
+	public void renderHUD(Screen screen, Graphics g) {
+		super.renderHUD(screen, g);
+		g.setColor(Color.WHITE);
+		g.drawString("Correct Answers Until Free: " + questionsToWin, screen.width + 100,  30);
+	}
 }

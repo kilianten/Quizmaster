@@ -178,4 +178,29 @@ public abstract class NolanSprites {
 			new Sprite(96, 12, 0, SpriteSheet.nolanSheet96)
 	};
 
+
+	public static Sprite[] nolanPoisonDeath = new Sprite [] {
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 13, 1, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 14, 1, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 15, 1, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 16, 1, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 17, 1, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 13, 2, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 14, 2, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 15, 2, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 16, 2, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 17, 2, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 4, 4, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 5, 4, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 6, 4, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 7, 4, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 8, 4, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 9, 4, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 10, 4, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 11, 4, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 12, 4, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 13, 4, SpriteSheet.nolanSheet),
+			new Sprite(Constants.DEFAULT_ENTITY_SIZE, 14, 4, SpriteSheet.nolanSheet)};
+
+
 }
