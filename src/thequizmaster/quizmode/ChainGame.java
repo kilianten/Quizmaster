@@ -24,7 +24,7 @@ public class ChainGame extends MainEvent {
 	public int lightIndex;
 	public static int minWidth = 15;
 	public static int minHeight = 4;
-	private int questionsToWin = 20;
+	private int questionsToWin = 1;
 
 	private ArrayList<ChainGameSaw> saws = new ArrayList<>();
 	private ArrayList<ChainGameLight> lights = new ArrayList<>();
@@ -141,5 +141,21 @@ public class ChainGame extends MainEvent {
 		super.renderHUD(screen, g);
 		g.setColor(Color.WHITE);
 		g.drawString("Correct Answers Until Free: " + questionsToWin, screen.width + 100,  30);
+	}
+
+	public void playerWon() {
+		super.playerWon();
+		for(ChainGameSaw saw: saws){
+			game.removeUpdateObject(saw);
+		}
+	}
+
+	public static boolean isRoomSuitable(Room room){
+		if(room.width >= minWidth &&  room.height >= minHeight){
+			return true;
+		}
+		else {
+			return false;
+		}
 	}
 }

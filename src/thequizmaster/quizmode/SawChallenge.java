@@ -5,18 +5,18 @@ import thequizmaster.Constants;
 import thequizmaster.entity.mob.Player;
 import thequizmaster.gamestates.MainGame;
 import thequizmaster.graphics.Animation;
-import thequizmaster.graphics.Sprite;
 import thequizmaster.input.Keyboard;
 import thequizmaster.level.Room;
 import thequizmaster.objects.Corpse;
 import thequizmaster.objects.Delay;
-import thequizmaster.objects.traps.ChainGameSaw;
 import thequizmaster.objects.traps.TV;
 
 public class SawChallenge extends MainEvent {
 
-    public static int minWidth = 3;
+    public static int minWidth = 4;
     public static int minHeight = 3;
+    public static int maxWidth = 5;
+    public static int maxHeight = 4;
     private Player player;
     private int numberOfQuestions;
     private int questionsAnswered = 0;
@@ -88,6 +88,15 @@ public class SawChallenge extends MainEvent {
     public void playerWon() {
         player.animation = null;
         game.quiz = null;
+    }
+
+    public static boolean isRoomSuitable(Room room){
+        if(room.width >= minWidth &&  room.height >= minHeight && room.width <= maxWidth && room.height <= maxHeight){
+            return true;
+        }
+        else {
+            return false;
+        }
     }
 
 }

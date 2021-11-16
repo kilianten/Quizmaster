@@ -9,10 +9,12 @@ import thequizmaster.objects.Hitbox;
 public class SearchBox extends CollidableObject {
 
     public SearchBox(int x, int y) {
-        this.y = y;
-        this.x = x;
-        hitbox = new Hitbox(x, y, 50, 25, 8, 15);
         sprite =  TrapSprites.searchBoxSprite;
+        y -= sprite.SIZE/2;
+        x -= sprite.SIZE/2;
+        this.x = x;
+        this.y = y;
+        hitbox = new Hitbox(x, y, 50, 25, 8, 15);
         canWalkThrough = false;
     }
 

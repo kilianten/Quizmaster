@@ -127,13 +127,13 @@ public class QuizMode {
 				input.upReleased = false;
 				questionSelected--;
 				if(questionSelected < 0) {
-					questionSelected = question.getOptionsAnswer().size() - 1;
+					questionSelected = question.numberOfOptions - 1;
 				}
 			}
 			if (input.downReleased) {
 				input.downReleased = false;
 				questionSelected++;
-				questionSelected %= question.getOptionsAnswer().size();
+				questionSelected %= question.numberOfOptions;
 			}
 			if (input.enterReleased) {
 				answeredCorrectly = isCorrectAnswer();

@@ -84,15 +84,7 @@ public class MainGame extends GameState {
 		createHUD();
 		createRandomItem(player.x, player.y + 30);
 		createRandomItem(player.x + 20, player.y + 50);
-		createSearchBox(player.x, player.y + 50);
-	}
-
-	private void createSearchBox(int x, int y) {
-		CollidableObject object = new SearchBox(x, y);
-		level.addGameObject(object);
-		addDrawObject(object);
-		level.addInteractableObject(object);
-		level.addCollidableObject(object);
+		//createSearchBox(player.x, player.y + 50);
 	}
 
 	private void createHUD() {

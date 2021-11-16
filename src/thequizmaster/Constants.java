@@ -31,7 +31,7 @@ public class Constants {
 	public static final float LIGHT_RADIUS = 850;
 	
 	//Probabilities
-	public static final int CHANCE_OF_SPAWNING_TRIPWIRE = 5;
+	public static final int CHANCE_OF_SPAWNING_TRIPWIRE = 10;
 	public static final int SELECTED_RECT_COLOR = 0xffB47139;
 	
 	public static int screenWidth = 350;

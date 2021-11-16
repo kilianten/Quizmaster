@@ -30,13 +30,6 @@ public class MainEvent extends QuizMode{
         return null;
     }
 
-    public static boolean isRoomSuitable(Room room, int minWidth, int minHeight){
-        if(room.width >= minWidth &&  room.height >= minHeight){
-            return true;
-        }
-        else {
-            return false;
-        }
-    }
+
 
 }

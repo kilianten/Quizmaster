@@ -19,6 +19,7 @@ public class Question {
 	private ArrayList<String> answers;
 	private ArrayList<String> categories;
 	private String answer;
+	public int numberOfOptions = 4;
 	
 	private static Random random = new Random();
 	
@@ -28,6 +29,11 @@ public class Question {
 		answers = (ArrayList) question.get("answers");
 		options = (ArrayList) question.get("options");
 		categories = (ArrayList) question.get("categories");
+		if(options.size() >= 3){
+			numberOfOptions = 4;
+		} else {
+			numberOfOptions = options.size() + 1;
+		}
 	}
 
 	public String[] getQuestion() {
@@ -61,6 +67,7 @@ public class Question {
 	}
 	
 	public String getAnswer() {
+		System.out.println(answer);
 		return answer;
 	}
 

@@ -8,6 +8,8 @@ import javax.imageio.ImageIO;
 
 import thequizmaster.Constants;
 import thequizmaster.gamestates.MainGame;
+import thequizmaster.objects.CollidableObject;
+import thequizmaster.objects.traps.SearchBox;
 import thequizmaster.objects.traps.StartButton;
 import thequizmaster.objects.traps.TripWire;
 import thequizmaster.quizmode.ChainGame;
@@ -19,7 +21,7 @@ public class SpawnLevel extends Level {
 	public SpawnLevel(String path, MainGame game) {
 		super(path, game);
 	}
-	
+
 	protected void loadLevel(String path) {
 		try {
 			BufferedImage image = ImageIO.read(SpawnLevel.class.getResource(path));
@@ -51,10 +53,18 @@ public class SpawnLevel extends Level {
 					}
 				}
 				if(eventFound == false){
-					System.out.println("ERROR: Room could not be populated, dimensions: " + room.width + " * " + room.height);
+					createSearchBox(room.getCenterX(), room.topLeftCornerY + 20);
 				}
 			}
 		}
+	}
+
+	public void createSearchBox(int x, int y) {
+		CollidableObject object = new SearchBox(x, y);
+		addGameObject(object);
+		game.addDrawObject(object);
+		addInteractableObject(object);
+		addCollidableObject(object);
 	}
 
 	private MainEvent createMainEvent(String gamemode){
@@ -74,7 +84,7 @@ public class SpawnLevel extends Level {
 	private boolean getGamemodeForRoom(String gamemode, Room room){
 		switch(gamemode) {
 			case "ChainGame":
-				if(ChainGame.isRoomSuitable(room, ChainGame.minWidth, ChainGame.minHeight)){
+				if(ChainGame.isRoomSuitable(room)){
 					room.isUsed = true;
 					room.event = "ChainGame";
 					StartButton button = new StartButton( room, game, this);
@@ -82,7 +92,7 @@ public class SpawnLevel extends Level {
 					return true;
 				}
 			case "SawDifficulty":
-				if(SawChallenge.isRoomSuitable(room, SawChallenge.minWidth, SawChallenge.minHeight)){
+				if(SawChallenge.isRoomSuitable(room)){
 					room.isUsed = true;
 					room.event = "SawDifficulty";
 					StartButton button = new StartButton(room, game, this);
@@ -136,6 +146,8 @@ public class SpawnLevel extends Level {
 		}
 		return true;
 	}
+
+
 
 	public int findRoomHeight(int i){
 		i++;
