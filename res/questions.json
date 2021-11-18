@@ -12185,5 +12185,47 @@
     "options":["True"],
     "difficulty": 3,
     "categories":["history"]
+},{
+    "question":"Pythagoras was tutored by Aristotle?",
+    "answers":["New York City"],
+    "options":["Chicago", "Philadelphia", "Phoenix", "Los Angeles", "Boston", "Houston"],
+    "difficulty": 1,
+    "categories":["geography"]
+},{
+    "question":"Associated with Judaism, how many candles does a menorah typically hold?",
+    "answers":["7"],
+    "options":["6", "8", "9", "10", "11"],
+    "difficulty": 4,
+    "categories":["religion"]
+},{
+    "question":"Associated with Judaism, how many candles does a menorah typically hold?",
+    "answers":["7"],
+    "options":["6", "8", "9", "10", "11"],
+    "difficulty": 4,
+    "categories":["religion"]
+},{
+    "question":"With what religion would you typically associate a menorah?",
+    "answers":["Judaism"],
+    "options":["Christianity", "Islam", "Buddhism", "Hinduism"],
+    "difficulty": 3,
+    "categories":["religion"]
+},{
+    "question":"Associated with Judaism, how many candles does a Hanukkiah typically hold?",
+    "answers":["9"],
+    "options":["6", "8", "7", "10", "11"],
+    "difficulty": 4,
+    "categories":["religion"]
+},{
+    "question":"Who painted the Mona Lisa?",
+    "answers":["Leonardo Da Vinci"],
+    "options":["Michelangelo", "Raphael", "Donatello", "Vincent Van Gogh", "Pablo Picasso"],
+    "difficulty": 1,
+    "categories":["art"]
+},{
+    "question":"Who painted the Last Supper?",
+    "answers":["Leonardo Da Vinci"],
+    "options":["Michelangelo", "Raphael", "Donatello", "Vincent Van Gogh", "Pablo Picasso"],
+    "difficulty": 1,
+    "categories":["art"]
 }
 ]

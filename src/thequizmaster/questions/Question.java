@@ -67,7 +67,6 @@ public class Question {
 	}
 	
 	public String getAnswer() {
-		System.out.println(answer);
 		return answer;
 	}
 
