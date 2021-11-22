@@ -8,6 +8,7 @@ import thequizmaster.graphics.Screen;
 public class GameState {
 	
 	public boolean devMode = false;
+	public boolean startGame = false;
 
 	public void update() {
 		

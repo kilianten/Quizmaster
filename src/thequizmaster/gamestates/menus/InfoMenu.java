@@ -15,9 +15,10 @@ public class InfoMenu extends Menu{
     public int playerIndex;
 
     public InfoMenu(MainGame game, Keyboard input) {
-        super(game, input);
+        super(input);
         paperHud = new PaperHud();
         playerIndex = 0;
+        this.game = game;
     }
 
     public void render(Screen screen, Graphics g){

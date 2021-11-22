@@ -14,10 +14,9 @@ public class Menu {
     public MainGame game;
     protected Keyboard input;
 
-    public Menu(MainGame game, Keyboard input) {
+    public Menu(Keyboard input) {
         input.enterReleased = false;
         this.input = input;
-        this.game = game;
     }
 
     public void update() {

@@ -17,6 +17,7 @@ import javax.swing.JFrame;
 
 import thequizmaster.gamestates.GameState;
 import thequizmaster.gamestates.MainGame;
+import thequizmaster.gamestates.menus.MainMenu;
 import thequizmaster.graphics.Screen;
 import thequizmaster.input.Keyboard;
 
@@ -34,7 +35,7 @@ public class Game extends Canvas implements Runnable{
 	private Screen screen;
 	private Keyboard key;
 	private GameState gameState;
-	
+
 	public static Font digestFont;
 	public static Font titleFont;
 
@@ -52,7 +53,7 @@ public class Game extends Canvas implements Runnable{
 		frame = new JFrame();
 		key = new Keyboard();
 		addKeyListener(key);
-		gameState = new MainGame(key);
+		gameState = new MainMenu(key);
 		createFont();
 	}
 
@@ -116,6 +117,9 @@ public class Game extends Canvas implements Runnable{
 	}
 	
 	public void update() throws CloneNotSupportedException {
+		if(gameState.startGame){
+			gameState = new MainGame(key);
+		}
 		key.update();
 		gameState.update();
 		if(key.slashPressed) {
@@ -175,6 +179,10 @@ public class Game extends Canvas implements Runnable{
 		g.drawString("X: " + gameState.getPlayer().x + ", Y: " + gameState.getPlayer().y, 0, 20);
 		g.drawString("XTILE: " + gameState.getPlayer().x / Constants.DEFAULT_SPRITE_SIZE + ", YTILE: " + gameState.getPlayer().y / Constants.DEFAULT_SPRITE_SIZE + "YDRAW: " + gameState.getPlayer().getDrawY(), 200, 20);
 		g.drawString("Poison Rate: " + gameState.getPlayer().poisonRate + ", Poison Level: " + gameState.getPlayer().poisonLevel + ", Selection: " + gameState.getPlayer().playerSelection, 0, 40);
+	}
+
+	public void createNewGame(){
+		this.gameState = new MainGame(key);
 	}
 
 	public static void main(String[] args) {
