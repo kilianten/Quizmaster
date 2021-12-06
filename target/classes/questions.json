@@ -193,7 +193,7 @@
 {
     "question":"Who famously drew Vitruvian Man?",
     "answers":["Leonardo da Vinci"],
-    "options":["Pablo Picasso", "Vincent van Gogh", "Claude Money", "Michelangelo", "Frida Kahlo"],
+    "options":["Pablo Picasso", "Vincent van Gogh", "Claude Monet", "Michelangelo", "Frida Kahlo"],
     "difficulty":1,
     "categories":["art"]
 },
@@ -12227,5 +12227,160 @@
     "options":["Michelangelo", "Raphael", "Donatello", "Vincent Van Gogh", "Pablo Picasso"],
     "difficulty": 1,
     "categories":["art"]
+},{
+    "question":"Malcolm X was born with what surname?",
+    "answers":["Little"],
+    "options":["X", "Alexander", "Mikkel", "Miguel", "Reed", "Grove"],
+    "difficulty": 4,
+    "categories":["misc"]
+},{
+    "question":"What letter did Malcolm Little use as his surname?",
+    "answers":["X"],
+    "options":["Y", "A", "V", "F", "E", "L", "O", "T", "Z", "B", "Q", "D", "S", "U"],
+    "difficulty": 1,
+    "categories":["misc"]
+},{
+    "question":"What language did Jesus primarily speak?",
+    "answers":["Aramaic"],
+    "options":["Latin", "English", "Hebrew", "Greek", "Tamil"],
+    "difficulty": 5,
+    "categories":["religion"]
+},{
+    "question":"According to the Non-Proliferation of Nuclear Weapons (NTP), which of these countries is not allowed to have nuclear weapons?",
+    "answers":["Israel", "India", "Pakistan", "North Korea"],
+    "options":["France", "China", "United Kingdom", "United States", "Russia"],
+    "difficulty": 5,
+    "categories":["politics", "geography"]
+},{
+    "question":"Who wrote 'The Adventures of Huckleberry Finn'?",
+    "answers":["Mark Twain"],
+    "options":["Victor Hugo", "Leo Tolstoy", "Anton Chekhov", "Marcel Proust", "Ralph Fiennes", "Maxim Gorky", "Ralph Waldo Emerson","Virginia Woolf"],
+    "difficulty": 5,
+    "categories":["authors", "literature"]
+},{
+    "question":"According to Islamic tradition, when did Muhammed die?",
+    "answers":["632 AD"],
+    "options":["432 AD", "832 AD", "232 AD", "32 AD", "32 BC", "232 BC", "832 AD"],
+    "difficulty": 5,
+    "categories":["religion"]
+},{
+    "question":"According to the proverb, someone with sudden but brief success that is not repeatable can be said to be what?",
+    "answers":["A flash in the pan"],
+    "options":["Smoke from the pan", "Oil in the pan", "Bubbles from the pan", "Shell in the pan"],
+    "difficulty": 2,
+    "categories":["proverb"]
+},{
+    "question":"Constantinople was the capital city of which ancient empire?",
+    "answers":["Byzantine Empire"],
+    "options":["Mali Empire", "Hoysala Empire", "Gaza Empire", "Toucouleur Empire", "Ghana Empire"],
+    "difficulty": 3,
+    "categories":["history"]
+},{
+    "question":"Tengri means what?",
+    "answers":["Sky God"],
+    "options":["Sun God", "Moon God", "Sea God", "Flame God", "Root God"],
+    "difficulty": 4,
+    "categories":["religion"]
+},{
+    "question":"Entomology is the study of what?",
+    "answers":["Insects"],
+    "options":["Grass", "Water", "Currency", "Oceans", "Skeletons"],
+    "difficulty": 3,
+    "categories":["misc"]
+},{
+    "question":"Someone offering peace is often said to be extending what?",
+    "answers":["An olive branch"],
+    "options":["A willow branch", "A dragon branch", "An ash branch", "An oak branch", "A fig branch"],
+    "difficulty": 2,
+    "categories":["proverb"]
+},{
+    "question":"Martin Luther King won a Nobel Peace prize",
+    "answers":["True"],
+    "options":["False"],
+    "difficulty": 2,
+    "categories":["history"]
+},{
+    "question":"Benito Mussolini won a Nobel Peace prize",
+    "answers":["False"],
+    "options":["True"],
+    "difficulty": 1,
+    "categories":["history"]
+},{
+    "question":"Winston Churchill won a Nobel Peace prize",
+    "answers":["False"],
+    "options":["True"],
+    "difficulty": 1,
+    "categories":["history"]
+},{
+    "question":"When did Martin Luther King win his Nobel Peace prize?",
+    "answers":["1963"],
+    "options":["1913", "1933", "1883", "1958", "1978", "1948"],
+    "difficulty": 4,
+    "categories":["history"]
+},{
+    "question":"Which of these people were born Cassius Clay?",
+    "answers":["Muhammad Ali"],
+    "options":["Ursula Le Guin", "Mohandas Gandhi", "Bono", "Nelson Mandela", "Isaac Newton", "Stephen Hawking", "Ronald Regan", "George Orwell", "Albert Einstein", "Stephen Jobs"],
+    "difficulty": 2,
+    "categories":["misc"]
+},{
+    "question":"Which of these countries was previously called the United Republic of Tanganyika & Zanzibar?",
+    "answers":["Tanzania"],
+    "options":["Angola", "South Africa", "Bolivia", "Indonesia", "Gambia", "Denmark"],
+    "difficulty": 4,
+    "categories":["geography"]
+},{
+    "question":"Who painted 'Martyrdom of Saint Matthew'?",
+    "answers":["Caravaggio"],
+    "options":["Michelangelo", "Leonardo da Vinci", "Raphael", "Donatello", "Rembrandt", "Titian"],
+    "difficulty": 4,
+    "categories":["art"]
+},{
+    "question":"Which of these is a painting by Caravaggio?",
+    "answers":["Martyrdom of Saint Matthew", "Martyrdom of Saint Ursula"],
+    "options":["Martyrdom of Saint John", "Martyrdom of Saint Leonardo", "Martyrdom of Saint Peter", "Martyrdom of Saint Augustus", "Martyrdom of Saint Jerome"],
+    "difficulty": 4,
+    "categories":["art"]
+},{
+    "question":"DNA that does not seem to have any useful purpose is often known as what?",
+    "answers":["Junk DNA"],
+    "options":["Waste DNA", "Uselss DNA", "Weird DNA", "Mystic DNA", "Scrap DNA", "Strange DNA"],
+    "difficulty": 3,
+    "categories":["science"]
+},{
+    "question":"Who played Matthew Bennell in the 'Invasion of the Body Snatchers' 1978 remake?",
+    "answers":["Donald Sutherland"],
+    "options":["Jack Nicholson", "Max von Sydow", "James Caan", "Gene Wilder", "Robert Duvall"],
+    "difficulty": 3,
+    "categories":["film"]
+},{
+    "question":"Oil and water are immiscible?",
+    "answers":["True"],
+    "options":["False"],
+    "difficulty": 2,
+    "categories":["science"]
+},{
+    "question":"Orange juice and water are immiscible?",
+    "answers":["False"],
+    "options":["True"],
+    "difficulty": 2,
+    "categories":["science"]
+},{
+    "question":"The vast, sparsely populated area of Australia is known as what?",
+    "answers":["The Outback"],
+    "options":["The Outfront", "The Great Outdoor", "The Great Outside", "Outright Mad"],
+    "difficulty": 2,
+    "categories":["geography"]
+},{
+    "question":"Where would you find the vast, sparsely populated area known as \"The Outback\"?",
+    "answers":["Australia"],
+    "options":["Canada", "The United States", "Russia", "New Zealand"],
+    "difficulty": 2,
+    "categories":["geography"]
 }
+
+
+
+
+
 ]

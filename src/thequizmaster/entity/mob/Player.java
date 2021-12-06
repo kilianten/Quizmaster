@@ -27,7 +27,7 @@ public class Player extends Mob {
 
 	public int poisonLevel = 99;
 	public int poisonCounter = 0;
-	public int poisonRate = 180 + random.nextInt(50);
+	public int poisonRate = 100 + random.nextInt(50);
 
 	private int currentAnimIndex = 0;
 	private long lastUpdate = 0;
@@ -58,6 +58,8 @@ public class Player extends Mob {
 
 	public Sprite[] chainedSawChallengeAnim;
 	public Sprite[] deathSawChallengeAnim;
+	public Sprite[] searchingBoxAnim;
+	public Sprite[] searchingBoxAnimDeath;
 
 	public Sprite[] wireTrapDeathAnim;
 	public Sprite wireTrapCorpse;

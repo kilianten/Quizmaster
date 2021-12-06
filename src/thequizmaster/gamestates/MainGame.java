@@ -83,7 +83,7 @@ public class MainGame extends GameState {
 		quiz.start();
 		createHUD();
 		createRandomItem(player.x, player.y + 30);
-		createRandomItem(player.x + 20, player.y + 50);
+		createItem(player.x + 20, player.y + 50, "Poison Syringe");
 		//createSearchBox(player.x, player.y + 50);
 	}
 
@@ -97,6 +97,7 @@ public class MainGame extends GameState {
 		Player[] players = new Player[8];
 		players[0] = new Nolan(key, this);
 		players[1] = new Karl(key, this);
+		players[2] = new Karl(key, this);
 
 		for(Player p: players){
 			if(p != null){

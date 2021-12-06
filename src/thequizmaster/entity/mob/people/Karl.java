@@ -40,7 +40,8 @@ public class Karl extends Player {
         chainedSawChallengeAnim = KarlSprites.karlChainedSawChallenge;
         deathSawChallengeAnim = KarlSprites.karlDeathSawChallenge;
 
-
+        searchingBoxAnim = KarlSprites.karlSearchingBox;
+        searchingBoxAnimDeath = KarlSprites.karlSearchingBoxDeath;
     }
 
 

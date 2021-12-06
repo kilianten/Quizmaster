@@ -40,6 +40,9 @@ public class Nolan extends Player {
 		deathSawChallengeAnim = NolanSprites.nolanDeathSawChallenge;
 		poisonAnim = NolanSprites.nolanPoisonDeath;
 
+		searchingBoxAnim = NolanSprites.nolanSearchingBox;
+		searchingBoxAnimDeath = NolanSprites.nolanSearchingBoxDeath;
+
 
 	}
 	

@@ -19,6 +19,9 @@ public class SpriteSheet {
 	public static SpriteSheet douglasSheet96 = new SpriteSheet("/entities/douglas/douglas96.png", 1440);
 	public static SpriteSheet karlSheet96 = new SpriteSheet("/entities/karl/karl96.png", 1440);
 	public static SpriteSheet nolanSheet96 = new SpriteSheet("/entities/nolan/nolan96.png", 1440);
+	public static SpriteSheet karlSheet128 = new SpriteSheet("/entities/karl/karl128.png", 1280);
+	public static SpriteSheet nolanSheet128 = new SpriteSheet("/entities/nolan/nolan128.png", 1280);
+
 
 
 	public static SpriteSheet trapsSheet = new SpriteSheet("/objects/traps.png", 1280);

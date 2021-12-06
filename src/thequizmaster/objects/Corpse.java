@@ -9,6 +9,7 @@ public class Corpse extends GameObject {
 		this.y = y;
 		this.x = x;
 		this.sprite = sprite;
+		drawYOffset = -sprite.SIZE/4;
 	}
 
 	public Corpse(int x, int y, Sprite sprite, int drawYOffset) {
@@ -19,11 +20,12 @@ public class Corpse extends GameObject {
 	}
 	
 	public void render(Screen screen) {
-		screen.renderObject(x - 32, y - 32, sprite);
+		screen.renderObject(x - sprite.SIZE/2, y - sprite.SIZE/2, sprite);
 	}
 
 	public int getDrawY(){
-		return this.y + (sprite.YSIZE);
+		System.out.println(drawYOffset);
+		return this.y + sprite.YSIZE + drawYOffset;
 	}
 
 

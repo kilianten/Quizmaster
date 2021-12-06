@@ -26,7 +26,7 @@ public class TV extends CollidableObject {
 
     public void render(Screen screen) {
         super.render(screen);
-        screen.renderObject(x + 15, y + 10, tvNumbers[currentNumber]);
+        screen.renderObject(x + 15, y + 24, tvNumbers[currentNumber]);
     }
 
 }

@@ -53,14 +53,14 @@ public class Screen {
 
     public void renderPlayer(int xp, int yp, Sprite sprite) {
 
-		int spriteSizeOffset = sprite.SIZE - Constants.DEFAULT_ENTITY_SIZE;
-		xp -= xOffset + spriteSizeOffset/2;
-    	yp -= yOffset + spriteSizeOffset/2;
+		int spriteSizeOffset = (Constants.DEFAULT_ENTITY_SIZE - sprite.SIZE)/2;
+		xp -= xOffset;
+    	yp -= yOffset;
     	
     	for(int y = 0; y < sprite.SIZE; y++) {
-    		int ya = y + yp;
+    		int ya = y + yp + spriteSizeOffset;
     		for(int x = 0; x < sprite.SIZE; x++) {
-    			int xa = x + xp;
+    			int xa = x + xp + spriteSizeOffset;
     			if(xa < - sprite.SIZE || xa >= width || ya < 0 || ya >= height) break;
     			if (xa < 0) xa = 0;
     			int col = sprite.pixels[x + y * sprite.SIZE];

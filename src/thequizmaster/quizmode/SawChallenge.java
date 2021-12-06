@@ -35,7 +35,7 @@ public class SawChallenge extends MainEvent {
         getDifficultQuestion(questionsAnswered + 1);
         createSawTrap();
         numberOfQuestions = random.nextInt(4) + 1;
-        tv = new TV(room.topLeftCornerX + Constants.DEFAULT_SPRITE_SIZE, room.topLeftCornerY, game);
+        tv = new TV(room.topLeftCornerX + Constants.DEFAULT_SPRITE_SIZE + 14, room.topLeftCornerY, game);
         player.animation = new Animation(.7, player.chainedSawChallengeAnim, player, 0, true);
     }
 
@@ -45,7 +45,7 @@ public class SawChallenge extends MainEvent {
 
     public void tidyUp() {
         if(game.player.animation.isFinished){
-            game.addDrawObject(new Corpse(game.player.x, game.player.y, game.player.deathSawChallengeAnim[25]));
+            game.addDrawObject(new Corpse(game.player.x, game.player.y, game.player.deathSawChallengeAnim[25], -24));
             game.quiz = null;
             game.player.killPlayer(game.player.deathSawChallengeAnim[25]);
             game.replaceCurrentPlayer();
